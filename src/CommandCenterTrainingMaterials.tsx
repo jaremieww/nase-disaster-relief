@@ -6,12 +6,14 @@ import { DirectoryEntry, Directory, isDirectory } from './lib/directory'
 
 const { Title } = Typography
 
+const trimExtension = (s: string) => s.replace(/\.[a-z]{2,}/i, '')
+
 const parseDirectoryToTreeNodes = (entries: DirectoryEntry[], keyPrefix: string) => {
   return entries.map((e: DirectoryEntry): TreeDataNode => {
     var key = `${keyPrefix}/${e.name}`
     if (isDirectory(e)) {
       return {
-        title: e.name,
+        title: trimExtension(e.name),
         key: key,
         children: parseDirectoryToTreeNodes(e.entries, key)
       }
@@ -37,14 +39,9 @@ export default function CallCenterTrainingMaterials() {
 
   }, [])
 
-  const trimExtension = (s: string) => s.replace(/\.[a-z]{2,}/i, '')
-
   return <>
     <Title level={2}>Command Center Training Materials</Title>
     <Space direction="vertical">
-      {/* {files.map(f =>
-        <PopoutLink href={s3Url(`/command-center/${f}`)}>{trimExtension(f)}</PopoutLink>
-      )} */}
       <Tree 
         treeData={files}
         selectable={false}
