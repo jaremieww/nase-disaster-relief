@@ -45,7 +45,6 @@ const parseDirectoryToTreeNodes = (entries: DirectoryEntry[], keyPrefix: string)
       }
     }
 
-    const iconKey = e.name.substring(e.name.lastIndexOf('.') + 1)
     return {
       title: trimExtension(e.name),
       key,
