@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import PopoutLink from './components/PopoutLink'
-import { Space, Typography } from 'antd'
-import { s3Url } from './lib/s3'
+import { Typography } from 'antd'
+import DirectoryListing from './components/DirectoryListing'
 
 const { Title } = Typography
 
@@ -17,10 +16,6 @@ export default function CallCenterTrainingMaterials() {
   
   return <>
     <Title level={2}>Call Center Training Materials</Title>
-    <Space direction="vertical">
-      {files.map(f => 
-        <PopoutLink href={s3Url(`/call-center/${f}`)}>{f.replace(/\.pdf$/, '')}</PopoutLink>
-      )}
-    </Space>
+    <DirectoryListing directory='call-center' />
   </>
 }
