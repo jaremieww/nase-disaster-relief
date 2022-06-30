@@ -8,6 +8,8 @@ import { orderBy } from 'lodash'
 
 import { ReactNode } from 'react'
 
+import config from '../config.json'
+
 type Props = { directory: string }
 type Node = TreeDataNode & { isDirectory: boolean, icon?: ReactNode }
 
@@ -60,7 +62,7 @@ export default function DirectoryListing({ directory }: Props) {
   const [files, setFiles] = useState<TreeDataNode[]>([])
 
   useEffect(() => {
-    fetch('/directory.json').then(async resp => {
+    fetch(`/${config.directory}`).then(async resp => {
       const directoryFile = JSON.parse(await resp.text()) as DirectoryEntry[]
       if (directoryFile) {
         const files = (directoryFile.find((e: any) => e.name === directory) as Directory).entries

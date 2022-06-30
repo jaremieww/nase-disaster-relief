@@ -1,6 +1,7 @@
 const { S3Client, ListObjectsCommand } = require('@aws-sdk/client-s3')
 const { parseEntries } = require('./src/lib/directory')
 const fs = require('fs/promises')
+const md5 = require('md5')
 
 const buildDirectory = async () => {
   const client = new S3Client()
@@ -16,4 +17,11 @@ const buildDirectory = async () => {
   throw "something bad happened"
 }
 
-buildDirectory().then(r => fs.writeFile(process.argv[2], JSON.stringify(r)))
+buildDirectory().then(async r => {
+  const hash = md5(r).slice(0,8)
+  const directoryFile = `directory-${hash}.json`
+  fs.writeFile(`public/${directoryFile}`, JSON.stringify(r))
+  const config = JSON.parse(await fs.readFile('src/config.json'))
+  config.directory = directoryFile
+  await fs.writeFile('src/config.json', JSON.stringify(config))
+})
