@@ -15,6 +15,7 @@ import Slidell from './ida/Slidell'
 import Hammond from './ida/Hammond'
 import Index from './ida/Index'
 import CommandCenterTrainingMaterials from './CommandCenterTrainingMaterials';
+import MartinCC from './components/east-ky-floods/MartinCC';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -34,6 +35,9 @@ ReactDOM.render(
             <Route path="slidell" element={<Slidell />} />
             <Route path="hammond" element={<Hammond />} />
             <Route index element={<Index />} />
+          </Route>
+          <Route path="ky">
+            <Route path="martin" element={<MartinCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>

@@ -28,7 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "aws s3 sync build/ s3://nase-erc --profile emandres"
+    "deploy": "aws s3 sync build/ s3://nase-erc --profile emandres",
+    "sync-assets": "aws s3 sync ../nase-erc-assets s3://nase-erc-assets --profile emandres"
   },
   "eslintConfig": {
     "extends": [
