@@ -5,7 +5,6 @@ import Contacts from './Contacts'
 import CrewLeaderChecklist from './CrewLeaderChecklist'
 import ItemsOfConsideration from './ItemsOfConsideration'
 import SundayServices from './SundayServices'
-import Training from './Training'
 
 const contacts = [
   {
