@@ -62,6 +62,5 @@ export default function HazardCC() {
     <CrewLeaderChecklist registrationLink="https://forms.gle/BfpTdBsCejFKyy146" location='Hazard, Kentucky' />
     <ItemsOfConsideration />
     <SundayServices />
-    <Training />
   </>
 }

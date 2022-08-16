@@ -31,6 +31,7 @@ export default function CrewLeaderChecklist({registrationLink, location}: Props)
         and close work orders in <PopoutLink href={links.crisisCleanup}>Crisis Cleanup.</PopoutLink>&nbsp;
         <Text type="danger">Do not log in and claim your own work orders.</Text>
       </li>
+      <li>Please watch the <PopoutLink href="https://www.youtube.com/watch?v=eZWShxk4OSo">Muck and Gut Process</PopoutLink> training video.</li>
     </ul>
 
     <Title level={3}>Check-In</Title>

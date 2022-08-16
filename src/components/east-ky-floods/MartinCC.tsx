@@ -66,6 +66,5 @@ export default function MartinCC() {
     <CrewLeaderChecklist registrationLink='https://forms.gle/87JvxQTjchrYWrSn8' location='Martin, KY' />
     <ItemsOfConsideration />
     <SundayServices />
-    <Training />
   </>
 }
