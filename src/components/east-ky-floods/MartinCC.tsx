@@ -62,8 +62,8 @@ export default function MartinCC() {
     <Typography variant="h5" component="h2" sx={{ mb: 3 }}>Martin Command Center</Typography>
 
     <Contacts contacts={contacts} />
-    <Assignments assignedStakes={assignedStakes} />
-    <CrewLeaderChecklist />
+    <Assignments assignedStakes={assignedStakes} commandCenterName="Martin" />
+    <CrewLeaderChecklist registrationLink='https://forms.gle/87JvxQTjchrYWrSn8' location='Martin, KY' />
     <ItemsOfConsideration />
     <SundayServices />
     <Training />

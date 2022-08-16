@@ -7,7 +7,6 @@ export default function ItemsOfConsideration() {
       <li>
         <strong>Work Hours.</strong>
         Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
-        Working all day Sunday and traveling home on Labor Day is an option.
         Command Center hours are 7am-10pm.
       </li>
       <li>

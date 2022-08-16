@@ -7,7 +7,10 @@ const { Title } = Typography
 const { Panel } = Collapse
 
 type CleanupEvent = { name: string, link: string }
-const currentEvents: CleanupEvent[] = []
+const currentEvents: CleanupEvent[] = [{
+  name: 'East Kentucky Floods',
+  link: 'ky'
+}]
 const previousEvents = [
   { name: 'Hurricane Ida', link: 'ida' }
 ]

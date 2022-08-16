@@ -16,6 +16,8 @@ import Hammond from './ida/Hammond'
 import Index from './ida/Index'
 import CommandCenterTrainingMaterials from './CommandCenterTrainingMaterials';
 import MartinCC from './components/east-ky-floods/MartinCC';
+import HazardCC from './components/east-ky-floods/HazardCC';
+import { default as EastKentuckyFloodingIndex} from './components/east-ky-floods/Index'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -38,6 +40,8 @@ ReactDOM.render(
           </Route>
           <Route path="ky">
             <Route path="martin" element={<MartinCC />} />
+            <Route path="hazard" element={<HazardCC />} />
+            <Route index element={<EastKentuckyFloodingIndex />} />
           </Route>
           <Route index element={<Home />} />
         </Route>

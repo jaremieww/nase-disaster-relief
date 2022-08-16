@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom'
 import PopoutLink from '../PopoutLink'
 const { Text, Title } = Typography
 
-export default function CrewLeaderChecklist() {
+type Props = {
+  registrationLink: string,
+  location: string,
+}
+
+export default function CrewLeaderChecklist({registrationLink, location}: Props) {
   const links = {
     chainsaw: 'https://www.churchofjesuschrist.org/callings/church-safety-and-health/chainsaw-safety?lang=eng',
     crisisCleanup: 'https://crisiscleanup.org',
@@ -31,10 +36,10 @@ export default function CrewLeaderChecklist() {
     <Title level={3}>Check-In</Title>
     <p>When arriving at the command center, team captains check in and:</p>
     <ul>
-      <li>Fill out crew registration form. If possible, please <PopoutLink href="https://forms.gle/87JvxQTjchrYWrSn8">pre-register.</PopoutLink></li>
+      <li>Fill out crew registration form. If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></li>
       <li>Obtain placards paper to put in dash of each vehicle if needed</li>
       <li>Pick up work order and blank work order forms</li>
-      <li>Receive mandatory training at the Command Center in Martin, KY</li>
+      <li>Receive mandatory training at the Command Center in {location}</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
       <li>
         Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>.

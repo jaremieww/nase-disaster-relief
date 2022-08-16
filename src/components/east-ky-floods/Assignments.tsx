@@ -2,13 +2,14 @@ import { Alert, Box, Grid, Typography } from '@mui/material'
 
 type Props = {
   assignedStakes: string[]
+  commandCenterName: string
 }
 
-export default function Assignments({ assignedStakes }: Props) {
+export default function Assignments({ assignedStakes, commandCenterName }: Props) {
   return <>
 
     <Box component="section">
-      <Typography variant="h6" component="h3">Stakes assigned to Martin Command Center 8/19/2022</Typography>
+      <Typography variant="h6" component="h3">Stakes assigned to {commandCenterName} Command Center 8/19/2022</Typography>
       <p>Please go to your assigned command center. An assignment is required for you to participate.</p>
 
       <Alert severity="error">All teams must check into the Command Center assigned&mdash;<em>No exceptions</em></Alert>
