@@ -23,7 +23,7 @@ const contacts = [
     </>
   },
   {
-    title: 'Work Orders',
+    title: 'Command Center Hotline',
     body: <>
       (502) 438-8315
     </>
