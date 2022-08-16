@@ -23,7 +23,7 @@ export default function CrewLeaderChecklist({registrationLink, location}: Props)
 
     <Title level={3}>Training</Title>
     <ul>
-      <li>Review the <Link to="training">Training Materials</Link> and complete any necessary training required for the work you will be doing.</li>
+      <li>Review the <Link to="/training">Training Materials</Link> and complete any necessary training required for the work you will be doing.</li>
       <li>All crew members accepting work orders where tree work will be done must complete the <PopoutLink href={links.chainsaw}>mandatory online chainsaw instruction</PopoutLink> or show a certificate.</li>
       <ul><li>First time or novice users of chainsaws cannot operate chainsaws during church emergency relief efforts, with or without the instruction above. No one under the age of 18 may operate a chainsaw. All users, regardless of experience, must view the instruction, take the quiz, and receive a certificate to operate at a Church sponsored event.</li></ul>
       <li>
