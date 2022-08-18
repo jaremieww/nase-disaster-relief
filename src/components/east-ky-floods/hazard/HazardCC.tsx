@@ -81,6 +81,8 @@ export default function HazardCC() {
       </ol>
 
       President Clement—Mobile (801) 471-4039
+
+      <img src="/hazard-map.png" alt="camping map"/>
     </section>
   </>
 }
