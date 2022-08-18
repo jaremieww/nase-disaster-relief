@@ -63,7 +63,7 @@ export default function MartinCC() {
 
     <Contacts contacts={contacts} />
     <p>
-      Overflow camping as available at:<br/>
+      Main camping at the command center site. Overflow camping as available at:<br/>
       <br/>
       Stumbo Park Baseball Fields<br/>
       <PopoutLink href="https://www.google.com/maps/place/Stumbo+Park/@37.6044099,-82.7293313,17z/data=!3m1!4b1!4m5!3m4!1s0x88450ff36c402d15:0x67947c3262568d36!8m2!3d37.6044057!4d-82.7271426">Stumbo Park Rd. Allen, KY 41601</PopoutLink><br/>
