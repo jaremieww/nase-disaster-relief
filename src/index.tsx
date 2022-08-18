@@ -16,7 +16,7 @@ import Hammond from './ida/Hammond'
 import Index from './ida/Index'
 import CommandCenterTrainingMaterials from './CommandCenterTrainingMaterials';
 import MartinCC from './components/east-ky-floods/MartinCC';
-import HazardCC from './components/east-ky-floods/HazardCC';
+import HazardCC from './components/east-ky-floods/hazard/HazardCC';
 import { default as EastKentuckyFloodingIndex} from './components/east-ky-floods/Index'
 
 ReactDOM.render(

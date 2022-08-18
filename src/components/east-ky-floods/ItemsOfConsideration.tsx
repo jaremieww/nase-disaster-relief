@@ -5,6 +5,13 @@ export default function ItemsOfConsideration() {
     <Typography variant="h6" component="h3">Items of Consideration</Typography>
     <ul>
       <li>
+        <strong>Safety &amp; Skills.</strong>
+        If a work team receives a work order or requrest to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
+        We are an unskilled volunteer workforce providing basic labor and moral support.
+        <strong>There is no expectation that we undertake hazardous or specialized work.</strong>&nbsp;
+        <strong>Ladders</strong> are needed for tarp jobs. Remembers to <em>hydrate, hydrate, hydrate.</em>
+      </li>
+      <li>
         <strong>Work Hours.</strong>
         Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
         Command Center hours are 7am-10pm.
@@ -21,13 +28,6 @@ export default function ItemsOfConsideration() {
         <strong>Command Center Supplies.</strong>
         There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the command center.
         Bring your own if possible. Water boots are recommended due to flooding in some areas.
-      </li>
-      <li>
-        <strong>Safety &amp; Skills.</strong>
-        If a work team receives a work order or requrest to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
-        We are an unskilled volunteer workforce providing basic labor and moral support.
-        There is no expectation that we undertake hazardous or specialized work.&nbsp;
-        <strong>Ladders</strong> are needed for tarp jobs. Remembers to <em>hydrate, hydrate, hydrate.</em>
       </li>
       <li>
         <strong>Age &amp; Health Restrictions.</strong>
