@@ -71,7 +71,7 @@ export default function MartinCC() {
     </p>
 
     <Assignments assignedStakes={assignedStakes} commandCenterName="Martin" />
-    <CrewLeaderChecklist registrationLink='https://forms.gle/87JvxQTjchrYWrSn8' location='Martin, KY' />
+    <CrewLeaderChecklist registrationLink='https://forms.gle/bH1z8iMwAo5L6NNv5' location='Martin, KY' />
     <ItemsOfConsideration />
     <SundayServices />
   </>
