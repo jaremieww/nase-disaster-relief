@@ -45,14 +45,14 @@ const contacts = [
 ]
 
 const assignedStakes = [
-  'Akron Ohio',
-  'Cincinnati Ohio East',
-  'Cincinatti Ohio North',
-  'Cleveland Ohio',
-  'Columbus Ohio',
-  'Columbus Ohio North',
-  'Columbus Ohio East',
-  'Columbus Ohio South',
+  'Cincinnati Ohio',
+  'Charleston, West Virginia',
+  'Roanoke, Virginia',
+  'Buena Vista, Virginia',
+  'Waynesboro, Virginia',
+  'Dayton, Ohio',
+  'Dayton Ohio East',
+  'Dayton Ohio North',
   'Zanesville Ohio',
 ]
 

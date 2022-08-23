@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Assignments2 = ({ assignedStakes, commandCenterName }: Props) => <section>
-  <h3>Stakes assigned to {commandCenterName} Command Center 8/19/2022</h3>
+  <h3>Stakes assigned to {commandCenterName} Command Center 8/26/2022</h3>
   <Space direction='vertical'>
 
 
