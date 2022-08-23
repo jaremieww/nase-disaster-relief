@@ -18,7 +18,7 @@ export default function ItemsOfConsideration() {
       </li>
       <li>
         <strong>Camping.</strong>
-        Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em>
+        Portable toilets, showers, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em>
       </li>
       <li>
         <strong>Be Self-Sustaining.</strong>

@@ -18,8 +18,8 @@ const contacts = [
   {
     title: 'Command Center Director',
     body: <>
-      President Gary Mangelson<br />
-      (614) 946-8499 
+      President Reed Nelson<br />
+      (681) 313-6424
     </>
   },
   {
@@ -38,8 +38,8 @@ const contacts = [
   {
     title: 'Area ERC Oversight',
     body: <>
-      Michael Lavoie<br />
-      (352) 672-0455
+      Stephen Greenhalgh<br />
+      (703) 627-0036
     </>
   }
 ]
@@ -52,8 +52,7 @@ const assignedStakes = [
   'Waynesboro, Virginia',
   'Dayton, Ohio',
   'Dayton Ohio East',
-  'Dayton Ohio North',
-  'Zanesville Ohio',
+  'Dayton Ohio North'
 ]
 
 export default function MartinCC() {
@@ -74,5 +73,7 @@ export default function MartinCC() {
     <CrewLeaderChecklist registrationLink='https://forms.gle/bH1z8iMwAo5L6NNv5' location='Martin, KY' />
     <ItemsOfConsideration />
     <SundayServices />
+
+    <PopoutLink href="/martin.jpg"><img src="/martin.jpg" style={{maxWidth: '100%'}} alt="Command Center Map" /></PopoutLink>
   </>
 }

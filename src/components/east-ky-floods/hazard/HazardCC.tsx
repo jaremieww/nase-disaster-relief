@@ -17,8 +17,8 @@ const contacts = [
   {
     title: 'Command Center Director',
     body: <>
-      President Glen Krebs<br />
-      (859) 552-8804
+      President Rex Holt<br />
+      (859) 539-2233
     </>
   },
   {
@@ -28,16 +28,17 @@ const contacts = [
       (801) 616-1015 or<br />
       (502) 438-8315
     </>
-  },
+  }
 ]
 
 const assignedStakes = [
-  'Crestwood, Kentucky',
-  'Elizabethtown, Kentucky',
-  'Kingsport, Tennessee',
-  'Lexington, Kentucky',
-  'Louisville, Kentucky',
-  'New Albany, Indiana'
+  'Knoxville Cumberland, TN',
+  'Knoxville, TN',
+  'Evansville, IN',
+  'Cookeville, TN',
+  'Chatanooga, TN',
+  'Asheville, NC',
+  'Lexington KY North'
 ]
 
 export default function HazardCC() {
