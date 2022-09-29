@@ -23,12 +23,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build-directory": "cross-env AWS_PROFILE=emandres ts-node --skip-project build-directory.ts public/directory.json",
+    "build-directory": "ts-node --skip-project build-directory.ts public/directory.json",
     "build": "npm run build-directory && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run predeploy && aws s3 sync build/ s3://nase-erc --profile emandres",
+    "deploy": "aws s3 sync build/ s3://nase-erc --profile emandres",
     "sync-assets": "aws s3 sync ../nase-erc-assets s3://nase-erc-assets --profile emandres"
   },
   "eslintConfig": {
