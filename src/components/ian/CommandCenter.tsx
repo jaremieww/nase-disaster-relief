@@ -39,8 +39,8 @@ const CommandCenter = (props: CommandCenterProps) => {
     contacts.push({
       title: 'Command Center Director',
       body: <>
-        President Christopher Thompson<br />
-        (239) 265-2495
+        {props.director.name}<br />
+        {props.director.phoneNumber}
       </>
     })
   }
@@ -49,8 +49,8 @@ const CommandCenter = (props: CommandCenterProps) => {
     contacts.push( {
       title: 'Area ERC Oversight',
       body: <>
-        Keith Nash<br />
-        (770) 820-8085
+        {props.areaOversight.name}<br />
+        {props.areaOversight.phoneNumber}
       </>
     })
   }
@@ -95,6 +95,8 @@ const CommandCenter = (props: CommandCenterProps) => {
 </section> */}
   </>
 }
+export default CommandCenter
+
 type AssignmentsProps = {
   assignedStakes: string[]
   commandCenterName: string,
@@ -137,7 +139,7 @@ type ContactProps = {
   contacts: Contact[]
 }
 
-export default function Contacts({ contacts }: ContactProps) {
+function Contacts({ contacts }: ContactProps) {
   return <Stack
     direction={{ xs: 'column', sm: 'row' }}
     spacing={{ xs: 2, sm: 8 }}

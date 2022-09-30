@@ -19,8 +19,8 @@ import MartinCC from './components/east-ky-floods/MartinCC';
 import HazardCC from './components/east-ky-floods/hazard/HazardCC';
 import { default as EastKentuckyFloodingIndex} from './components/east-ky-floods/Index'
 import IanIndex from './components/ian/Index'
-import NaplesCC from './components/ian/naples/NaplesCC';
-import FortMyersCC from './components/ian/fort-myers/FortMyersCC';
+import NaplesCC from './components/ian/NaplesCC';
+import FortMyersCC from './components/ian/FortMyersCC';
 
 ReactDOM.render(
   <React.StrictMode>
