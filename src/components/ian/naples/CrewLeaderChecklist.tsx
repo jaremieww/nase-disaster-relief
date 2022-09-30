@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from 'antd'
-import PopoutLink from '../../PopoutLink'
+// import PopoutLink from '../../PopoutLink'
 import Training from './Training'
 import { S3Link } from '../../../S3'
 
