@@ -10,12 +10,12 @@ import { Alert } from 'antd'
 const { Title, Paragraph } = Typography
 
 const contacts = [
-  // {
-  //   title: 'Command Center Hotline',
-  //   body: <>
-  //     (502) 438-8315
-  //   </>
-  // },
+  {
+    title: 'Command Center Hotline',
+    body: <>
+      (941) 867-0259
+    </>
+  },
   {
     title: 'Command Center Director',
     body: <>
@@ -43,8 +43,8 @@ export default function NaplesCC() {
     <Title level={2}>Hurricane Ian</Title>
     <Title level={3}>Naples Command Center</Title>
     <p>
-      2575 Everglades Blvd N<br />
-      Naples, FL 34120<br />
+      4935 23rd Ct SW<br />
+      Naples, FL 34116<br />
 
       Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.
     </p>

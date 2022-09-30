@@ -10,12 +10,12 @@ import { Alert } from 'antd'
 const { Title, Paragraph } = Typography
 
 const contacts = [
-  // {
-  //   title: 'Command Center Hotline',
-  //   body: <>
-  //     (502) 438-8315
-  //   </>
-  // },
+  {
+    title: 'Command Center Hotline',
+    body: <>
+      (941) 315-4245
+    </>
+  },
   {
     title: 'Command Center Director',
     body: <>
