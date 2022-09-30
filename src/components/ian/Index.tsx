@@ -15,10 +15,10 @@ export default () => {
     <Title level={2}>Hurricane Ian</Title>
 
     <Space direction="vertical">
-      <img 
-        src={formatS3Url('ian/ian-satellite-800w.jpg')} 
+      <img
+        src={formatS3Url('ian/ian-satellite-800w.jpg')}
         alt="Hurricane Ian Satellite View"
-        style={{maxWidth: '100%'}} />
+        style={{ maxWidth: '100%' }} />
       <cite>Image courtesy of <PopoutLink href="https://earthobservatory.nasa.gov/images/150408/hurricane-ian-reaches-florida">NASA</PopoutLink></cite>
     </Space>
 
@@ -29,10 +29,20 @@ export default () => {
       </Paragraph>
     } />
 
-    <Title level={3}>Files</Title>
-    <List 
-      dataSource={files} 
-      renderItem={item => <List.Item><S3Link path={item.path}>{item.title}</S3Link></List.Item>} 
-      rowKey={item => item.path} />
+    <section>
+      <Title level={3}>Command Centers</Title>
+      <Space direction="vertical">
+        <a href="/ian/naples">Naples Command Center</a>
+        {/* <a href="/ian/fort-myers">Fort Myers Command Center</a> */}
+      </Space>
+    </section>
+
+    <section>
+      <Title level={3}>Files</Title>
+      <List
+        dataSource={files}
+        renderItem={item => <List.Item><S3Link path={item.path}>{item.title}</S3Link></List.Item>}
+        rowKey={item => item.path} />
+    </section>
   </Space>
 }
