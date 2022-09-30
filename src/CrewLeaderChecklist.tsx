@@ -41,6 +41,31 @@ export default function CrewLeaderChecklist() {
       </li>
       <li><a href="https://www.youtube.com/watch?v=ot4LZjtK0xo">Crisis Cleanup Basic Training</a></li>
     </ul>
+
+    <Title level={3}>Share a photo or story with North America Southeast Area leadership</Title>
+    <p>Disaster relief volunteers may have photos or stories to share. We encourage you to post those photos and stories to your stake Facebook page.
+      You may also email your three best photos to Area leaderhsip for consideration in use for Area reports, media, and social media publishing.
+    </p>
+
+    <p>
+      <PopoutLink href="mailto:mwestenhofer@comm.churchofjesuschrist.org?subject= Creative Works Photographer Permission&body=I ___(name)_______ give my permission to The Church of Jesus Christ of Latter-day Saints to use my materials, Image and quotes on the Church websites, Church social media websites, as well as for Church reports, print products, video, publications and training materials. Please include the following information:%0D%0AToday’s date %0D%0AYour Name  %0D%0AMailing Address %0D%0APhone number %0D%0AEmail address">
+        Those using an email client like outlook may click this link and the email will auto populate.
+      </PopoutLink>
+    </p>
+
+    <p>If the above link does not open your email client with a pre-populated email body, please email the text below with your answers directly to <PopoutLink href="mailto:mwestenhofer@comm.churchofjesuschrist.org">mwestenhofer@comm.churchofjesuschrist.org.</PopoutLink></p>
+
+    <blockquote style={{ marginLeft: 16, borderLeft: '4px solid #ccc', paddingLeft: 24 }}>
+      Subject:  Creative Works Photographer Permission<br/>
+      <br/>
+      I ___(name)_______ give my permission to The Church of Jesus Christ of Latter-day Saints to use my materials, Image and quotes on the Church websites, Church social media websites, as well as for Church reports, print products, video, publications and training materials.<br />
+      <br />
+      Today’s date<br />
+      Your name<br />
+      Mailing Address<br />
+      Phone number<br />
+      Email address<br />
+    </blockquote>
   </>
 
 }
