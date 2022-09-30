@@ -43,12 +43,13 @@ export default function CrewLeaderChecklist() {
     </ul>
 
     <Title level={3}>Share a photo or story with North America Southeast Area leadership</Title>
-    <p>Disaster relief volunteers may have photos or stories to share. We encourage you to post those photos and stories to your stake Facebook page.
-      You may also email your three best photos to Area leaderhsip for consideration in use for Area reports, media, and social media publishing.
+    <p>
+      Disaster relief volunteers may have photos or stories to share. We encourage you to post those photos and stories to your stake Facebook page.
+      Not a Facebook user? Email your three best photos, information about your experience and permission to use in reports, press releases to media, etc.
     </p>
 
     <p>
-      <PopoutLink href="mailto:mwestenhofer@comm.churchofjesuschrist.org?subject= Creative Works Photographer Permission&body=I ___(name)_______ give my permission to The Church of Jesus Christ of Latter-day Saints to use my materials, Image and quotes on the Church websites, Church social media websites, as well as for Church reports, print products, video, publications and training materials. Please include the following information:%0D%0AToday’s date %0D%0AYour Name  %0D%0AMailing Address %0D%0APhone number %0D%0AEmail address">
+      <PopoutLink href="mailto:mwestenhofer@comm.churchofjesuschrist.org?subject= Creative Works Photographer Permission&body=I ___(name)_______ give my permission to The Church of Jesus Christ of Latter-day Saints to use my materials, Image and quotes on the Church websites, Church social media websites, as well as for Church reports, print products, video, publications and training materials. Please include the following information:%0D%0AToday’s date %0D%0AYour Name  %0D%0AMailing Address %0D%0APhone number %0D%0AEmail address%0D%0AYour experience">
         Those using an email client like outlook may click this link and the email will auto populate.
       </PopoutLink>
     </p>
@@ -65,6 +66,7 @@ export default function CrewLeaderChecklist() {
       Mailing Address<br />
       Phone number<br />
       Email address<br />
+      Your experience<br />
     </blockquote>
   </>
 
