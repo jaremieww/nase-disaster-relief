@@ -26,10 +26,10 @@ const contacts = [
   {
     title: 'Area ERC Oversight',
     body: <>
-      Krist Donohoe<br />
-      (850) 982-8499
+      Keith Nash<br />
+      (770) 820-8085
     </>
-  }
+  },
 ]
 
 const assignedStakes = [
