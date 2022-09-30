@@ -45,9 +45,9 @@ export default function NaplesCC() {
     <p>
       4935 23rd Ct SW<br />
       Naples, FL 34116<br />
-
-      Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.
     </p>
+
+    <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
     <Contacts contacts={contacts} />
 

@@ -45,9 +45,9 @@ export default function FortMyersCC() {
     <p>
       315 Richmond Ave N<br />
       Lehigh Acres, FL 33936<br />
+     </p>
 
-      Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.
-    </p>
+    <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
     <Contacts contacts={contacts} />
 
