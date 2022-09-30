@@ -33,18 +33,18 @@ const contacts = [
 ]
 
 const assignedStakes = [
-  'Miami Lakes, FL',
-  'Miami, FL',
-  'Fort Lauderdale Beach, FL',
+  'Stuart, FL',
+  'Coral Springs, FL',
+  'Boynton Beach, FL',
 ]
 
-export default function NaplesCC() {
+export default function FortMyersCC() {
   return <>
     <Title level={2}>Hurricane Ian</Title>
-    <Title level={3}>Naples Command Center</Title>
+    <Title level={3}>Fort Myers Command Center</Title>
     <p>
-      2575 Everglades Blvd N<br />
-      Naples, FL 34120<br />
+      315 Richmond Ave N<br />
+      Lehigh Acres, FL 33936<br />
 
       Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.
     </p>
@@ -68,8 +68,8 @@ export default function NaplesCC() {
       </Paragraph>
     </>} />
 
-    <Assignments assignedStakes={assignedStakes} commandCenterName="Naples" />
-    <CrewLeaderChecklist registrationLink="https://forms.gle/BfpTdBsCejFKyy146" location='Naples, Florida' />
+    <Assignments assignedStakes={assignedStakes} commandCenterName="Fort Myers" />
+    <CrewLeaderChecklist registrationLink="https://forms.gle/BfpTdBsCejFKyy146" location='Fort Myers' />
     <ItemsOfConsideration />
     {/* <SundayServices /> */}
 

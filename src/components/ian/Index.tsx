@@ -33,7 +33,7 @@ export default () => {
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
         <a href="/ian/naples">Naples Command Center</a>
-        {/* <a href="/ian/fort-myers">Fort Myers Command Center</a> */}
+        <a href="/ian/fort-myers">Fort Myers Command Center</a>
       </Space>
     </section>
 
