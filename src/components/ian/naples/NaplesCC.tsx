@@ -26,7 +26,7 @@ const contacts = [
   {
     title: 'Area ERC Oversight',
     body: <>
-      Krist Donohoe<br />
+      Krista Donohoe<br />
       (850) 982-8499
     </>
   }
@@ -35,7 +35,7 @@ const contacts = [
 const assignedStakes = [
   'Miami Lakes, FL',
   'Miami, FL',
-  'Fort Lauderdale Beach, FL',
+  'Fort Lauderdale, FL',
 ]
 
 export default function NaplesCC() {
