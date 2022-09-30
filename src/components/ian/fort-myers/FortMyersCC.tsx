@@ -19,8 +19,8 @@ const contacts = [
   {
     title: 'Command Center Director',
     body: <>
-      President Joseph Lindsey<br />
-      (239) 877-7250
+      President Christopher Thompson<br />
+      (239) 265-2495
     </>
   },
   {
