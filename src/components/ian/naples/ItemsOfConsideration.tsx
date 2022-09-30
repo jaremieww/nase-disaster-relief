@@ -18,7 +18,8 @@ export default function ItemsOfConsideration() {
     </p>
 
     <h4>Camping</h4>
-    <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+    {/* <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p> */}
+    <p>No camping the weekend of October 1, 2022.</p>
 
     <h4>Be Self-Sustaining</h4>
     <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toiles and avoid going into the building.</p>
