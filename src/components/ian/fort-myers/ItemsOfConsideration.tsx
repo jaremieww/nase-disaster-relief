@@ -22,7 +22,7 @@ export default function ItemsOfConsideration() {
     <p>No camping the weekend of October 1, 2022.</p>
 
     <h4>Be Self-Sustaining</h4>
-    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toiles and avoid going into the building.</p>
+    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. {/*Use portable toilets and avoid going into the building.*/}</p>
 
     <h4>Command Center Supplies</h4>
     <p>
