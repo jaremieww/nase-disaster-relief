@@ -3,6 +3,7 @@ import { Layout, Menu } from 'antd'
 import 'antd/dist/antd.min.css'
 import './AntApp.css'
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { ThunderboltFilled } from '@ant-design/icons'
 
 const { Header, Content } = Layout
 
@@ -19,6 +20,7 @@ export default function AntApp() {
         theme="dark"
         mode="horizontal"
         items={[
+          { key: 'ian', label: 'Hurricane Ian', icon: <ThunderboltFilled /> },
           { key: 'crew-leader-checklist', label: 'Crew Leader Checklist' },
           { key: 'training', label: 'Training Materials' },
           { key: 'call-center', label: 'Call Center Training' },

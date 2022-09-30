@@ -13,9 +13,10 @@ export default function ItemsOfConsideration() {
     </p>
 
     <h4>Work Hours</h4>
-    <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
+    <p>Arrive Saturday morning by 9 AM. Plan to work all day and return home that night.</p>
+    {/* <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
       Command Center hours are 7am-10pm.
-    </p>
+    </p> */}
 
     <h4>Camping</h4>
     {/* <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p> */}

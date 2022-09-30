@@ -21,7 +21,8 @@ const Assignments = ({ assignedStakes, commandCenterName }: Props) => <section>
       Remember to pick up your helping hands T-shirts and register (if not done so)
     </p>
 
-    <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p>
+    {/* <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p> */}
+    <p>Teams should arrive at the command center by 9 AM on Saturday.</p>
 
     <h3>Stakes assigned to {commandCenterName} Command Center</h3>
     <Row>
