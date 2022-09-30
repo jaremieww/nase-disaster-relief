@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material"
 
-export default function ItemsOfConsideration() {
+type Props = { commandCenterPhoneNumber: string }
+export default function ItemsOfConsideration({ commandCenterPhoneNumber }: Props) {
   return <Box component="section" sx={{ mt: 4 }}>
     <Typography variant="h6" component="h3">Items of Consideration</Typography>
 
@@ -58,7 +59,7 @@ export default function ItemsOfConsideration() {
             <u>OR</u>
           </li>
           <li>
-            Call or text the Command Center to report your information (502-438-8315).
+            Call or text the Command Center to report your information ({commandCenterPhoneNumber}).
           </li>
         </ol>
       </li>
@@ -68,7 +69,7 @@ export default function ItemsOfConsideration() {
     <ol>
       <li>Check crisiscleanup.org for other nearby jobs that might be unclaimed.</li>
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
-      <li>Call the Command Center to receive another job (502-438-8315).</li>
+      <li>Call the Command Center to receive another job ({commandCenterPhoneNumber}).</li>
       <li>Return to the command center to receive more work orders and supplies if needed.</li>
       <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center!</li>
     </ol>

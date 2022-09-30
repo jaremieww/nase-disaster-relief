@@ -9,11 +9,12 @@ import { Alert } from 'antd'
 
 const { Title, Paragraph } = Typography
 
+const commandCenterPhoneNumber = '(941) 315-4245'
 const contacts = [
   {
     title: 'Command Center Hotline',
     body: <>
-      (941) 315-4245
+      {commandCenterPhoneNumber}
     </>
   },
   {
@@ -70,7 +71,7 @@ export default function FortMyersCC() {
 
     <Assignments assignedStakes={assignedStakes} commandCenterName="Fort Myers" />
     <CrewLeaderChecklist registrationLink="https://forms.gle/BfpTdBsCejFKyy146" location='Fort Myers' />
-    <ItemsOfConsideration />
+    <ItemsOfConsideration commandCenterPhoneNumber={commandCenterPhoneNumber} />
     {/* <SundayServices /> */}
 
     {/* <section>
