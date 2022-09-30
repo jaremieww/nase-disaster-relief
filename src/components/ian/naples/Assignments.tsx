@@ -1,5 +1,5 @@
-import { Space, Typography, Row, Col, Button } from 'antd'
-import { CheckCircleOutlined } from '@ant-design/icons'
+import { Space, Typography, Row, Col } from 'antd'
+// import { CheckCircleOutlined } from '@ant-design/icons'
 import React from 'react'
 
 const { Text } = Typography
