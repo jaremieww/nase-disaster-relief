@@ -181,6 +181,7 @@ function CrewLeaderChecklist({registrationLink, location}: CrewLeaderChecklistPr
         <a href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/chainsaw-safety?lang=eng">mandatory online chainsaw instruction</a> or show a certificate.
         The command center will be the one who assigns you work orders.
       </li>
+      <li><a href="/crew-leader-checklist#share">Share your experiences!</a></li>
     </ul>
   </>
 }

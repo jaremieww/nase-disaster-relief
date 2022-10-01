@@ -42,7 +42,7 @@ export default function CrewLeaderChecklist() {
       <li><a href="https://www.youtube.com/watch?v=ot4LZjtK0xo">Crisis Cleanup Basic Training</a></li>
     </ul>
 
-    <Title level={3}>Share a photo or story with North America Southeast Area leadership</Title>
+    <Title level={3} id="share">Share a photo or story with North America Southeast Area leadership</Title>
     <p>
       Disaster relief volunteers may have photos or stories to share. We encourage you to post those photos and stories to your stake Facebook page.
       Not a Facebook user? Email your three best photos, information about your experience and permission to use in reports, press releases to media, etc.
