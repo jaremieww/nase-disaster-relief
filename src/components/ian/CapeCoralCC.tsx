@@ -17,7 +17,7 @@ export default () => <CommandCenter
     'Tampa, FL',
     'St. Cloud, FL'
   ]}
-  phoneNumber=""
+  phoneNumber="941-876-8088"
   registrationLink=""
   areaOversight={{
     name: 'Keith Nash',
