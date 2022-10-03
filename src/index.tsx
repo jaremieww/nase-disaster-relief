@@ -20,7 +20,8 @@ import HazardCC from './components/east-ky-floods/hazard/HazardCC';
 import { default as EastKentuckyFloodingIndex} from './components/east-ky-floods/Index'
 import IanIndex from './components/ian/Index'
 import NaplesCC from './components/ian/NaplesCC';
-import FortMyersCC from './components/ian/FortMyersCC';
+import PortCharlotteCC from './components/ian/PortCharlotteCC';
+import CapeCoralCC from './components/ian/CapeCoralCC';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -49,7 +50,8 @@ ReactDOM.render(
           <Route path="ian">
             <Route index element={<IanIndex />} />
             <Route path="naples" element={<NaplesCC />} />
-            <Route path="fort-myers" element={<FortMyersCC />} />
+            <Route path="port-charlotte" element={<PortCharlotteCC />} />
+            <Route path="cape-coral" element={<CapeCoralCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>

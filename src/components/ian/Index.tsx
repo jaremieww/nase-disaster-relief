@@ -24,7 +24,6 @@ export default () => {
 
     <Alert showIcon type="info" message="Weekend of October 1, 2022" description={
       <Paragraph>
-        A limited number of units will be working  on Saturday, October 1, 2022.
         All vehicles must display the <S3Link path="ian/EF-15-signage.pdf">EF-15 placard.</S3Link>
       </Paragraph>
     } />
@@ -32,8 +31,9 @@ export default () => {
     <section>
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
-        <a href="/ian/naples">Naples Command Center</a>
-        <a href="/ian/fort-myers">Fort Myers Command Center</a>
+        <a href="/ian/cape-coral">Cape Corals</a>
+        <a href="/ian/naples">Naples</a>
+        <a href="/ian/port-charlotte">Port Charlote</a>
       </Space>
     </section>
 

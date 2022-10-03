@@ -7,20 +7,25 @@ export default () => {
       Naples, FL 34116<br />
     </>}
     assignedStakes={[
+      'Ft. Lauderdale, FL',
+      'Miama, FL South',
       'Miami Lakes, FL',
-      'Miami, FL',
-      'Fort Lauderdale, FL',
+      'Vero Beach, FL',
+      'Orland, FL West',
+      'Orland, FL',
+      'Coral Springs, FL',
+      'Boynton Beach, FL'
     ]}
     name="Naples"
     phoneNumber="941-702-2102"
     registrationLink=""
     areaOversight={{
-      name: 'Krista Donohoe',
-      phoneNumber: '850-982-8499'
+      name: 'Mike Dohm',
+      phoneNumber: '985-718-9753'
     }}
     director={{
-      name: 'President Joseph Lindsey',
-      phoneNumber: '239-877-7250'
+      name: 'President Troy Zirker',
+      phoneNumber: '754-245-5946'
     }}
   />
 }

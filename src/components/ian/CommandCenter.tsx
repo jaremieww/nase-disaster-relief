@@ -1,5 +1,6 @@
 import { ReactNode } from "react"
-import { Alert, Col, Row, Space, Typography } from 'antd'
+import { Alert, Button, Col, Row, Space, Typography } from 'antd'
+import { CheckCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { Box, Stack, Typography as MuiTypography } from '@mui/material'
 import { S3Link } from "../../S3"
@@ -46,7 +47,7 @@ const CommandCenter = (props: CommandCenterProps) => {
   }
 
   if (props.areaOversight) {
-    contacts.push( {
+    contacts.push({
       title: 'Area ERC Oversight',
       body: <>
         {props.areaOversight.name}<br />
@@ -86,13 +87,13 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} />
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
     <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} />
-    {/* <SundayServices /> */}
+    <SundayServices />
 
-    {/* <section>
-  <h2>Additional Information</h2>
+    <section>
+      <h2>Additional Information</h2>
 
-  <PopoutLink href="https://vimeo.com/460689734/f3f004e35c">Installing Shower Stalls</PopoutLink>
-</section> */}
+      <PopoutLink href="https://vimeo.com/460689734/f3f004e35c">Installing Shower Stalls</PopoutLink>
+    </section>
   </>
 }
 export default CommandCenter
@@ -103,18 +104,17 @@ type AssignmentsProps = {
 }
 const Assignments = ({ assignedStakes, commandCenterName }: AssignmentsProps) => <section>
   <Space direction='vertical' style={{ marginBottom: '24px' }}>
-    {/* <Space style={{marginBottom: '16px'}}>
+    <Space style={{ marginBottom: '16px' }}>
       <strong>Team Captains:</strong>
       <Button type="primary" icon={<CheckCircleOutlined />} href="https://forms.gle/BfpTdBsCejFKyy146" target="_blank">Register your Team</Button>
-    </Space> */}
+    </Space>
 
     <p>
       <Text type="success">All teams must check into the Command Center assigned&mdash;<em>No exceptions</em></Text><br />
       Remember to pick up your helping hands T-shirts and register (if not done so)
     </p>
 
-    {/* <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p> */}
-    <p>Teams should arrive at the command center by 9 AM on Saturday.</p>
+    <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p>
 
     <h3>Stakes assigned to {commandCenterName} Command Center</h3>
     <Row>
@@ -161,7 +161,7 @@ type CrewLeaderChecklistProps = {
   location: string,
 }
 
-function CrewLeaderChecklist({registrationLink, location}: CrewLeaderChecklistProps) {
+function CrewLeaderChecklist({ registrationLink, location }: CrewLeaderChecklistProps) {
   return <>
     <Title level={2}>Crew Leader Checklist</Title>
 
@@ -170,12 +170,12 @@ function CrewLeaderChecklist({registrationLink, location}: CrewLeaderChecklistPr
     <h3>Check-In</h3>
     <p>When arriving at the command center, team captains check in and:</p>
     <ul>
-      {/* <li>Fill out crew registration form. If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></li> */}
+      <li>Fill out crew registration form. If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></li>
       <li><S3Link path="ian/EF-15-signage.pdf">Print a vehicle placard</S3Link> to put in dash of each vehicle.</li>
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
       <li>Receive or report mandatory training at the Command Center in {location}. The training videos can be viewed online (see links above).</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
-      {/* <li>Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>.</li> */}
+      <li>Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>.</li>
       <li>
         All crew members accepting work orders where tree work will be done must complete the&nbsp;
         <a href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/chainsaw-safety?lang=eng">mandatory online chainsaw instruction</a> or show a certificate.
@@ -187,7 +187,7 @@ function CrewLeaderChecklist({registrationLink, location}: CrewLeaderChecklistPr
 }
 
 function Training() {
-  return <Space direction="vertical" style={{marginBottom: '24px'}}>
+  return <Space direction="vertical" style={{ marginBottom: '24px' }}>
     <h3>Training</h3>
     <ul>
       <li><PopoutLink href="https://www.youtube.com/watch?v=ot4LZjtK0xo">Crisis Cleanup</PopoutLink></li>
@@ -201,14 +201,14 @@ function Training() {
       <li><PopoutLink href="https://www.youtube.com/watch?v=vXWMj_TbDp4&amp;t=1s">Tarping a Roof</PopoutLink></li>
       <li><PopoutLink href="https://www.youtube.com/watch?v=eZWShxk4OSo">Mucking Out a House</PopoutLink></li>
     </ul>
-    
+
     <Alert type="info" message="Note" showIcon description={<>
-      First time or novice users of chainsaws cannot operate chainsaws during church emergency relief efforts, with or without the instruction above. 
-      No one under the age of 18 may operate a chainsaw. 
-      All users, regardless of experience, must view the instruction, take the quiz, and receive a certificate to operate at a Church sponsored event. 
+      First time or novice users of chainsaws cannot operate chainsaws during church emergency relief efforts, with or without the instruction above.
+      No one under the age of 18 may operate a chainsaw.
+      All users, regardless of experience, must view the instruction, take the quiz, and receive a certificate to operate at a Church sponsored event.
       All crew members accepting work orders where tree work will be done must complete the&nbsp;
-      <PopoutLink href="https://www.google.com/url?q=https%3A%2F%2Fwww.churchofjesuschrist.org%2Fcallings%2Fchurch-safety-and-health%2Fchainsaw-safety%3Flang%3Deng&sa=D&sntz=1&usg=AOvVaw0YzKiTLeqgJsKa-HtNnvu0">mandatory online chainsaw instruction</PopoutLink> or show a certificate. 
-      The command center will be the one who assigns you work orders. 
+      <PopoutLink href="https://www.google.com/url?q=https%3A%2F%2Fwww.churchofjesuschrist.org%2Fcallings%2Fchurch-safety-and-health%2Fchainsaw-safety%3Flang%3Deng&sa=D&sntz=1&usg=AOvVaw0YzKiTLeqgJsKa-HtNnvu0">mandatory online chainsaw instruction</PopoutLink> or show a certificate.
+      The command center will be the one who assigns you work orders.
     </>} />
   </Space>
 }
@@ -218,7 +218,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
   return <Box component="section" sx={{ mt: 4 }}>
     <MuiTypography variant="h6" component="h3">Items of Consideration</MuiTypography>
 
-    
+
     <h4>Safety &amp; Skills</h4>
     <p>If a work team receives a work order or requrest to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
       We are an unskilled volunteer workforce providing basic labor and moral support.
@@ -227,14 +227,12 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
     </p>
 
     <h4>Work Hours</h4>
-    <p>Arrive Saturday morning by 9 AM. Plan to work all day and return home that night.</p>
-    {/* <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
+    <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
       Command Center hours are 7am-10pm.
-    </p> */}
+    </p>
 
     <h4>Camping</h4>
-    {/* <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p> */}
-    <p>No camping the weekend of October 1, 2022.</p>
+    <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <h4>Be Self-Sustaining</h4>
     <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. {/*Use portable toilets and avoid going into the building.*/}</p>
@@ -286,8 +284,18 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
       <li>Return to the command center to receive more work orders and supplies if needed.</li>
       <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center!</li>
     </ol>
-    
+
     <h4>Be sure to separate debris types on the side of the road</h4>
     <p>Keep the roadway clear.</p>
+  </Box>
+}
+
+function SundayServices() {
+  return <Box component="section" sx={{ mt: 4 }}>
+    <h3>Sunday Services</h3>
+
+    <p>
+      A short Sacrament meeting will be held at the command center at on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+    </p>
   </Box>
 }

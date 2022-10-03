@@ -31,6 +31,7 @@ export default function Training() {
 
       <section>
         <Title level={3}>Roof Tarping</Title>
+        <PopoutLink href="https://www.youtube.com/watch?v=vXWMj_TbDp4&amp;t=1s">Tarping a Roof</PopoutLink>
       </section>
 
       <section>
