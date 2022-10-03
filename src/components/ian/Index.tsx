@@ -31,9 +31,9 @@ export default () => {
     <section>
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
-        <a href="/ian/cape-coral">Cape Corals</a>
+        <a href="/ian/cape-coral">Cape Coral</a>
         <a href="/ian/naples">Naples</a>
-        <a href="/ian/port-charlotte">Port Charlote</a>
+        <a href="/ian/port-charlotte">Port Charlotte</a>
       </Space>
     </section>
 

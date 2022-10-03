@@ -67,7 +67,7 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <Contacts contacts={contacts} />
 
-    <Alert showIcon type="warning" message="Weekend of October 1, 2022" description={<>
+    <Alert showIcon type="warning" message="Weekend of October 8, 2022" description={<>
       <Paragraph>
         Fuel, water, and electricity are not available in the area. Please plan to refuel your vehicle before reaching the disaster zone
         so that you have sufficient supply to drive to work areas and return to a location where you can purchase fuel. If possible, bring an extra supply of fuel with you.
@@ -84,7 +84,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       </Paragraph>
     </>} />
 
-    <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} />
+    <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} />
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
     <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} />
     <SundayServices />
@@ -101,13 +101,16 @@ export default CommandCenter
 type AssignmentsProps = {
   assignedStakes: string[]
   commandCenterName: string,
+  registrationLink: string
 }
-const Assignments = ({ assignedStakes, commandCenterName }: AssignmentsProps) => <section>
+const Assignments = ({ assignedStakes, commandCenterName, registrationLink }: AssignmentsProps) => <section>
   <Space direction='vertical' style={{ marginBottom: '24px' }}>
-    <Space style={{ marginBottom: '16px' }}>
-      <strong>Team Captains:</strong>
-      <Button type="primary" icon={<CheckCircleOutlined />} href="https://forms.gle/BfpTdBsCejFKyy146" target="_blank">Register your Team</Button>
-    </Space>
+    {registrationLink &&
+      <Space style={{ marginBottom: '16px' }}>
+        <strong>Team Captains:</strong>
+        <Button type="primary" icon={<CheckCircleOutlined />} href={registrationLink} target="_blank">Register your Team</Button>
+      </Space>
+    }
 
     <p>
       <Text type="success">All teams must check into the Command Center assigned&mdash;<em>No exceptions</em></Text><br />
