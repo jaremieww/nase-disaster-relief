@@ -169,7 +169,7 @@ function CrewLeaderChecklist({ registrationLink, location }: CrewLeaderChecklist
     <h3>Check-In</h3>
     <p>When arriving at the command center, team captains check in and:</p>
     <ul>
-      <li>Fill out crew registration form. If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></li>
+      <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
       <li><S3Link path="ian/EF-15-signage.pdf">Print a vehicle placard</S3Link> to put in dash of each vehicle.</li>
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
       <li>Receive or report mandatory training at the Command Center in {location}. The training videos can be viewed online (see links above).</li>
