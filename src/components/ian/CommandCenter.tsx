@@ -74,11 +74,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       </Paragraph>
 
       <Paragraph>
-        The work this weekend is Saturday only. There will be no camping this weekend. Workers are asked to be at the command center by 9 AM and plan to work all day.
-      </Paragraph>
-
-      <Paragraph>
-        Please come self sufficient with your own tools, food, water, gas, etc. Tools needed are chain saw, shovels, pry bars,
+        Please come self sufficient with your own tools, food, water, gas, etc. Tools needed are chain saws, shovels, pry bars,
         items that can help with a muck out, and ladders for tarping. Rakes will also be needed for debris cleanup.
         The Command Center will have supplies to supplement what you have. However, ladders will not be available at the Command Center.
       </Paragraph>
@@ -238,7 +234,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
     <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <h4>Be Self-Sustaining</h4>
-    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. {/*Use portable toilets and avoid going into the building.*/}</p>
+    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
 
     <h4>Command Center Supplies</h4>
     <p>
