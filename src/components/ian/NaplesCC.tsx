@@ -18,7 +18,7 @@ export default () => {
     ]}
     name="Naples"
     phoneNumber="941-702-2102"
-    registrationLink=""
+    registrationLink="https://forms.gle/cwper6ypi3TXL4Kj8"
     areaOversight={{
       name: 'Mike Dohm',
       phoneNumber: '985-718-9753'

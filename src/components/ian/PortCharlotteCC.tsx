@@ -16,7 +16,7 @@ export default () => <CommandCenter
     'Lake City, FL'
   ]}
   phoneNumber="850-912-9756"
-  registrationLink=""
+  registrationLink="https://forms.gle/K47foJX8MeiNjRJYA"
   areaOversight={{
     name: 'Kristas Donohoe',
     phoneNumber: '850-982-8499'
