@@ -15,7 +15,7 @@ export default () => <CommandCenter
     'Kingsland, FL',
     'Lake City, FL'
   ]}
-  phoneNumber=""
+  phoneNumber="850-912-9756"
   registrationLink=""
   areaOversight={{
     name: 'Kristas Donohoe',
