@@ -7,7 +7,7 @@ const { Paragraph, Title } = Typography
 const files = [
   { title: 'Crisis Cleanup Flier - English', path: 'ian/cc-ian-english.jpg' },
   { title: 'Folleto de Crisis Cleanup - Español', path: 'ian/cc-ian-spanish.jpg' },
-  { title: 'Vehicle EF-15 Placard', path: 'ian/EF-15-signage.pdf' }
+  { title: 'Vehicle Placard', path: 'ian/florida-dashboard-placard.pdf' }
 ]
 
 export default () => {
@@ -24,7 +24,7 @@ export default () => {
 
     <Alert showIcon type="info" message="Weekend of October 1, 2022" description={
       <Paragraph>
-        All vehicles must display the <S3Link path="ian/EF-15-signage.pdf">EF-15 placard.</S3Link>
+        All vehicles must display the <S3Link path="ian/florida-dashboard-placard.pdf">vehicle placard.</S3Link>
       </Paragraph>
     } />
 
