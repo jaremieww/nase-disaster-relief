@@ -279,7 +279,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
       <li>Call the Command Center to receive another job ({commandCenterPhoneNumber}).</li>
       <li>Return to the command center to receive more work orders and supplies if needed.</li>
-      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center!</li>
+      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center ({commandCenterPhoneNumber}).</li>
     </ol>
 
     <Title level={5}>Be sure to separate debris types on the side of the road</Title>
