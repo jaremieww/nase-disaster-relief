@@ -52,7 +52,7 @@ export default () => <CommandCenter
       <p>The address for the filling station is:</p>
       <Address address={[
         'Lee County Sports Complex',
-        '14100 6 mile Cypress Parkway',
+        '14100 6 Mile Cypress Parkway',
         'Fort Myers, FL 33912'
       ]} />
     </section>
