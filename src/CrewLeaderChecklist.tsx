@@ -31,7 +31,7 @@ export default function CrewLeaderChecklist() {
       <li>Fill out crew registration form</li>
       <li>Obtain placards paper to put in dash of each vehicle if needed</li>
       <li>Pick up work order and blank work order forms</li>
-      <li>Receive mandatory training at the Command Center in Slidell, Louisiana</li>
+      <li>Receive mandatory training at the Command Center</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
       <li>
         Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>.
