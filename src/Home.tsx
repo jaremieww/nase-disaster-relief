@@ -10,19 +10,16 @@ type CleanupEvent = { name: string, link: string }
 const currentEvents: CleanupEvent[] = [
   { name: 'Hurricane Ian', link: 'ian' }
 ]
-const previousEvents = [
-  { name: 'Hurricane Ida', link: 'ida' },
-  { name: 'East Kentucky Floods', link: 'ky' }
-]
+const previousEvents: CleanupEvent[] = []
 
-const EventList = ({events}: {events: CleanupEvent[]}) => {
-    return events.length 
-      ? <Space direction="vertical">
-        {events.map(e => {
-          return <Link to={e.link} key={e.link}>{e.name}</Link>
-        })}
-      </Space>
-      : <Empty description="Nothing to report" />
+const EventList = ({ events }: { events: CleanupEvent[] }) => {
+  return events.length
+    ? <Space direction="vertical">
+      {events.map(e => {
+        return <Link to={e.link} key={e.link}>{e.name}</Link>
+      })}
+    </Space>
+    : <Empty description="Nothing to report" />
 }
 
 export default function Home() {
@@ -34,9 +31,11 @@ export default function Home() {
       <Panel header="Current Cleanup Efforts" key="current">
         <EventList events={currentEvents} />
       </Panel>
-      <Panel header="Previous Cleanup Efforts" key="previous">
-        <EventList events={previousEvents} />
-      </Panel>
+      {previousEvents.length > 0 &&
+        <Panel header="Previous Cleanup Efforts" key="previous">
+          <EventList events={previousEvents} />
+        </Panel>
+      }
     </Collapse>
 
     <Title level={3}>Leadership Training Materials</Title>
