@@ -1,5 +1,5 @@
 import { Alert, Button, Card, Col, Row, Space, Typography } from 'antd'
-import { CheckCircleOutlined, CompassOutlined } from '@ant-design/icons'
+import { CheckCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"
 import React from 'react'
