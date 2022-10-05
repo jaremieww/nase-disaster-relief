@@ -31,13 +31,18 @@ export type CommandCenterProps = {
 const CommandCenter = (props: CommandCenterProps) => {
   const contacts = [
     {
-      title: 'Command Center Hotline',
+      title: 'Team Captain Return & Report',
       body: <>
-        {props.phoneNumber}
+        {props.phoneNumber}<br/>
       </>
-    }
-  ]
-
+    },
+    {
+      title: 'Crisis Cleanup Hotline',
+      body: <>
+        787-545-7058<br/>
+        <small>* for creating new work orders</small>
+      </>
+    }]
   if (props.director) {
     contacts.push({
       title: 'Command Center Director',
@@ -56,6 +61,7 @@ const CommandCenter = (props: CommandCenterProps) => {
         {props.areaOversight.phoneNumber}
       </>
     })
+
   }
 
   return <>
@@ -117,7 +123,7 @@ const Assignments = ({ assignedStakes, commandCenterName, registrationLink }: As
     <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p>
 
     <h3>Stakes assigned to {commandCenterName} Command Center</h3>
-    <ul style={{listStyleType: 'none', padding: 0}}>
+    <ul style={{ listStyleType: 'none', padding: 0 }}>
       {assignedStakes.map(x => <li key={x}>{x}</li>)}
     </ul>
     <p>
