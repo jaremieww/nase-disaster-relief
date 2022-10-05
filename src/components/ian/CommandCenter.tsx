@@ -1,4 +1,4 @@
-import { Alert, Button, Card, Col, List, Row, Space, Typography } from 'antd'
+import { Alert, Button, Card, List, Space, Typography } from 'antd'
 import { CheckCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"

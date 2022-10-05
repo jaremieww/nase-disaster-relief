@@ -1,4 +1,8 @@
+import { Typography } from 'antd'
+import Address from "../Address";
 import CommandCenter from "./CommandCenter";
+
+const { Title } = Typography
 
 export default () => <CommandCenter
   name="Cape Coral"
@@ -27,4 +31,12 @@ export default () => <CommandCenter
     name: 'President Bradley Westover',
     phoneNumber: '561-644-1109'
   }}
+  additionalInformation={<section style={{ marginTop: 24 }}>
+    <Title level={4}>Camping</Title>
+    <p>Camping for the Cape Coral commmand center is located at:</p>
+    <Address address={[
+      '528 Cultural Park Blvd',
+      'Cape Coral, FL 33990'
+    ]} />
+  </section>}
 />
