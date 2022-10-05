@@ -1,4 +1,4 @@
-import { Alert, Button, Card, Col, Row, Space, Typography } from 'antd'
+import { Alert, Button, Card, Col, List, Row, Space, Typography } from 'antd'
 import { CheckCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"
@@ -63,7 +63,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Title level={3}>{props.name} Command Center</Title>
     <Address address={props.address} />
 
-    <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
+    <p><small>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</small></p>
 
     <Contacts contacts={contacts} />
 
@@ -137,12 +137,16 @@ type Contact = {
 
 type ContactsProps = { contacts: Contact[] }
 function Contacts({ contacts }: ContactsProps) {
-  return <Space direction="horizontal" align="start" size="large">
-    {contacts.map((c, i) => <Card key={i} title={c.title} size="small" bordered={false}>
-      {c.body}
-    </Card>
-    )}
-  </Space>
+  return <List
+    dataSource={contacts}
+    grid={{ gutter: 24 }}
+    rowKey={(c: Contact) => c.title}
+    renderItem={(c: Contact) => <List.Item>
+      <Card title={c.title} size="small" bordered={false}>
+        {c.body}
+      </Card>
+    </List.Item>}
+  />
 }
 
 type CrewLeaderChecklistProps = {
