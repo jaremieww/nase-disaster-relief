@@ -19,7 +19,7 @@ const EventList = ({events}: {events: CleanupEvent[]}) => {
     return events.length 
       ? <Space direction="vertical">
         {events.map(e => {
-          return <Link to={e.link}>{e.name}</Link>
+          return <Link to={e.link} key={e.link}>{e.name}</Link>
         })}
       </Space>
       : <Empty description="Nothing to report" />

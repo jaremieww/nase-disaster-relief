@@ -1,12 +1,13 @@
-import { Box, Typography } from "@mui/material"
 import React from 'react'
+import { Typography } from 'antd'
+const { Title } = Typography
 
 export default function OtherWaysToServe() {
   return <>
-    <Box component="section">
-      <Typography variant="h4">Other Ways to Serve</Typography>
+    <section>
+      <Title level={4}>Other Ways to Serve</Title>
       <p>While working physically in the field may not be possible for all who would like to serve, there are plenty of ways to help out the recovery effort.</p>
-      <Typography variant="h6">At the Command Center</Typography>
+      <Title level={5}>At the Command Center</Title>
       <ul>
         <li>Help at command center administrative tables (if needed)</li>
         <li>Prepare food for those working to staff the command center. If this has been assigned, there may be room for some to assist</li>
@@ -15,7 +16,7 @@ export default function OtherWaysToServe() {
         <li>Man shifts to help the supply yard staff. Help pass out supplies to teams, welcome those driving in, empty trash cans all around the building and near toilet/shower facilities as needed, etc.</li>
         <li>Have a runner for supplies to deliver extra supplies to teams in the field if they run out or have an unexpected need. This may not be feasible if workers are spread over a large geographic area but could be very helpful if workers are near the command center.</li>
       </ul>
-      <Typography variant="h6">From Home/Outside of the Command Center</Typography>
+      <Title level={5}>From Home/Outside of the Command Center</Title>
       <ul>
         <li>Pray for and with those affected by the disaster</li>
         <li>Become a phone volunteer for Crisis Cleanup</li>
@@ -31,6 +32,6 @@ export default function OtherWaysToServe() {
         <li>Have a Communications person for a team - they could confirm work needed, set up possible times, visit with the homeowner while the work is done, report work and needs back to the command center. In some teams this could be a full load that could free up the rest of the team to work and decrease dead ends. In some cases, the main task may be to build bonds with the homeowners.</li>
         <li>By Priesthood assignment, make calls inviting families to volunteer. Help identify teams they can join with if needed.</li>
       </ul>
-    </Box>
+    </section>
   </>
 }
