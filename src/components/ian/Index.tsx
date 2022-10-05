@@ -1,5 +1,5 @@
 import { Alert, List, Space, Typography } from "antd"
-import { S3Link, formatS3Url } from "../../S3"
+import { S3Link, formatS3Url } from "../S3"
 import PopoutLink from "../PopoutLink"
 
 const { Paragraph, Title } = Typography

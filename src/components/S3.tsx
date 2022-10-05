@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import PopoutLink from "./components/PopoutLink"
+import PopoutLink from "./PopoutLink"
 
 const S3 = `https://nase-erc-assets.s3.amazonaws.com`
 
