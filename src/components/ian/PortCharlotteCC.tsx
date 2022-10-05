@@ -2,10 +2,10 @@ import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter 
   name="Port Charlotte"
-  address={<>
-    1303 Forrest Nelson Blvd<br/>
-    Port Charlotte, FL 33952
-  </>}
+  address={[
+    '1303 Forrest Nelson Blvd',
+    'Port Charlotte, FL 33952'
+  ]}
   assignedStakes={[
     'Cocoa, FL',
     'Gainesville, FL',

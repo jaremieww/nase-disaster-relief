@@ -2,10 +2,10 @@ import CommandCenter from './CommandCenter'
 
 export default () => {
   return <CommandCenter
-    address={<>
-      315 Richmond Ave N<br />
-      Lehigh Acres, FL 33936<br />
-    </>}
+    address={[
+      '1315 Richmond Ave N',
+      'Lehigh Acres, FL 33936'
+    ]}
     assignedStakes={[
       'Stuart, FL',
       'Coral Springs, FL',

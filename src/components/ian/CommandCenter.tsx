@@ -1,15 +1,16 @@
-import { ReactNode } from "react"
 import { Alert, Button, Card, Col, Row, Space, Typography } from 'antd'
-import { CheckCircleOutlined } from '@ant-design/icons'
+import { CheckCircleOutlined, CompassOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"
+import React from 'react'
+import platform from 'platform'
 
 const { Text, Title, Paragraph } = Typography
 
 export type CommandCenterProps = {
   name: string
   phoneNumber: string
-  address: ReactNode
+  address: string[]
   registrationLink: string
 
   director?: {
@@ -55,18 +56,24 @@ const CommandCenter = (props: CommandCenterProps) => {
     })
   }
 
+  const mapLink = platform.os?.family === 'iOS'
+    ? `https://maps.apple.com?q=${encodeURIComponent(props.address.join('\n'))}`
+    : `https://maps.google.com?q=${encodeURIComponent(props.address.join('\n'))}`
+
   return <>
     <Title level={2}>Hurricane Ian</Title>
     <Title level={3}>{props.name} Command Center</Title>
     <p>
-      {props.address}
+      <PopoutLink href={mapLink}>
+      {props.address.map(line => <React.Fragment key={line}>{line}<br /></React.Fragment>)}
+      </PopoutLink>
     </p>
 
     <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
     <Contacts contacts={contacts} />
 
-    <Alert showIcon type="warning" style={{margin: '24px 0'}} message="Weekend of October 8-9, 2022" description={<>
+    <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 8-9, 2022" description={<>
       <Paragraph>
         Fuel, water, and electricity are not available in the area. Please plan to refuel your vehicle before reaching the disaster zone
         so that you have sufficient supply to drive to work areas and return to a location where you can purchase fuel. If possible, bring an extra supply of fuel with you.

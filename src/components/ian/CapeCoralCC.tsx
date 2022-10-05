@@ -2,10 +2,10 @@ import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter
   name="Cape Coral"
-  address={<>
-    1928 Chiquita Blvd S<br/>
-    Cape Coral, FL 33991
-  </>}
+  address={[
+    '1928 Chiquita Blvd S',
+    'Cape Coral, FL 33991'
+  ]}
   assignedStakes={[
     'Stuart, FL',
     'Brandon, FL',
