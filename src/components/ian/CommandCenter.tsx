@@ -2,8 +2,8 @@ import { Alert, Button, Card, Col, Row, Space, Typography } from 'antd'
 import { CheckCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"
-import React from 'react'
-import platform from 'platform'
+import React, { ReactNode } from 'react'
+import Address from '../Address'
 
 const { Text, Title, Paragraph } = Typography
 
@@ -24,6 +24,8 @@ export type CommandCenterProps = {
   }
 
   assignedStakes: string[]
+
+  additionalInformation?: ReactNode
 }
 
 const CommandCenter = (props: CommandCenterProps) => {
@@ -56,18 +58,10 @@ const CommandCenter = (props: CommandCenterProps) => {
     })
   }
 
-  const mapLink = platform.os?.family === 'iOS'
-    ? `https://maps.apple.com?q=${encodeURIComponent(props.address.join('\n'))}`
-    : `https://maps.google.com?q=${encodeURIComponent(props.address.join('\n'))}`
-
   return <>
     <Title level={2}>Hurricane Ian</Title>
     <Title level={3}>{props.name} Command Center</Title>
-    <p>
-      <PopoutLink href={mapLink}>
-      {props.address.map(line => <React.Fragment key={line}>{line}<br /></React.Fragment>)}
-      </PopoutLink>
-    </p>
+    <Address address={props.address} />
 
     <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
@@ -89,6 +83,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} />
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
     <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} />
+    {props.additionalInformation}
     <SundayServices />
 
     <section>

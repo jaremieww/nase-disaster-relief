@@ -1,6 +1,10 @@
 import CommandCenter from "./CommandCenter";
+import { Typography } from "antd";
+import Address from "../Address";
 
-export default () => <CommandCenter 
+const { Title } = Typography
+
+export default () => <CommandCenter
   name="Port Charlotte"
   address={[
     '1303 Forrest Nelson Blvd',
@@ -18,11 +22,20 @@ export default () => <CommandCenter
   phoneNumber="850-912-9756"
   registrationLink="https://forms.gle/K47foJX8MeiNjRJYA"
   areaOversight={{
-    name: 'Kristas Donohoe',
+    name: 'Krista Donohoe',
     phoneNumber: '850-982-8499'
   }}
   director={{
     name: 'President Michael Fowler',
     phoneNumber: '321-794-9547'
   }}
+  additionalInformation={<section style={{ marginTop: 24 }}>
+    <Title level={4}>Camping</Title>
+    <p>Camping for the Port Charlotte commmand center is located at:</p>
+    <Address address={[
+      'Franz Ross Park',
+      '19333 Quesada Ave',
+      'Port Charlotte, FL 33948'
+    ]} />
+  </section>}
 />
