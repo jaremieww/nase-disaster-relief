@@ -117,10 +117,9 @@ const Assignments = ({ assignedStakes, commandCenterName, registrationLink }: As
     <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p>
 
     <h3>Stakes assigned to {commandCenterName} Command Center</h3>
-    <Row>
-      {assignedStakes.map(x => <Col span={8} key={x}>{x}</Col>)}
-    </Row>
-
+    <ul style={{listStyleType: 'none', padding: 0}}>
+      {assignedStakes.map(x => <li key={x}>{x}</li>)}
+    </ul>
     <p>
       All volunteers must be organized into teams with a team captain and assistant team captain before arriving at the Command Center.
       We recommend teams of 10-15. If you have not been assigned a team, please check with your Ward or Branch leadership.
