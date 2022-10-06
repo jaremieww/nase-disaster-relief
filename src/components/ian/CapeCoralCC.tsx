@@ -11,6 +11,12 @@ export default () => <CommandCenter
     '1928 Chiquita Blvd S',
     'Cape Coral, FL 33991'
   ]}
+  campingAddress={[
+    'Lee County Sports Complex',
+    '14100 6 Mile Cypress Parkway',
+    'Fort Myers, FL 33912'
+  ]}
+  email="nase.command1@gmail.com"
   assignedStakes={[
     'Stuart, FL',
     'Brandon, FL',
@@ -20,7 +26,6 @@ export default () => <CommandCenter
     'Orlando, FL South',
     'St. Petersburg, FL',
     'Tampa, FL',
-    'St. Cloud, FL'
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/8MhC1hEZrRP7CHbc8"

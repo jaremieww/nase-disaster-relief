@@ -16,6 +16,7 @@ export default () => {
       'Coral Springs, FL',
       'Boynton Beach, FL'
     ]}
+    email="Ian.naplescc@gmail.com"
     name="Naples"
     phoneNumber="941-702-2102"
     registrationLink="https://forms.gle/cwper6ypi3TXL4Kj8"

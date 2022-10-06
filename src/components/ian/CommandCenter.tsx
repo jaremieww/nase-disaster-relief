@@ -4,6 +4,8 @@ import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"
 import React, { ReactNode } from 'react'
 import Address from '../Address'
+import PhoneNumber from '../PhoneNumber'
+import EmailAddress from '../EmailAddress'
 
 const { Text, Title, Paragraph } = Typography
 
@@ -11,6 +13,8 @@ export type CommandCenterProps = {
   name: string
   phoneNumber: string
   address: string[]
+  email: string
+  campingAddress?: string[]
   registrationLink: string
 
   director?: {
@@ -33,14 +37,8 @@ const CommandCenter = (props: CommandCenterProps) => {
     {
       title: 'Team Captain Return & Report',
       body: <>
-        {props.phoneNumber}<br/>
-      </>
-    },
-    {
-      title: 'Crisis Cleanup Hotline',
-      body: <>
-        800-451-1954<br/>
-        <small>* for creating new work orders</small>
+        <PhoneNumber phoneNumber={props.phoneNumber} /> (text or call)<br />
+        <EmailAddress email={props.email} />
       </>
     }]
   if (props.director) {
@@ -48,7 +46,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       title: 'Command Center Director',
       body: <>
         {props.director.name}<br />
-        {props.director.phoneNumber}
+        <PhoneNumber phoneNumber={props.director.phoneNumber} />
       </>
     })
   }
@@ -58,7 +56,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       title: 'Area ERC Oversight',
       body: <>
         {props.areaOversight.name}<br />
-        {props.areaOversight.phoneNumber}
+        <PhoneNumber phoneNumber={props.areaOversight.phoneNumber} />
       </>
     })
 
@@ -67,7 +65,18 @@ const CommandCenter = (props: CommandCenterProps) => {
   return <>
     <Title level={2}>Hurricane Ian</Title>
     <Title level={3}>{props.name} Command Center</Title>
-    <Address address={props.address} />
+
+    <List 
+      grid={{ gutter: 24 }} 
+      dataSource={[
+        { name: 'Command Center', address: props.address }, 
+        { name: 'Campground', address: props.campingAddress }
+      ]}
+      renderItem={(item) => <List.Item>
+        <Card title={item.name} bordered={false} size="small">
+          <Address address={item.address!} />
+        </Card>
+      </List.Item>} />
 
     <p><small>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</small></p>
 
@@ -75,8 +84,9 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 8-9, 2022" description={<>
       <Paragraph>
-        Fuel, water, and electricity are not available in the area. Please plan to refuel your vehicle before reaching the disaster zone
-        so that you have sufficient supply to drive to work areas and return to a location where you can purchase fuel. If possible, bring an extra supply of fuel with you.
+        Fuel is in short supply in the area. Please plan to refuel your vehicle before reaching the disaster zone
+        so that you have sufficient supply to drive to work areas and return to a location where you can purchase fuel.
+        If possible, bring an extra supply of fuel with you.
       </Paragraph>
 
       <Paragraph>
@@ -120,7 +130,7 @@ const Assignments = ({ assignedStakes, commandCenterName, registrationLink }: As
       Remember to pick up your helping hands T-shirts and register (if not done so)
     </p>
 
-    <p>Teams can start showing up Friday evening and get checked in starting at 8pm.</p>
+    <p>Teams can start showing up Friday evening and get checked in starting at 6pm.</p>
 
     <h3>Stakes assigned to {commandCenterName} Command Center</h3>
     <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -273,7 +283,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
             <u>OR</u>
           </li>
           <li>
-            Call or text the Command Center to report your information ({commandCenterPhoneNumber}).
+            Call or text the Command Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).
           </li>
         </ol>
       </li>
@@ -283,9 +293,9 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
     <ol>
       <li>Check crisiscleanup.org for other nearby jobs that might be unclaimed.</li>
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
-      <li>Call the Command Center to receive another job ({commandCenterPhoneNumber}).</li>
+      <li>Call the Command Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
       <li>Return to the command center to receive more work orders and supplies if needed.</li>
-      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center ({commandCenterPhoneNumber}).</li>
+      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
     </ol>
 
     <Title level={5}>Be sure to separate debris types on the side of the road</Title>

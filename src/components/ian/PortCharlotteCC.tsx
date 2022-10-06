@@ -10,6 +10,12 @@ export default () => <CommandCenter
     '1303 Forrest Nelson Blvd',
     'Port Charlotte, FL 33952'
   ]}
+  campingAddress={[
+    'Franz Ross Park',
+    '19333 Quesada Ave',
+    'Port Charlotte, FL 33948'
+  ]}
+  email="nase.command2@gmail.com"
   assignedStakes={[
     'Cocoa, FL',
     'Gainesville, FL',
@@ -17,7 +23,8 @@ export default () => <CommandCenter
     'Jacksonville, FL West',
     'Jacksonville, FL South',
     'Kingsland, FL',
-    'Lake City, FL'
+    'Lake City, FL',
+    'St. Cloud, FL'
   ]}
   phoneNumber="850-912-9756"
   registrationLink="https://forms.gle/K47foJX8MeiNjRJYA"
