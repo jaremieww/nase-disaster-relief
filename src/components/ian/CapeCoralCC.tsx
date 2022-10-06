@@ -12,9 +12,8 @@ export default () => <CommandCenter
     'Cape Coral, FL 33991'
   ]}
   campingAddress={[
-    'Lee County Sports Complex',
-    '14100 6 Mile Cypress Parkway',
-    'Fort Myers, FL 33912'
+    '528 Cultural Park Blvd',
+    'Cape Coral, FL 33990'
   ]}
   email="nase.command1@gmail.com"
   assignedStakes={[
