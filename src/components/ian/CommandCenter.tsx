@@ -62,16 +62,20 @@ const CommandCenter = (props: CommandCenterProps) => {
 
   }
 
+  const addresses = [
+    { name: 'Command Center', address: props.address },
+  ]
+  if (props.campingAddress) {
+    addresses.push({ name: 'Campground', address: props.campingAddress })
+  }
+
   return <>
     <Title level={2}>Hurricane Ian</Title>
     <Title level={3}>{props.name} Command Center</Title>
 
-    <List 
-      grid={{ gutter: 24 }} 
-      dataSource={[
-        { name: 'Command Center', address: props.address }, 
-        { name: 'Campground', address: props.campingAddress }
-      ]}
+    <List
+      grid={{ gutter: 24 }}
+      dataSource={addresses}
       renderItem={(item) => <List.Item>
         <Card title={item.name} bordered={false} size="small">
           <Address address={item.address!} />
