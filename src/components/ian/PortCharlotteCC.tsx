@@ -40,7 +40,7 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Port Charlotte commmand center is located at:</p>
+      <p>Camping for the Port Charlotte commmand center is located about &frac14; of a mile from the command center at:</p>
       <Address address={[
         'Franz Ross Park',
         '19333 Quesada Ave',
