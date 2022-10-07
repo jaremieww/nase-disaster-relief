@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --port 5000",
     "build-directory": "ts-node --skip-project build-directory.ts public/directory.json",
     "build": "npm run build-directory && react-scripts build",
     "test": "react-scripts test",

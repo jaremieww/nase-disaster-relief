@@ -36,6 +36,17 @@ export default () => <CommandCenter
     name: 'President Bradley Westover',
     phoneNumber: '561-644-1109'
   }}
+  afterAssignments={<>
+    <p>
+      Teams should meet at the campsite location.
+      There are showers, restrooms, water, gloves, and tshirts available there.
+      The Church building will only be used for picking up supplies.
+      There is no parking at the church building.
+    </p>
+    <p>
+      Operation BBQ has donated a barbecue dinner for workers on Saturday evening that will be available at the campsite.
+    </p>
+  </>}
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
@@ -45,7 +56,7 @@ export default () => <CommandCenter
         'Cape Coral, FL 33990'
       ]} />
     </section>
-    <section style={{marginTop: 24}}>
+    <section style={{ marginTop: 24 }}>
       <Title level={4}>Fuel</Title>
       <p>Fuel is available at the state filling station for emergency response. In order to get fuel from the filling station, you must:</p>
       <ul>

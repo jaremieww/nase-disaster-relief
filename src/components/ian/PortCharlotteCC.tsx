@@ -37,6 +37,17 @@ export default () => <CommandCenter
     name: 'President Michael Fowler',
     phoneNumber: '321-794-9547'
   }}
+  afterAssignments={<>
+    <p>
+      Teams should meet at the campsite location.
+      There are showers, restrooms, water, gloves, and tshirts available there.
+      The Church building will only be used for picking up supplies.
+      There is no parking at the church building.
+    </p>
+    <p>
+      Operation BBQ has donated a barbecue dinner for workers on Saturday evening that will be available at the campsite.
+    </p>
+  </>}
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>

@@ -30,6 +30,7 @@ export type CommandCenterProps = {
   assignedStakes: string[]
 
   additionalInformation?: ReactNode
+  afterAssignments?: ReactNode
 }
 
 const CommandCenter = (props: CommandCenterProps) => {
@@ -101,6 +102,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     </>} />
 
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} />
+    { props.afterAssignments }
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
     <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} />
     {props.additionalInformation}
