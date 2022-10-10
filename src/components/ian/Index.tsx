@@ -34,6 +34,7 @@ export default () => {
         <a href="/ian/cape-coral">Cape Coral</a>
         <a href="/ian/naples">Naples</a>
         <a href="/ian/port-charlotte">Port Charlotte</a>
+        <a href="/ian/venice">Venice</a>
       </Space>
     </section>
 

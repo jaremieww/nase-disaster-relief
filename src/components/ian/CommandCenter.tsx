@@ -22,10 +22,10 @@ export type CommandCenterProps = {
     phoneNumber: string
   }
 
-  areaOversight?: {
+  areaOversight: {
     name: string
     phoneNumber: string
-  }
+  }[]
 
   assignedStakes: string[]
 
@@ -52,12 +52,14 @@ const CommandCenter = (props: CommandCenterProps) => {
     })
   }
 
-  if (props.areaOversight) {
+  if (props.areaOversight.length > 0) {
     contacts.push({
       title: 'Area ERC Oversight',
       body: <>
-        {props.areaOversight.name}<br />
-        <PhoneNumber phoneNumber={props.areaOversight.phoneNumber} />
+        {props.areaOversight.map(x => <React.Fragment key={x.name}>
+          {x.name}<br />
+          <PhoneNumber phoneNumber={x.phoneNumber} /><br/>
+        </React.Fragment>)}
       </>
     })
 
@@ -83,17 +85,11 @@ const CommandCenter = (props: CommandCenterProps) => {
         </Card>
       </List.Item>} />
 
-    <p><small>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</small></p>
+    <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
     <Contacts contacts={contacts} />
 
-    <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 8-9, 2022" description={<>
-      <Paragraph>
-        Fuel is in short supply in the area. Please plan to refuel your vehicle before reaching the disaster zone
-        so that you have sufficient supply to drive to work areas and return to a location where you can purchase fuel.
-        If possible, bring an extra supply of fuel with you.
-      </Paragraph>
-
+    <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 15-16, 2022" description={<>
       <Paragraph>
         Please come self sufficient with your own tools, food, water, gas, etc. Tools needed are chain saws, shovels, pry bars,
         items that can help with a muck out, and ladders for tarping. Rakes will also be needed for debris cleanup.

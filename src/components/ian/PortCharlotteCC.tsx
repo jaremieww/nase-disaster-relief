@@ -18,21 +18,26 @@ export default () => <CommandCenter
   ]}
   email="nase.command2@gmail.com"
   assignedStakes={[
-    'Cocoa, FL',
-    'Gainesville, FL',
-    'Jacksonville, FL East',
-    'Jacksonville, FL West',
-    'Jacksonville, FL South',
-    'Kingsland, FL',
-    'Lake City, FL',
-    'St. Cloud, FL'
+    'Ocala, FL',
+    'Orland, FL',
+    'Orlando, FL West',
+    'Vero Beach, FL',
+    'Dothan, AL',
+    'Fort Walton Beach, FL',
+    'Pensacola, FL'
   ]}
   phoneNumber="850-912-9756"
-  registrationLink="https://forms.gle/K47foJX8MeiNjRJYA"
-  areaOversight={{
-    name: 'Krista Donohoe',
-    phoneNumber: '850-982-8499'
-  }}
+  registrationLink="https://forms.gle/JyomUY5WyrzYb3xx8"
+  areaOversight={[
+    {
+      name: 'Craig Bell',
+      phoneNumber: '801-616-1015'
+    },
+    {
+      name: 'Krista Donohoe',
+      phoneNumber: '850-982-8499'
+    }
+  ]}
   director={{
     name: 'President Michael Fowler',
     phoneNumber: '321-794-9547'

@@ -17,34 +17,37 @@ export default () => <CommandCenter
   ]}
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Stuart, FL',
-    'Brandon, FL',
-    'Lakeland, FL',
-    'Ocala, FL',
-    'Odessa, FL',
-    'Orlando, FL South',
-    'St. Petersburg, FL',
-    'Tampa, FL',
+    'Gainesville, FL',
+    'Jacksonville, FL East',
+    'Jacksonville, FL West',
+    'Kingsland, GA',
+    'Fort Myers, FL',
+    'Panama City, FL',
+    'Tifton, GA',
+    'Tallahassee, FL'
   ]}
   phoneNumber="941-876-8088"
-  registrationLink="https://forms.gle/8MhC1hEZrRP7CHbc8"
-  areaOversight={{
-    name: 'Keith Nash',
-    phoneNumber: '770-820-8085'
-  }}
+  registrationLink="https://forms.gle/zX1kYSLhRZCyQtAdA"
+  areaOversight={[
+    {
+      name: 'Keith Nash',
+      phoneNumber: '770-820-8085'
+    },
+    {
+      name: 'Daryl Blount',
+      phoneNumber: '678-641-5957'
+    }
+  ]}
   director={{
-    name: 'President Bradley Westover',
-    phoneNumber: '561-644-1109'
+    name: 'President Kurt Scherer',
+    phoneNumber: '352-219-1317'
   }}
   afterAssignments={<>
     <p>
       Teams should meet at the campsite location.
-      There are showers, restrooms, water, gloves, and tshirts available there.
+      There are showers, restrooms, water, gloves, and t-shirts available there.
       The Church building will only be used for picking up supplies.
       There is no parking at the church building.
-    </p>
-    <p>
-      Operation BBQ has donated a barbecue dinner for workers on Saturday evening that will be available at the campsite.
     </p>
   </>}
   additionalInformation={<>

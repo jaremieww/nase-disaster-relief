@@ -13,6 +13,7 @@ import IanIndex from './components/ian/Index'
 import NaplesCC from './components/ian/NaplesCC';
 import PortCharlotteCC from './components/ian/PortCharlotteCC';
 import CapeCoralCC from './components/ian/CapeCoralCC';
+import VeniceCC from './components/ian/VeniceCC';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,10 +28,11 @@ ReactDOM.render(
           <Route path="command-center" element={<CommandCenterTrainingMaterials />} />
           
           <Route path="ian">
+            <Route path="cape-coral" element={<CapeCoralCC />} />
             <Route index element={<IanIndex />} />
             <Route path="naples" element={<NaplesCC />} />
             <Route path="port-charlotte" element={<PortCharlotteCC />} />
-            <Route path="cape-coral" element={<CapeCoralCC />} />
+            <Route path="venice" element={<VeniceCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>

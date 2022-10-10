@@ -7,26 +7,17 @@ export default () => {
       'Naples, FL 34116'
     ]}
     assignedStakes={[
-      'Ft. Lauderdale, FL',
-      'Miama, FL South',
-      'Miami Lakes, FL',
-      'Vero Beach, FL',
-      'Orland, FL West',
-      'Orland, FL',
-      'Coral Springs, FL',
-      'Boynton Beach, FL'
+      'Miama, FL',
+      'Naples, FL'
     ]}
     email="Ian.naplescc@gmail.com"
     name="Naples"
     phoneNumber="941-702-2102"
-    registrationLink="https://forms.gle/cwper6ypi3TXL4Kj8"
-    areaOversight={{
-      name: 'Mike Dohm',
-      phoneNumber: '985-718-9753'
-    }}
+    registrationLink="https://forms.gle/5HYEV36VHNbqzDwE9"
+    areaOversight={[]}
     director={{
-      name: 'President Troy Zirker',
-      phoneNumber: '754-245-5946'
+      name: 'President Joseph Lindsey',
+      phoneNumber: '239-877-7250'
     }}
   />
 }
