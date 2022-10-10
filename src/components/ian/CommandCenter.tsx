@@ -100,7 +100,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} />
     { props.afterAssignments }
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
-    <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} />
+    <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} commandCenterEmail={props.email} />
     {props.additionalInformation}
     <SundayServices />
 
@@ -228,8 +228,8 @@ function CheckIn({ registrationLink, location }: CheckInProps) {
   </section>
 }
 
-type ItemsOfConsiderationProps = { commandCenterPhoneNumber: string }
-function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsiderationProps) {
+type ItemsOfConsiderationProps = { commandCenterPhoneNumber: string, commandCenterEmail: string }
+function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail }: ItemsOfConsiderationProps) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Items of Consideration</Title>
 
@@ -285,7 +285,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber }: ItemsOfConsideration
             <u>OR</u>
           </li>
           <li>
-            Call or text the Command Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).
+            Call, text, or email the Command Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
           </li>
         </ol>
       </li>

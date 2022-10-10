@@ -62,6 +62,7 @@ export default () => <CommandCenter
         '19333 Quesada Ave',
         'Port Charlotte, FL 33948'
       ]} />
+      <p>Showers at the adjacent YMCA are available for use, as well as at the Command Center.</p>
     </section>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Fuel</Title>
