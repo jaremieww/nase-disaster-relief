@@ -24,7 +24,9 @@ export default () => <CommandCenter
     'Vero Beach, FL',
     'Dothan, AL',
     'Fort Walton Beach, FL',
-    'Pensacola, FL'
+    'Pensacola, FL',
+    'Cocoa, FL',
+    'Jacksonville, FL South'
   ]}
   phoneNumber="850-912-9756"
   registrationLink="https://forms.gle/JyomUY5WyrzYb3xx8"
