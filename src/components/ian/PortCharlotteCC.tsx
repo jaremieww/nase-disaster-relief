@@ -19,7 +19,7 @@ export default () => <CommandCenter
   email="nase.command2@gmail.com"
   assignedStakes={[
     'Ocala, FL',
-    'Orland, FL',
+    'Orlando, FL',
     'Orlando, FL West',
     'Vero Beach, FL',
     'Dothan, AL',
