@@ -66,20 +66,5 @@ export default () => <CommandCenter
       ]} />
       <p>Showers at the adjacent YMCA are available for use, as well as at the Command Center.</p>
     </section>
-    <section style={{ marginTop: 24 }}>
-      <Title level={4}>Fuel</Title>
-      <p>Fuel is available at the state filling station for emergency response. In order to get fuel from the filling station, you must:</p>
-      <ul>
-        <li>Be wearing Helping Hands shirts.</li>
-        <li>Print the <S3Link path="ian/florida-dashboard-placard.pdf">placard</S3Link> and place it in the front window of the vehicle.</li>
-        <li>If there are any issues, we are partners with the state VOAD and this is an agreement with Christy at Volunteer Florida.</li>
-      </ul>
-      <p>The address for the filling station is:</p>
-      <Address address={[
-        'Lee County Sports Complex',
-        '14100 6 Mile Cypress Parkway',
-        'Fort Myers, FL 33912'
-      ]} />
-    </section>
   </>}
 />
