@@ -15,6 +15,8 @@ export type CommandCenterProps = {
   address: string[]
   email: string
   campingAddress?: string[]
+  campingAddressLink?: string
+  campingAddressNote?: ReactNode
   registrationLink: string
 
   director?: {
@@ -58,18 +60,23 @@ const CommandCenter = (props: CommandCenterProps) => {
       body: <>
         {props.areaOversight.map(x => <React.Fragment key={x.name}>
           {x.name}<br />
-          <PhoneNumber phoneNumber={x.phoneNumber} /><br/>
+          <PhoneNumber phoneNumber={x.phoneNumber} /><br />
         </React.Fragment>)}
       </>
     })
 
   }
 
-  const addresses = [
+  const addresses: { name: string, address: string[], addressLink?: string, note?: ReactNode }[] = [
     { name: 'Command Center', address: props.address },
   ]
   if (props.campingAddress) {
-    addresses.push({ name: 'Campground', address: props.campingAddress })
+    addresses.push({
+      name: 'Campground',
+      address: props.campingAddress,
+      addressLink: props.campingAddressLink,
+      note: props.campingAddressNote
+    })
   }
 
   return <>
@@ -81,7 +88,8 @@ const CommandCenter = (props: CommandCenterProps) => {
       dataSource={addresses}
       renderItem={(item) => <List.Item>
         <Card title={item.name} bordered={false} size="small">
-          <Address address={item.address!} />
+          <Address address={item.address!} addressLink={item.addressLink} />
+          {item.note}
         </Card>
       </List.Item>} />
 
@@ -98,7 +106,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     </>} />
 
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} />
-    { props.afterAssignments }
+    {props.afterAssignments}
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
     <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} commandCenterEmail={props.email} />
     {props.additionalInformation}

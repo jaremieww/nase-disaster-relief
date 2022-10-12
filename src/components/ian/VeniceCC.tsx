@@ -1,4 +1,9 @@
 import CommandCenter from "./CommandCenter";
+import { Image, Space, Typography } from 'antd'
+import { formatS3Url } from "../S3";
+import { CompassOutlined } from "@ant-design/icons";
+
+const { Title } = Typography
 
 export default () => <CommandCenter
   name="Venice"
@@ -8,9 +13,18 @@ export default () => <CommandCenter
 
   ]}
   campingAddress={[
-    'TBD',
-
+    'Fiore Neal Communities',
+    'Near 3599 Laurel Rd E (south side of road)',
+    'Venice, FL 34275'
   ]}
+  campingAddressLink="https://goo.gl/maps/TKM3EJEAQaSVZEAH8"
+  campingAddressNote={<a href="#camping">
+    <Space>
+      <CompassOutlined />
+      <span>See directions below</span>
+    </Space>
+    </a>
+  }
   email="nase.command3@gmail.com"
   assignedStakes={[
     'Roswell, GA',
@@ -38,6 +52,23 @@ export default () => <CommandCenter
 
   </>}
   additionalInformation={<>
-
+    <section style={{marginTop: 24}} id="camping">
+      <Title level={4}>Camping</Title>
+      <Space direction="vertical" size="large">
+        <span>
+          Camping is located at approximately 3599 Laurel Rd E in Venice, FL at Fiore Neal Communities, which is an undeveloped residential community. 
+          The location is not well marked on maps, so please follow the directions below.
+          Please note that while the satellite photo shows dirt, the area now has paved roads and grass.
+        </span>
+        <ul>
+          <li>From the church parking lot at 3000 E Venice Ave, turn right onto E Venice Ave. Go 1.0 miles.</li>
+          <li>At the traffic circle, take the first exit onto Jacaranda Blvd. Go 2.8 miles.</li>
+          <li>Turn left onto Laurel Rd E. Go 0.5 miles.</li>
+          <li>At approximately 3599 Laurel Rd E, the camping is on the left. Entrance is "Fiore Neal Communities" (undeveloped residential community).</li>
+        </ul>
+        <Image src={formatS3Url('ian/venice-camping.png')} style={{maxWidth: 400}} />
+        <Image src={formatS3Url('ian/venice-camping-street-view.jpg')} style={{maxWidth: 400}} />
+      </Space>
+    </section>
   </>}
 />
