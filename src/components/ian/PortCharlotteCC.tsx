@@ -24,8 +24,7 @@ export default () => <CommandCenter
     'Dothan, AL',
     'Fort Walton Beach, FL',
     'Pensacola, FL',
-    'Cocoa, FL',
-    'Jacksonville, FL South'
+    'Cocoa, FL'
   ]}
   phoneNumber="850-912-9756"
   registrationLink="https://forms.gle/JyomUY5WyrzYb3xx8"
