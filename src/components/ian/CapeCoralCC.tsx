@@ -12,13 +12,17 @@ export default () => <CommandCenter
   ]}
   campingAddress={[
     '528 Cultural Park Blvd',
-    'Cape Coral, FL 33990',
-    '',
-    'RV and Heavy Equipment Parking',
-    '1020 Cultural Park Blvd',
     'Cape Coral, FL 33990'
   ]}
-  campingAddressLink="https://www.google.com/maps/place/Cultural+Park,+528+Cultural+Park+Blvd,+Cape+Coral,+FL+33990/@26.6413562,-81.9615016,17z/data=!4m5!3m4!1s0x88db46b60cb3890b:0x4f9ff967c2d41f2!8m2!3d26.6413562!4d-81.9593129"
+  campingAddressNote={
+    <>
+      RV and Heavy Equipment Parking<br/>
+      <Address address={[
+        '1020 Cultural Park Blvd',
+        'Cape Coral, FL 33990'
+      ]} />
+    </>
+  }
   email="nase.command1@gmail.com"
   assignedStakes={[
     'Gainesville, FL',
