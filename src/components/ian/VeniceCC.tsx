@@ -66,6 +66,8 @@ export default () => <CommandCenter
           <li>Turn left onto Laurel Rd E. Go 0.5 miles.</li>
           <li>At approximately 3599 Laurel Rd E, the camping is on the left. Entrance is "Fiore Neal Communities" (undeveloped residential community).</li>
         </ul>
+        <span>Please camp within the designated area circled below (between the signs posted at the campsite).</span>
+        <Image src={formatS3Url('ian/venice-camping-layout.jpg')} style={{maxWidth: 400}} />
         <Image src={formatS3Url('ian/venice-camping.png')} style={{maxWidth: 400}} />
         <Image src={formatS3Url('ian/venice-camping-street-view.jpg')} style={{maxWidth: 400}} />
       </Space>
