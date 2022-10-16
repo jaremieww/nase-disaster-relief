@@ -1,11 +1,159 @@
-import { Typography } from 'antd'
-import DirectoryListing from './components/DirectoryListing'
+import Icon from '@ant-design/icons'
+import { FaFileExcel, FaFilePdf, FaFilePowerpoint, FaFileWord, FaHome, FaMapMarkerAlt, FaMicrophone, FaRegAddressBook, FaTools, FaTree, FaVideo } from 'react-icons/fa'
+import { GoRadioTower } from 'react-icons/go'
+import { Collapse, Space, Typography } from 'antd'
+import { S3Link } from './components/S3'
+import { ReactNode } from 'react'
+import PopoutLink from './components/PopoutLink'
 
 const { Title } = Typography
 
+type TrainingLink = { title: string, href: string, icon?: ReactNode }
+type TrainingItem = string | TrainingLink
+type Role = { title: string, files: TrainingItem[], icon?: ReactNode }
+
+const isTrainingLink = (item: TrainingItem): item is TrainingLink => {
+  const link = item as TrainingLink
+  return link.title !== undefined && link.href !== undefined
+}
+
 export default function CallCenterTrainingMaterials() {
+  const roles: Role[] = [
+    {
+      title: 'General',
+      files: [
+        "Communication council assistance to stake president_Disaster Response 02-11-2022 (1).pdf",
+        "Disaster Relief Partnership with Govt.pptx",
+        "Emergency Order form truck supplies Interactive - 09-06-17.pdf",
+        "Emergency Outreach PDF (leave behind with Govt officials).pdf",
+        "Emergency Preparation and Response -  Community Presentation 01-10-2022.pptx",
+        "Emergency Response Detailed training 01-27-2022 Harding standard.pptx",
+        "Incoming Sister Stake Expectations & Instructions 01-04-2022 MSH  Comments.docx",
+        "Info for arriving crews.docx",
+        "NASE Area Disaster Response Safety Guidance 04-07-2021 FINAL.pdf",
+        "NASE Area Emergency Response Committee (AERC).pdf",
+        "Service Ideas for Stake Presidents for those not on work  teams.docx",
+        "Share Your Experience - Disaster Relief Volunteer Flyer.pdf",
+        "Sister Stake Responsibilities.docx",
+        "Stake ECS Recommended Gear 02-27-2020 Final.docx",
+        "Stake Emergency Council Response guidelines.pdf",
+        "Temporal-Preparedness-Guide-NASE-Area-Guide.pdf",
+        "Temporary Use & Indemnity Agreement -  09-01-2019.docx",
+        "Work Crew basics.pptx",
+      ]
+    },
+    {
+      title: 'Chainsaw Director',
+      icon: <Icon component={FaTree} />,
+      files: [
+        'Chainsaw Tracker.xlsx',
+      ]
+    },
+    {
+      title: 'Crisis Cleanup Director',
+      icon: <Icon component={FaMapMarkerAlt} />,
+      files: [
+        "Crisis Cleanup Summary.docx",
+        "Data after weekend is over.docx",
+        "Google Spreadsheet case log.xlsx",
+        "HelpingHands-CommandCenterReport-Template.xlsx",
+        "Work Order Assessment form.pdf",
+        { title: "Work Order Distribution for Command Center Staff", href: "https://www.youtube.com/watch?v=WnRuH7YMd4k", icon: <Icon component={FaVideo} /> }
+      ]
+    },
+    {
+      title: 'Emergency Communications Specialist (IT)',
+      icon: <Icon component={GoRadioTower} />,
+      files: [
+        'Stake ECS Recommended Gear 02-27-2020 Final.docx',
+      ]
+    },
+    {
+      title: 'Housing Director',
+      icon: <Icon component={FaHome} />,
+      files: [
+        'Example of camping plan-Cocoa Stake.pptx',
+        { title: 'Shower Installation Instructions', href:'https://vimeo.com/460689734/f3f004e35c', icon: <Icon component={FaVideo} />}
+      ],
+    },
+    {
+      title: 'Registration Director',
+      icon: <Icon component={FaRegAddressBook} />,
+      files: [
+        'Work Crew Registration Form.pdf',
+      ]
+    },
+    {
+      title: 'Stake Communications (PA) Director',
+      icon: <Icon component={FaMicrophone} />,
+      files: [
+        "Communication council assistance to stake president_Disaster Response 02-11-2022 (1).pdf",
+        "Communications (PA)  Disaster Doc with highlights and  list 2020 (1) (2).docx",
+        "Community Presentation-LDS Disaster Response.pptx",
+        "Disaster Relief Partnership with Govt.pptx",
+        "Disaster Relief Spokesperson Preparation.docx",
+        "Emergency Outreach PDF.pdf",
+      ]
+    },
+    {
+      title: 'Storehouse Staging Director (Supplies)',
+      icon: <Icon component={FaTools} />,
+      files: [
+        "Command Center Supplies - Setup and Close Out Process  02-01-2022.docx",
+        "Command Center Weekly Inventory Process.docx",
+        "Emergency Order Interactive - 04-28-2022.pdf",
+        "Supply Yard Training.pptx",
+      ]
+    },
+  ]
+
+  const icons = {
+    'pdf': FaFilePdf,
+    'doc': FaFileWord,
+    'docx': FaFileWord,
+    'ppt': FaFilePowerpoint,
+    'pptx': FaFilePowerpoint,
+    'xls': FaFileExcel,
+    'xlsx': FaFileExcel,
+  }
+  const getIcon = (file: string) => {
+    const ext = file.substring(file.lastIndexOf('.') + 1)
+    if (Object.keys(icons).includes(ext)) {
+      const result = icons[ext as keyof typeof icons]
+      return result
+    }
+  }
+
+
   return <>
     <Title level={2}>Command Center Training Materials</Title>
-    <DirectoryListing directory='command-center' />
+
+    <Collapse>
+      {
+        roles.map(role => <Collapse.Panel header={<Space>{role.icon}{role.title}</Space>} key={role.title}>
+          <Space direction="vertical">
+            {
+              role.files.map(file =>
+                <Space>
+                  {isTrainingLink(file)
+                    ? <PopoutLink href={file.href}>
+                      <Space>
+                        {file.icon}
+                        {file.title}
+                      </Space>
+                    </PopoutLink>
+                    : <S3Link path={file}>
+                      <Space>
+                        <Icon component={getIcon(file)} />
+                        {file}
+                      </Space>
+                    </S3Link>
+                  }
+                </Space>)
+            }
+          </Space>
+        </Collapse.Panel>)
+      }
+    </Collapse>
   </>
 }

@@ -28,10 +28,9 @@ const getIcon = (file: string) => {
   const ext = file.substring(file.lastIndexOf('.') + 1)
   if (Object.keys(icons).includes(ext)) {
     const result = icons[ext as keyof typeof icons]
-    console.log(result)
     return result
   }
-}
+} 
 
 const trimExtension = (s: string) => s.replace(/\.[a-z]{2,}/i, '')
 
