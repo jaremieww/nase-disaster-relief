@@ -16,7 +16,7 @@ export default () => <CommandCenter
   ]}
   campingAddressNote={
     <>
-      RV and Heavy Equipment Parking<br/>
+      RV and Heavy Equipment Parking<br />
       <Address address={[
         '1020 Cultural Park Blvd',
         'Cape Coral, FL 33990'
@@ -68,4 +68,10 @@ export default () => <CommandCenter
       ]} />
     </section>
   </>}
+  sundayServices={<section style={{ marginTop: '40px' }}>
+    <Title level={4}>Sunday Services</Title>
+    <p>
+      A short Sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+    </p>
+  </section>}
 />

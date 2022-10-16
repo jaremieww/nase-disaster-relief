@@ -33,6 +33,7 @@ export type CommandCenterProps = {
 
   additionalInformation?: ReactNode
   afterAssignments?: ReactNode
+  sundayServices?: ReactNode
 }
 
 const CommandCenter = (props: CommandCenterProps) => {
@@ -110,7 +111,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
     <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} commandCenterEmail={props.email} />
     {props.additionalInformation}
-    <SundayServices />
+    { props.sundayServices ?? <SundayServices /> }
 
     <section>
       <h2>Additional Information</h2>
@@ -318,7 +319,7 @@ function SundayServices() {
     <Title level={4}>Sunday Services</Title>
 
     <p>
-      A short Sacrament meeting will be held at the command center at on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the command center on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>
 }
