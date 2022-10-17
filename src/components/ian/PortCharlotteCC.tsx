@@ -17,14 +17,14 @@ export default () => <CommandCenter
   ]}
   email="nase.command2@gmail.com"
   assignedStakes={[
-    'Lake City, FL',
-    'St Cloud, FL',
     'Brandon, FL West',
-    'Lakeland, FL',
-    'St Petersburg, AL',
     'Columbus, GA',
+    'Lake City, FL',
+    'Lakeland, FL',
     'Macon, GA',
-    'Newnan, GA'
+    'Newnan, GA',
+    'St Cloud, FL',
+    'St Petersburg, AL',
   ]}
   phoneNumber="850-912-9756"
   registrationLink="https://forms.gle/d1bUZiz929qmwZfA7"

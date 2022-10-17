@@ -25,15 +25,15 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Savannah, GA',
-    'Miami, FL',
-    'Ft Myers, FL',
-    'Orlando, FL South',
-    'Stuart, FL',
-    'Miami Lakes, FL',
-    'Ft Lauderdale, FL',
-    'Coral Springs, FL',
     'Boynton Beach, FL',
+    'Coral Springs, FL',
+    'Ft Lauderdale, FL',
+    'Ft Myers, FL',
+    'Miami, FL',
+    'Miami Lakes, FL',
+    'Orlando, FL South',
+    'Savannah, GA',
+    'Stuart, FL',
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/Hmq6BuPACiBAkjL98"

@@ -98,7 +98,7 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <Contacts contacts={contacts} />
 
-    <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 15-16, 2022" description={<>
+    <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 22-23, 2022" description={<>
       <Paragraph>
         Please come self sufficient with your own tools, food, water, gas, etc. Tools needed are chain saws, shovels, pry bars,
         items that can help with a muck out, and ladders for tarping. Rakes will also be needed for debris cleanup.

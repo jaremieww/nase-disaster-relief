@@ -7,6 +7,7 @@ export default () => {
       'Naples, FL 34116'
     ]}
     assignedStakes={[
+      'Naples, FL'
     ]}
     email="Ian.naplescc@gmail.com"
     name="Naples"

@@ -27,16 +27,16 @@ export default () => <CommandCenter
   }
   email="nase.command3@gmail.com"
   assignedStakes={[
+    'Aiken, SC',
     'Atlanta, GA',
+    'Augusta, GA',
     'Conyers, GA',
     'Fayetteville, GA',
-    'Powder Springs, GA',
-    'Aiken, SC',
-    'Augusta, GA',
     'Hilton Head, SC',
+    'Powder Springs, GA',
   ]}
   phoneNumber="941-548-6111"
-  registrationLink="https://forms.gle/6VPiXCxLEkPErARe8"
+  registrationLink="https://forms.gle/6u79KTE1qBpiDPcPA"
   areaOversight={[
     {
       name: 'Clay Hudgins',
