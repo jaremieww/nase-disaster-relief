@@ -10,7 +10,7 @@ const { Title } = Typography
 
 type TrainingLink = { title: string, href: string, icon?: ReactNode }
 type TrainingItem = string | TrainingLink
-type Role = { title: string, files: TrainingItem[], icon?: ReactNode }
+type Role = { title: string, files: TrainingItem[], icon?: ReactNode, pathPrefix: string }
 
 const isTrainingLink = (item: TrainingItem): item is TrainingLink => {
   const link = item as TrainingLink
@@ -21,6 +21,7 @@ export default function CallCenterTrainingMaterials() {
   const roles: Role[] = [
     {
       title: 'General',
+      pathPrefix: 'command-center',
       files: [
         "Communication council assistance to stake president_Disaster Response 02-11-2022 (1).pdf",
         "Disaster Relief Partnership with Govt.pptx",
@@ -45,6 +46,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Chainsaw Director',
       icon: <Icon component={FaTree} />,
+      pathPrefix: 'command-center/positions/chainsaw',
       files: [
         'Chainsaw Tracker.xlsx',
       ]
@@ -52,6 +54,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Crisis Cleanup Director',
       icon: <Icon component={FaMapMarkerAlt} />,
+      pathPrefix: 'command-center/positions/crisis-cleanup',
       files: [
         "Crisis Cleanup Summary.docx",
         "Data after weekend is over.docx",
@@ -64,6 +67,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Emergency Communications Specialist (IT)',
       icon: <Icon component={GoRadioTower} />,
+      pathPrefix: 'command-center/positions/emergency-communications',
       files: [
         'Stake ECS Recommended Gear 02-27-2020 Final.docx',
       ]
@@ -71,6 +75,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Housing Director',
       icon: <Icon component={FaHome} />,
+      pathPrefix: 'command-center/positions/housing',
       files: [
         'Example of camping plan-Cocoa Stake.pptx',
         { title: 'Shower Installation Instructions', href:'https://vimeo.com/460689734/f3f004e35c', icon: <Icon component={FaVideo} />}
@@ -79,6 +84,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Registration Director',
       icon: <Icon component={FaRegAddressBook} />,
+      pathPrefix: 'command-center/positions/registration',
       files: [
         'Work Crew Registration Form.pdf',
       ]
@@ -86,6 +92,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Stake Communications (PA) Director',
       icon: <Icon component={FaMicrophone} />,
+      pathPrefix: 'command-center/positions/stake-communications',
       files: [
         "Communication council assistance to stake president_Disaster Response 02-11-2022 (1).pdf",
         "Communications (PA)  Disaster Doc with highlights and  list 2020 (1) (2).docx",
@@ -98,6 +105,7 @@ export default function CallCenterTrainingMaterials() {
     {
       title: 'Storehouse Staging Director (Supplies)',
       icon: <Icon component={FaTools} />,
+      pathPrefix: 'command-center/positions/supplies',
       files: [
         "Command Center Supplies - Setup and Close Out Process  02-01-2022.docx",
         "Command Center Weekly Inventory Process.docx",
@@ -142,7 +150,7 @@ export default function CallCenterTrainingMaterials() {
                         {file.title}
                       </Space>
                     </PopoutLink>
-                    : <S3Link path={file}>
+                    : <S3Link path={`${role.pathPrefix}/${file}`}>
                       <Space>
                         <Icon component={getIcon(file)} />
                         {file}
