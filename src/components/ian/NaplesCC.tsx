@@ -7,13 +7,11 @@ export default () => {
       'Naples, FL 34116'
     ]}
     assignedStakes={[
-      'Miama, FL',
-      'Naples, FL'
     ]}
     email="Ian.naplescc@gmail.com"
     name="Naples"
     phoneNumber="941-702-2102"
-    registrationLink="https://forms.gle/5HYEV36VHNbqzDwE9"
+    registrationLink="https://forms.gle/WZLCbGhoWfCfcxGf9"
     areaOversight={[]}
     director={{
       name: 'President Joseph Lindsey',

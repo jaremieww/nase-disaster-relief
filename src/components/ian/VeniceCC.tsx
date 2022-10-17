@@ -17,7 +17,7 @@ export default () => <CommandCenter
     'Near 3599 Laurel Rd E (south side of road)',
     'Venice, FL 34275'
   ]}
-  campingAddressLink="https://goo.gl/maps/TKM3EJEAQaSVZEAH8"
+  campingAddressLink="https://forms.gle/fBoGERG8Kb3ErgfU8"
   campingAddressNote={<a href="#camping">
     <Space>
       <CompassOutlined />
@@ -27,26 +27,25 @@ export default () => <CommandCenter
   }
   email="nase.command3@gmail.com"
   assignedStakes={[
-    'Roswell, GA',
-    'Sugar Hill, GA',
-    'Winder, GA',
-    'Athens, GA',
-    'Cathersville, GA',
-    'Coal Mountain, GA',
-    'Lilburn, GA',
-    'Marietta, GA East'
+    'Atlanta, GA',
+    'Conyers, GA',
+    'Fayetteville, GA',
+    'Powder Springs, GA',
+    'Aiken, SC',
+    'Augusta, GA',
+    'Hilton Head, SC',
   ]}
   phoneNumber="941-548-6111"
   registrationLink="https://forms.gle/6VPiXCxLEkPErARe8"
   areaOversight={[
     {
-      name: 'Mike Dohm',
-      phoneNumber: '985-718-9753'
+      name: 'Clay Hudgins',
+      phoneNumber: '904-303-0007'
     }
   ]}
   director={{
-    name: 'President Jared McLaughlin',
-    phoneNumber: '334-322-9015'
+    name: 'President George Thornton',
+    phoneNumber: '813-477-0104'
   }}
   afterAssignments={<>
 

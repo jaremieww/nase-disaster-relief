@@ -25,17 +25,18 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Gainesville, FL',
-    'Jacksonville, FL East',
-    'Jacksonville, FL West',
-    'Kingsland, GA',
-    'Fort Myers, FL',
-    'Panama City, FL',
-    'Tifton, GA',
-    'Tallahassee, FL'
+    'Savannah, GA',
+    'Miami, FL',
+    'Ft Myers, FL',
+    'Orlando, FL South',
+    'Stuart, FL',
+    'Miami Lakes, FL',
+    'Ft Lauderdale, FL',
+    'Coral Springs, FL',
+    'Boynton Beach, FL',
   ]}
   phoneNumber="941-876-8088"
-  registrationLink="https://forms.gle/zX1kYSLhRZCyQtAdA"
+  registrationLink="https://forms.gle/Hmq6BuPACiBAkjL98"
   areaOversight={[
     {
       name: 'Keith Nash',
