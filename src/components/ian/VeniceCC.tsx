@@ -35,12 +35,12 @@ export default () => <CommandCenter
     'Hilton Head, SC',
     'Powder Springs, GA',
   ]}
-  phoneNumber="941-548-6111"
+  phoneNumber="813-761-3227"
   registrationLink="https://forms.gle/6u79KTE1qBpiDPcPA"
   areaOversight={[
     {
-      name: 'Clay Hudgins',
-      phoneNumber: '904-303-0007'
+      name: 'Brent Barnes',
+      phoneNumber: '865-748-4260'
     }
   ]}
   director={{

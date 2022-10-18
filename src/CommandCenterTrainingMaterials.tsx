@@ -61,7 +61,8 @@ export default function CallCenterTrainingMaterials() {
         "Google Spreadsheet case log.xlsx",
         "HelpingHands-CommandCenterReport-Template.xlsx",
         "Work Order Assessment form.pdf",
-        { title: "Work Order Distribution for Command Center Staff", href: "https://www.youtube.com/watch?v=WnRuH7YMd4k", icon: <Icon component={FaVideo} /> }
+        { title: "Work Order Distribution for Command Center Staff", href: "https://www.youtube.com/watch?v=WnRuH7YMd4k", icon: <Icon component={FaVideo} /> },
+        { title: "Dialpad Tutorial for Command Center Staff", href: "https://www.youtube.com/watch?v=j0uNc8HvZrE", icon: <Icon component={FaVideo} />},
       ]
     },
     {
