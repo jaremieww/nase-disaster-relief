@@ -1,5 +1,5 @@
 import { Alert, Button, Card, List, Space, Typography } from 'antd'
-import { CheckCircleOutlined } from '@ant-design/icons'
+import { CheckCircleOutlined, ClockCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import { S3Link } from "../S3"
 import React, { ReactNode } from 'react'
@@ -18,6 +18,7 @@ export type CommandCenterProps = {
   campingAddressLink?: string
   campingAddressNote?: ReactNode
   registrationLink: string
+  closeoutFormLink?: string
 
   director?: {
     name: string
@@ -106,10 +107,14 @@ const CommandCenter = (props: CommandCenterProps) => {
       </Paragraph>
     </>} />
 
-    <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} />
+    <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} closeoutFormLink={props.closeoutFormLink} />
     {props.afterAssignments}
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
-    <ItemsOfConsideration commandCenterPhoneNumber={props.phoneNumber} commandCenterEmail={props.email} />
+    <ItemsOfConsideration 
+      commandCenterPhoneNumber={props.phoneNumber} 
+      commandCenterEmail={props.email} 
+      closeoutFormLink={props.closeoutFormLink} 
+    />
     {props.additionalInformation}
     { props.sundayServices ?? <SundayServices /> }
 
@@ -125,14 +130,17 @@ export default CommandCenter
 type AssignmentsProps = {
   assignedStakes: string[]
   commandCenterName: string,
-  registrationLink: string
+  registrationLink: string,
+  closeoutFormLink?: string
 }
-const Assignments = ({ assignedStakes, commandCenterName, registrationLink }: AssignmentsProps) => <section>
+const Assignments = ({ assignedStakes, commandCenterName, registrationLink, closeoutFormLink }: AssignmentsProps) => <section>
   <Space direction='vertical' style={{ marginBottom: '24px' }}>
     {registrationLink &&
       <Space style={{ marginTop: '16px' }}>
         <strong>Team Captains:</strong>
         <Button type="primary" icon={<CheckCircleOutlined />} href={registrationLink} target="_blank">Register your Team</Button>
+        { closeoutFormLink && <Button icon={<ClockCircleOutlined />} href={closeoutFormLink} target="_blank">Close-out your Team</Button> }
+
       </Space>
     }
 
@@ -237,8 +245,8 @@ function CheckIn({ registrationLink, location }: CheckInProps) {
   </section>
 }
 
-type ItemsOfConsiderationProps = { commandCenterPhoneNumber: string, commandCenterEmail: string }
-function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail }: ItemsOfConsiderationProps) {
+type ItemsOfConsiderationProps = { commandCenterPhoneNumber: string, commandCenterEmail: string, closeoutFormLink?: string }
+function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, closeoutFormLink }: ItemsOfConsiderationProps) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Items of Consideration</Title>
 
@@ -296,6 +304,9 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail }: 
           <li>
             Call, text, or email the Command Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
           </li>
+          {closeoutFormLink &&
+            <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the command center by noon on Sunday.</li>
+          }
         </ol>
       </li>
     </ul>

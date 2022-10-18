@@ -37,6 +37,7 @@ export default () => <CommandCenter
   ]}
   phoneNumber="813-761-3227"
   registrationLink="https://forms.gle/6u79KTE1qBpiDPcPA"
+  closeoutFormLink="https://forms.gle/ttzBGjdgjUdby2oe7"
   areaOversight={[
     {
       name: 'Brent Barnes',
@@ -44,8 +45,8 @@ export default () => <CommandCenter
     }
   ]}
   director={{
-    name: 'President George Thornton',
-    phoneNumber: '813-477-0104'
+    name: 'President Jaime Rodriguez',
+    phoneNumber: '813-909-5608'
   }}
   afterAssignments={<>
 
