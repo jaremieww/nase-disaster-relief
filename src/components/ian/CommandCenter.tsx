@@ -136,7 +136,7 @@ type AssignmentsProps = {
 const Assignments = ({ assignedStakes, commandCenterName, registrationLink, closeoutFormLink }: AssignmentsProps) => <section>
   <Space direction='vertical' style={{ marginBottom: '24px' }}>
     {registrationLink &&
-      <Space style={{ marginTop: '16px' }}>
+      <Space style={{ marginTop: '16px' }} wrap>
         <strong>Team Captains:</strong>
         <Button type="primary" icon={<CheckCircleOutlined />} href={registrationLink} target="_blank">Register your Team</Button>
         { closeoutFormLink && <Button icon={<ClockCircleOutlined />} href={closeoutFormLink} target="_blank">Close-out your Team</Button> }
