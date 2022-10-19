@@ -11,7 +11,7 @@ export default () => {
     ]}
     email="Ian.naplescc@gmail.com"
     name="Naples"
-    phoneNumber="941-702-2102"
+    phoneNumber="813-364-4546"
     registrationLink="https://forms.gle/WZLCbGhoWfCfcxGf9"
     areaOversight={[]}
     director={{
