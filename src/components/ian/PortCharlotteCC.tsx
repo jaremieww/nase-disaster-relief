@@ -1,6 +1,7 @@
 import CommandCenter from "./CommandCenter";
-import { Typography } from "antd";
+import { Image, Typography } from "antd";
 import Address from "../Address";
+import { formatS3Url } from "../S3";
 
 const { Title } = Typography
 
@@ -59,6 +60,7 @@ export default () => <CommandCenter
         '19333 Quesada Ave',
         'Port Charlotte, FL 33948'
       ]} />
+      <Image src={formatS3Url("ian/port-charlotte-camping-week-4.jpg")} style={{maxWidth: 400}} />
       <p>Showers at the adjacent YMCA are available for use, as well as at the Command Center.</p>
     </section>
   </>}
