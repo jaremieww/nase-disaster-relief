@@ -1,7 +1,7 @@
 {
   "name": "nase-helping-hands",
   "homepage": "https://emandres.github.io/",
-  "version": "1.0.100",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
