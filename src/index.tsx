@@ -14,6 +14,7 @@ import NaplesCC from './components/ian/NaplesCC';
 import PortCharlotteCC from './components/ian/PortCharlotteCC';
 import CapeCoralCC from './components/ian/CapeCoralCC';
 import VeniceCC from './components/ian/VeniceCC';
+import CommandCenter from './CommandCenter';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.render(
           <Route path="crew-leader-checklist" element={<CrewLeaderChecklist />} />
           <Route path="call-center" element={<CallCenterTrainingMaterials />} />
           <Route path="command-center" element={<CommandCenterTrainingMaterials />} />
+          <Route path="cc" element={<CommandCenter />} />
           
           <Route path="ian">
             <Route path="cape-coral" element={<CapeCoralCC />} />

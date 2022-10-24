@@ -21,6 +21,8 @@
     "jsx": "preserve"
   },
   "include": [
-    "src"
-, "build-directory.js"  ]
+    "src",
+    "build-directory.js"
+  ],
+  "types": ["google-one-tap", "google.accounts"]
 }
