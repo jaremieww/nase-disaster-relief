@@ -27,21 +27,20 @@ export default () => <CommandCenter
   }
   email="nase.command3@gmail.com"
   assignedStakes={[
-    'Aiken, SC',
-    'Atlanta, GA',
-    'Augusta, GA',
-    'Conyers, GA',
-    'Fayetteville, GA',
-    'Hilton Head, SC',
-    'Powder Springs, GA',
+    'Charleston, SC',
+    'Kingsland, GA',
+    'Lake Mary, FL',
+    'Panama City, FL',
+    'Tallahassee, FL',
+    'Tifton, GA',
   ]}
   phoneNumber="813-761-3227"
-  registrationLink="https://forms.gle/6u79KTE1qBpiDPcPA"
-  closeoutFormLink="https://forms.gle/ttzBGjdgjUdby2oe7"
+  registrationLink="https://forms.gle/ucgyChQHFRaACU95A"
+  closeoutFormLink="https://forms.gle/txjzPsop4ef4A6Tm9"
   areaOversight={[
     {
-      name: 'Brent Barnes',
-      phoneNumber: '865-748-4260'
+      name: 'Craig Bell',
+      phoneNumber: '801-616-1015'
     }
   ]}
   director={{

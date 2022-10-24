@@ -27,16 +27,14 @@ export default () => <CommandCenter
   assignedStakes={[
     'Boynton Beach, FL',
     'Coral Springs, FL',
-    'Ft Lauderdale, FL',
-    'Ft Myers, FL',
+    'Fort Lauderdale, FL',
+    'Fort Myers, FL',
     'Miami, FL',
     'Miami Lakes, FL',
-    'Orlando, FL South',
-    'Savannah, GA',
     'Stuart, FL',
   ]}
   phoneNumber="941-876-8088"
-  registrationLink="https://forms.gle/Hmq6BuPACiBAkjL98"
+  registrationLink="https://forms.gle/WX4hA4SfYsYMGzrh8"
   areaOversight={[
     {
       name: 'Keith Nash',
@@ -48,8 +46,8 @@ export default () => <CommandCenter
     }
   ]}
   director={{
-    name: 'President Kurt Scherer',
-    phoneNumber: '352-219-1317'
+    name: 'President Ryan Henry',
+    phoneNumber: '813-245-3568'
   }}
   afterAssignments={<>
     <p>
