@@ -7,30 +7,30 @@ type EmailForm = {
 }
 
 export default () => {
-  const clientId = '670345812107-korbdbtj1rbg8fd5rgtuhc6ad7b3vdkd.apps.googleusercontent.com'
+  //const clientId = '670345812107-korbdbtj1rbg8fd5rgtuhc6ad7b3vdkd.apps.googleusercontent.com'
   const [googleJwt, setGoogleJwt] = useState('')
   useEffect(() => {
     setGoogleJwt(localStorage.getItem('google-jwt') ?? '')
   }, [])
 
-  useEffect(() => {
-    if (!googleJwt) {
-      google.accounts.id.initialize({
-        client_id: clientId,
-        callback: handleCredentialResponse
-      });
-      google.accounts.id.renderButton(
-        document.getElementById("google-signin")!,
-        { theme: "outline", size: "large" }  // customization attributes
-      );
-    }
+  // useEffect(() => {
+  //   if (!googleJwt) {
+  //     google.accounts.id.initialize({
+  //       client_id: clientId,
+  //       callback: handleCredentialResponse
+  //     });
+  //     google.accounts.id.renderButton(
+  //       document.getElementById("google-signin")!,
+  //       { theme: "outline", size: "large" }  // customization attributes
+  //     );
+  //   }
 
-  }, [googleJwt])
+  // }, [googleJwt])
 
-  const handleCredentialResponse = (response: any) => {
-    localStorage.setItem('google-jwt', response.credential)
-    setGoogleJwt(response.credential)
-  }
+  // const handleCredentialResponse = (response: any) => {
+  //   localStorage.setItem('google-jwt', response.credential)
+  //   setGoogleJwt(response.credential)
+  // }
 
   if (!googleJwt) {
     return <>
