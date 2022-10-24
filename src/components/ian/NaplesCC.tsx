@@ -12,7 +12,7 @@ export default () => {
     email="Ian.naplescc@gmail.com"
     name="Naples"
     phoneNumber="813-364-4546"
-    registrationLink="https://forms.gle/WZLCbGhoWfCfcxGf9"
+    registrationLink="https://forms.gle/QJiXAbRvm1DBgp7F7"
     areaOversight={[]}
     director={{
       name: 'President Joseph Lindsey',
