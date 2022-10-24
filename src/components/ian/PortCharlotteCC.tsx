@@ -31,11 +31,15 @@ export default () => <CommandCenter
     {
       name: 'Michael Lavoie',
       phoneNumber: '352-672-0455'
+    },
+    {
+      name: 'Eric Andres',
+      phoneNumber: '801-854-8368'
     }
   ]}
   director={{
-    name: 'Michael Lavoie',
-    phoneNumber: '352-672-0455'
+    name: 'Kieffer Marino',
+    phoneNumber: '904-609-4644'
   }}
   afterAssignments={<>
     <p>
