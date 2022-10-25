@@ -39,7 +39,6 @@ export default function CallCenterTrainingMaterials() {
         "Stake ECS Recommended Gear 02-27-2020 Final.docx",
         "Stake Emergency Council Response guidelines.pdf",
         "Temporal-Preparedness-Guide-NASE-Area-Guide.pdf",
-        "Temporary Use & Indemnity Agreement -  09-01-2019.docx",
         "Work Crew basics.pptx",
       ]
     },
