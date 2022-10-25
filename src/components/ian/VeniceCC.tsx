@@ -17,7 +17,7 @@ export default () => <CommandCenter
     'Near 3599 Laurel Rd E (south side of road)',
     'Venice, FL 34275'
   ]}
-  campingAddressLink="https://forms.gle/fBoGERG8Kb3ErgfU8"
+  campingAddressLink="https://goo.gl/maps/TKM3EJEAQaSVZEAH8"
   campingAddressNote={<a href="#camping">
     <Space>
       <CompassOutlined />
@@ -25,7 +25,7 @@ export default () => <CommandCenter
     </Space>
     </a>
   }
-  email="nase.command3@gmail.com"
+  email="ian.venicecc@gmail.com"
   assignedStakes={[
     'Charleston, SC',
     'Kingsland, GA',
@@ -35,8 +35,8 @@ export default () => <CommandCenter
     'Tifton, GA',
   ]}
   phoneNumber="813-761-3227"
-  registrationLink="https://forms.gle/ucgyChQHFRaACU95A"
-  closeoutFormLink="https://forms.gle/txjzPsop4ef4A6Tm9"
+  registrationLink="https://forms.gle/C2XHUCuusxwKGGNg6"
+  closeoutFormLink="https://forms.gle/C5jueip4z8YUZ7mT7"
   areaOversight={[
     {
       name: 'Craig Bell',

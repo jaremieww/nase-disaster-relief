@@ -18,11 +18,10 @@ export default () => <CommandCenter
   ]}
   email="nase.command2@gmail.com"
   assignedStakes={[
+    'Boynton Beach, FL',
     'Jacksonville, FL East',
     'Jacksonville, FL West',
     'Lake City, FL',
-    'Lakeland, FL',
-    'Leesburg, FL',
     'Ocala, FL',
   ]}
   phoneNumber="850-912-9756"

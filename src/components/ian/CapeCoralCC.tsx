@@ -25,7 +25,6 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Boynton Beach, FL',
     'Coral Springs, FL',
     'Fort Lauderdale, FL',
     'Fort Myers, FL',
