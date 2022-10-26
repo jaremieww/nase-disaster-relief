@@ -1,7 +1,6 @@
 import CommandCenter from "./CommandCenter";
-import { Image, Typography } from "antd";
+import { Typography } from "antd";
 import Address from "../Address";
-import { formatS3Url } from "../S3";
 
 const { Title } = Typography
 
