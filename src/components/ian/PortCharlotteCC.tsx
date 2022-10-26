@@ -12,14 +12,14 @@ export default () => <CommandCenter
     'Port Charlotte, FL 33952'
   ]}
   campingAddress={[
-    'Franz Ross Park',
-    '19333 Quesada Ave',
-    'Port Charlotte, FL 33948'
+    '1303 Forrest Nelson Blvd',
+    'Port Charlotte, FL 33952'
   ]}
   email="nase.command2@gmail.com"
   assignedStakes={[
     'Boynton Beach, FL',
     'Jacksonville, FL East',
+    'Jacksonville, FL South',
     'Jacksonville, FL West',
     'Lake City, FL',
     'Ocala, FL',
@@ -54,14 +54,12 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Port Charlotte commmand center is located about &frac14; of a mile from the command center at:</p>
+      <p>Camping for the Port Charlotte commmand center is located at the command center.</p>
       <Address address={[
-        'Franz Ross Park',
-        '19333 Quesada Ave',
-        'Port Charlotte, FL 33948'
+        '1303 Forrest Nelson Blvd',
+        'Port Charlotte, FL 33952'
       ]} />
-      <Image src={formatS3Url("ian/port-charlotte-camping-week-4.jpg")} style={{maxWidth: 400}} />
-      <p>Showers at the adjacent YMCA are available for use, as well as at the Command Center.</p>
+      <p>There is limited parking space at the command center. If you bring a camper or RV, please plan to find another location to park it.</p>
     </section>
   </>}
 />
