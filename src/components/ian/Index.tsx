@@ -18,15 +18,9 @@ export default () => {
       <img
         src={formatS3Url('ian/ian-satellite-800w.jpg')}
         alt="Hurricane Ian Satellite View"
-        style={{ maxWidth: '100%' }} />
+        style={{ maxWidth: 600 }} />
       <cite>Image courtesy of <PopoutLink href="https://earthobservatory.nasa.gov/images/150408/hurricane-ian-reaches-florida">NASA</PopoutLink></cite>
     </Space>
-
-    <Alert showIcon type="info" message="Weekend of October 1, 2022" description={
-      <Paragraph>
-        All vehicles must display the <S3Link path="ian/florida-dashboard-placard.pdf">vehicle placard.</S3Link>
-      </Paragraph>
-    } />
 
     <section>
       <Title level={3}>Command Centers</Title>
