@@ -1,4 +1,4 @@
-import { Alert, List, Space, Typography } from "antd"
+import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
 import PopoutLink from "../PopoutLink"
 
@@ -26,7 +26,6 @@ export default () => {
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
         <a href="/ian/cape-coral">Cape Coral</a>
-        <a href="/ian/naples">Naples</a>
         <a href="/ian/port-charlotte">Port Charlotte</a>
         <a href="/ian/venice">Venice</a>
       </Space>

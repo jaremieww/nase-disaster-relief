@@ -10,7 +10,6 @@ import CrewLeaderChecklist from './CrewLeaderChecklist'
 import CallCenterTrainingMaterials from './CallCenterTrainingMaterials'
 import CommandCenterTrainingMaterials from './CommandCenterTrainingMaterials';
 import IanIndex from './components/ian/Index'
-import NaplesCC from './components/ian/NaplesCC';
 import PortCharlotteCC from './components/ian/PortCharlotteCC';
 import CapeCoralCC from './components/ian/CapeCoralCC';
 import VeniceCC from './components/ian/VeniceCC';
@@ -32,7 +31,6 @@ ReactDOM.render(
           <Route path="ian">
             <Route path="cape-coral" element={<CapeCoralCC />} />
             <Route index element={<IanIndex />} />
-            <Route path="naples" element={<NaplesCC />} />
             <Route path="port-charlotte" element={<PortCharlotteCC />} />
             <Route path="venice" element={<VeniceCC />} />
           </Route>
