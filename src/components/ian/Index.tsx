@@ -2,7 +2,7 @@ import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
 import PopoutLink from "../PopoutLink"
 
-const { Paragraph, Title } = Typography
+const { Title } = Typography
 
 const files = [
   { title: 'Crisis Cleanup Flier - English', path: 'ian/cc-ian-english.jpg' },
