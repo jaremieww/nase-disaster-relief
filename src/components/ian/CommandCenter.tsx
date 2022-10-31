@@ -60,7 +60,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     contacts.push({
       title: 'Area ERC Oversight',
       body: <>
-        {props.areaOversight.map(x => <React.Fragment key={x.name}>
+        {props.areaOversight.length && props.areaOversight.map(x => <React.Fragment key={x.name}>
           {x.name}<br />
           <PhoneNumber phoneNumber={x.phoneNumber} /><br />
         </React.Fragment>)}

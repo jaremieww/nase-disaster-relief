@@ -25,23 +25,19 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Coral Springs, FL',
-    'Fort Lauderdale, FL',
     'Fort Myers, FL',
-    'Miami, FL',
-    'Miami Lakes, FL',
-    'Stuart, FL',
+    'Miami, FL South',
+    'Odessa, FL',
+    'Orlando, FL South',
+    'Vero Beach, FL',
   ]}
   phoneNumber="941-876-8088"
-  registrationLink="https://forms.gle/WX4hA4SfYsYMGzrh8"
+  registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
+  closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
   areaOversight={[
     {
-      name: 'Keith Nash',
-      phoneNumber: '770-820-8085'
-    },
-    {
-      name: 'Daryl Blount',
-      phoneNumber: '678-641-5957'
+      name: 'Brent Barnes',
+      phoneNumber: '865-748-4260'
     }
   ]}
   director={{

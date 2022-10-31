@@ -26,24 +26,24 @@ export default () => <CommandCenter
   </>}
   email="nase.command2@gmail.com"
   assignedStakes={[
-    'Boynton Beach, FL',
-    'Jacksonville, FL East',
-    'Jacksonville, FL South',
-    'Jacksonville, FL West',
-    'Lake City, FL',
-    'Ocala, FL',
+    'Brandon, FL',
+    'Cocoa, FL',
+    'Leesburg, FL',
+    'Orlando, FL West',
+    'St. Cloud, FL',
   ]}
   phoneNumber="850-912-9756"
-  registrationLink="https://forms.gle/9ZvBiXV59XHGd3JAA"
+  registrationLink="https://forms.gle/3f6XaS4yeTv1A8ZZ7"
+  closeoutFormLink="https://forms.gle/ZDcFXJVn3uMoccZJ6"
   areaOversight={[
     {
-      name: 'Eric Andres',
-      phoneNumber: '801-854-8368'
+      name: 'Krista Donohoe',
+      phoneNumber: '850-982-8499'
     }
   ]}
   director={{
-    name: 'Michael Lavoie',
-    phoneNumber: '352-672-0455'
+    name: 'Jacob Crosby',
+    phoneNumber: '813-763-0496'
   }}
   afterAssignments={<>
     <p>

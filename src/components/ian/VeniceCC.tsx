@@ -27,25 +27,20 @@ export default () => <CommandCenter
   }
   email="ian.venicecc@gmail.com"
   assignedStakes={[
-    'Charleston, SC',
-    'Kingsland, GA',
+    'Deland, FL',
     'Lake Mary, FL',
-    'Panama City, FL',
-    'Tallahassee, FL',
-    'Tifton, GA',
+    'Lakeland, FL',
+    'Orlando, FL',
+    'Sarasota, FL',
+    'St. Petersburg, FL',
   ]}
   phoneNumber="813-761-3227"
-  registrationLink="https://forms.gle/C2XHUCuusxwKGGNg6"
-  closeoutFormLink="https://forms.gle/C5jueip4z8YUZ7mT7"
-  areaOversight={[
-    {
-      name: 'Craig Bell',
-      phoneNumber: '801-616-1015'
-    }
-  ]}
+  registrationLink="https://forms.gle/4RxrNzreBYAQcJBA6"
+  closeoutFormLink="https://forms.gle/kXMHHspyycaaLaBe7"
+  areaOversight={[]}
   director={{
-    name: 'President Patrick Thornton',
-    phoneNumber: '813-477-0104'
+    name: 'President Rick Dreiling',
+    phoneNumber: '941-926-3004'
   }}
   afterAssignments={<>
 
