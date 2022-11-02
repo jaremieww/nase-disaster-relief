@@ -99,14 +99,6 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <Contacts contacts={contacts} />
 
-    <Alert showIcon type="warning" style={{ margin: '24px 0' }} message="Weekend of October 29-30, 2022" description={<>
-      <Paragraph>
-        Please come self sufficient with your own tools, food, water, gas, etc. Tools needed are chain saws, shovels, pry bars,
-        items that can help with a muck out, and ladders for tarping. Rakes will also be needed for debris cleanup.
-        The Command Center will have supplies to supplement what you have. However, ladders will not be available at the Command Center.
-      </Paragraph>
-    </>} />
-
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} closeoutFormLink={props.closeoutFormLink} />
     {props.afterAssignments}
     <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
