@@ -7,7 +7,7 @@ import Address from '../Address'
 import PhoneNumber from '../PhoneNumber'
 import EmailAddress from '../EmailAddress'
 
-const { Text, Title, Paragraph } = Typography
+const { Text, Title } = Typography
 
 export type CommandCenterProps = {
   name: string
