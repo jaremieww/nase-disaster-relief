@@ -4,12 +4,6 @@ import Address from "../Address";
 
 const { Title } = Typography
 
-const overflowCampingAddress = <Address address={[
-  'Suncoast Baptist Church',
-  '410 Warrington Blvd',
-  'Port Charlotte, FL'
-]} />
-
 export default () => <CommandCenter
   name="Port Charlotte"
   address={[
@@ -20,10 +14,6 @@ export default () => <CommandCenter
     '1303 Forrest Nelson Blvd',
     'Port Charlotte, FL 33952'
   ]}
-  campingAddressNote={<>
-    Overflow camping available at<br/>
-    {overflowCampingAddress}
-  </>}
   email="nase.command2@gmail.com"
   assignedStakes={[
     'Brandon, FL',
@@ -65,8 +55,6 @@ export default () => <CommandCenter
         'Port Charlotte, FL 33952'
       ]} />
       <p>There is limited parking space at the command center. If you bring a camper or RV, please plan to find another location to park it.</p>
-      <p>Overflow camping is available at</p>
-      {overflowCampingAddress}
     </section>
   </>}
 />
