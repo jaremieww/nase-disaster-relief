@@ -35,10 +35,6 @@ export default () => <CommandCenter
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
   closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
   areaOversight={[
-    {
-      name: 'Brent Barnes',
-      phoneNumber: '865-748-4260'
-    }
   ]}
   director={{
     name: 'President Ryan Henry',
