@@ -8,12 +8,14 @@ import Home from './Home'
 import Training from './Training'
 import CrewLeaderChecklist from './CrewLeaderChecklist'
 import CallCenterTrainingMaterials from './CallCenterTrainingMaterials'
-import CommandCenterTrainingMaterials from './CommandCenterTrainingMaterials';
+import CommandCenterTrainingMaterials from './CommandCenterTrainingMaterials'
 import IanIndex from './components/ian/Index'
-import PortCharlotteCC from './components/ian/PortCharlotteCC';
-import CapeCoralCC from './components/ian/CapeCoralCC';
-import VeniceCC from './components/ian/VeniceCC';
-import CommandCenter from './CommandCenter';
+import PortCharlotteCC from './components/ian/PortCharlotteCC'
+import CapeCoralCC from './components/ian/CapeCoralCC'
+import VeniceCC from './components/ian/VeniceCC'
+import CommandCenter from './CommandCenter'
+import AlTornadoesIndex from './components/al-tornadoes/Index'
+import PrattvilleCC from './components/al-tornadoes/PrattvilleCC'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -33,6 +35,10 @@ ReactDOM.render(
             <Route index element={<IanIndex />} />
             <Route path="port-charlotte" element={<PortCharlotteCC />} />
             <Route path="venice" element={<VeniceCC />} />
+          </Route>
+          <Route path="al-tornadoes">
+            <Route index element={<AlTornadoesIndex />} />
+            <Route path="prattville" element={<PrattvilleCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>
