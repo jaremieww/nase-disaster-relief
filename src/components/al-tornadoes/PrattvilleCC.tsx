@@ -5,22 +5,28 @@ export default () => <CommandCenter
     '2200 Cobbs Ford Road',
     'Prattville, Alabama 36066-7702'
   ]}
+  campingAddress={[
+    'TBD',
+    //'(tentative) YMCA of Prattville',
+    //'972 McQueen Smith Rd S',
+    //'Prattville, AL 36066'
+  ]}
   areaOversight={[{
-    name: 'TBD',
-    phoneNumber: 'TBD'
+    name: 'Krista Donohoe',
+    phoneNumber: '850-982-8499'
   }]}
   director={{
-    name: 'President Jared D. McLaughlin',
-    phoneNumber: '334-322-9015'
+    name: 'President Greg Spears',
+    phoneNumber: '334-717-6666'
   }}
   assignedStakes={[
-    'Montgomery, AL',
-    'Dothan, AL',
-    'Pensacola, FL',
-    'Mobile, AL',
-    'Tuscaloosa, AL',
     'Birmingham, AL',
+    'Columbus, GA',
+    'Dothan, AL',
     'Gadsden, AL',
+    'Mobile, AL',
+    'Montgomery, AL',
+    'Tuscaloosa, AL',
     'Other'
 
   ]}
