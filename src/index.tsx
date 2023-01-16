@@ -13,7 +13,6 @@ import IanIndex from './components/ian/Index'
 import PortCharlotteCC from './components/ian/PortCharlotteCC'
 import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
-import CommandCenter from './CommandCenter'
 import AlTornadoesIndex from './components/al-tornadoes/Index'
 import PrattvilleCC from './components/al-tornadoes/PrattvilleCC'
 
@@ -28,7 +27,6 @@ ReactDOM.render(
           <Route path="crew-leader-checklist" element={<CrewLeaderChecklist />} />
           <Route path="call-center" element={<CallCenterTrainingMaterials />} />
           <Route path="command-center" element={<CommandCenterTrainingMaterials />} />
-          <Route path="cc" element={<CommandCenter />} />
           
           <Route path="ian">
             <Route path="cape-coral" element={<CapeCoralCC />} />

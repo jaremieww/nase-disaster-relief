@@ -138,7 +138,7 @@ const Assignments = ({ assignedStakes, commandCenterName, registrationLink, clos
 
     <p>
       <Text type="success">All teams must check into the Command Center assigned&mdash;<em>No exceptions</em></Text><br />
-      Remember to pick up your helping hands T-shirts and register (if not done so)
+      Remember to pick up your branded yellow T-shirts and register (if not done so)
     </p>
 
     <p>Teams can start showing up Friday evening and get checked in starting at 6pm.</p>

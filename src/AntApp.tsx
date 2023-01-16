@@ -15,7 +15,7 @@ export default function AntApp() {
   return <Layout className="layout">
     <Header>
       <div className="logo">
-        <Link to="/" style={{ color: 'inherit' }}>Helping Hands</Link>
+        <Link to="/" style={{ color: 'inherit' }}>NASE Disaster Relief</Link>
       </div>
       <Menu
         theme="dark"
