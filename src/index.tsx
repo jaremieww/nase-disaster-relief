@@ -13,7 +13,6 @@ import IanIndex from './components/ian/Index'
 import PortCharlotteCC from './components/ian/PortCharlotteCC'
 import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
-import AlTornadoesIndex from './components/al-tornadoes/Index'
 import PrattvilleCC from './components/al-tornadoes/PrattvilleCC'
 
 ReactDOM.render(
@@ -35,7 +34,7 @@ ReactDOM.render(
             <Route path="venice" element={<VeniceCC />} />
           </Route>
           <Route path="al-tornadoes">
-            <Route index element={<AlTornadoesIndex />} />
+            <Route index element={<PrattvilleCC />} />
             <Route path="prattville" element={<PrattvilleCC />} />
           </Route>
           <Route index element={<Home />} />

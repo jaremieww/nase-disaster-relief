@@ -215,6 +215,7 @@ function CheckIn({ registrationLink, location }: CheckInProps) {
     <p>When arriving at the command center, team captains check in and:</p>
     <ul>
       <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
+      <li>If you have pre-registered and have all of the supplies you need (including yellow T-shirts), there is no need to physically report to the command center. However, please do remember to return and report on the work you complete.</li>
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
       <li>Receive or report mandatory training at the Command Center in {location}. The training videos can be viewed online (see links above).</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
@@ -236,6 +237,8 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
 
 
     <Title level={5}>Safety &amp; Skills</Title>
+    <p>The weather forecase for the weekend of January 21-22 is calling for cold and rainy weather. Please be prepared to work in the conditions.</p>
+
     <p>If a work team receives a work order or requrest to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
       We are an unskilled volunteer workforce providing basic labor and moral support.
       <strong>There is no expectation that we undertake hazardous or specialized work.</strong>&nbsp;
@@ -248,15 +251,15 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
     </p>
 
     <Title level={5}>Camping</Title>
-    <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+    <p>Portable toilets, showers, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <Title level={5}>Be Self-Sustaining</Title>
-    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
+    <p>Bring food, water, and camping supplies. Use portable toilets and avoid going into the building.</p>
 
     <Title level={5}>Command Center Supplies</Title>
     <p>
       There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the command center.
-      Bring your own if possible. Water boots are recommended due to flooding in some areas.
+      Bring your own if possible.
     </p>
 
     <Title level={5}>Age &amp; Health Restrictions</Title>
