@@ -11,10 +11,16 @@ export default () => <CommandCenter
     //'972 McQueen Smith Rd S',
     //'Prattville, AL 36066'
   ]}
-  areaOversight={[{
-    name: 'Krista Donohoe',
-    phoneNumber: '850-982-8499'
-  }]}
+  areaOversight={[
+    {
+      name: 'Krista Donohoe',
+      phoneNumber: '850-982-8499'
+    },
+    {
+      name: 'Brent Barnes',
+      phoneNumber: '865-748-4260'
+    }
+  ]}
   director={{
     name: 'President Greg Spears',
     phoneNumber: '334-717-6666'
