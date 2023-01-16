@@ -215,7 +215,7 @@ function CheckIn({ registrationLink, location }: CheckInProps) {
     <p>When arriving at the command center, team captains check in and:</p>
     <ul>
       <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
-      <li>If you have pre-registered and have all of the supplies you need (including yellow T-shirts), there is no need to physically report to the command center. However, please do remember to return and report on the work you complete.</li>
+      <li>If you have pre-registered and have all of the supplies you need (including yellow T-shirts), there is no need to physically report to the command center. However, please do remember to <a href="#return-and-report">report the work you complete.</a></li>
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
       <li>Receive or report mandatory training at the Command Center in {location}. The training videos can be viewed online (see links above).</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
@@ -237,7 +237,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
 
 
     <Title level={5}>Safety &amp; Skills</Title>
-    <p>The weather forecase for the weekend of January 21-22 is calling for cold and rainy weather. Please be prepared to work in the conditions.</p>
+    <p>The weather forecast for the weekend of January 21-22 is calling for cold and rainy weather. Please be prepared to work in these conditions.</p>
 
     <p>If a work team receives a work order or requrest to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
       We are an unskilled volunteer workforce providing basic labor and moral support.
@@ -304,7 +304,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
       <li>Call the Command Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
       <li>Return to the command center to receive more work orders and supplies if needed.</li>
-      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
+      <li id="return-and-report"><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
     </ol>
 
     <Title level={5}>Be sure to separate debris types on the side of the road</Title>
