@@ -6,10 +6,9 @@ export default () => <CommandCenter
     'Prattville, Alabama 36066-7702'
   ]}
   campingAddress={[
-    'TBD',
-    //'(tentative) YMCA of Prattville',
-    //'972 McQueen Smith Rd S',
-    //'Prattville, AL 36066'
+    'YMCA of Prattville',
+    '972 McQueen Smith Rd S',
+    'Prattville, AL 36066'
   ]}
   areaOversight={[
     {
