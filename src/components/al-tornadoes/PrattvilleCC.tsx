@@ -1,3 +1,6 @@
+import { Space } from 'antd'
+import { CompassOutlined } from '@ant-design/icons';
+import { S3Link } from '../S3';
 import CommandCenter from './CommandCenter';
 
 export default () => <CommandCenter
@@ -10,6 +13,9 @@ export default () => <CommandCenter
     '972 McQueen Smith Rd S',
     'Prattville, AL 36066'
   ]}
+  campingAddressNote={
+    <S3Link path="al-tornadoes/camping-maps.pdf"><Space><CompassOutlined />Campsite, RV, and Large Equipment Maps</Space></S3Link>
+  }
   areaOversight={[
     {
       name: 'Krista Donohoe',

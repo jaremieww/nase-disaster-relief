@@ -258,8 +258,14 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
 
     <Title level={5}>Command Center Supplies</Title>
     <p>
-      There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the command center.
-      Bring your own if possible.
+      There will be bottled water, T-shirts, shovels, rakes, gloves, tarps, fir strips, hammers, cleaning kits, first aid kits, and eye protection at the command center.
+      The following items are very limited at the command center: 
+      <ul>
+        <li>Sleds and wheelbarrows (for limb/debris removal)</li>  
+        <li>Ladders</li>
+        <li>Chainsaws and chainsaw supplies</li>
+      </ul>
+       Please do all you can to bring your own or those collected from previous events.
     </p>
 
     <Title level={5}>Age &amp; Health Restrictions</Title>
