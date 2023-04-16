@@ -39,8 +39,8 @@ export default () => <CommandCenter
   closeoutFormLink="https://forms.gle/kXMHHspyycaaLaBe7"
   areaOversight={[]}
   director={{
-    name: 'President Rick Dreiling',
-    phoneNumber: '941-773-4163'
+    name: '',
+    phoneNumber: ''
   }}
   afterAssignments={<>
 

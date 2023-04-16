@@ -37,8 +37,8 @@ export default () => <CommandCenter
   areaOversight={[
   ]}
   director={{
-    name: 'President Ryan Henry',
-    phoneNumber: '813-245-3568'
+    name: '',
+    phoneNumber: ''
   }}
   afterAssignments={<>
     <p>

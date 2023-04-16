@@ -18,17 +18,17 @@ export default () => <CommandCenter
   }
   areaOversight={[
     {
-      name: 'Krista Donohoe',
-      phoneNumber: '850-982-8499'
+      name: '',
+      phoneNumber: ''
     },
     {
-      name: 'Brent Barnes',
-      phoneNumber: '865-748-4260'
+      name: '',
+      phoneNumber: ''
     }
   ]}
   director={{
-    name: 'President Greg Spears',
-    phoneNumber: '334-717-6666'
+    name: '',
+    phoneNumber: ''
   }}
   assignedStakes={[
     'Birmingham, AL',
