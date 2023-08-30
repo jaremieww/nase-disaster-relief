@@ -18,7 +18,7 @@ export default () => {
         src={formatS3Url('idalia/idalia.jpeg')}
         alt="Hurricane Idalia Satellite View"
         style={{ maxWidth: 600 }} />
-      <cite>Image courtesy of <PopoutLink href="https://nhc.hoaa.gov">NHC</PopoutLink></cite>
+      <cite>Image courtesy of <PopoutLink href="https://nhc.noaa.gov">NHC</PopoutLink></cite>
     </Space>
 
     <section>
