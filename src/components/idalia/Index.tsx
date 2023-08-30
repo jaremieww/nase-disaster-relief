@@ -5,8 +5,8 @@ import PopoutLink from "../PopoutLink"
 const { Title } = Typography
 
 const files = [
-  { title: 'Crisis Cleanup Flier - English', path: 'idalia/cc-ian-english.jpg' },
-  { title: 'Folleto de Crisis Cleanup - Español', path: 'idalia/cc-ian-spanish.jpg' },
+  { title: 'Crisis Cleanup Flier - English', path: 'idalia/cc_idalia_en.jpg' },
+  { title: 'Folleto de Crisis Cleanup - Español', path: 'idalia/cc_idalia_es.jpg' },
 ]
 
 export default () => {
