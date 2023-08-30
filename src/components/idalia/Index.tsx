@@ -23,7 +23,7 @@ export default () => {
 
     <section>
       <Title level={3}>Command Centers</Title>
-      <Alert message="More information on command centers is will be available soon.">
+      <Alert message="More information on command centers will be available soon.">
       </Alert>
       {/* <Space direction="vertical">
         <a href="/idalia/cc1">Command Center 1</a>
