@@ -3,7 +3,7 @@ import { Layout, Menu } from 'antd'
 import 'antd/dist/antd.min.css'
 import './AntApp.css'
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
-import { BsTornado } from 'react-icons/bs'
+import { BsHurricane } from 'react-icons/bs'
 import Icon from '@ant-design/icons'
 
 const { Header, Content } = Layout
@@ -21,7 +21,7 @@ export default function AntApp() {
         theme="dark"
         mode="horizontal"
         items={[
-          { key: 'al-tornadoes', label: 'Central Alabama Tornadoes', icon: <Icon component={BsTornado} />  },
+          { key: 'idalia', label: 'Hurricane Idalia', icon: <Icon component={BsHurricane} />  },
           { key: 'crew-leader-checklist', label: 'Crew Leader Checklist' },
           { key: 'training', label: 'Training Materials' },
           { key: 'call-center', label: 'Call Center Training' },

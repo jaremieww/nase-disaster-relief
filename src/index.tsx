@@ -14,6 +14,10 @@ import PortCharlotteCC from './components/ian/PortCharlotteCC'
 import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
 import PrattvilleCC from './components/al-tornadoes/PrattvilleCC'
+import IdaliaIndex from './components/idalia/Index'
+import IdaliaCC1 from './components/idalia/CC1'
+import IdaliaCC2 from './components/idalia/CC2'
+import IdaliaCC3 from './components/idalia/CC3'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +40,12 @@ ReactDOM.render(
           <Route path="al-tornadoes">
             <Route index element={<PrattvilleCC />} />
             <Route path="prattville" element={<PrattvilleCC />} />
+          </Route>
+          <Route path="idalia">
+            <Route path="cc1" element={<IdaliaCC1 />} />
+            <Route path="cc2" element={<IdaliaCC2 />} />
+            <Route path="cc3" element={<IdaliaCC3 />} />
+            <Route index element={<IdaliaIndex />} />
           </Route>
           <Route index element={<Home />} />
         </Route>
