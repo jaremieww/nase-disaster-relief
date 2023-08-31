@@ -14,7 +14,7 @@ export default () => <CommandCenter
     'Lake City, FL',
     'Orland, FL',
   ]}
-  phoneNumber="TBD"
+  phoneNumber="(352) 405-5764"
   registrationLink="https://forms.gle/aaNQdeAetRFqeQhT6"
   closeoutFormLink="https://forms.gle/hqcPSsqRYtzTy15fA"
   areaOversight={[
