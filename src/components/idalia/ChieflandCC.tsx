@@ -19,7 +19,7 @@ export default () => <CommandCenter
     'Leesburg, FL',
     'Orlando, FL West',
   ]}
-  phoneNumber="TBD"
+  phoneNumber="(352) 559-2335"
   registrationLink="https://forms.gle/W18U1kCuA7nx8fCe8"
   closeoutFormLink="https://forms.gle/Z5fBjdNDVg25GLUG7"
   areaOversight={[
