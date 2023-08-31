@@ -36,7 +36,7 @@ export default () => <CommandCenter
   additionalInformation={
     <section>
       <h3>Command Center Layout</h3>
-      <img src={s3Url('/idalia/lake-city-cc-layout.jpg')} style={{maxWidth: '100%'}} />
+      <img src={s3Url('/idalia/lake-city-cc-layout.jpg')} alt="Lake City Command Center Layout" style={{maxWidth: '100%'}} />
     </section>
   }
 />
