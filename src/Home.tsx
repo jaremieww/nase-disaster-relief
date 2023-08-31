@@ -45,6 +45,7 @@ export default function Home() {
     <Space direction="vertical">
       <Link to="command-center"><Space><AlertOutlined />Command Center</Space></Link>
       <Link to="call-center"><Space><PhoneOutlined />Call Center</Space></Link>
+      <Link to="communications"><Space>Communications</Space></Link>
     </Space>
   </>
 }

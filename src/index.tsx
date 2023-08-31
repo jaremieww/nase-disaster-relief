@@ -18,6 +18,7 @@ import IdaliaIndex from './components/idalia/Index'
 import MadisonCC from './components/idalia/MadisonCC'
 import LakeCityCC from './components/idalia/LakeCityCC'
 import ChieflandCC from './components/idalia/ChieflandCC'
+import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +30,7 @@ ReactDOM.render(
           <Route path="training" element={<Training />} />
           <Route path="crew-leader-checklist" element={<CrewLeaderChecklist />} />
           <Route path="call-center" element={<CallCenterTrainingMaterials />} />
+          <Route path="communications" element={<CommunicationsTrainingMaterials />} />
           <Route path="command-center" element={<CommandCenterTrainingMaterials />} />
           
           <Route path="ian">

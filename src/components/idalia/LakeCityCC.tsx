@@ -21,7 +21,7 @@ export default () => <CommandCenter
     'Lake City, FL',
     'Orland, FL',
   ]}
-  phoneNumber="(352) 405-5764"
+  phoneNumber="(352) 558-9775"
   registrationLink="https://forms.gle/aaNQdeAetRFqeQhT6"
   closeoutFormLink="https://forms.gle/hqcPSsqRYtzTy15fA"
   areaOversight={[
