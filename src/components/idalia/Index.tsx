@@ -5,6 +5,7 @@ import PopoutLink from "../PopoutLink"
 const { Title } = Typography
 
 const files = [
+  { title: 'Florida ESF Vehicle Placard', path: 'idalia/esf-15.pdf' },
   { title: 'Crisis Cleanup Flier - English', path: 'idalia/cc_idalia_en.jpg' },
   { title: 'Folleto de Crisis Cleanup - Español', path: 'idalia/cc_idalia_es.jpg' },
 ]
