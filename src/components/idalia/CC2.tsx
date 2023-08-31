@@ -1,34 +1,30 @@
 import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter
-  name="Command Center 2"
+  name="Lake City"
   address={[
-    'TBD',
-    'TBD'
+    '909 SE Country Club Rd',
+    'Lake City, FL 32025-3301'
   ]}
-  campingAddress={[
-    'TBD',
-    'TBD'
-  ]}
-  email="nase.command2@gmail.com"
+  email="nase.idalia2@gmail.com"
   assignedStakes={[
-    'TBD',
-    'TBD',
-    'TBD',
-    'TBD',
-    'TBD',
+    'Deland, FL',
+    'Jacksonville, FL East',
+    'Jacksonville, FL South',
+    'Lake City, FL',
+    'Orland, FL',
   ]}
   phoneNumber="TBD"
-  registrationLink="https://forms.gle/3f6XaS4yeTv1A8ZZ7"
-  closeoutFormLink="https://forms.gle/ZDcFXJVn3uMoccZJ6"
+  registrationLink="https://forms.gle/aaNQdeAetRFqeQhT6"
+  closeoutFormLink="https://forms.gle/hqcPSsqRYtzTy15fA"
   areaOversight={[
     {
-      name: '',
-      phoneNumber: ''
+      name: 'Eric Andres',
+      phoneNumber: '(801) 854-8368'
     }
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Pres. Michael Lavoie',
+    phoneNumber: '(352) 672-0455'
   }}
 />

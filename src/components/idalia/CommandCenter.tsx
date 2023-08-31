@@ -1,7 +1,6 @@
 import { Alert, Button, Card, List, Space, Typography } from 'antd'
 import { CheckCircleOutlined, ClockCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
-import { S3Link } from "../S3"
 import React, { ReactNode } from 'react'
 import Address from '../Address'
 import PhoneNumber from '../PhoneNumber'
@@ -216,7 +215,7 @@ function CheckIn({ registrationLink, location }: CheckInProps) {
     <p>When arriving at the command center, team captains check in and:</p>
     <ul>
       <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
-      <li style={{backgroundColor: 'magenta'}}><S3Link path="idalia/florida-dashboard-placard.pdf">Print a vehicle placard</S3Link> to put in dash of each vehicle.</li>
+      {/* <li><S3Link path="idalia/florida-dashboard-placard.pdf">Print a vehicle placard</S3Link> to put in dash of each vehicle.</li> */}
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
       <li>Receive or report mandatory training at the Command Center in {location}. The training videos can be viewed online (see links above).</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
@@ -245,15 +244,20 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
     </p>
 
     <Title level={5}>Work Hours</Title>
-    <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
-      Command Center hours are 7am-10pm.
+    <p>
+      Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
+      Command Center hours are 7am-10pm. For Labor Day weekend, teams may choose to additionally work on Monday.
     </p>
 
     <Title level={5}>Camping</Title>
     <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <Title level={5}>Be Self-Sustaining</Title>
-    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
+    <p>
+      Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.
+      Check <PopoutLink href="https://gasbuddy.com">GasBuddy</PopoutLink> for fuel availability.
+      Use Google Maps to download area maps before coming to the work site, since internet connectivity is not guaranteed in the field.
+    </p>
 
     <Title level={5}>Command Center Supplies</Title>
     <p>
