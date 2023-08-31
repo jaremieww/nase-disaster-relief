@@ -8,11 +8,11 @@ export default () => <CommandCenter
   ]}
   email="nase.idalia3@gmail.com"
   assignedStakes={[
-    'Dothan, AL',
-    'Fort Walton Beach, FL',
-    'Panama City, FL',
-    'Pensacola, FL',
-    'Tallahassee, FL',
+    'Gainesville, FL',
+    'Jacksonville, FL West',
+    'Lake Mary, FL',
+    'Leesburg, FL',
+    'Orlando, FL West',
   ]}
   phoneNumber="TBD"
   registrationLink="https://forms.gle/W18U1kCuA7nx8fCe8"
