@@ -6,6 +6,10 @@ export default () => <CommandCenter
     '215 NE 8th St',
     'Chiefland, FL 32626-1051'
   ]}
+  campingAddress={[
+    '2340 Old Fannin Rd',
+    'Chiefland, FL 32626'
+  ]}
   email="nase.idalia3@gmail.com"
   assignedStakes={[
     'Gainesville, FL',
