@@ -24,9 +24,9 @@ export default () => {
     <section>
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
-        <a href="/idalia/cc1">Madison Command Center</a>
-        <a href="/idalia/cc2">Lake City Command Center</a>
-        <a href="/idalia/cc3">Chiefland Command Center</a>
+        <a href="/idalia/madison">Madison Command Center</a>
+        <a href="/idalia/lake-city">Lake City Command Center</a>
+        <a href="/idalia/chiefland">Chiefland Command Center</a>
       </Space>
     </section>
 

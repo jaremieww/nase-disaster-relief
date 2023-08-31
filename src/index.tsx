@@ -15,9 +15,9 @@ import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
 import PrattvilleCC from './components/al-tornadoes/PrattvilleCC'
 import IdaliaIndex from './components/idalia/Index'
-import IdaliaCC1 from './components/idalia/CC1'
-import IdaliaCC2 from './components/idalia/CC2'
-import IdaliaCC3 from './components/idalia/CC3'
+import MadisonCC from './components/idalia/MadisonCC'
+import LakeCityCC from './components/idalia/LakeCityCC'
+import ChieflandCC from './components/idalia/ChieflandCC'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -42,9 +42,9 @@ ReactDOM.render(
             <Route path="prattville" element={<PrattvilleCC />} />
           </Route>
           <Route path="idalia">
-            <Route path="cc1" element={<IdaliaCC1 />} />
-            <Route path="cc2" element={<IdaliaCC2 />} />
-            <Route path="cc3" element={<IdaliaCC3 />} />
+            <Route path="madison" element={<MadisonCC />} />
+            <Route path="lake-city" element={<LakeCityCC />} />
+            <Route path="chiefland" element={<ChieflandCC />} />
             <Route index element={<IdaliaIndex />} />
           </Route>
           <Route index element={<Home />} />
