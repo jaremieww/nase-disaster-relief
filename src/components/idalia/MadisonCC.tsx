@@ -6,6 +6,11 @@ export default () => <CommandCenter
     '1374 W Base St',
     'Madison, FL 32340-1416'
   ]}
+  campingAddress={[
+    'Lanier Field',
+    '281 NW Crane Ave',
+    'Madison, FL 32340'
+  ]}
   email="nase.command1@gmail.com"
   assignedStakes={[
     'Dothan, AL',
@@ -14,7 +19,7 @@ export default () => <CommandCenter
     'Pensacola, FL',
     'Tallahassee, FL',
   ]}
-  phoneNumber="TBD"
+  phoneNumber="(352) 247-2490"
   registrationLink="https://forms.gle/immWuircbdi4asgu7"
   closeoutFormLink="https://forms.gle/abMTwz9bvZSvj8eu7"
   areaOversight={[
