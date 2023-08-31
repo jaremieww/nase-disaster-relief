@@ -12,6 +12,7 @@ export default () => <CommandCenter
     '1579 NW Lake Jeffery Rd',
     'Lake City, FL 32055'
   ]}
+  campingAddressNote="Camp site has plenty of room for RVs and campers"
   email="nase.idalia2@gmail.com"
   assignedStakes={[
     'Deland, FL',
