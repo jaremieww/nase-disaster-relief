@@ -43,8 +43,11 @@ ReactDOM.render(
           </Route>
           <Route path="idalia">
             <Route path="madison" element={<MadisonCC />} />
+            <Route path="cc1" element={<MadisonCC />} />
             <Route path="lake-city" element={<LakeCityCC />} />
+            <Route path="cc2" element={<LakeCityCC />} />
             <Route path="chiefland" element={<ChieflandCC />} />
+            <Route path="cc3" element={<ChieflandCC />} />
             <Route index element={<IdaliaIndex />} />
           </Route>
           <Route index element={<Home />} />
