@@ -19,7 +19,7 @@ export default () => <CommandCenter
     'Jacksonville, FL East',
     'Jacksonville, FL South',
     'Lake City, FL',
-    'Orland, FL',
+    'Orlando, FL',
   ]}
   phoneNumber="(352) 558-9775"
   registrationLink="https://forms.gle/aaNQdeAetRFqeQhT6"
