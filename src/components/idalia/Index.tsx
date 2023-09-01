@@ -8,7 +8,7 @@ const files = [
   { title: 'Florida ESF Vehicle Placard', path: 'idalia/esf-15.pdf' },
   { title: 'Crisis Cleanup Flier - English', path: 'idalia/cc_idalia_en.jpg' },
   { title: 'Folleto de Crisis Cleanup - Español', path: 'idalia/cc_idalia_es.jpg' },
-  { title: 'Crisis Cleanup First Responsers Flyer', path: 'idalia/first-responder-flyer.pdf' }
+  { title: 'Crisis Cleanup First Responders Flyer', path: 'idalia/first-responder-flyer.pdf' }
 ]
 
 export default () => {
