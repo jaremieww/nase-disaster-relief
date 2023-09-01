@@ -34,6 +34,6 @@ export default () => <CommandCenter
   ]}
   director={{
     name: 'Pres. Brian Flynn',
-    phoneNumber: '(334) 749-0951'
+    phoneNumber: '(404) 547-6203'
   }}
 />
