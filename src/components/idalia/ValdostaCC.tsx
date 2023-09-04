@@ -25,8 +25,8 @@ export const ValdostaCC = () => <CommandCenter
   email='nase.idalia4@gmail.com'
   name='Valdosta'
   phoneNumber='(352) 320-3239'
-  registrationLink='https://forms.gle/oCs4h7eNeMhB8VRv9'
-  closeoutFormLink='https://forms.gle/T3e6MkmTpYjMGyPZ9'
+  registrationLink='https://forms.gle/31ZNjz3rhE8GHCkG6'
+  closeoutFormLink='https://forms.gle/wiLnTMtpVBLJ2eXU7'
   campingAddress={['TBD']}
   // director={{
   //   name: 'Pres. Jordan Jewkes',
