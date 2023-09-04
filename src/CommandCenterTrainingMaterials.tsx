@@ -10,7 +10,12 @@ const { Title } = Typography
 
 type TrainingLink = { title: string, href: string, icon?: ReactNode }
 type TrainingItem = string | TrainingLink
-type Role = { title: string, files: TrainingItem[], icon?: ReactNode, pathPrefix: string }
+type Role = { 
+  title: string
+  files: TrainingItem[]
+  icon?: ReactNode
+  pathPrefix: string
+}
 
 const isTrainingLink = (item: TrainingItem): item is TrainingLink => {
   const link = item as TrainingLink
@@ -94,12 +99,18 @@ export default function CallCenterTrainingMaterials() {
       icon: <Icon component={FaMicrophone} />,
       pathPrefix: 'command-center/positions/stake-communications',
       files: [
-        "Communication council assistance to stake president_Disaster Response 02-11-2022 (1).pdf",
-        "Communications (PA)  Disaster Doc with highlights and  list 2020 (1) (2).docx",
-        "Community Presentation-LDS Disaster Response.pptx",
-        "Disaster Relief Partnership with Govt.pptx",
-        "Disaster Relief Spokesperson Preparation.docx",
         "Emergency Outreach PDF.pdf",
+        "Just Serve Overview - Disaster Response.pdf",
+        {
+          title: 'Communcation Disaster Relief Training',
+          href: 'https://gcn.churchofjesuschrist.org/nase-pan/topics-all?lang=eng#:~:text=Disaster%20Response%20Training%20%26%20Resources',
+          icon: <Icon component={FaMicrophone} />
+        },
+        {
+          title: 'Name Reference Guid: Disaster Relief Efforts',
+          href: 'https://docs.google.com/presentation/d/1tBV3ileNdq5XUuyB3vH7SxY4udRwaLYl9VQks55prmQ/edit?usp=sharing',
+          icon: <Icon component={FaFilePowerpoint} />
+        }
       ]
     },
     {
