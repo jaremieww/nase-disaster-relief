@@ -23,7 +23,7 @@ export const ValdostaCC = () => <CommandCenter
   ]}
   email='nase.idalia4@gmail.com'
   name='Valdosta'
-  phoneNumber='TBD'
+  phoneNumber='(352) 320-3239'
   registrationLink='https://forms.gle/oCs4h7eNeMhB8VRv9'
   closeoutFormLink='https://forms.gle/T3e6MkmTpYjMGyPZ9'
   campingAddress={['TBD']}
