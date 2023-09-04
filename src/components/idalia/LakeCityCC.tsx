@@ -15,19 +15,21 @@ export default () => <CommandCenter
   campingAddressNote="Camp site has plenty of room for RVs and campers"
   email="nase.idalia2@gmail.com"
   assignedStakes={[
-    'Deland, FL',
-    'Jacksonville, FL East',
+    'Cocoa, FL',
     'Jacksonville, FL South',
     'Lake City, FL',
-    'Orlando, FL',
+    'Lakeland, FL',
+    'Orlando, FL South',
+    'Stuart, FL',
+    'Vero Beach, FL',
   ]}
   phoneNumber="(352) 558-9605"
-  registrationLink="https://forms.gle/aaNQdeAetRFqeQhT6"
+  registrationLink="https://forms.gle/zNmj6crPgsRbzZgz9"
   closeoutFormLink="https://forms.gle/hqcPSsqRYtzTy15fA"
   areaOversight={[
     {
-      name: 'Eric Andres',
-      phoneNumber: '(801) 854-8368'
+      name: 'Craig Bell',
+      phoneNumber: '(801) 616-1015'
     }
   ]}
   director={{

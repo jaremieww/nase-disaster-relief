@@ -13,15 +13,15 @@ export default () => <CommandCenter
   ]}
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Dothan, AL',
-    'Fort Walton Beach, FL',
+    'Columbus, GA',
+    'Macon, GA',
     'Panama City, FL',
-    'Pensacola, FL',
+    'Powder Springs, GA',
     'Tallahassee, FL',
   ]}
   phoneNumber="(352) 247-2490"
-  registrationLink="https://forms.gle/immWuircbdi4asgu7"
-  closeoutFormLink="https://forms.gle/abMTwz9bvZSvj8eu7"
+  registrationLink="https://forms.gle/7w9VKh49DNtSZ24o6"
+  closeoutFormLink="https://forms.gle/L59YpSxU4RAtpxVb8"
   areaOversight={[
     {
       name: 'Krista Donohoe',
@@ -33,8 +33,8 @@ export default () => <CommandCenter
     }
   ]}
   director={{
-    name: 'Pres. Jacob Fish',
-    phoneNumber: '(850) 624-3055'
+    name: 'Pres. Aaron Holloway',
+    phoneNumber: '(850) 694-8555'
   }}
   sacramentLocation='campsite'
 />

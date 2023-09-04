@@ -13,15 +13,16 @@ export default () => <CommandCenter
   campingAddressNote="Work crews should arrive to the camp site. The command center has limited space, so please keep traffic there to a minimum."
   email="nase.idalia3@gmail.com"
   assignedStakes={[
+    'Boynton Beach, FL',
+    'Coral Springs, FL',
+    'Naples, FL',
     'Gainesville, FL',
     'Jacksonville, FL West',
-    'Lake Mary, FL',
-    'Leesburg, FL',
-    'Orlando, FL West',
+    'St. Cloud, FL',
   ]}
   phoneNumber="(352) 559-2335"
-  registrationLink="https://forms.gle/W18U1kCuA7nx8fCe8"
-  closeoutFormLink="https://forms.gle/Z5fBjdNDVg25GLUG7"
+  registrationLink="https://forms.gle/KEdyZfKF2aHZ7AbJ7"
+  closeoutFormLink="https://forms.gle/zz1dPtjDF4nv8aSj8"
   areaOversight={[
     {
       name: 'Keith Nash',
