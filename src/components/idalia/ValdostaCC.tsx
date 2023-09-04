@@ -27,10 +27,10 @@ export const ValdostaCC = () => <CommandCenter
   registrationLink='https://forms.gle/oCs4h7eNeMhB8VRv9'
   closeoutFormLink='https://forms.gle/T3e6MkmTpYjMGyPZ9'
   campingAddress={['TBD']}
-  director={{
-    name: 'Pres. Jordan Jewkes',
-    phoneNumber: '(404) 803-1832',
-  }}
+  // director={{
+  //   name: 'Pres. Jordan Jewkes',
+  //   phoneNumber: '(404) 803-1832',
+  // }}
   sacramentLocation='command-center'
 />
 export default ValdostaCC
