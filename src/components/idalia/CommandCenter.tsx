@@ -19,7 +19,8 @@ export type CommandCenterProps = {
   campingAddressNote?: ReactNode
   registrationLink: string
   closeoutFormLink?: string
-  sacramentLocation: 'command-center' | 'campsite'
+  sacramentLocation?: 'command-center' | 'campsite'
+  sacramentTime?: string
 
   director?: {
     name: string
@@ -119,7 +120,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       closeoutFormLink={props.closeoutFormLink} 
     />
     {props.additionalInformation}
-    { props.sundayServices ?? <SundayServices location={props.sacramentLocation}/> }
+    { props.sundayServices ?? <SundayServices location={props.sacramentLocation} time={props.sacramentTime}/> }
   </>
 }
 export default CommandCenter
@@ -258,7 +259,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
     <Title level={5}>Work Hours</Title>
     <p>
       Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
-      Command Center hours are 7am-10pm. For Labor Day weekend, teams may choose to additionally work on Monday.
+      Command Center hours are 7am-10pm.
     </p>
 
     <Title level={5}>Camping</Title>
@@ -327,12 +328,12 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
   </section>
 }
 
-function SundayServices({location = 'command-center'}: {location?: 'command-center' | 'campsite' }) {
+function SundayServices({location = 'command-center', time = '7:30 AM'}: {location?: 'command-center' | 'campsite', time?: string }) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
 
     <p>
-      A short Sacrament meeting will be held at the {location === 'command-center' ? 'command center' : 'campsite'} on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the {location === 'command-center' ? 'command center' : 'campsite'} on Sunday morning at {time}. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>
 }

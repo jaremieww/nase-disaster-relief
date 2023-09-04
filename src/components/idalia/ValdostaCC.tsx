@@ -1,3 +1,4 @@
+import { s3Url } from '../../lib/s3';
 import CommandCenter from './CommandCenter';
 
 export const ValdostaCC = () => <CommandCenter 
@@ -32,5 +33,12 @@ export const ValdostaCC = () => <CommandCenter
   //   phoneNumber: '(404) 803-1832',
   // }}
   sacramentLocation='command-center'
+  sacramentTime='8:00 AM'
+  additionalInformation={
+    <section>
+      <h3>Command Center Layout</h3>
+      <img src={s3Url('/idalia/valdosta-cc-layout.jpg')} alt="Valdosta Command Center Layout" style={{maxWidth: '100%'}} />
+    </section>
+  }
 />
 export default ValdostaCC

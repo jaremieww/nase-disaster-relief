@@ -99,8 +99,8 @@ export default function CallCenterTrainingMaterials() {
       icon: <Icon component={FaMicrophone} />,
       pathPrefix: 'command-center/positions/stake-communications',
       files: [
-        "Emergency Outreach PDF.pdf",
-        "Just Serve Overview - Disaster Response.pdf",
+        "NASE Communication Outreach - Disaster Response.pdf",
+        "JustServe Overview of Disaster Response.pdf",
         {
           title: 'Communcation Disaster Relief Training',
           href: 'https://gcn.churchofjesuschrist.org/nase-pan/topics-all?lang=eng#:~:text=Disaster%20Response%20Training%20%26%20Resources',
