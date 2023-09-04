@@ -97,6 +97,14 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
+    <Alert description={
+      <>
+        Teams working on Labor Day (9/4/2023) must come self sufficient. For assistance with work orders, call the command center at
+        <PhoneNumber phoneNumber={props.phoneNumber} />
+      </>
+      }
+      message="Labor Day" />
+
     <Contacts contacts={contacts} />
 
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} closeoutFormLink={props.closeoutFormLink} />
