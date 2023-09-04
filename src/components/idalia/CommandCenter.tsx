@@ -19,6 +19,7 @@ export type CommandCenterProps = {
   campingAddressNote?: ReactNode
   registrationLink: string
   closeoutFormLink?: string
+  sacramentLocation: 'command-center' | 'campsite'
 
   director?: {
     name: string
@@ -116,7 +117,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       closeoutFormLink={props.closeoutFormLink} 
     />
     {props.additionalInformation}
-    { props.sundayServices ?? <SundayServices /> }
+    { props.sundayServices ?? <SundayServices location={props.sacramentLocation}/> }
   </>
 }
 export default CommandCenter
@@ -324,12 +325,12 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
   </section>
 }
 
-function SundayServices() {
+function SundayServices({location = 'command-center'}: {location?: 'command-center' | 'campsite' }) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
 
     <p>
-      A short Sacrament meeting will be held at the command center on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the {location === 'command-center' ? 'command center' : 'campsite'} on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>
 }

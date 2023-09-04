@@ -36,4 +36,5 @@ export default () => <CommandCenter
     name: 'Pres. Brian Flynn',
     phoneNumber: '(404) 547-6203'
   }}
+  sacramentLocation='campsite'
 />

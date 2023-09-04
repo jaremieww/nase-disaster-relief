@@ -43,4 +43,6 @@ export default () => <CommandCenter
       <p>Campsite has men's and women's restrooms—two stalls each. <strong>No Showers</strong></p>
     </section>
   }
+  sacramentLocation='command-center'
+
 />
