@@ -1,6 +1,6 @@
-import CommandCenter from '../ian/CommandCenter';
+import CommandCenter from './CommandCenter';
 
-export const ValdostaCC = <CommandCenter 
+export const ValdostaCC = () => <CommandCenter 
   address={[
     '2500 Jerry Jones Drive',
     'Valdosta, GA 31602-1250'
@@ -24,12 +24,13 @@ export const ValdostaCC = <CommandCenter
   email='nase.idalia4@gmail.com'
   name='Valdosta'
   phoneNumber='TBD'
-  registrationLink='TBD'
+  registrationLink='https://forms.gle/oCs4h7eNeMhB8VRv9'
+  closeoutFormLink='https://forms.gle/T3e6MkmTpYjMGyPZ9'
   campingAddress={['TBD']}
-  closeoutFormLink='TBD'
   director={{
     name: 'Pres. Jordan Jewkes',
     phoneNumber: '(404) 803-1832',
   }}
+  sacramentLocation='command-center'
 />
 export default ValdostaCC

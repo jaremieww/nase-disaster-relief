@@ -96,7 +96,7 @@ const CommandCenter = (props: CommandCenterProps) => {
         </Card>
       </List.Item>} />
 
-    <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
+    <p>Please check <PopoutLink href="https://fl511.com">fl511.com</PopoutLink> for traffic updates and maps of the state of Florida, or <PopoutLink href="https://ga511.com">ga511.com</PopoutLink> for the state of Georgia.</p>
 
     <Alert description={
       <>
