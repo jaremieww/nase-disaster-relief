@@ -22,11 +22,11 @@ export const ValdostaCC = () => <CommandCenter
     'Tifton, GA',
     'Winder, GA',
   ]}
-  email='nase.idalia2+valdosta@gmail.com'
+  email='nase.idalia4@gmail.com'
   name='Valdosta'
   phoneNumber='(352) 320-3239'
-  registrationLink='https://forms.gle/31ZNjz3rhE8GHCkG6'
-  closeoutFormLink='https://forms.gle/wiLnTMtpVBLJ2eXU7'
+  registrationLink='https://forms.gle/LE2TJ7L79Md49z5y9'
+  closeoutFormLink='https://forms.gle/Yfo4DPvk9GCinP3r5'
   campingAddress={[
     '120 Prison Farm Rd',
     'Valdosta, GA 31601'
