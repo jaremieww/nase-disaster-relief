@@ -27,7 +27,10 @@ export const ValdostaCC = () => <CommandCenter
   phoneNumber='(352) 320-3239'
   registrationLink='https://forms.gle/31ZNjz3rhE8GHCkG6'
   closeoutFormLink='https://forms.gle/wiLnTMtpVBLJ2eXU7'
-  campingAddress={['TBD']}
+  campingAddress={[
+    '120 Prison Farm Rd',
+    'Valdosta, GA 31601'
+  ]}
   // director={{
   //   name: 'Pres. Jordan Jewkes',
   //   phoneNumber: '(404) 803-1832',
