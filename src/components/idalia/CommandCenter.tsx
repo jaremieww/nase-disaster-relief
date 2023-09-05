@@ -1,4 +1,4 @@
-import { Alert, Button, Card, List, Space, Typography } from 'antd'
+import { Button, Card, List, Space, Typography } from 'antd'
 import { CheckCircleOutlined, ClockCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import React, { ReactNode } from 'react'
@@ -98,16 +98,6 @@ const CommandCenter = (props: CommandCenterProps) => {
       </List.Item>} />
 
     <p>Please check <PopoutLink href="https://fl511.com">fl511.com</PopoutLink> for traffic updates and maps of the state of Florida, or <PopoutLink href="https://ga511.com">ga511.com</PopoutLink> for the state of Georgia.</p>
-
-    {props.name !== 'Valdosta' &&
-      <Alert description={
-        <>
-          Teams working on Labor Day (9/4/2023) must come self sufficient. For assistance with work orders, call the command center at
-          <PhoneNumber phoneNumber={props.phoneNumber} />
-        </>
-      }
-        message="Labor Day" />
-    }
 
     <Contacts contacts={contacts} />
 
