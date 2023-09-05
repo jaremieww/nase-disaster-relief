@@ -27,10 +27,6 @@ export default () => <CommandCenter
       name: 'Krista Donohoe',
       phoneNumber: '(850) 982-8499'
     },
-    {
-      name: 'Mike Dohm',
-      phoneNumber: '(985) 718-9753'
-    }
   ]}
   director={{
     name: 'Pres. Aaron Holloway',

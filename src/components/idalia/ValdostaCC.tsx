@@ -41,6 +41,8 @@ export const ValdostaCC = () => <CommandCenter
     <section>
       <h3>Command Center Layout</h3>
       <img src={s3Url('/idalia/valdosta-cc-layout.jpg')} alt="Valdosta Command Center Layout" style={{maxWidth: '100%'}} />
+      <h3>Campsite Map</h3>
+      <img src={s3Url('/idalia/valdosta-camping.png')} alt="Valdosta Campsite" style={{maxWidth: '100%'}} />
     </section>
   }
 />
