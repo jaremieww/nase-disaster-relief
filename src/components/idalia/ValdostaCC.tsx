@@ -22,7 +22,7 @@ export const ValdostaCC = () => <CommandCenter
     'Tifton, GA',
     'Winder, GA',
   ]}
-  email='nase.idalia4@gmail.com'
+  email='nase.idalia2+valdosta@gmail.com'
   name='Valdosta'
   phoneNumber='(352) 320-3239'
   registrationLink='https://forms.gle/31ZNjz3rhE8GHCkG6'

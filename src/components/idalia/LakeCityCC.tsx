@@ -13,7 +13,7 @@ export default () => <CommandCenter
     'Lake City, FL 32055'
   ]}
   campingAddressNote="Camp site has plenty of room for RVs and campers"
-  email="nase.idalia2@gmail.com"
+  email="nase.idalia2+lakecity@gmail.com"
   assignedStakes={[
     'Cocoa, FL',
     'Jacksonville, FL South',
