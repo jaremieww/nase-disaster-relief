@@ -42,7 +42,6 @@ export default () => <CommandCenter
       <img src={s3Url('/idalia/lake-city-command-center.jpg')} alt="Lake City Command Center Layout" style={{maxWidth: '100%'}} />
       <h3>Campsite Map</h3>
       <img src={s3Url('/idalia/lake-city-camping.jpg')} alt="Lake City Campsite Map" style={{maxWidth: '100%'}} />
-      <p>Campsite has men's and women's restrooms—two stalls each. <strong>No Showers</strong></p>
     </section>
   }
   sacramentLocation='command-center'
