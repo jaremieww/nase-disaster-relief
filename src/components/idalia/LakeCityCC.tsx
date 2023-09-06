@@ -46,5 +46,5 @@ export default () => <CommandCenter
     </section>
   }
   sacramentLocation='command-center'
-
+  sacramentTime='8:00 AM'
 />
