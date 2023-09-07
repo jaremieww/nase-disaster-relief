@@ -34,6 +34,11 @@ export default () => {
         </section>
 
         <section>
+          <Title level={3}>Social Media</Title>
+          <PopoutLink href="https://www.facebook.com/groups/disasterreliefnase/?ref=share_group_link">Facebook - Disaster Relief NASE</PopoutLink>
+        </section>
+
+        <section>
           <Title level={3}>Files</Title>
           <List
             dataSource={files}

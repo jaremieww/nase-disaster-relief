@@ -284,7 +284,6 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
     <Title level={5}>Call ahead - Receive Permission - Close each Work Order</Title>
     <ul>
       <li>Check to see if the homeowner still needs help and is available to receive you</li>
-      <li>Have the homeowner sign the work order if possible.</li>
       <li>Always receive permission of the homeowner before attempting any work at a property unless the work order states you can work without the owner present.</li>
       <li>
         Be sure to close each job in Crisis Cleanup when it is completed using one of the following methods
@@ -298,7 +297,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
             Call, text, or email the Command Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
           </li>
           {closeoutFormLink &&
-            <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the command center by noon on Sunday.</li>
+            <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the command center by 3:00 PM on Sunday.</li>
           }
         </ol>
       </li>
