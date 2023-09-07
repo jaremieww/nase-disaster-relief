@@ -38,4 +38,5 @@ export default () => <CommandCenter
     phoneNumber: '(404) 547-6203'
   }}
   sacramentLocation='campsite'
+  sacramentTime='8:00 AM'
 />
