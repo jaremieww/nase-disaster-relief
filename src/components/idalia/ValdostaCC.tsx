@@ -35,7 +35,7 @@ export const ValdostaCC = () => <CommandCenter
   //   name: 'Pres. Jordan Jewkes',
   //   phoneNumber: '(404) 803-1832',
   // }}
-  sacramentLocation='command-center'
+  sacramentLocation='campsite'
   sacramentTime='8:00 AM'
   additionalInformation={
     <section>
