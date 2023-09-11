@@ -33,8 +33,8 @@ export default () => <CommandCenter
     }
   ]}
   director={{
-    name: 'Pres. Jeff Oldham',
-    phoneNumber: '(386) 361-3334'
+    name: 'Pres. Scott Hinson',
+    phoneNumber: '(904) 631-7851'
   }}
   additionalInformation={
     <section>
