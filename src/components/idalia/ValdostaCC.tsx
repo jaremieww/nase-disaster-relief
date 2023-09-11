@@ -17,7 +17,11 @@ export const ValdostaCC = () => <CommandCenter
     phoneNumber: '(678) 672-8142',
   }}
   assignedStakes={[
-    'TBD'
+    'Cartersville, GA',
+    'Coal Mountain, GA',
+    'Fayetteville, GA',
+    'Lilburn, GA',
+    'Tifton, GA',
   ]}
   email='nase.idalia4@gmail.com'
   name='Valdosta'
@@ -28,10 +32,6 @@ export const ValdostaCC = () => <CommandCenter
     '120 Prison Farm Rd',
     'Valdosta, GA 31601'
   ]}
-  // director={{
-  //   name: 'Pres. Jordan Jewkes',
-  //   phoneNumber: '(404) 803-1832',
-  // }}
   sacramentLocation='campsite'
   sacramentTime='8:00 AM'
   additionalInformation={

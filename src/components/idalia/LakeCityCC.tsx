@@ -15,7 +15,13 @@ export default () => <CommandCenter
   campingAddressNote="Camp site has plenty of room for RVs and campers"
   email="nase.idalia2+lakecity@gmail.com"
   assignedStakes={[
-    'TBD'
+    'Aiken, SC',
+    'Lake City, FL',
+    'Lake Mary, FL',
+    'Leesburg, FL',
+    'Orlando, FL',
+    'Orlando, FL South',
+    'St. Cloud, FL',
   ]}
   phoneNumber="(352) 558-9605"
   registrationLink="https://forms.gle/KAiaFAiGdZgctJRh6"
