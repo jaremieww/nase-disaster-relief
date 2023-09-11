@@ -16,9 +16,9 @@ export default () => <CommandCenter
   email="nase.idalia2+lakecity@gmail.com"
   assignedStakes={[
     'Aiken, SC',
+    'DeLand, FL',
     'Lake City, FL',
     'Lake Mary, FL',
-    'Leesburg, FL',
     'Orlando, FL',
     'Orlando, FL South',
     'St. Cloud, FL',
