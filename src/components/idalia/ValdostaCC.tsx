@@ -13,14 +13,7 @@ export const ValdostaCC = () => <CommandCenter
     }
   ]}
   assignedStakes={[
-    'Atlanta, GA',
-    'Conyers, GA',
-    'Marietta, GA East',
-    'Newnan, GA',
-    'Roswell, GA',
-    'Sugar Hill, GA',
-    'Tifton, GA',
-    'Winder, GA',
+    'TBD'
   ]}
   email='nase.idalia4@gmail.com'
   name='Valdosta'

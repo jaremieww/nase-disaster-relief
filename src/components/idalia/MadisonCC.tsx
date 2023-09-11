@@ -13,11 +13,7 @@ export default () => <CommandCenter
   ]}
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Columbus, GA',
-    'Macon, GA',
-    'Panama City, FL',
-    'Powder Springs, GA',
-    'Tallahassee, FL',
+    'TBD'
   ]}
   phoneNumber="(352) 247-2490"
   registrationLink="https://forms.gle/7w9VKh49DNtSZ24o6"

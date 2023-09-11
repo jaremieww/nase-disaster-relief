@@ -28,7 +28,6 @@ export default () => {
           <Space direction="vertical">
             <a href="/idalia/madison">Madison Command Center</a>
             <a href="/idalia/lake-city">Lake City Command Center</a>
-            <a href="/idalia/chiefland">Chiefland Command Center</a>
             <a href="/idalia/valdosta">Valdosta Command Center</a>
           </Space>
         </section>
