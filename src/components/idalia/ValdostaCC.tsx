@@ -8,8 +8,8 @@ export const ValdostaCC = () => <CommandCenter
   ]}
   areaOversight={[
     {
-      name: 'Michael Lavoie',
-      phoneNumber: '(352) 672-0455'
+      name: 'Brent Barnes',
+      phoneNumber: '(865) 748-4260'
     }
   ]}
   assignedStakes={[

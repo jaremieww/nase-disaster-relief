@@ -20,8 +20,8 @@ export default () => <CommandCenter
   closeoutFormLink="https://forms.gle/L59YpSxU4RAtpxVb8"
   areaOversight={[
     {
-      name: 'Krista Donohoe',
-      phoneNumber: '(850) 982-8499'
+      name: 'Mike Dohm',
+      phoneNumber: '(985) 718-9753'
     },
   ]}
   director={{
