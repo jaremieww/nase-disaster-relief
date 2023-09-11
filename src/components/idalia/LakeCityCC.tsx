@@ -18,8 +18,8 @@ export default () => <CommandCenter
     'TBD'
   ]}
   phoneNumber="(352) 558-9605"
-  registrationLink="https://forms.gle/zNmj6crPgsRbzZgz9"
-  closeoutFormLink="https://forms.gle/hqcPSsqRYtzTy15fA"
+  registrationLink="https://forms.gle/KAiaFAiGdZgctJRh6"
+  closeoutFormLink="https://forms.gle/ehtzbmdgcJfxPW4U7"
   areaOversight={[
     {
       name: 'Craig Bell',

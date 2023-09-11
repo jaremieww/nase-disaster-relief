@@ -12,14 +12,18 @@ export const ValdostaCC = () => <CommandCenter
       phoneNumber: '(865) 748-4260'
     }
   ]}
+  director={{
+    name: 'Pres. Jared Nelson',
+    phoneNumber: '(678) 672-8142',
+  }}
   assignedStakes={[
     'TBD'
   ]}
   email='nase.idalia4@gmail.com'
   name='Valdosta'
   phoneNumber='(352) 320-3239'
-  registrationLink='https://forms.gle/LE2TJ7L79Md49z5y9'
-  closeoutFormLink='https://forms.gle/Yfo4DPvk9GCinP3r5'
+  registrationLink='https://forms.gle/HCS6hPNKwKoWe2wZ8'
+  closeoutFormLink='https://forms.gle/abYgJpKtE16VDJL99'
   campingAddress={[
     '120 Prison Farm Rd',
     'Valdosta, GA 31601'

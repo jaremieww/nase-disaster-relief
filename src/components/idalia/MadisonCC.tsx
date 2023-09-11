@@ -16,8 +16,8 @@ export default () => <CommandCenter
     'TBD'
   ]}
   phoneNumber="(352) 247-2490"
-  registrationLink="https://forms.gle/7w9VKh49DNtSZ24o6"
-  closeoutFormLink="https://forms.gle/L59YpSxU4RAtpxVb8"
+  registrationLink="https://forms.gle/WYctWTgJJVqbZqrb9"
+  closeoutFormLink="https://forms.gle/ibX5iiSenrkSkRLf8"
   areaOversight={[
     {
       name: 'Mike Dohm',
