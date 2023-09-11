@@ -1,5 +1,5 @@
 import Icon from '@ant-design/icons'
-import { FaFileExcel, FaFilePdf, FaFilePowerpoint, FaFileWord, FaHome, FaMapMarkerAlt, FaMicrophone, FaRegAddressBook, FaTools, FaTree, FaVideo } from 'react-icons/fa'
+import { FaFileExcel, FaFilePdf, FaFilePowerpoint, FaFileWord, FaFirstAid, FaHome, FaMapMarkerAlt, FaMicrophone, FaRegAddressBook, FaTools, FaTree, FaVideo } from 'react-icons/fa'
 import { GoRadioTower } from 'react-icons/go'
 import { Collapse, Space, Typography } from 'antd'
 import { S3Link } from './components/S3'
@@ -124,6 +124,14 @@ export default function CallCenterTrainingMaterials() {
         "Supply Yard Training.pptx",
       ]
     },
+    {
+      title: 'First Aid Director',
+      icon: <Icon component={FaFirstAid} />,
+      pathPrefix: 'command-center/positions/first-aid',
+      files: [
+        "First Aid Director handout.pdf"
+      ]
+    }
   ]
 
   const icons = {
