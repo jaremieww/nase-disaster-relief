@@ -1,4 +1,5 @@
 import { s3Url } from '../../lib/s3';
+import PopoutLink from '../PopoutLink';
 import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter
@@ -46,4 +47,7 @@ export default () => <CommandCenter
   }
   sacramentLocation='command-center'
   sacramentTime='8:00 AM'
+  additionalTraining={<>
+    <li><PopoutLink href="https://sites.google.com/view/nase-command-center/home">Lake City Command Center Training</PopoutLink></li>
+  </>}
 />

@@ -37,6 +37,7 @@ export type CommandCenterProps = {
   additionalInformation?: ReactNode
   afterAssignments?: ReactNode
   sundayServices?: ReactNode
+  additionalTraining?: ReactNode
 }
 
 const CommandCenter = (props: CommandCenterProps) => {
@@ -103,7 +104,7 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} closeoutFormLink={props.closeoutFormLink} />
     {props.afterAssignments}
-    <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
+    <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} additionalTraining={props.additionalTraining} />
     <ItemsOfConsideration 
       commandCenterPhoneNumber={props.phoneNumber} 
       commandCenterEmail={props.email} 
@@ -174,17 +175,18 @@ function Contacts({ contacts }: ContactsProps) {
 type CrewLeaderChecklistProps = {
   registrationLink: string,
   location: string,
+  additionalTraining: ReactNode
 }
 
-function CrewLeaderChecklist({ registrationLink, location }: CrewLeaderChecklistProps) {
+function CrewLeaderChecklist({ registrationLink, location, additionalTraining }: CrewLeaderChecklistProps) {
   return <>
     <Title level={3}>Crew Leader Checklist</Title>
-    <Training />
+    <Training additionalTraining={additionalTraining}/>
     <CheckIn registrationLink={registrationLink} location={location} />
   </>
 }
 
-function Training() {
+function Training({additionalTraining}: {additionalTraining: ReactNode}) {
   return <Space direction="vertical" style={{ marginTop: '40px' }}>
     <Title level={4}>Training Materials</Title>
     <ul>
@@ -198,6 +200,7 @@ function Training() {
       </li>
       <li><PopoutLink href="https://www.youtube.com/watch?v=vXWMj_TbDp4&amp;t=1s">Tarping a Roof</PopoutLink></li>
       <li><PopoutLink href="https://www.youtube.com/watch?v=eZWShxk4OSo">Mucking Out a House</PopoutLink></li>
+      {additionalTraining}
     </ul>
 
     <Alert type="info" message="Note" showIcon description={<>
