@@ -46,7 +46,7 @@ export default () => <CommandCenter
     </section>
   }
   sacramentLocation='command-center'
-  sacramentTime='8:00 AM'
+  sacramentTime='7:00 AM'
   additionalTraining={<>
     <li><PopoutLink href="https://sites.google.com/view/nase-command-center/home">Lake City Command Center Training</PopoutLink></li>
   </>}
