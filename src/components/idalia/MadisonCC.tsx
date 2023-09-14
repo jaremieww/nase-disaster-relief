@@ -34,8 +34,8 @@ export default () => <CommandCenter
     },
   ]}
   director={{
-    name: 'Pres. Ben Smith',
-    phoneNumber: '(229) 224-9952'
+    name: 'Pres. Mark Llewellyn',
+    phoneNumber: '(850) 556-5980'
   }}
   sacramentLocation='campsite'
 />
