@@ -32,8 +32,8 @@ export const ValdostaCC = () => <CommandCenter
     '120 Prison Farm Rd',
     'Valdosta, GA 31601'
   ]}
-  sacramentLocation='campsite'
-  sacramentTime='8:00 AM'
+  sacramentLocation='command-center'
+  sacramentTime='7:00 AM'
   additionalInformation={
     <section>
       <h3>Command Center Layout</h3>
