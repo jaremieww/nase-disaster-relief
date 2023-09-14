@@ -1,5 +1,5 @@
 import { Alert, Button, Card, List, Space, Typography } from 'antd'
-import { CheckCircleOutlined, ClockCircleOutlined } from '@ant-design/icons'
+import { CheckCircleOutlined, ClockCircleOutlined, HeartOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
 import React, { ReactNode } from 'react'
 import Address from '../Address'
@@ -129,7 +129,7 @@ const Assignments = ({ assignedStakes, commandCenterName, registrationLink, clos
         <strong>Team Captains:</strong>
         <Button type="primary" icon={<CheckCircleOutlined />} href={registrationLink} target="_blank">Register your Team</Button>
         { closeoutFormLink && <Button icon={<ClockCircleOutlined />} href={closeoutFormLink} target="_blank">Close-out your Team</Button> }
-
+        <Button icon={<HeartOutlined />} href="/crew-leader-checklist#share">Share Your Story</Button>
       </Space>
     }
 
