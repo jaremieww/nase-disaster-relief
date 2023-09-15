@@ -24,7 +24,7 @@ export default () => <CommandCenter
     'Orlando, FL South',
     'St. Cloud, FL',
   ]}
-  phoneNumber="(352) 558-9605"
+  phoneNumber="352-405-5764"
   registrationLink="https://forms.gle/KAiaFAiGdZgctJRh6"
   closeoutFormLink="https://forms.gle/ehtzbmdgcJfxPW4U7"
   areaOversight={[
