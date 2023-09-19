@@ -4,38 +4,18 @@ import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter
   name="Lake City"
-  address={[
-    '909 SE Country Club Rd',
-    'Lake City, FL 32025-3301'
-  ]}
-  campingAddress={[
-    'Columbia County Fire and Rescue 51',
-    '1579 NW Lake Jeffery Rd',
-    'Lake City, FL 32055'
-  ]}
+  address={[]}
+  campingAddress={[]}
   campingAddressNote="Camp site has plenty of room for RVs and campers"
-  email="nase.idalia2+lakecity@gmail.com"
-  assignedStakes={[
-    'Aiken, SC',
-    'DeLand, FL',
-    'Lake City, FL',
-    'Lake Mary, FL',
-    'Orlando, FL',
-    'Orlando, FL South',
-    'St. Cloud, FL',
-  ]}
-  phoneNumber="352-405-5764"
-  registrationLink="https://forms.gle/KAiaFAiGdZgctJRh6"
-  closeoutFormLink="https://forms.gle/ehtzbmdgcJfxPW4U7"
-  areaOversight={[
-    {
-      name: 'Craig Bell',
-      phoneNumber: '(801) 616-1015'
-    }
-  ]}
+  email=""
+  assignedStakes={[]}
+  phoneNumber=""
+  registrationLink=""
+  closeoutFormLink=""
+  areaOversight={[]}
   director={{
-    name: 'Pres. Scott Hinson',
-    phoneNumber: '(904) 631-7851'
+    name: '',
+    phoneNumber: ''
   }}
   additionalInformation={
     <section>

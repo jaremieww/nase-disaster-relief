@@ -2,36 +2,19 @@ import { s3Url } from '../../lib/s3';
 import CommandCenter from './CommandCenter';
 
 export const ValdostaCC = () => <CommandCenter 
-  address={[
-    '2500 Jerry Jones Drive',
-    'Valdosta, GA 31602-1250'
-  ]}
-  areaOversight={[
-    {
-      name: 'Brent Barnes',
-      phoneNumber: '(865) 748-4260'
-    }
-  ]}
+  address={[]}
+  areaOversight={[]}
   director={{
-    name: 'Pres. Jared Nelson',
-    phoneNumber: '(678) 672-8142',
+    name: '',
+    phoneNumber: '',
   }}
-  assignedStakes={[
-    'Cartersville, GA',
-    'Coal Mountain, GA',
-    'Fayetteville, GA',
-    'Lilburn, GA',
-    'Tifton, GA',
-  ]}
-  email='nase.idalia4@gmail.com'
+  assignedStakes={[]}
+  email=''
   name='Valdosta'
-  phoneNumber='(352) 320-3239'
-  registrationLink='https://forms.gle/z3SiZwqx3nPqwcWL9'
-  closeoutFormLink='https://forms.gle/o39dEyX9LQa4AdpZ7'
-  campingAddress={[
-    '120 Prison Farm Rd',
-    'Valdosta, GA 31601'
-  ]}
+  phoneNumber=''
+  registrationLink=''
+  closeoutFormLink=''
+  campingAddress={[]}
   sacramentLocation='command-center'
   sacramentTime='7:00 AM'
   additionalInformation={
