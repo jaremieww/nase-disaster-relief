@@ -23,6 +23,15 @@ const isTrainingLink = (item: TrainingItem): item is TrainingLink => {
 }
 
 export default function CallCenterTrainingMaterials() {
+  const icons = {
+    pdf: FaFilePdf,
+    doc: FaFileWord,
+    docx: FaFileWord,
+    ppt: FaFilePowerpoint,
+    pptx: FaFilePowerpoint,
+    xls: FaFileExcel,
+    xlsx: FaFileExcel,
+  }
   const roles: Role[] = [
     {
       title: 'General',
@@ -45,6 +54,11 @@ export default function CallCenterTrainingMaterials() {
         "Stake Emergency Council Response guidelines.pdf",
         "Temporal-Preparedness-Guide-NASE-Area-Guide.pdf",
         "Work Crew basics.pptx",
+        { 
+          href: 'https://www.churchofjesuschrist.org/bc/content/shared/english/charities/pdf/2020/WEL_PD60011068_MinisteringGuideForSomeoneInCrisis_FINAL.pdf?lang=eng', 
+          title: 'Discussion Guide: How Can I Minister to Others During a Crisis?',
+          icon: <Icon component={icons.pdf} />
+        }
       ]
     },
     {
@@ -134,15 +148,6 @@ export default function CallCenterTrainingMaterials() {
     }
   ]
 
-  const icons = {
-    'pdf': FaFilePdf,
-    'doc': FaFileWord,
-    'docx': FaFileWord,
-    'ppt': FaFilePowerpoint,
-    'pptx': FaFilePowerpoint,
-    'xls': FaFileExcel,
-    'xlsx': FaFileExcel,
-  }
   const getIcon = (file: string) => {
     const ext = file.substring(file.lastIndexOf('.') + 1)
     if (Object.keys(icons).includes(ext)) {
