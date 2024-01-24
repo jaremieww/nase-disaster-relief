@@ -6,7 +6,7 @@ const md5 = require('md5')
 const buildDirectory = async () => {
   const client = new S3Client()
   const cmd = new ListObjectsCommand({
-    Bucket: 'nase-erc-assets'
+    Bucket: 'nase-erc-public-assets'
   })
 
   const output = await client.send(cmd) as any
@@ -18,7 +18,7 @@ const buildDirectory = async () => {
 }
 
 buildDirectory().then(async r => {
-  const hash = md5(r).slice(0,8)
+  const hash = md5(r).slice(0, 8)
   const directoryFile = `directory-${hash}.json`
   fs.writeFile(`public/${directoryFile}`, JSON.stringify(r))
   const config = JSON.parse(await fs.readFile('src/config.json'))
