@@ -46,6 +46,7 @@ export default function Home() {
       <Link to="command-center"><Space><AlertOutlined />Command Center</Space></Link>
       <Link to="call-center"><Space><PhoneOutlined />Call Center</Space></Link>
       <Link to="communications"><Space>Communications</Space></Link>
+      Version 2.0.1 Updated 01/29/2024 6:14 pm ET
     </Space>
   </>
 }
