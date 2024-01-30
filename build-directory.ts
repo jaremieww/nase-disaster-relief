@@ -6,7 +6,7 @@ const md5 = require('md5')
 const buildDirectory = async () => {
   const client = new S3Client()
   const cmd = new ListObjectsCommand({
-    Bucket: 'arn:aws:s3:::nase-erc-public-assets'
+    Bucket: 'nase-erc-public-assets'
   })
 
   const output = await client.send(cmd) as any
