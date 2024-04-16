@@ -124,7 +124,9 @@ export default function CallCenterTrainingMaterials() {
           title: 'Name Reference Guid: Disaster Relief Efforts',
           href: 'https://docs.google.com/presentation/d/1tBV3ileNdq5XUuyB3vH7SxY4udRwaLYl9VQks55prmQ/edit?usp=sharing',
           icon: <Icon component={FaFilePowerpoint} />
-        }
+        },
+        "Spokesperson and Inteview Training_GCN Article 2024.pdf",
+        "Spokesperson Training Presentation_2024.pdf"
       ]
     },
     {
