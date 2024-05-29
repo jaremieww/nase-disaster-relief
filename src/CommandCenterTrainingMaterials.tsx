@@ -74,6 +74,7 @@ export default function CallCenterTrainingMaterials() {
       icon: <Icon component={FaMapMarkerAlt} />,
       pathPrefix: 'command-center/positions/crisis-cleanup',
       files: [
+        "Virtual Call Center Training 2024.pptx",
         "Crisis Cleanup Summary.docx",
         "Data after weekend is over.docx",
         "Google Spreadsheet case log.xlsx",
