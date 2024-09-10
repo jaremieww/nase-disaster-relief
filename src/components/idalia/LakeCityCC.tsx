@@ -3,7 +3,7 @@ import PopoutLink from '../PopoutLink';
 import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter
-  name="Lake City"
+  name="Command Center Two"
   address={[]}
   campingAddress={[]}
   campingAddressNote="Camp site has plenty of room for RVs and campers"
