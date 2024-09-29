@@ -13,13 +13,7 @@ import IanIndex from './components/ian/Index'
 import PortCharlotteCC from './components/ian/PortCharlotteCC'
 import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
-import PrattvilleCC from './components/al-tornadoes/PrattvilleCC'
-import IdaliaIndex from './components/idalia/Index'
-import MadisonCC from './components/idalia/MadisonCC'
-import LakeCityCC from './components/idalia/LakeCityCC'
-import ChieflandCC from './components/idalia/ChieflandCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
-import ValdostaCC from './components/idalia/ValdostaCC';
 
 
 ReactDOM.render(
