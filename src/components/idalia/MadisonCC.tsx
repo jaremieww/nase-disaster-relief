@@ -1,7 +1,7 @@
 import CommandCenter from "./CommandCenter";
 
 export default () => <CommandCenter
-  name="Madison"
+  name="Command Center One"
   address={[]}
   campingAddress={[]}
   email=""

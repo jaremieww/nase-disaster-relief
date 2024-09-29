@@ -13,7 +13,7 @@ const files = [
 
 export default () => {
   return <Space direction="vertical" size="large" style={{ width: '100%' }}>
-    <Title level={2}>Hurricane Idalia</Title>
+    <Title level={2}>Hurricane Francine</Title>
     <Space size="large" align="start">
       <Space direction="vertical">
         <img
@@ -26,9 +26,9 @@ export default () => {
         <section>
           <Title level={3}>Command Centers</Title>
           <Space direction="vertical">
-            <a href="/idalia/madison">Madison Command Center</a>
-            <a href="/idalia/lake-city">Lake City Command Center</a>
-            <a href="/idalia/valdosta">Valdosta Command Centre</a>
+            <a href="/idalia/madison">Command Center One</a>
+            <a href="/idalia/lake-city">Command Center Two</a>
+            <a href="/idalia/valdosta">Command Center Three</a>
           </Space>
         </section>
 
