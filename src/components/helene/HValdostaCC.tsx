@@ -1,7 +1,7 @@
 import { s3Url } from '../../lib/s3';
 import CommandCenter from './CommandCenter';
 
-export const ValdostaCC = () => <CommandCenter 
+export const HValdostaCC = () => <CommandCenter 
   address={[]}
   areaOversight={[]}
   director={{
@@ -10,7 +10,7 @@ export const ValdostaCC = () => <CommandCenter
   }}
   assignedStakes={[]}
   email=''
-  name='Valdosta'
+  name='Command Center Three'
   phoneNumber=''
   registrationLink=''
   closeoutFormLink=''
@@ -26,4 +26,4 @@ export const ValdostaCC = () => <CommandCenter
     </section>
   }
 />
-export default ValdostaCC
+export default HValdostaCC
