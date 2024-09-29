@@ -37,12 +37,7 @@ ReactDOM.render(
             <Route index element={<IanIndex />} />
             <Route path="port-charlotte" element={<PortCharlotteCC />} />
             <Route path="venice" element={<VeniceCC />} />
-
             <Route path="valdosta" element={<ValdostaCC />} />
-           
-
-
-
           </Route>
           <Route index element={<Home />} />
         </Route>

@@ -28,8 +28,7 @@ export default () => {
         <a href="/ian/cape-coral">Cape Coral</a>
         <a href="/ian/port-charlotte">Port Charlotte</a>
         <a href="/ian/venice">Venice</a>
-        <a href="/ian/valdosta">Valdosta</a>
-        
+        <a href="/ian/valdosta">Valdosta</a>    
       </Space>
     </section>
 
