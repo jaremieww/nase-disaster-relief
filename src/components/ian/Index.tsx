@@ -12,7 +12,7 @@ const files = [
 
 export default () => {
   return <Space direction="vertical" size="large">
-    <Title level={2}>Hurricane Ian</Title>
+    <Title level={2}>Hurricane Helene</Title>
 
     <Space direction="vertical">
       <img

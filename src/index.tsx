@@ -21,9 +21,6 @@ import ChieflandCC from './components/idalia/ChieflandCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import ValdostaCC from './components/idalia/ValdostaCC';
 import HeleneIndex from '.components/helene/Index';
-//import HMadisonCC from '.components/helene/HMadisonCC';
-import HLakeCityCC from '.components/helene/HLakeCityCC';
-import HValdostaCC from '.components/helene/HValdostaCC';
 
 
 ReactDOM.render(
@@ -44,25 +41,6 @@ ReactDOM.render(
             <Route index element={<IanIndex />} />
             <Route path="port-charlotte" element={<PortCharlotteCC />} />
             <Route path="venice" element={<VeniceCC />} />
-          </Route>
-          <Route path="al-tornadoes">
-            <Route index element={<PrattvilleCC />} />
-            <Route path="prattville" element={<PrattvilleCC />} />
-          </Route>
-          <Route path="idalia">
-            <Route path="madison" element={<MadisonCC />} />
-            <Route path="cc1" element={<MadisonCC />} />
-            <Route path="lake-city" element={<LakeCityCC />} />
-            <Route path="cc2" element={<LakeCityCC />} />
-            <Route path="chiefland" element={<ChieflandCC />} />
-            <Route path="cc3" element={<ChieflandCC />} />
-            <Route path="valdosta" element={<ValdostaCC />} />
-            <Route index element={<IdaliaIndex />} />
-          </Route>
-          <Route path="helene">
-            <Route path="hlake-city" element={<HLakeCityCC />} />
-            <Route path="hvaldosta" element={<HValdostaCC />} />
-            <Route index element={<IdaliaIndex />} />
           </Route>
           <Route index element={<Home />} />
         </Route>
