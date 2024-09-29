@@ -10,7 +10,7 @@ export const ValdostaCC = () => <CommandCenter
   }}
   assignedStakes={[]}
   email=''
-  name='Command Center Three'
+  name='Valdosta'
   phoneNumber=''
   registrationLink=''
   closeoutFormLink=''
