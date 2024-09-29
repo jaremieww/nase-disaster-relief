@@ -25,11 +25,9 @@ export default () => {
     <section>
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
-        <a href="/ian/cape-coral">Cape Coral</a>
-        <a href="/ian/port-charlotte">Port Charlotte</a>
-        <a href="/ian/venice">Venice</a>
         <a href="/ian/valdosta">Valdosta</a>
-        <a href="/ian/madison">Madison</a>    
+        <a href="/ian/madison">Madison</a>
+        <a href="/ian/chiefland">Cheifland</a>    
       </Space>
     </section>
 

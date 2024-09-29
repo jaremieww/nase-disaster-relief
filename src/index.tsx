@@ -15,6 +15,7 @@ import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
 import ValdostaCC from './components/ian/ValdostaCC'
 import MadisonCC from './components/ian/MadisonCC'
+import ChieflandCC from './components/ian/ChieflandCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 
 
@@ -40,6 +41,7 @@ ReactDOM.render(
             <Route path="venice" element={<VeniceCC />} />
             <Route path="valdosta" element={<ValdostaCC />} />
             <Route path="madison" element={<MadisonCC />} />
+            <Route path="chiefland" element={<ChieflandCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>
