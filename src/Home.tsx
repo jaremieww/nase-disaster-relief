@@ -8,11 +8,9 @@ const { Panel } = Collapse
 
 type CleanupEvent = { name: string, link: string }
 const currentEvents: CleanupEvent[] = [
-  { name: 'Hurricane Helene', link: 'helene' },
+  { name: 'Hurricane Helene', link: 'ian' },
 ]
 const previousEvents: CleanupEvent[] = [
-  { name: 'Hurricane Idalia', link: 'idalia' },
-  { name: 'Central Alabama Tornadoes', link: 'al-tornadoes'},
   { name: 'Hurricane Ian', link: 'ian' },
 ]
 

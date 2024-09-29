@@ -20,7 +20,6 @@ import LakeCityCC from './components/idalia/LakeCityCC'
 import ChieflandCC from './components/idalia/ChieflandCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import ValdostaCC from './components/idalia/ValdostaCC';
-import HeleneIndex from '.components/helene/Index';
 
 
 ReactDOM.render(
