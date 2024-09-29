@@ -13,6 +13,7 @@ import IanIndex from './components/ian/Index'
 import PortCharlotteCC from './components/ian/PortCharlotteCC'
 import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
+import VadostaCC from '.components/ian/ValdostaCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 
 
@@ -37,18 +38,8 @@ ReactDOM.render(
             <Route path="port-charlotte" element={<PortCharlotteCC />} />
             <Route path="venice" element={<VeniceCC />} />
 
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-            <Route path="venice" element={<VeniceCC />} />
-
-
+            <Route path="valdosta" element={<ValdostaCC />} />
+           
 
 
 

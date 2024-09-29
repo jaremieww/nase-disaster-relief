@@ -7,38 +7,42 @@ const { Title } = Typography
 export default () => <CommandCenter
   name="Valdosta"
   address={[
-    '1928 Chiquita Blvd S',
-    'Cape Coral, FL 33991'
+    '2500 Jerry Jones Drive',
+    'VALDOSTA, Georgia 31602-1250'
   ]}
   campingAddress={[
-    '528 Cultural Park Blvd',
-    'Cape Coral, FL 33990'
+    '158-166 Prison-Farm Rd',
+    'Valdosta, GA 31601'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        '1020 Cultural Park Blvd',
-        'Cape Coral, FL 33990'
+        'unknown',
+        'Valdosta, GA'
       ]} />
     </>
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Fort Myers, FL',
-    'Miami, FL South',
-    'Odessa, FL',
-    'Orlando, FL South',
-    'Vero Beach, FL',
+    'Birmingham, AL',
+    'Gadsden, AL',
+    'Montgomery, AL',
+    'Tuscaloosa, AL',
+    'Dothan, AL',
+    'Tifton, GA',
+    'Marietta, GA',
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
   closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
   areaOversight={[
+    name: 'Jaremie Woodruff',
+    phoneNumber: '904-864-0623'
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Daryl Blount',
+    phoneNumber: 'undisclosed'
   }}
   afterAssignments={<>
     <p>
@@ -51,10 +55,10 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Cape Coral commmand center is located at:</p>
+      <p>Camping for the Valdosta commmand center is located at:</p>
       <Address address={[
-        '528 Cultural Park Blvd',
-        'Cape Coral, FL 33990'
+        '158-166 Prison-Farm Rd',
+        'Valdosta, GA 31601'
       ]} />
     </section>
   </>}
