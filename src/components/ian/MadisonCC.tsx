@@ -7,12 +7,12 @@ const { Title } = Typography
 export default () => <CommandCenter
   name="Madison"
   address={[
-    '2500 Jerry Jones Drive',
-    'VALDOSTA, Georgia 31602-1250'
+    '1374 West Base Street',
+    'MADISON, Florida 32340'
   ]}
   campingAddress={[
-    '158-166 Prison-Farm Rd',
-    'Valdosta, GA 31601'
+    'not sure',
+    'MADISON, Florida '
   ]}
   campingAddressNote={
     <>
@@ -25,25 +25,20 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Birmingham, AL',
-    'Gadsden, AL',
-    'Montgomery, AL',
-    'Tuscaloosa, AL',
-    'Dothan, AL',
-    'Tifton, GA',
-    'Marietta, GA',
+    'Mobile, AL',
+    'Deland, FL',
+    'Fort Walton Beach, FL',
+    'Panama City, FL',
+    'Pensacola, FL',
+    'Tallahassee, FL',
   ]}
-  phoneNumber="941-876-8088"
+  phoneNumber="941-555-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
   closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
   areaOversight={[{
-    name: 'Jaremie Woodruff',
+    name: 'Brent Barnes',
     phoneNumber: '904-864-0623'
   },
-  {
-    name: 'Darryl Blount',
-    phoneNumber: ''
-  }
   ]}
   director={{
     name: '',
@@ -62,8 +57,8 @@ export default () => <CommandCenter
       <Title level={4}>Camping</Title>
       <p>Camping for the Valdosta commmand center is located at:</p>
       <Address address={[
-        '158-166 Prison-Farm Rd',
-        'Valdosta, GA 31601'
+        'do not know',
+        'Madison, FL'
       ]} />
     </section>
   </>}

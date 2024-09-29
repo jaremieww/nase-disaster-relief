@@ -82,7 +82,7 @@ const CommandCenter = (props: CommandCenterProps) => {
   }
 
   return <>
-    <Title level={2}>Hurricane Ian</Title>
+    <Title level={2}>Hurricane Helene</Title>
     <Title level={3}>{props.name} Command Center</Title>
 
     <List
