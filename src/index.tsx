@@ -16,6 +16,15 @@ import VeniceCC from './components/ian/VeniceCC'
 import ValdostaCC from './components/ian/ValdostaCC'
 import MadisonCC from './components/ian/MadisonCC'
 import ChieflandCC from './components/ian/ChieflandCC'
+import WaycrossCC from './components/ian/WaycrossCC'
+import AshvilleCC from './components/ian/AshvilleCC'
+import DouglasCC from './components/ian/DouglasCC'
+import StPetersburgCC from './components/ian/StPetersburgCC'
+import LakeCity from './components/ian/LakeCityCC'
+import SavannahCC from './components/ian/SavannahCC'
+import AikenCC from './components/ian/AikenCC'
+import GreenvilleCC from './components/ian/GreenvilleCC'
+import LeniorCC from './components/ian/LeniorCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 
 
@@ -42,6 +51,15 @@ ReactDOM.render(
             <Route path="valdosta" element={<ValdostaCC />} />
             <Route path="madison" element={<MadisonCC />} />
             <Route path="chiefland" element={<ChieflandCC />} />
+            <Route path="waycross" element={<WaycrossCC />} />
+            <Route path="ashville" element={<AshvilleCC />} />
+            <Route path="douglas" element={<DouglasCC />} />
+            <Route path="stpetersburg" element={<StPetersburgCC />} />
+            <Route path="lakecity" element={<LakeCityCC />} />
+            <Route path="savannah" element={<SavannahCC />} />
+            <Route path="aiken" element={<AikenCC />} />
+            <Route path="greenville" element={<GreenvilleCC />} />
+            <Route path="lenior" element={<LeniorCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>

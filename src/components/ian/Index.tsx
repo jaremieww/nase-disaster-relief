@@ -27,7 +27,16 @@ export default () => {
       <Space direction="vertical">
         <a href="/ian/valdosta">Valdosta</a>
         <a href="/ian/madison">Madison</a>
-        <a href="/ian/chiefland">Cheifland</a>    
+        <a href="/ian/waycross">Waycross</a>
+        <a href="/ian/ashville">Ashville</a>
+        <a href="/ian/douglas">Douglas</a>
+        <a href="/ian/chiefland">Cheifland</a>
+        <a href="/ian/stpetersburg">St. Petersburg</a>
+        <a href="/ian/lakecity">Lake City</a>
+        <a href="/ian/savannah">Savannah</a>
+        <a href="/ian/aiken">Aiken</a>
+        <a href="/ian/greenville">Greenville</a>
+        <a href="/ian/lenior">Lenior</a>    
       </Space>
     </section>
 
