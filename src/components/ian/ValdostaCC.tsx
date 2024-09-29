@@ -36,9 +36,14 @@ export default () => <CommandCenter
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
   closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
-  areaOversight={[
-    'Jaremie Woodruff',
-    '904-864-0623'
+  areaOversight={[{
+    name: 'Jaremie Woodruff',
+    phoneNumber: '904-864-0623'
+  },
+  {
+    name: 'Darryl Blount',
+    phoneNumber: ''
+  }
   ]}
   director={{
     name: '',
