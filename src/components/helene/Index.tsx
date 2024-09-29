@@ -26,7 +26,7 @@ export default () => {
         <section>
           <Title level={3}>Command Centers</Title>
           <Space direction="vertical">
-            <a href="/helene/hnadisoncc">Madison</a>
+            <a href="/helene/hmadisoncc">Madison</a>
             <a href="/helene/hlakecitycc">Lake City</a>
             <a href="/helene/hvaldostacc">Valdosta</a>
           </Space>
