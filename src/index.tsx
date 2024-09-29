@@ -17,7 +17,7 @@ import ValdostaCC from './components/ian/ValdostaCC'
 import MadisonCC from './components/ian/MadisonCC'
 import ChieflandCC from './components/ian/ChieflandCC'
 import WaycrossCC from './components/ian/WaycrossCC'
-import AshvilleCC from './components/ian/AshvilleCC'
+import AshevilleCC from './components/ian/AshevilleCC'
 import DouglasCC from './components/ian/DouglasCC'
 import StPetersburgCC from './components/ian/StPetersburgCC'
 import LakeCity from './components/ian/LakeCityCC'
@@ -52,7 +52,7 @@ ReactDOM.render(
             <Route path="madison" element={<MadisonCC />} />
             <Route path="chiefland" element={<ChieflandCC />} />
             <Route path="waycross" element={<WaycrossCC />} />
-            <Route path="ashville" element={<AshvilleCC />} />
+            <Route path="asheville" element={<AshevilleCC />} />
             <Route path="douglas" element={<DouglasCC />} />
             <Route path="stpetersburg" element={<StPetersburgCC />} />
             <Route path="lakecity" element={<LakeCityCC />} />
