@@ -25,13 +25,15 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
-    'Gainesville, FL',
-    'Jacksonville FL West',
-    'Lake Mary, FL',
-    'Leesburg, FL',
-    'Orlando, FL',
-    'Orlando FL West',
-    'Ocala, FL',
+    'Coal Mountain, GA',
+    'Sugar Hill, GA',
+    'Charlotte NC Central',
+    'Charlotte NC South',
+    'Fort Mill, SC',
+    'Gastonia, NC',
+    'High Point, NC',
+    'Lake Norman, NC',
+    'Asheville, NC',
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
