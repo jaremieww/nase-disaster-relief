@@ -13,7 +13,7 @@ import IanIndex from './components/ian/Index'
 import PortCharlotteCC from './components/ian/PortCharlotteCC'
 import CapeCoralCC from './components/ian/CapeCoralCC'
 import VeniceCC from './components/ian/VeniceCC'
-import VadostaCC from '.components/ian/ValdostaCC'
+import VadostaCC from './components/ian/ValdostaCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 
 
