@@ -41,8 +41,8 @@ export default () => <CommandCenter
   },
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Ben Smith',
+    phoneNumber: '229-224-9952'
   }}
   afterAssignments={<>
     <p>
