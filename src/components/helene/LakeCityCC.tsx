@@ -7,8 +7,8 @@ const { Title } = Typography
 export default () => <CommandCenter
   name="Lake City"
   address={[
-    '1293 Southwest Bascom Norris Drive',
-    'LAKE CITY, Florida 32025'
+    '909 Southeast Country Club Road',
+    'LAKE CITY, FL 32025'
   ]}
   campingAddress={[
     'do not know',

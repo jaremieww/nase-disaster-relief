@@ -11,7 +11,7 @@ export default () => <CommandCenter
     'VIDALIA, Georgia 30474'
   ]}
   campingAddress={[
-    
+    'no campsite'
   ]}
   campingAddressNote={
     <>
