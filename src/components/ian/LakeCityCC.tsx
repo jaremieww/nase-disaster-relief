@@ -28,7 +28,7 @@ export default () => <CommandCenter
     'Jacksonville FL East',
     'Lake City, FL',
     '*Cocoa, FL',
-    'Orlando FL South'
+    'Orlando FL South',
     'DeLand, FL',
     'Leesburg, FL',
     'Palm Bay, FL',
