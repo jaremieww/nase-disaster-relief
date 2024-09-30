@@ -26,17 +26,17 @@ export default () => {
     <section>
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
-        <a href="/asheville">Asheville</a>
-        <a href="/savannah">Vidalia</a>
-        <a href="/aiken">Aiken</a>
-        <a href="/lenior">Lenior</a> 
-        <a href="/douglas">Douglas</a>
-        <a href="/waycross">Waycross</a>
-        <a href="/valdosta">Valdosta</a>
-        <a href="/madison">Madison</a>
-        <a href="/lakecity">Lake City</a>
-        <a href="/chiefland">Chiefland</a>
-        <a href="/stpetersburg">St. Petersburg</a>   
+        <a href="helene/asheville">Asheville</a>
+        <a href="helene/savannah">Vidalia</a>
+        <a href="helene/aiken">Aiken</a>
+        <a href="helene/lenior">Lenior</a> 
+        <a href="helene/douglas">Douglas</a>
+        <a href="helene/waycross">Waycross</a>
+        <a href="helene/valdosta">Valdosta</a>
+        <a href="helene/madison">Madison</a>
+        <a href="helene/lakecity">Lake City</a>
+        <a href="helene/chiefland">Chiefland</a>
+        <a href="helene/stpetersburg">St. Petersburg</a>   
       </Space>
     </section>
 
