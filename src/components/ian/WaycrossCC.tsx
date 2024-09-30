@@ -23,7 +23,7 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  bigmessage="Please stop by Douglas GA command center located at 200 N Chester Ave Douglas, GA 31533 to pick up shirts and supplies before coming to Waycross!" 
+  bigmessage="NOTICE: Please stop by Douglas GA command center located at 200 N Chester Ave Douglas, GA 31533 to pick up shirts and supplies before coming to Waycross!" 
   email="nase.command1@gmail.com"
   assignedStakes={[
     '*Jacksonville FL South',

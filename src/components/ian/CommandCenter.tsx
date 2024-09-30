@@ -95,9 +95,8 @@ const CommandCenter = (props: CommandCenterProps) => {
           {item.note}
         </Card>
       </List.Item>} />
-    if (props.bigmessage){
-      <h2>NOTICE: {props.bigmessage}</h2>
-    }
+    <h2>{props.bigmessage}</h2>
+    
     
     
     <Contacts contacts={contacts} />
