@@ -35,7 +35,7 @@ export default () => {
         <a href="/ian/valdosta">Valdosta</a>
         <a href="/ian/madison">Madison</a>
         <a href="/ian/lakecity">Lake City</a>
-        <a href="/ian/chiefland">Cheifland</a>
+        <a href="/ian/chiefland">Chiefland</a>
         <a href="/ian/stpetersburg">St. Petersburg</a>   
       </Space>
     </section>
