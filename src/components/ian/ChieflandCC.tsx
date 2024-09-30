@@ -19,7 +19,7 @@ export default () => <CommandCenter
       RV and Heavy Equipment Parking<br />
       <Address address={[
         'unknown',
-        'Valdosta, GA'
+        'CHIEFLAND, Florida 32626'
       ]} />
     </>
   }
