@@ -14,6 +14,7 @@ export default () => {
   return <Space direction="vertical" size="large">
     <Title level={2}>Hurricane Helene</Title>
 
+    <section>
     <Space direction="vertical">
       <img
         src={formatS3Url('helene/Helene-Week1.png')}
@@ -21,14 +22,14 @@ export default () => {
         style={{ maxWidth: 600 }} />
       <cite>Screenshot</cite>
     </Space>
-
+    </section>
     <section>
       <Title level={3}>Command Centers</Title>
       <Space direction="vertical">
-        <a href="helene/asheville">Asheville</a>
-        <a href="helene/savannah">Vidalia</a>
-        <a href="helene/aiken">Aiken</a>
         <a href="helene/lenior">Lenior</a> 
+        <a href="helene/asheville">Asheville</a>
+        <a href="helene/aiken">Aiken</a>
+        <a href="helene/savannah">Vidalia</a>
         <a href="helene/douglas">Douglas</a>
         <a href="helene/waycross">Waycross</a>
         <a href="helene/valdosta">Valdosta</a>
