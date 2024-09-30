@@ -15,13 +15,13 @@ export default () => {
   return <Space direction="vertical" size="large">
     <Title level={2}>Hurricane Helene</Title>
 
-    {/* <Space direction="vertical">
+    <Space direction="vertical">
       <img
-        src={formatS3Url('ian/ian-satellite-800w.jpg')}
-        alt="Hurricane Ian Satellite View"
+        src={formatS3Url('helene/Helene-Week1.png')}
+        alt="Command Centers Map"
         style={{ maxWidth: 600 }} />
-      <cite>Image courtesy of <PopoutLink href="https://earthobservatory.nasa.gov/images/150408/hurricane-ian-reaches-florida">NASA</PopoutLink></cite>
-    </Space> */}
+      <cite>Screenshot</cite>
+    </Space>
 
     <section>
       <Title level={3}>Command Centers</Title>
