@@ -27,7 +27,7 @@ export default () => <CommandCenter
   assignedStakes={[
     '*Jacksonville FL South',
     'Kingsland, GA',
-    'Macon, GA',
+    'Conyers, GA',
     'Newnan, GA',
   ]}
   phoneNumber="941-876-8088"

@@ -27,7 +27,6 @@ export default () => <CommandCenter
   assignedStakes={[
     '*Jacksonville FL South',
     'Atlanta, CA',
-    'Conyers, GA',
     'Fayetteville, GA',
     'Powder Springs, GA',
     'Athens, GA',

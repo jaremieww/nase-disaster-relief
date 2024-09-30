@@ -26,6 +26,8 @@ export default () => <CommandCenter
   email="nase.command1@gmail.com"
   assignedStakes={[
     'Hickory, NC',
+    'Lake Normam, NC',
+    'Winston-Salem, NC',
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"

@@ -26,8 +26,8 @@ export default () => <CommandCenter
   email="nase.command1@gmail.com"
   assignedStakes={[
     '*Sugar Hill, GA',
-    'Charlotte NC Central',
-    'Charlotte NC South',
+    'Greenville SC East',
+    'Greenville SC',
     'Asheville, NC',
   ]}
   phoneNumber="941-876-8088"
