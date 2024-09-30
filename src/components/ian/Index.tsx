@@ -29,7 +29,6 @@ export default () => {
         <a href="/ian/asheville">Asheville</a>
         <a href="/ian/savannah">Vidalia</a>
         <a href="/ian/aiken">Aiken</a>
-        <a href="/ian/greenville">Greenville</a>
         <a href="/ian/lenior">Lenior</a> 
         <a href="/ian/douglas">Douglas</a>
         <a href="/ian/waycross">Waycross</a>
