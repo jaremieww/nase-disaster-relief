@@ -7,24 +7,25 @@ const { Title } = Typography
 export default () => <CommandCenter
   name="Savannah"
   address={[
-    '1200 King George Boulevard',
-    'SAVANNAH, Georgia 31419'
+    '317 Maple Drive',
+    'VIDALIA, Georgia 30474'
   ]}
   campingAddress={[
     'do not know',
-    'SAVANNAH, Georgia 31419'
+    'VIDALIA, Georgia 30474'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
         'unknown',
-        'SAVANNAH, Georgia 31419'
+        'VIDALIA, Georgia 30474'
       ]} />
     </>
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
+    'Macon, GA',
     'Hilton Head, SC',
     'Savannah, GA',
   ]}
@@ -54,7 +55,7 @@ export default () => <CommandCenter
       <p>Camping for the Valdosta commmand center is located at:</p>
       <Address address={[
         'do not know',
-        'SAVANNAH, Georgia 31419'
+        'VIDALIA, Georgia 30474'
       ]} />
     </section>
   </>}

@@ -148,6 +148,7 @@ const Assignments = ({ assignedStakes, commandCenterName, registrationLink, clos
       {assignedStakes.map(x => <li key={x}>{x}</li>)}
     </ul>
     <p>
+      * Stake Assigned to lead at the Command Center
       All volunteers must be organized into teams with a team captain and assistant team captain before arriving at the Command Center.
       We recommend teams of 10-15. If you have not been assigned a team, please check with your Ward or Branch leadership.
     </p>

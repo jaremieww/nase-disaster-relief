@@ -27,6 +27,10 @@ export default () => <CommandCenter
   assignedStakes={[
     'Aiken, SC',
     'Augusta, GA',
+    'West Columbia, SC',
+    'Columbia, SC',
+    'Hartsville, SC',
+    'Myrtle Beach, SC',
   ]}
   phoneNumber="add phone here"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
