@@ -11,8 +11,9 @@ export default () => <CommandCenter
     'DOUGLAS, Georgia 31533'
   ]}
   campingAddress={[
-    'do not know',
-    'DOUGLAS, Georgia 31533'
+    'Davis Wade Park',
+    '807 W Bryan Street',
+    'Douglas, GA'
   ]}
   campingAddressNote={
     <>
@@ -31,6 +32,7 @@ export default () => <CommandCenter
     'Powder Springs, GA',
     'Athens, GA',
     'Cartersville, GA',
+    'Coal Mountain, GA',
     'Lilburn, GA',
     'Marietta, GA',
     'Roswell, GA',
