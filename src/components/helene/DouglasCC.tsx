@@ -19,7 +19,7 @@ export default () => <CommandCenter
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        'unknown',
+        '200 Chester Avenue North',
         'DOUGLAS, Georgia 31533'
       ]} />
     </>

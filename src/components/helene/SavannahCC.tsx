@@ -11,8 +11,7 @@ export default () => <CommandCenter
     'VIDALIA, Georgia 30474'
   ]}
   campingAddress={[
-    'do not know',
-    'VIDALIA, Georgia 30474'
+    
   ]}
   campingAddressNote={
     <>
@@ -34,7 +33,7 @@ export default () => <CommandCenter
   closeoutFormLink=""
   areaOversight={[{
     name: 'Clay Hudgins',
-    phoneNumber: ''
+    phoneNumber: '904-303-0007'
   },
   ]}
   director={{
