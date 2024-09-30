@@ -19,6 +19,7 @@ export type CommandCenterProps = {
   campingAddressNote?: ReactNode
   registrationLink: string
   closeoutFormLink?: string
+  bigmessage?: string
 
   director?: {
     name: string
@@ -94,7 +95,11 @@ const CommandCenter = (props: CommandCenterProps) => {
           {item.note}
         </Card>
       </List.Item>} />
-
+    if (props.bigmessage){
+      <h2>NOTICE: {props.bigmessage}</h2>
+    }
+    
+    
     <p>Please check <PopoutLink href="https://fl511.com">https://fl511.com</PopoutLink> for traffic updates and maps of the state of Florida.</p>
 
     <Contacts contacts={contacts} />
