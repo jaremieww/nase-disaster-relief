@@ -31,7 +31,7 @@ export default () => <CommandCenter
     'Tuscaloosa, AL',
     'Dothan, AL',
     'Tifton, GA',
-    'Marietta, GA',
+    'Columbus, GA',
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"

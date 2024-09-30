@@ -27,6 +27,12 @@ export default () => <CommandCenter
   assignedStakes={[
     'Jacksonville FL East',
     'Lake City, FL',
+    '*Cocoa, FL',
+    'Orlando FL South'
+    'DeLand, FL',
+    'Leesburg, FL',
+    'Palm Bay, FL',
+    'Lakeland, FL',
     'St Cloud, FL',
   ]}
   phoneNumber="941-876-8088"

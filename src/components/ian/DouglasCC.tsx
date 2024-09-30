@@ -25,12 +25,17 @@ export default () => <CommandCenter
   }
   email="nase.command1@gmail.com"
   assignedStakes={[
+    '*Jacksonville FL South',
+    'Atlanta, CA',
     'Conyers, GA',
     'Fayetteville, GA',
-    'Macon, GA',
-    'Newnan, GA',
     'Powder Springs, GA',
     'Athens, GA',
+    'Cartersville, GA',
+    'Lilburn, GA',
+    'Marietta, GA',
+    'Roswell, GA',
+    'Winder, GA',
   ]}
   phoneNumber="941-876-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"

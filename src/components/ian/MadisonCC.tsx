@@ -26,11 +26,11 @@ export default () => <CommandCenter
   email="nase.command1@gmail.com"
   assignedStakes={[
     'Mobile, AL',
-    'Deland, FL',
+    'Ocala, FL',
     'Fort Walton Beach, FL',
     'Panama City, FL',
     'Pensacola, FL',
-    'Tallahassee, FL',
+    '*Tallahassee, FL',
   ]}
   phoneNumber="941-555-8088"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
