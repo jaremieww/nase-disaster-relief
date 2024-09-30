@@ -23,7 +23,7 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="nase.command1@gmail.com"
+  email="idastorm25@gmail.com"
   assignedStakes={[
     '*Jacksonville FL South',
     'Atlanta, CA',
