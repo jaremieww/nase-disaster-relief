@@ -32,9 +32,9 @@ export default () => <CommandCenter
     'Hartsville, SC',
     'Myrtle Beach, SC',
   ]}
-  phoneNumber="add phone here"
-  registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
-  closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
+  phoneNumber="555-555-5555"
+  registrationLink=""
+  closeoutFormLink=""
   areaOversight={[{
     name: 'none',
     phoneNumber: 'n/a'

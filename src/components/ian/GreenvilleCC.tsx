@@ -5,7 +5,7 @@ import CommandCenter from "./CommandCenter";
 const { Title } = Typography
 
 export default () => <CommandCenter
-  name="Greenville"
+  name="NOT USED"
   address={[
     '610 Assembly St',
     'Columbia, South Carolina 2920'
