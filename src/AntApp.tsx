@@ -21,7 +21,7 @@ export default function AntApp() {
         theme="dark"
         mode="horizontal"
         items={[
-          { key: 'ian', label: 'Hurricane Helene', icon: <Icon component={BsHurricane} />  },
+          { key: 'helene', label: 'Hurricane Helene', icon: <Icon component={BsHurricane} />  },
           { key: 'crew-leader-checklist', label: 'Crew Leader Checklist' },
           { key: 'training', label: 'Training Materials' },
           { key: 'call-center', label: 'Call Center Training' },

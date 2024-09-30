@@ -11,7 +11,7 @@ const currentEvents: CleanupEvent[] = [
   { name: 'Hurricane Helene', link: 'helene' },
 ]
 const previousEvents: CleanupEvent[] = [
-  { name: 'Hurricane Ian', link: 'ian' },
+ 
 ]
 
 const EventList = ({ events }: { events: CleanupEvent[] }) => {
