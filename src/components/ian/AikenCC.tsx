@@ -7,19 +7,19 @@ const { Title } = Typography
 export default () => <CommandCenter
   name="Aiken"
   address={[
-    '215 Northeast 8th Street',
-    'CHIEFLAND, Florida 32626'
+    '358 East Pine Log Road'
+    'AIKEN, South Carolina 29803'
   ]}
   campingAddress={[
     'do not know',
-    'CHIEFLAND, Florida 32626'
+    'AIKEN, South Carolina 29803'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
         'unknown',
-        'Valdosta, GA'
+        'AIKEN, South Carolina 29803'
       ]} />
     </>
   }
@@ -28,12 +28,12 @@ export default () => <CommandCenter
     'Aiken, SC',
     'Augusta, GA',
   ]}
-  phoneNumber="941-876-8088"
+  phoneNumber="add phone here"
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
   closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
   areaOversight={[{
-    name: 'Keith Nash',
-    phoneNumber: '904-555-0623'
+    name: 'none',
+    phoneNumber: 'n/a'
   },
   ]}
   director={{
@@ -54,7 +54,7 @@ export default () => <CommandCenter
       <p>Camping for the Valdosta commmand center is located at:</p>
       <Address address={[
         'do not know',
-        'CHIEFLAND, Florida 32626'
+        'AIKEN, South Carolina 29803'
       ]} />
     </section>
   </>}

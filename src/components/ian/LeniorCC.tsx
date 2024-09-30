@@ -7,19 +7,19 @@ const { Title } = Typography
 export default () => <CommandCenter
   name="Lenior"
   address={[
-    '215 Northeast 8th Street',
-    'CHIEFLAND, Florida 32626'
+    '1775 Connelly Springs Road'
+    'LENOIR, North Carolina 28645'
   ]}
   campingAddress={[
     'do not know',
-    'CHIEFLAND, Florida 32626'
+    'LENOIR, North Carolina 28645'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
         'unknown',
-        'Valdosta, GA'
+        'LENOIR, North Carolina 28645'
       ]} />
     </>
   }
@@ -31,8 +31,8 @@ export default () => <CommandCenter
   registrationLink="https://forms.gle/CCgUS8mxFoy443eg9"
   closeoutFormLink="https://forms.gle/H8LAkr32NU1HYshM6"
   areaOversight={[{
-    name: 'Keith Nash',
-    phoneNumber: '904-555-0623'
+    name: '',
+    phoneNumber: ''
   },
   ]}
   director={{
@@ -53,7 +53,7 @@ export default () => <CommandCenter
       <p>Camping for the Valdosta commmand center is located at:</p>
       <Address address={[
         'do not know',
-        'CHIEFLAND, Florida 32626'
+        'LENOIR, North Carolina 28645'
       ]} />
     </section>
   </>}
