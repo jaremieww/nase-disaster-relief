@@ -190,8 +190,8 @@ type CrewLeaderChecklistProps = {
 function CrewLeaderChecklist({ registrationLink, location, commandORoperation }: CrewLeaderChecklistProps) {
   return <>
     <Title level={3}>Crew Leader Checklist</Title>
-    <Training {props.commandORoperation} />
-    <CheckIn registrationLink={registrationLink} location={location}  />
+    <Training commandORoperation={props.commandORoperation} />
+    <CheckIn registrationLink={registrationLink} location={location} commandORoperation={commandORoperation}  />
   </>
 }
 
