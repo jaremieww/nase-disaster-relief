@@ -50,7 +50,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     }]
   if (props.director) {
     contacts.push({
-      title: 'Command Center Director',
+      title: 'Center Director',
       body: <>
         {props.director.name}<br />
         <PhoneNumber phoneNumber={props.director.phoneNumber} />
@@ -72,7 +72,7 @@ const CommandCenter = (props: CommandCenterProps) => {
   }
 
   const addresses: { name: string, address: string[], addressLink?: string, note?: ReactNode }[] = [
-    { name: 'Command Center', address: props.address },
+    { name: "Center Location", address: props.address },
   ]
   if (props.campingAddress) {
     addresses.push({
@@ -155,7 +155,7 @@ const Assignments = ({ assignedStakes, commandCenterName, commandORoperation, re
     <p>
       * Stake Assigned to lead at the {commandORoperation} Center</p>
       <p>
-      All volunteers must be organized into teams with a team captain and assistant team captain before arriving at the Command Center.
+      All volunteers must be organized into teams with a team captain and assistant team captain before arriving at the {commandORoperation} Center.
       We recommend teams of 10-15. If you have not been assigned a team, please check with your Ward or Branch leadership.
     </p>
 
@@ -273,14 +273,14 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     </p>
 
     <Title level={5}>Camping</Title>
-    <p>Portable toilets, shows, and places for tents are available near the command center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+    <p>Portable toilets, shows, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <Title level={5}>Be Self-Sustaining</Title>
     <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
 
     <Title level={5}>{commandORoperation} Center Supplies</Title>
     <p>
-      There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the command center.
+      There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the {commandORoperation} Center.
       Bring your own if possible. Water boots are recommended due to flooding in some areas.
     </p>
 
@@ -314,7 +314,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
             Call, text, or email the {commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
           </li>
           {closeoutFormLink &&
-            <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the command center by noon on Sunday.</li>
+            <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the {commandORoperation} Center by noon on Sunday.</li>
           }
         </ol>
       </li>
@@ -326,7 +326,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
       <li>Call the {commandORoperation} Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
       <li>Return to the {commandORoperation} Center to receive more work orders and supplies if needed.</li>
-      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
+      <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the {commandORoperation} Center! You can report by calling the {commandORoperation} Center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
     </ol>
 
     <Title level={5}>Be sure to separate debris types on the side of the road</Title>
