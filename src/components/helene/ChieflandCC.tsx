@@ -12,15 +12,15 @@ export default () => <CommandCenter
     'CHIEFLAND, Florida 32626'
   ]}
   campingAddress={[
-    'do not know',
-    'CHIEFLAND, Florida 32626'
+    '2340 Old Fannin Rd',
+    'Chiefland, FL 32626'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        'unknown',
-        'CHIEFLAND, Florida 32626'
+        '2340 Old Fannin Rd',
+        'Chiefland, FL 32626'
       ]} />
     </>
   }
