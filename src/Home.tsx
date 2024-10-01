@@ -1,7 +1,7 @@
 import React from 'react'
 import { Collapse, Empty, Space, Typography } from 'antd'
 import { Link } from 'react-router-dom'
-import { AlertOutlined, PhoneOutlined } from '@ant-design/icons'
+import { AlertOutlined, PhoneOutlined, QuestionOutlined } from '@ant-design/icons'
 
 const { Title } = Typography
 const { Panel } = Collapse
@@ -42,6 +42,7 @@ export default function Home() {
 
     <Title level={3}>Leadership Training Materials</Title>
     <Space direction="vertical">
+      <Link to="faqs"><Space><QuestionOutlined />Frequently Asked Questions</Space></Link>
       <Link to="command-center"><Space><AlertOutlined />Command Center</Space></Link>
       <Link to="call-center"><Space><PhoneOutlined />Call Center</Space></Link>
       <Link to="communications"><Space>Communications</Space></Link>

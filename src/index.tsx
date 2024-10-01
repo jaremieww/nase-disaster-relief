@@ -22,6 +22,7 @@ import SavannahCC from './components/helene/SavannahCC'
 import AikenCC from './components/helene/AikenCC'
 import LeniorCC from './components/helene/LeniorCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
+import FAQs from './FAQs'
 
 
 ReactDOM.render(
@@ -32,6 +33,7 @@ ReactDOM.render(
           <AntApp />
         }>
           <Route path="training" element={<Training />} />
+          <Route path="faqs" element={<FAQs />} />
           <Route path="crew-leader-checklist" element={<CrewLeaderChecklist />} />
           <Route path="call-center" element={<CallCenterTrainingMaterials />} />
           <Route path="communications" element={<CommunicationsTrainingMaterials />} />
