@@ -184,13 +184,14 @@ function Contacts({ contacts }: ContactsProps) {
 type CrewLeaderChecklistProps = {
   registrationLink: string,
   location: string,
+  commandORoperation: string,
 }
 
-function CrewLeaderChecklist({ registrationLink, location }: CrewLeaderChecklistProps) {
+function CrewLeaderChecklist({ registrationLink, location, commandORoperation }: CrewLeaderChecklistProps) {
   return <>
     <Title level={3}>Crew Leader Checklist</Title>
     <Training {props.commandORoperation} />
-    <CheckIn registrationLink={registrationLink} location={location} />
+    <CheckIn registrationLink={registrationLink} location={location}  />
   </>
 }
 
@@ -222,7 +223,7 @@ function Training(commandORoperation: string) {
 }
 
 type CheckInProps = { registrationLink: string, location: string, commandORoperation: string, }
-function CheckIn({ registrationLink, location }: CheckInProps) {
+function CheckIn({ registrationLink, location, commandORoperation }: CheckInProps) {
   return <section style={{ marginTop: 40 }}>
     <h3>Check-In</h3>
     <p>When arriving at the {commandORoperation} Center, team captains check in and:</p>
