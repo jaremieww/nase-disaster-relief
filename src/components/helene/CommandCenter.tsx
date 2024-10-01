@@ -102,9 +102,9 @@ const CommandCenter = (props: CommandCenterProps) => {
     
     <Contacts contacts={contacts} />
 
-    <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} registrationLink={props.registrationLink} closeoutFormLink={props.closeoutFormLink} />
+    <Assignments assignedStakes={props.assignedStakes} commandCenterName={props.name} commandORoperation={props.commandORoperation} registrationLink={props.registrationLink} closeoutFormLink={props.closeoutFormLink} />
     {props.afterAssignments}
-    <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} />
+    <CrewLeaderChecklist registrationLink={props.registrationLink} location={props.name} commandORoperation={props.commandORoperation}/>
     <ItemsOfConsideration 
       commandCenterPhoneNumber={props.phoneNumber} 
       commandCenterEmail={props.email} 
@@ -125,10 +125,11 @@ export default CommandCenter
 type AssignmentsProps = {
   assignedStakes: string[]
   commandCenterName: string,
+  commandIRoperations: string,
   registrationLink: string,
   closeoutFormLink?: string
 }
-const Assignments = ({ assignedStakes, commandCenterName, registrationLink, closeoutFormLink }: AssignmentsProps) => <section>
+const Assignments = ({ assignedStakes, commandCenterName, commandIRoperations, registrationLink, closeoutFormLink }: AssignmentsProps) => <section>
   <Space direction='vertical' style={{ marginBottom: '24px' }}>
     {registrationLink &&
       <Space style={{ marginTop: '16px' }} wrap>
@@ -220,7 +221,7 @@ function Training() {
   </Space>
 }
 
-type CheckInProps = { registrationLink: string, location: string }
+type CheckInProps = { registrationLink: string, location: string, commandORoperation: string, }
 function CheckIn({ registrationLink, location }: CheckInProps) {
   return <section style={{ marginTop: 40 }}>
     <h3>Check-In</h3>
