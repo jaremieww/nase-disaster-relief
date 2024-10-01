@@ -141,18 +141,18 @@ const Assignments = ({ assignedStakes, commandCenterName, commandIRoperations, r
     }
 
     <p>
-      <Text type="success">All teams must check into the {props.commandORoperation} Center assigned&mdash;<em>No exceptions</em></Text><br />
+      <Text type="success">All teams must check into the {commandORoperation} Center assigned&mdash;<em>No exceptions</em></Text><br />
       Remember to pick up your branded yellow T-shirts and register (if not done so)
     </p>
 
     <p>Teams can start showing up Friday evening and get checked in starting at 6pm.</p>
 
-    <h3>Stakes assigned to {commandCenterName} {props.commandORoperation} Center</h3>
+    <h3>Stakes assigned to {commandCenterName} {commandORoperation} Center</h3>
     <ul style={{ listStyleType: 'none', padding: 0 }}>
       {assignedStakes.map(x => <li key={x}>{x}</li>)}
     </ul>
     <p>
-      * Stake Assigned to lead at the {props.commandORoperation} Center</p>
+      * Stake Assigned to lead at the {commandORoperation} Center</p>
       <p>
       All volunteers must be organized into teams with a team captain and assistant team captain before arriving at the Command Center.
       We recommend teams of 10-15. If you have not been assigned a team, please check with your Ward or Branch leadership.
@@ -189,12 +189,12 @@ type CrewLeaderChecklistProps = {
 function CrewLeaderChecklist({ registrationLink, location }: CrewLeaderChecklistProps) {
   return <>
     <Title level={3}>Crew Leader Checklist</Title>
-    <Training />
+    <Training {props.commandORoperation} />
     <CheckIn registrationLink={registrationLink} location={location} />
   </>
 }
 
-function Training() {
+function Training(commandORoperation: string) {
   return <Space direction="vertical" style={{ marginTop: '40px' }}>
     <Title level={4}>Training Materials</Title>
     <ul>
@@ -216,7 +216,7 @@ function Training() {
       All users, regardless of experience, must view the instruction, take the quiz, and receive a certificate to operate at a Church sponsored event.
       All crew members accepting work orders where tree work will be done must complete the&nbsp;
       <PopoutLink href="https://www.google.com/url?q=https%3A%2F%2Fwww.churchofjesuschrist.org%2Fcallings%2Fchurch-safety-and-health%2Fchainsaw-safety%3Flang%3Deng&sa=D&sntz=1&usg=AOvVaw0YzKiTLeqgJsKa-HtNnvu0">mandatory online chainsaw instruction</PopoutLink> or show a certificate.
-      The {props.commandORoperation} Center will be the one who assigns you work orders.
+      The {commandORoperation} Center will be the one who assigns you work orders.
     </>} />
   </Space>
 }
@@ -225,18 +225,18 @@ type CheckInProps = { registrationLink: string, location: string, commandORopera
 function CheckIn({ registrationLink, location }: CheckInProps) {
   return <section style={{ marginTop: 40 }}>
     <h3>Check-In</h3>
-    <p>When arriving at the {props.commandORoperation} Center, team captains check in and:</p>
+    <p>When arriving at the {commandORoperation} Center, team captains check in and:</p>
     <ul>
       <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
       <li><S3Link path="ian/florida-dashboard-placard.pdf">Print a vehicle placard</S3Link> to put in dash of each vehicle.</li>
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
-      <li>Receive or report mandatory training at the {props.commandORoperation} Center in {location}. The training videos can be viewed online (see links above).</li>
+      <li>Receive or report mandatory training at the {commandORoperation} Center in {location}. The training videos can be viewed online (see links above).</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
       <li>Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>.</li>
       <li>
         All crew members accepting work orders where tree work will be done must complete the&nbsp;
         <a href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/chainsaw-safety?lang=eng">mandatory online chainsaw instruction</a> or show a certificate.
-        The {props.commandORoperation} Center will be the one who assigns you work orders.
+        The {commandORoperation} Center will be the one who assigns you work orders.
       </li>
       <li><a href="/crew-leader-checklist#share">Share your experiences!</a></li>
     </ul>
@@ -258,7 +258,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
 
     <Title level={5}>Work Hours</Title>
     <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
-    {props.commandORoperation} Center hours are 7am-10pm.
+    {commandORoperation} Center hours are 7am-10pm.
     </p>
 
     <Title level={5}>Camping</Title>
@@ -267,7 +267,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
     <Title level={5}>Be Self-Sustaining</Title>
     <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
 
-    <Title level={5}>{props.commandORoperation} Center Supplies</Title>
+    <Title level={5}>{commandORoperation} Center Supplies</Title>
     <p>
       There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the command center.
       Bring your own if possible. Water boots are recommended due to flooding in some areas.
@@ -284,7 +284,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
     </p>
 
     <Title level={5}>Work as a team</Title>
-    <p>Be unified. Before arriving at the {props.commandORoperation} Center, organize the work teams each team should be around 10-15 members. Each team should have an assigned team captain and an assistant team captain.</p>
+    <p>Be unified. Before arriving at the {commandORoperation} Center, organize the work teams each team should be around 10-15 members. Each team should have an assigned team captain and an assistant team captain.</p>
 
     <Title level={5}>Call ahead - Receive Permission - Close each Work Order</Title>
     <ul>
@@ -300,7 +300,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, cl
             <u>OR</u>
           </li>
           <li>
-            Call, text, or email the {props.commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
+            Call, text, or email the {commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
           </li>
           {closeoutFormLink &&
             <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the command center by noon on Sunday.</li>
