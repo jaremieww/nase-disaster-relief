@@ -112,7 +112,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       closeoutFormLink={props.closeoutFormLink} 
     />
     {props.additionalInformation}
-    { props.sundayServices ?? <SundayServices {props.commandORoperation} /> }
+    { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
 
     <section>
       <h2>Additional Information</h2>
