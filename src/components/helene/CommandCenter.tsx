@@ -112,7 +112,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       closeoutFormLink={props.closeoutFormLink} 
     />
     {props.additionalInformation}
-    { props.sundayServices ?? <SundayServices /> }
+    { props.sundayServices ?? <SundayServices {props.commandORoperation} /> }
 
     <section>
       <h2>Additional Information</h2>
@@ -324,8 +324,8 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     <ol>
       <li>Check crisiscleanup.org for other nearby jobs that might be unclaimed.</li>
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
-      <li>Call the {props.commandORoperation} Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
-      <li>Return to the {props.commandORoperation} Center to receive more work orders and supplies if needed.</li>
+      <li>Call the {commandORoperation} Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
+      <li>Return to the {commandORoperation} Center to receive more work orders and supplies if needed.</li>
       <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the command center! You can report by calling the command center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
     </ol>
 
@@ -334,12 +334,16 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
   </section>
 }
 
-function SundayServices() {
+type SundayServicesProps {
+  commandORoperation: string,
+}
+
+function SundayServices( { commandORoperation }: SundayServicesProps ) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
 
     <p>
-      A short Sacrament meeting will be held at the {props.commandORoperation} Center on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the {commandORoperation} Center on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>
 }
