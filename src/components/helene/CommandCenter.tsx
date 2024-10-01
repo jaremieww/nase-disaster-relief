@@ -190,12 +190,16 @@ type CrewLeaderChecklistProps = {
 function CrewLeaderChecklist({ registrationLink, location, commandORoperation }: CrewLeaderChecklistProps) {
   return <>
     <Title level={3}>Crew Leader Checklist</Title>
-    <Training commandORoperation />
-    <CheckIn registrationLink={registrationLink} location={location} commandORoperation  />
+    <Training commandORoperation={commandORoperation} />
+    <CheckIn registrationLink={registrationLink} location={location} commandORoperation={commandORoperation}  />
   </>
 }
 
-function Training(commandORoperation: string) {
+type TrainingProps = {
+  commandORoperation: string,
+}
+
+function Training({commandORoperation}: TrainingProps) {
   return <Space direction="vertical" style={{ marginTop: '40px' }}>
     <Title level={4}>Training Materials</Title>
     <ul>
