@@ -108,6 +108,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <ItemsOfConsideration 
       commandCenterPhoneNumber={props.phoneNumber} 
       commandCenterEmail={props.email} 
+      commandORoperation={props.commandORoperation}
       closeoutFormLink={props.closeoutFormLink} 
     />
     {props.additionalInformation}
@@ -248,8 +249,13 @@ function CheckIn({ registrationLink, location, commandORoperation }: CheckInProp
   </section>
 }
 
-type ItemsOfConsiderationProps = { commandCenterPhoneNumber: string, commandCenterEmail: string, closeoutFormLink?: string }
-function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, closeoutFormLink }: ItemsOfConsiderationProps) {
+type ItemsOfConsiderationProps = { 
+  commandCenterPhoneNumber: string, 
+  commandCenterEmail: string, 
+  commandORoperation: string, 
+  closeoutFormLink?: string,
+}
+function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, commandORoperation, closeoutFormLink }: ItemsOfConsiderationProps) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Items of Consideration</Title>
 
