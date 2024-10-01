@@ -5,21 +5,22 @@ import CommandCenter from "./CommandCenter";
 const { Title } = Typography
 
 export default () => <CommandCenter
+  commandORoperation="Operations"
   name="St Petersburg"
   address={[
-    '3303 Belcher Road',
-    'DUNEDIN, Florida 34698'
+    '9000 106th Ave N',
+    'Largo FL 33777'
   ]}
   campingAddress={[
     'do not know',
-    'DUNEDIN, Florida 34698'
+    'Largo FL 33777'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
         'unknown',
-        'DUNEDIN, Florida 34698'
+        'Largo FL 33777'
       ]} />
     </>
   }

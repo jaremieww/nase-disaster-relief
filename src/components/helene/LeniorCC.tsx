@@ -5,6 +5,7 @@ import CommandCenter from "./CommandCenter";
 const { Title } = Typography
 
 export default () => <CommandCenter
+  commandORoperation="Operations"
   name="Lenior"
   address={[
     '1775 Connelly Springs Road',

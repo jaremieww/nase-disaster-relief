@@ -5,10 +5,11 @@ import CommandCenter from "./CommandCenter";
 const { Title } = Typography
 
 export default () => <CommandCenter
+  commandORoperation="Command"
   name="Asheville"
   address={[
-    '2475 Brevard Road',
-    'ARDEN, North Carolina 28704'
+    '3401 Sweeten Creek Road',
+    'ARDEN, North Carolina 28704-2507'
   ]}
   campingAddress={[
     'do not know',
