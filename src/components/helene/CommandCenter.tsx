@@ -334,7 +334,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
   </section>
 }
 
-type SundayServicesProps {
+type SundayServicesProps = {
   commandORoperation: string,
 }
 
