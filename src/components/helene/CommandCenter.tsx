@@ -125,11 +125,11 @@ export default CommandCenter
 type AssignmentsProps = {
   assignedStakes: string[]
   commandCenterName: string,
-  commandIRoperations: string,
+  commandORoperations: string,
   registrationLink: string,
   closeoutFormLink?: string
 }
-const Assignments = ({ assignedStakes, commandCenterName, commandIRoperations, registrationLink, closeoutFormLink }: AssignmentsProps) => <section>
+const Assignments = ({ assignedStakes, commandCenterName, commandORoperations, registrationLink, closeoutFormLink }: AssignmentsProps) => <section>
   <Space direction='vertical' style={{ marginBottom: '24px' }}>
     {registrationLink &&
       <Space style={{ marginTop: '16px' }} wrap>
