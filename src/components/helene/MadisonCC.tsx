@@ -12,14 +12,16 @@ export default () => <CommandCenter
     'MADISON, Florida 32340'
   ]}
   campingAddress={[
-    'not sure',
-    'MADISON, Florida '
+    'Lanier Field',
+    '281 NW Crane Ave.',
+    'MADISON, Florida 32340'
   ]}
   campingAddressNote={
     <>
-      RV and Heavy Equipment Parking<br />
+      Secondary Camping with RV and Heavy Equipment Parking<br />
       <Address address={[
-        'unknown',
+        'Williamson Property',
+        '2529 NE Colin Kelly Hwy',
         'MADISON, Florida 32340'
       ]} />
     </>
@@ -33,7 +35,7 @@ export default () => <CommandCenter
     'Pensacola, FL',
     '*Tallahassee, FL',
   ]}
-  phoneNumber="555-555-5555"
+  phoneNumber="904-990-5769"
   registrationLink="https://forms.gle/eQaf6yGFyAPF91nq7"
   closeoutFormLink=""
   areaOversight={[{
@@ -47,19 +49,19 @@ export default () => <CommandCenter
   }}
   afterAssignments={<>
     <p>
-      Teams should meet at the campsite location.
-      There are showers, restrooms, water, gloves, and t-shirts available there.
-      The Church building will only be used for picking up supplies.
-      There is no parking at the church building.
+    Teams should meet at the campsite location. The campsite has porta-potties and wash stations, but not running
+water. The Church building will only be used for picking up supplies and some limited parking while using the
+shower units.
     </p>
   </>}
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Valdosta commmand center is located at:</p>
+      <p>Camping for the {name} {commandORoperation} Center is located at:</p>
       <Address address={[
-        'do not know',
-        'Madison, FL'
+        'Lanier Field',
+        '281 NW Crane Ave.',
+        'Madison, Florida 32340'
       ]} />
     </section>
   </>}

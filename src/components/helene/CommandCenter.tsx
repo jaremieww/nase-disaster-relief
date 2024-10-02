@@ -273,10 +273,10 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     </p>
 
     <Title level={5}>Camping</Title>
-    <p>Portable toilets, shows, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+    <p>Portable toilets, showers, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <Title level={5}>Be Self-Sustaining</Title>
-    <p>Bring food, water, extra fuel, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
+    <p>Bring food, water, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
 
     <Title level={5}>{commandORoperation} Center Supplies</Title>
     <p>
@@ -322,7 +322,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
 
     <Title level={5}>If you finish all of your work orders, choose one of the following options</Title>
     <ol>
-      <li>Check crisiscleanup.org for other nearby jobs that might be unclaimed.</li>
+      <li>Check crisiscleanup.org or the Crisis Cleanup app for other nearby jobs that might be unclaimed.</li>
       <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
       <li>Call the {commandORoperation} Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
       <li>Return to the {commandORoperation} Center to receive more work orders and supplies if needed.</li>
