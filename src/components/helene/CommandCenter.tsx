@@ -85,15 +85,15 @@ const CommandCenter = (props: CommandCenterProps) => {
 
   return <>
     <Title level={2}>Hurricane Helene</Title>
-    <Title level={3}>{props.name} {props.commandORoperation} Center</Title>
 
     {props.name==="Asheville" ?  <a href="https://sites.google.com/view/ashevillecommandcenter/home">
         <Button>New Improved Asheville Page</Button>
       </a> : ''}
+      
+    <Title level={3}>{props.name} {props.commandORoperation} Center</Title>
 
-    <div>
-        <a href="https://sites.google.com/view/ashevillecommandcenter/home">{props.name==="Asheville" ? 'Ashville Page' : ''}</a>
-    </div>
+
+
     <List
       grid={{ gutter: 24 }}
       dataSource={addresses}
