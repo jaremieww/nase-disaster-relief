@@ -22,8 +22,10 @@ export default () => {
           <Space direction="vertical">
             <img
               src={formatS3Url('helene/Helene-Week1.png')}
-              alt="Command Centers Map" />
-            <cite>Screenshot of a Google Map</cite>
+              alt="Command Centers Map" 
+              style={{ maxWidth: 200 }}
+             />
+            <cite>Screenshot</cite>
           </Space>
         </section>
      </div>
