@@ -17,19 +17,19 @@ export default () => {
 
     <Title level={3}>Command Centers</Title>
     <div className="row">
-      <div className="column">help</div>
-      <div className="column">me</div>
-    </div>
-     <section>
-    <Space direction="vertical">
-      <img
-        src={formatS3Url('helene/Helene-Week1.png')}
-        alt="Command Centers Map"
-        style={{ maxWidth: 300 }} />
-      <cite>Screenshot</cite>
-    </Space>
-    </section>
-    <section>
+      <div className="column">     
+        <section>
+          <Space direction="vertical">
+            <img
+              src={formatS3Url('helene/Helene-Week1.png')}
+              alt="Command Centers Map"
+              style={{ maxWidth: 300 }} />
+            <cite>Screenshot</cite>
+          </Space>
+        </section>
+     </div>
+     <div className="column">
+      <section>
        <Space direction="vertical">
         <a href="helene/lenior">Lenior</a> 
         <a href="https://sites.google.com/view/ashevillecommandcenter/home">Asheville</a>
@@ -43,7 +43,11 @@ export default () => {
         <a href="helene/chiefland">Chiefland</a>
         <a href="helene/stpetersburg">St. Petersburg</a>   
       </Space>
-    </section>
+      </section>
+      </div>
+    </div>
+
+
 
     <section>
       <Title level={3}>Files</Title>
