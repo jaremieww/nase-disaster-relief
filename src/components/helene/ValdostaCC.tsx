@@ -19,8 +19,8 @@ export default () => <CommandCenter
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        '2500 Jerry Jones Drive',
-        'VALDOSTA, Georgia 31602-1250'
+        '3766 Old Clyattville Rd',
+        'Valdosta, GA 31601'
       ]} />
     </>
   }
