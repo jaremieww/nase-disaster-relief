@@ -16,9 +16,9 @@ export default () => {
     <Title level={2}>Hurricane Helene</Title>
 
     <Title level={3}>Command Centers</Title>
-    <div class="row">
-      <div class="column">help</div>
-      <div class="column">me</div>
+    <div className="row">
+      <div className="column">help</div>
+      <div className="column">me</div>
     </div>
      <section>
     <Space direction="vertical">
