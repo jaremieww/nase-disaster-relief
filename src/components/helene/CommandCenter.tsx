@@ -7,7 +7,6 @@ import Address from '../Address'
 import PhoneNumber from '../PhoneNumber'
 import EmailAddress from '../EmailAddress'
 
-
 const { Text, Title } = Typography
 
 export type CommandCenterProps = {
@@ -88,9 +87,9 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Title level={2}>Hurricane Helene</Title>
     <Title level={3}>{props.name} {props.commandORoperation} Center</Title>
 
-    {props.name==="Asheville" ?  <ButtonLink href="https://sites.google.com/view/ashevillecommandcenter/home">
-        New Improved Asheville Page
-      </ButtonLink> : ''}
+    {props.name==="Asheville" ?  <a href="https://sites.google.com/view/ashevillecommandcenter/home">
+        <Button>New Improved Asheville Page</Button>
+      </a> : ''}
 
     <div>
         <a href="https://sites.google.com/view/ashevillecommandcenter/home">{props.name==="Asheville" ? 'Ashville Page' : ''}</a>
