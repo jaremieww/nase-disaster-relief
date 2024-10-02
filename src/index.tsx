@@ -44,7 +44,7 @@ ReactDOM.render(
             <Route path="madison" element={<MadisonCC />} />
             <Route path="chiefland" element={<ChieflandCC />} />
             <Route path="waycross" element={<WaycrossCC />} />
-            <Route path="asheville" href="https://sites.google.com/view/ashevillecommandcenter/home"/>
+            <Route path="asheville" element={<AshevilleCC />} />
             <Route path="douglas" element={<DouglasCC />} />
             <Route path="stpetersburg" element={<StPetersburgCC />} />
             <Route path="lakecity" element={<LakeCityCC />} />

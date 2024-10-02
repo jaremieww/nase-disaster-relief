@@ -7,6 +7,7 @@ import Address from '../Address'
 import PhoneNumber from '../PhoneNumber'
 import EmailAddress from '../EmailAddress'
 
+
 const { Text, Title } = Typography
 
 export type CommandCenterProps = {
@@ -87,6 +88,13 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Title level={2}>Hurricane Helene</Title>
     <Title level={3}>{props.name} {props.commandORoperation} Center</Title>
 
+  <div>
+      {{props.name}=="Asheville" ? (
+        <a href="https://sites.google.com/view/ashevillecommandcenter/home">Go to the new improved Asheville page</a>
+       ) : (
+        <p>...</p>
+      )}
+    </div>
     <List
       grid={{ gutter: 24 }}
       dataSource={addresses}
