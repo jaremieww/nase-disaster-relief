@@ -32,7 +32,7 @@ export default () => {
     <section>
        <Space direction="vertical">
         <a href="helene/lenior">Lenior</a> 
-        <a href="helene/asheville">Asheville</a>
+        <a href="https://sites.google.com/view/ashevillecommandcenter/home">Asheville</a>
         <a href="helene/aiken">Aiken</a>
         <a href="helene/savannah">Vidalia</a>
         <a href="helene/douglas">Douglas</a>
