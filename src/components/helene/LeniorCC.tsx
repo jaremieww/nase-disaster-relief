@@ -31,7 +31,7 @@ export default () => <CommandCenter
     'Winston-Salem, NC',
   ]}
   phoneNumber="555-555-5555"
-  registrationLink=""
+  registrationLink="https://forms.gle/2YvvKzMjVmc7PPGF7"
   closeoutFormLink=""
   areaOversight={[{
     name: '',
