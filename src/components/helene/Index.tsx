@@ -18,7 +18,24 @@ export default () => {
     <Title level={3}>Command Centers</Title>
     <div className="row">
       <div className="column">     
-        <section>
+      <section>
+        <Space direction="vertical">
+          <a href="helene/lenior">Lenior</a> 
+          <a href="https://sites.google.com/view/ashevillecommandcenter/home">Asheville</a>
+          <a href="helene/aiken">Aiken</a>
+          <a href="helene/savannah">Vidalia</a>
+          <a href="helene/douglas">Douglas</a>
+          <a href="helene/waycross">Waycross</a>
+          <a href="helene/valdosta">Valdosta</a>
+          <a href="helene/madison">Madison</a>
+          <a href="helene/lakecity">Lake City</a>
+          <a href="helene/chiefland">Chiefland</a>
+          <a href="helene/stpetersburg">St. Petersburg</a>   
+        </Space>
+      </section> 
+     </div>
+     <div className="column">
+      <section>
           <Space direction="vertical">
             <img
               src={formatS3Url('helene/Helene-Week1.png')}
@@ -28,23 +45,6 @@ export default () => {
             <cite>Screenshot</cite>
           </Space>
         </section>
-     </div>
-     <div className="column">
-      <section>
-       <Space direction="vertical">
-        <a href="helene/lenior">Lenior</a> 
-        <a href="https://sites.google.com/view/ashevillecommandcenter/home">Asheville</a>
-        <a href="helene/aiken">Aiken</a>
-        <a href="helene/savannah">Vidalia</a>
-        <a href="helene/douglas">Douglas</a>
-        <a href="helene/waycross">Waycross</a>
-        <a href="helene/valdosta">Valdosta</a>
-        <a href="helene/madison">Madison</a>
-        <a href="helene/lakecity">Lake City</a>
-        <a href="helene/chiefland">Chiefland</a>
-        <a href="helene/stpetersburg">St. Petersburg</a>   
-      </Space>
-      </section>
       </div>
     </div>
 
