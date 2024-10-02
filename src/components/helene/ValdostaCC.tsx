@@ -19,8 +19,8 @@ export default () => <CommandCenter
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        'unknown',
-        'Valdosta, GA'
+        '2500 Jerry Jones Drive',
+        'VALDOSTA, Georgia 31602-1250'
       ]} />
     </>
   }
@@ -34,7 +34,7 @@ export default () => <CommandCenter
     'Tifton, GA',
     'Columbus, GA',
   ]}
-  phoneNumber="555-555-5555"
+  phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/NCcinpVYRKeHtuY66"
   closeoutFormLink=""
   areaOversight={[{
@@ -42,8 +42,8 @@ export default () => <CommandCenter
     phoneNumber: '904-864-0623'
   },
   {
-    name: 'Darryl Blount',
-    phoneNumber: ''
+    name: 'Daryl Blount',
+    phoneNumber: '678-641-5957'
   }
   ]}
   director={{
