@@ -32,7 +32,7 @@ export default () => <CommandCenter
     'Conyers, GA',
     'Newnan, GA',
   ]}
-  phoneNumber="555-555-5555"
+  phoneNumber="904-902-0207"
   registrationLink="https://forms.gle/KSMMmj116JZ45vKq5"
   closeoutFormLink=""
   areaOversight={[{
