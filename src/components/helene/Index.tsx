@@ -1,5 +1,6 @@
 import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
+import './Index.css'
 //import PopoutLink from "../PopoutLink"
 
 const { Title } = Typography
@@ -15,6 +16,10 @@ export default () => {
     <Title level={2}>Hurricane Helene</Title>
 
     <Title level={3}>Command Centers</Title>
+    <div class="row">
+      <div class="column">help</div>
+      <div class="column">me</div>
+    </div>
      <section>
     <Space direction="vertical">
       <img
@@ -23,6 +28,8 @@ export default () => {
         style={{ maxWidth: 300 }} />
       <cite>Screenshot</cite>
     </Space>
+    </section>
+    <section>
        <Space direction="vertical">
         <a href="helene/lenior">Lenior</a> 
         <a href="helene/asheville">Asheville</a>
