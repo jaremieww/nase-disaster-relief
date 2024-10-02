@@ -89,7 +89,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Title level={3}>{props.name} {props.commandORoperation} Center</Title>
 
   <div>
-      {{props.name}=="Asheville" ? (
+      {{props.name}==="Asheville" ? (
         <a href="https://sites.google.com/view/ashevillecommandcenter/home">Go to the new improved Asheville page</a>
        ) : (
         <p>...</p>
