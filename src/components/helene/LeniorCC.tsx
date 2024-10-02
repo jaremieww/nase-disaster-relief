@@ -53,7 +53,7 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Valdosta commmand center is located at:</p>
+      <p>Camping for the Lenoir Operations Center is located at:</p>
       <Address address={[
         'do not know',
         'LENOIR, North Carolina 28645'

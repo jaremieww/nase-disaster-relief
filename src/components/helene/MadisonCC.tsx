@@ -57,7 +57,7 @@ shower units.
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the {name} {commandORoperation} Center is located at:</p>
+      <p>Camping for the Madison Command Center is located at:</p>
       <Address address={[
         'Lanier Field',
         '281 NW Crane Ave.',
