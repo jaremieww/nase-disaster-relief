@@ -117,6 +117,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       commandCenterPhoneNumber={props.phoneNumber} 
       commandCenterEmail={props.email} 
       commandORoperation={props.commandORoperation}
+      fuelAvailability={props.fuelAvailability}
       closeoutFormLink={props.closeoutFormLink} 
     />
     {props.additionalInformation}
@@ -259,10 +260,11 @@ function CheckIn({ registrationLink, location, commandORoperation }: CheckInProp
 type ItemsOfConsiderationProps = { 
   commandCenterPhoneNumber: string, 
   commandCenterEmail: string, 
-  commandORoperation: string, 
+  commandORoperation: string,
+  fuelAvailability: string,
   closeoutFormLink?: string,
 }
-function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, commandORoperation, closeoutFormLink }: ItemsOfConsiderationProps) {
+function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, commandORoperation, fuelAvailability, closeoutFormLink }: ItemsOfConsiderationProps) {
   return <section style={{ marginTop: '40px' }}>
     <Title level={4}>Items of Consideration</Title>
 
@@ -283,7 +285,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     <p>Portable toilets, showers, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <Title level={5}>Be Self-Sustaining</Title>
-    <p>Bring food, water, and camping supplies. Fuel is severely limited in the area. Use portable toilets and avoid going into the building.</p>
+    <p>Bring food, water, and camping supplies. Fuel is {fuelAvailability} in the area. Use portable toilets and avoid going into the building.</p>
 
     <Title level={5}>{commandORoperation} Center Supplies</Title>
     <p>

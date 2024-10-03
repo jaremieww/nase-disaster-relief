@@ -105,4 +105,5 @@ shower units.
       A short Sacrament meeting will be held at the football stadium bleachers at Lanier Field for all teams on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
+  fuelAvailability="generally available"
 />
