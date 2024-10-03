@@ -64,8 +64,9 @@ export default () => <CommandCenter
       <Title level={4}>Camping</Title>
       <p>Camping for the Douglas Commmand Center is located at:</p>
       <Address address={[
-        'do not know',
-        'DOUGLAS, Georgia 31533'
+        'Davis Wade Park',
+        '807 W Bryan Street',
+        'Douglas, GA'
       ]} />
     </section>
   </>}
