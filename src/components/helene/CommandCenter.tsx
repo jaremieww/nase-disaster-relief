@@ -1,7 +1,6 @@
 import { Alert, Button, Card, List, Space, Typography } from 'antd'
 import { CheckCircleOutlined, ClockCircleOutlined } from '@ant-design/icons'
 import PopoutLink from "../PopoutLink"
-import { S3Link } from "../S3"
 import React, { ReactNode } from 'react'
 import Address from '../Address'
 import PhoneNumber from '../PhoneNumber'
