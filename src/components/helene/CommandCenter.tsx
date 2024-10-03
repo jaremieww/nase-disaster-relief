@@ -88,7 +88,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <Title level={2}>Hurricane Helene</Title>
 
     {props.name==="Asheville" ?  <a href="https://sites.google.com/view/ashevillecommandcenter/home">
-        <Button type="primary">Click Here for the New Improved Asheville Page</Button>
+        <Button type="primary">Click Here<br/>for the<br/>New and Improved<br/>Asheville Page</Button>
       </a> : ''}
 
     <Title level={3}>{props.name} {props.commandORoperation} Center</Title>
