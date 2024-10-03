@@ -1,6 +1,6 @@
 import { Typography } from 'antd'
 import Address from "../Address";
-import { S3Link, formatS3Url } from "../S3"
+import { formatS3Url } from "../S3"
 import CommandCenter from "./CommandCenter";
 
 const { Title } = Typography
