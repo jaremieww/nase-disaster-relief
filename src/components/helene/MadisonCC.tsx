@@ -12,7 +12,7 @@ export default () => <CommandCenter
     'MADISON, Florida 32340'
   ]}
   campingAddress={[
-    'with RV and Heavy Equipment Parking',
+    'Primary Location with RV and Heavy Equipment Parking',
     'Lanier Field',
     '281 NW Crane Ave.',
     'MADISON, Florida 32340'
@@ -58,18 +58,51 @@ shower units.
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Madison Command Center is located at:</p>
+      <p>The primary location for camping at the Madison command center is at:</p>
       <Address address={[
         'Lanier Field',
         '281 NW Crane Ave.',
         'Madison, Florida 32340'
       ]} />
+        <img
+              src={formatS3Url('helene/MadisonLanierField.png')}
+              alt="Lanier Field" 
+              style={{ maxWidth: 500 }}
+             />
+      <p>Rules/Information for camping at Lanier Field: 
+        <ul>
+          <li>No Open Fires or Campfires</li>
+          <li>No Camping or Driving on the football field</li>
+          <li>No Water will be available</li>
+          <li>Portable Toilets will be provided</li>
+          <li>The paved area should be reserved for RVs and heavy equipment</li>
+        </ul>
+      </p>
+      <p>Once the primary camping location is full, people we be redirected to a secondary camping location:</p>
+      <Address address={[
+        'Williamson Property',
+        '2529 NE Colin Kelly Hwy', 
+        'Madison, FL'
+      ]} />
+       <img
+              src={formatS3Url('helene/MadisonWilliamsonProperty.png')}
+              alt="Williamson Property" 
+              style={{ maxWidth: 500 }}
+             />
+      <p>Rules/Information for camping at Williamson Property:
+        <ul>
+          <li>No Camping or Driving on the football field</li>
+          <li>Water will be available</li>
+          <li>Portable Toilets will be provided</li>
+          <li>No RVs and heavy equipment at Williamson Property, please park at Lanier Field</li>
+        </ul>
+      </p>
     </section>
   </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the football stadium bleachers at Lanier Field for all teams on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
 />
