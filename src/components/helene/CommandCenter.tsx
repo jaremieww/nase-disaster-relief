@@ -21,7 +21,7 @@ export type CommandCenterProps = {
   registrationLink: string
   closeoutFormLink?: string
   bigmessage?: string
-  fuelAvailability?: string
+  fuelAvailability: string
 
   director?: {
     name: string
