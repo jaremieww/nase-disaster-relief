@@ -242,7 +242,6 @@ function CheckIn({ registrationLink, location, commandORoperation }: CheckInProp
     <p>When arriving at the {commandORoperation} Center, team captains check in and:</p>
     <ul>
       <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
-      <li><S3Link path="ian/florida-dashboard-placard.pdf">Print a vehicle placard</S3Link> to put in dash of each vehicle.</li>
       <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
       <li>Receive or report mandatory training at the {commandORoperation} Center in {location}. The training videos can be viewed online (see links above).</li>
       <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
