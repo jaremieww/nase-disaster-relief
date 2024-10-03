@@ -126,7 +126,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     <section>
       <h2>Additional Information</h2>
 
-      <PopoutLink href="https://vimeo.com/460689734/f3f004e35c">Installing Shower Stalls</PopoutLink>
+      
     </section>
   </>
 }
