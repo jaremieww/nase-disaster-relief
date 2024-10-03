@@ -75,4 +75,5 @@ export default () => <CommandCenter
       A short Sacrament meeting will be held at the church on Sunday morning at 8:00 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
+   fuelAvailability="limited"
 />
