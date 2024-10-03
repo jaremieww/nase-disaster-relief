@@ -12,13 +12,14 @@ export default () => <CommandCenter
     'MADISON, Florida 32340'
   ]}
   campingAddress={[
+    'with RV and Heavy Equipment Parking',
     'Lanier Field',
     '281 NW Crane Ave.',
     'MADISON, Florida 32340'
   ]}
   campingAddressNote={
     <>
-      Secondary Camping with RV and Heavy Equipment Parking<br />
+      Secondary Camping<br />
       <Address address={[
         'Williamson Property',
         '2529 NE Colin Kelly Hwy',
