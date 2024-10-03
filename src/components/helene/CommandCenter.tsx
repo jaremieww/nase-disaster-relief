@@ -21,6 +21,7 @@ export type CommandCenterProps = {
   registrationLink: string
   closeoutFormLink?: string
   bigmessage?: string
+  fuelAvailability?: string
 
   director?: {
     name: string
@@ -211,7 +212,6 @@ function Training({commandORoperation}: TrainingProps) {
   return <Space direction="vertical" style={{ marginTop: '40px' }}>
     <Title level={4}>Training Materials</Title>
     <ul>
-      <li><PopoutLink href="https://www.youtube.com/watch?v=ot4LZjtK0xo">Crisis Cleanup</PopoutLink></li>
       <li><PopoutLink href="https://www.churchofjesuschrist.org/media/video/2015-10-0100-emergency-response-volunteer-training?lang=eng">General Safety Video</PopoutLink></li>
       <li>
         <PopoutLink href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/chainsaw-safety?lang=eng">
