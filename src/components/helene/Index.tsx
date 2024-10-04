@@ -6,9 +6,9 @@ import './Index.css'
 const { Title } = Typography
 
 const files = [
-  { title: 'Crisis Cleanup Flier - English', path: 'ian/cc-ian-english.jpg' },
-  { title: 'Folleto de Crisis Cleanup - Español', path: 'ian/cc-ian-spanish.jpg' },
-  { title: 'Vehicle Placard', path: 'ian/florida-dashboard-placard.pdf' }
+  { title: 'Crisis Cleanup Flier - English', path: 'helene/Helene_social_media_8449651386_en-US.png' },
+  { title: 'Folleto de Crisis Cleanup - Español', path: 'helene/Helene_social_media_8449651386_es-MX.png' },
+//  { title: 'Vehicle Placard', path: 'ian/florida-dashboard-placard.pdf' }
 ]
 
 export default () => {
