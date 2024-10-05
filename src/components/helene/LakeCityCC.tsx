@@ -24,7 +24,7 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="NASE.Command3@gmail.com"
+  email="Lakecitycommandcenter2024@gmail.com"
   assignedStakes={[
     'Jacksonville FL East',
     'Lake City, FL',
@@ -36,7 +36,7 @@ export default () => <CommandCenter
     'Lakeland, FL',
     'St Cloud, FL',
   ]}
-  phoneNumber="555-555-5555"
+  phoneNumber="321-378-2221"
   registrationLink="https://forms.gle/s2Hju8h9AMotiMKX9"
   closeoutFormLink=""
   areaOversight={[{
