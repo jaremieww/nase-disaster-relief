@@ -71,7 +71,7 @@ export default () => <CommandCenter
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at the church building on Sunday morning at 7:00 AM. (Sorry, I thought I updated this earlier.) Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the church building on Sunday morning at <bold>7:00 AM</bold>. (Sorry, I thought I updated this earlier.) Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
    fuelAvailability="limited"
