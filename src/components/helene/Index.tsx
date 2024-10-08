@@ -2,7 +2,7 @@ import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
 import './Index.css'
 //import PopoutLink from "../PopoutLink"
-import { AlertOutlined, PhoneOutlined, QuestionOutlined, FileOutlined, AimOutlined, ApartmentOutlined } from '@ant-design/icons'
+import { AimOutlined, ApartmentOutlined } from '@ant-design/icons'
 
 
 const { Title } = Typography
@@ -22,7 +22,7 @@ export default () => {
       <div className="column">     
       <section className="ccenter">
         <Space direction="vertical">
-          <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><Space><AimOutlined />Asheville</Space></a>
+          <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><Space><ApartmentOutlined />Asheville</Space></a>
           <a href="helene/aiken"><Space><AimOutlined />Aiken</Space></a>
           <a href="helene/savannah"><Space><ApartmentOutlined />Vidalia</Space></a>
           <a href="helene/douglas"><Space><ApartmentOutlined />Douglas</Space></a>
