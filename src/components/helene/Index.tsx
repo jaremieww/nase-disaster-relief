@@ -37,9 +37,9 @@ export default () => {
       <section>
           <Space direction="vertical">
             <img
-              src={formatS3Url('helene/Helene-Week1.png')}
+              src={formatS3Url('helene/Helene-Week2.png')}
               alt="Command Centers Map" 
-              style={{ maxWidth: 200 }}
+              style={{ maxWidth: 500 }}
              />
             <cite>Screenshot</cite>
           </Space>
