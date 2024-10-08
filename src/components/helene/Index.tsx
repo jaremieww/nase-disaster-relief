@@ -18,7 +18,7 @@ export default () => {
     <Title level={3}>Command Centers</Title>
     <div className="row">
       <div className="column">     
-      <section>
+      <section className="ccenter">
         <Space direction="vertical">
           <a href="https://sites.google.com/view/ashevillecommandcenter/home">Asheville</a>
           <a href="helene/aiken">Aiken</a>
