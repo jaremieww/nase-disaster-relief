@@ -2,7 +2,7 @@ import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
 import './Index.css'
 //import PopoutLink from "../PopoutLink"
-import { AlertOutlined, PhoneOutlined, QuestionOutlined, FileOutlined } from '@ant-design/icons'
+import { AlertOutlined, PhoneOutlined, QuestionOutlined, FileOutlined, AimOutlined, ApartmentOutlined } from '@ant-design/icons'
 
 
 const { Title } = Typography
@@ -22,16 +22,16 @@ export default () => {
       <div className="column">     
       <section className="ccenter">
         <Space direction="vertical">
-          <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><QuestionOutlined />Asheville</a>
-          <a href="helene/aiken"><AlertOutlined />Aiken</a>
-          <a href="helene/savannah"><FileOutlined />Vidalia</a>
-          <a href="helene/douglas"><FileOutlined />Douglas</a>
-          <a href="helene/waycross"><AlertOutlined />Waycross</a>
-          <a href="helene/valdosta"><AlertOutlined />Valdosta</a>
-          <a href="helene/madison"><AlertOutlined />Madison</a>
-          <a href="helene/lakecity"><AlertOutlined />Lake City</a>
-          <a href="helene/chiefland"><AlertOutlined />Chiefland</a>
-          <a href="helene/stpetersburg"><PhoneOutlined />St. Petersburg</a>   
+          <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><Space><AimOutlined />Asheville</Space></a>
+          <a href="helene/aiken"><Space><AimOutlined />Aiken</Space></a>
+          <a href="helene/savannah"><Space><ApartmentOutlined />Vidalia</Space></a>
+          <a href="helene/douglas"><Space><ApartmentOutlined />Douglas</Space></a>
+          <a href="helene/waycross"><Space><ApartmentOutlined />Waycross</Space></a>
+          <a href="helene/valdosta"><Space><ApartmentOutlined />Valdosta</Space></a>
+          <a href="helene/madison"><Space><ApartmentOutlined />Madison</Space></a>
+          <a href="helene/lakecity"><Space><ApartmentOutlined />Lake City</Space></a>
+          <a href="helene/chiefland"><Space><ApartmentOutlined />Chiefland</Space></a>
+          <a href="helene/stpetersburg"><Space><AimOutlined />St. Petersburg</Space></a>   
         </Space>
       </section> 
      </div>
