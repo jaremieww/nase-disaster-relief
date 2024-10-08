@@ -41,7 +41,7 @@ ReactDOM.render(
           <Route path="command-center" element={<CommandCenterTrainingMaterials />} />
           <Route path="helene">
             <Route index element={<HeleneIndex />} />
-            <Route path="greenville" element={<ValdostaCC />} />
+            <Route path="greenville" element={<GreenvilleCC />} />
             <Route path="valdosta" element={<ValdostaCC />} />
             <Route path="madison" element={<MadisonCC />} />
             <Route path="chiefland" element={<ChieflandCC />} />
