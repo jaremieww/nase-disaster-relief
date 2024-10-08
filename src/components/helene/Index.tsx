@@ -22,16 +22,20 @@ export default () => {
       <div className="column">     
       <section className="ccenter">
         <Space direction="vertical">
+          <a href="helene/lenoir"><Space><AimOutlined />Lenoir</Space></a>
           <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><Space><ApartmentOutlined />Asheville</Space></a>
-          <a href="helene/aiken"><Space><AimOutlined />Aiken</Space></a>
-          <a href="helene/savannah"><Space><ApartmentOutlined />Vidalia</Space></a>
+          <a href="helene/aiken"><Space><ApartmentOutlined />Greenville</Space></a>
+          <a href="helene/aiken"><Space><ApartmentOutlined />Augusta</Space></a>
           <a href="helene/douglas"><Space><ApartmentOutlined />Douglas</Space></a>
           <a href="helene/waycross"><Space><ApartmentOutlined />Waycross</Space></a>
           <a href="helene/valdosta"><Space><ApartmentOutlined />Valdosta</Space></a>
-          <a href="helene/madison"><Space><ApartmentOutlined />Madison</Space></a>
           <a href="helene/lakecity"><Space><ApartmentOutlined />Lake City</Space></a>
+          <a href="helene/madison"><Space><ApartmentOutlined />Madison</Space></a>
           <a href="helene/chiefland"><Space><ApartmentOutlined />Chiefland</Space></a>
-          <a href="helene/stpetersburg"><Space><AimOutlined />St. Petersburg</Space></a>   
+          <a href="helene/stpetersburg"><Space><ApartmentOutlined />St. Petersburg</Space></a>
+          <a href="helene/stpetersburg"><Space><AimOutlined />Venice</Space></a> 
+          <a href="helene/stpetersburg"><Space><AimOutlined />Ft. Myers</Space></a> 
+          <a href="helene/stpetersburg"><Space><AimOutlined />Naples</Space></a>   
         </Space>
       </section> 
      </div>
