@@ -114,20 +114,7 @@ export default function CallCenterTrainingMaterials() {
       icon: <Icon component={FaMicrophone} />,
       pathPrefix: 'command-center/positions/stake-communications',
       files: [
-        "NASE Communication Outreach - Disaster Response.pdf",
-        "JustServe Overview of Disaster Response.pdf",
-        {
-          title: 'Communcation Disaster Relief Training',
-          href: 'https://gcn.churchofjesuschrist.org/nase-pan/topics-all?lang=eng#:~:text=Disaster%20Response%20Training%20%26%20Resources',
-          icon: <Icon component={FaMicrophone} />
-        },
-        {
-          title: 'Name Reference Guid: Disaster Relief Efforts',
-          href: 'https://docs.google.com/presentation/d/1tBV3ileNdq5XUuyB3vH7SxY4udRwaLYl9VQks55prmQ/edit?usp=sharing',
-          icon: <Icon component={FaFilePowerpoint} />
-        },
-        "Spokesperson and Inteview Training_GCN Article 2024.pdf",
-        "Spokesperson Training Presentation_2024.pdf"
+        "2024v3_NASE Area Communication Disaster Response_Outreach_July 2024 - Google Docs.pdf",
       ]
     },
     {
