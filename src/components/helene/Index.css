@@ -19,6 +19,9 @@
     text-align: right;
   }
   .ccenter {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
+  }
+  .stakesAssigned {
+    font-size: 10px;
   }

@@ -23,19 +23,33 @@ export default () => {
       <section className="ccenter">
         <Space direction="vertical">
           <a href="helene/lenoir"><Space><AimOutlined />Lenoir</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><Space><ApartmentOutlined />Asheville</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/greenville"><Space><ApartmentOutlined />Greenville</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/aiken"><Space><ApartmentOutlined />Augusta</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/douglas"><Space><ApartmentOutlined />Douglas</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/waycross"><Space><ApartmentOutlined />Waycross</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/valdosta"><Space><ApartmentOutlined />Valdosta</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/lakecity"><Space><ApartmentOutlined />Lake City</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/madison"><Space><ApartmentOutlined />Madison</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/chiefland"><Space><ApartmentOutlined />Chiefland</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/stpetersburg"><Space><ApartmentOutlined />St. Petersburg</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/stpetersburg"><Space><AimOutlined />Venice</Space></a> 
+          <div className="stakesAssigned">Hickory NC</div>
           <a href="helene/stpetersburg"><Space><AimOutlined />Ft. Myers</Space></a> 
-          <a href="helene/stpetersburg"><Space><AimOutlined />Naples</Space></a>   
+          <div className="stakesAssigned">Hickory NC</div>
+          <a href="helene/stpetersburg"><Space><AimOutlined />Naples</Space></a>
+          <div className="stakesAssigned">Hickory NC</div>  
         </Space>
       </section> 
      </div>
