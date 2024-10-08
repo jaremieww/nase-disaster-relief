@@ -2,6 +2,8 @@ import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
 import './Index.css'
 //import PopoutLink from "../PopoutLink"
+import { AlertOutlined, PhoneOutlined, QuestionOutlined, FileOutlined } from '@ant-design/icons'
+
 
 const { Title } = Typography
 
@@ -20,16 +22,16 @@ export default () => {
       <div className="column">     
       <section className="ccenter">
         <Space direction="vertical">
-          <a href="https://sites.google.com/view/ashevillecommandcenter/home">Asheville</a>
-          <a href="helene/aiken">Aiken</a>
-          <a href="helene/savannah">Vidalia</a>
-          <a href="helene/douglas">Douglas</a>
-          <a href="helene/waycross">Waycross</a>
-          <a href="helene/valdosta">Valdosta</a>
-          <a href="helene/madison">Madison</a>
-          <a href="helene/lakecity">Lake City</a>
-          <a href="helene/chiefland">Chiefland</a>
-          <a href="helene/stpetersburg">St. Petersburg</a>   
+          <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><QuestionOutlined />Asheville</a>
+          <a href="helene/aiken"><AlertOutlined />Aiken</a>
+          <a href="helene/savannah"><FileOutlined />Vidalia</a>
+          <a href="helene/douglas"><FileOutlined />Douglas</a>
+          <a href="helene/waycross"><AlertOutlined />Waycross</a>
+          <a href="helene/valdosta"><AlertOutlined />Valdosta</a>
+          <a href="helene/madison"><AlertOutlined />Madison</a>
+          <a href="helene/lakecity"><AlertOutlined />Lake City</a>
+          <a href="helene/chiefland"><AlertOutlined />Chiefland</a>
+          <a href="helene/stpetersburg"><PhoneOutlined />St. Petersburg</a>   
         </Space>
       </section> 
      </div>
@@ -39,7 +41,7 @@ export default () => {
             <img
               src={formatS3Url('helene/Helene-Week2.png')}
               alt="Command Centers Map" 
-              style={{ maxWidth: 500 }}
+              style={{ maxWidth: 400 }}
              />
             <cite>Screenshot</cite>
           </Space>
