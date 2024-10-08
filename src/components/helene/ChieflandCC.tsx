@@ -33,7 +33,7 @@ export default () => <CommandCenter
     'Orlando FL West',
   ]}
   phoneNumber="904-990-5797"
-  registrationLink="https://forms.gle/kyCtiqYEckTEtF8m8"
+  registrationLink="https://forms.gle/bJu7yHRsshnAEAHs5"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Keith Nash',

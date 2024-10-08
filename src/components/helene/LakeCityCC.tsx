@@ -37,7 +37,7 @@ export default () => <CommandCenter
     'St Cloud, FL',
   ]}
   phoneNumber="321-378-2221"
-  registrationLink="https://forms.gle/s2Hju8h9AMotiMKX9"
+  registrationLink="https://forms.gle/8DEorLTyaf34jnCR8"
   closeoutFormLink=""
   areaOversight={[{
     name: '',

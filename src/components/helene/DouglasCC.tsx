@@ -40,7 +40,7 @@ export default () => <CommandCenter
     'Winder, GA',
   ]}
   phoneNumber="904-902-0207"
-  registrationLink="https://forms.gle/KSMMmj116JZ45vKq5"
+  registrationLink="https://forms.gle/DkmuFH3Uiqg4jsjAA"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Michael Lavoie',

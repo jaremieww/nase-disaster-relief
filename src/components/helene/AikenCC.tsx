@@ -34,7 +34,7 @@ export default () => <CommandCenter
     'Myrtle Beach, SC',
   ]}
   phoneNumber="555-555-5555"
-  registrationLink="https://forms.gle/dx4UHdZMg2XL1FMx9"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: 'none',

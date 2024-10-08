@@ -38,7 +38,7 @@ export default () => <CommandCenter
     '*Tallahassee, FL',
   ]}
   phoneNumber="904-990-5769"
-  registrationLink="https://forms.gle/eQaf6yGFyAPF91nq7"
+  registrationLink="https://forms.gle/cyZR7hQ9bz8iKHx89"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Brent Barnes',

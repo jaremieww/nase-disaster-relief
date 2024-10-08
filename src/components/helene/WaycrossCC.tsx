@@ -33,7 +33,7 @@ export default () => <CommandCenter
     'Newnan, GA',
   ]}
   phoneNumber="904-902-0207"
-  registrationLink="https://forms.gle/KSMMmj116JZ45vKq5"
+  registrationLink="https://forms.gle/9tVrQSi3hvyRSYjV6"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Michael Lavoie',

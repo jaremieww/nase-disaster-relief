@@ -35,7 +35,7 @@ export default () => <CommandCenter
     'Columbus, GA',
   ]}
   phoneNumber="904-902-8063"
-  registrationLink="https://forms.gle/NCcinpVYRKeHtuY66"
+  registrationLink="https://forms.gle/scpLDz86qUrkBs5w8"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Jaremie Woodruff',
