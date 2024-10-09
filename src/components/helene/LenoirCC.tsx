@@ -6,7 +6,7 @@ const { Title } = Typography
 
 export default () => <CommandCenter
   commandORoperation="Operations"
-  name="Lenior"
+  name="Lenoir"
   address={[
     '1775 Connelly Springs Road',
     'LENOIR, North Carolina 28645'
