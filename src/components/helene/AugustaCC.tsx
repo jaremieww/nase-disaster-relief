@@ -8,20 +8,30 @@ export default () => <CommandCenter
   commandORoperation="Command"
   name="Augusta"
   address={[
-    '??',
-    '??'
+    '835 North Belair Road',
+    'Evans, GA 30809'
   ]}
   campingAddress={[
-    '??',
-    '??'
+    'For Georgia Stakes',
+    '2000 Camp Helaman Trail',
+    'Evans, Georgia 30809',
+    'www.thecamphelaman.org'
   ]}
   campingAddressNote={
     <>
-      RV and Heavy Equipment Parking<br />
+      Campground for Georgia Stakes<br />
       <Address address={[
-        '?',
-        '?'
+        '2000 Camp Helaman Trail',
+        'Evans, Georgia 30809',
+        'www.thecamphelaman.org'
       ]} />
+      Campground for South Carolina Stakes<br />
+      <Address address={[
+        'Aiken Stake Center',
+        '358 E Pine Log Rd',
+        'Aiken, SC 29803'
+      ]} />
+
     </>
   }
   email="naseopcenteraugusta1@gmail.com"
@@ -44,8 +54,8 @@ export default () => <CommandCenter
   },
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Mark Judson (Hartsville Stake)',
+    phoneNumber: '805-701-4801'
   }}
   afterAssignments={<>
     <p>
@@ -58,17 +68,25 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Chiefland Commmand Center is located at:</p>
+      <p>Campground for Georgia Stakes is located at:</p>
       <Address address={[
-        '??',
-        '??'
+        'Campground for Georgia Stakes',
+        '2000 Camp Helaman Trail',
+        'Evans, Georgia 30809',
+        'www.thecamphelaman.org'
+      ]} />
+      <p>Campground for South Carolina Stakes is located at:</p>
+      <Address address={[
+        'Aiken Stake Center',
+        '358 E Pine Log Rd',
+        'Aiken, SC 29803'
       ]} />
     </section>
   </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the Command Center on Sunday morning at 7:45 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
    fuelAvailability="limited"
