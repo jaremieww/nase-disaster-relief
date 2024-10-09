@@ -120,7 +120,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       fuelAvailability={props.fuelAvailability}
       closeoutFormLink={props.closeoutFormLink} 
     />
-    <h2>{ props.bigcodechunk ?? {props.bigcodechunk} }<h2>
+    { props.bigcodechunk ?? {props.bigcodechunk} }
     {props.additionalInformation}
     { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
 
@@ -131,6 +131,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     </section>
   </>
 }
+
 export default CommandCenter
 
 type AssignmentsProps = {
