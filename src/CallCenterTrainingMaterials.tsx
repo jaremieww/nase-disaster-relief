@@ -1,7 +1,7 @@
 import { Typography, Space } from 'antd'
 import DirectoryListing from './components/DirectoryListing'
 import PopoutLink from './components/PopoutLink'
-import { Icon } from '@ant-design/icons'
+//import { Icon } from '@ant-design/icons'
 import {FaVideo} from 'react-icons/fa'
 
 
