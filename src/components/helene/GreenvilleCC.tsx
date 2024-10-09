@@ -90,7 +90,7 @@ export default () => <CommandCenter
     </div>
     </>
   }
-  bigmessage={"This is the big message."}
+  
   afterAssignments={<>
     <p>
       Teams should meet at the campsite location.
