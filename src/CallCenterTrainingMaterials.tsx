@@ -1,15 +1,11 @@
 import { Typography } from 'antd'
 import DirectoryListing from './components/DirectoryListing'
-//import PopoutLink from './components/PopoutLink'
-//import { Icon } from '@ant-design/icons'
-//import { FaFile } from 'react-icons/fa'
-
 
 const { Title } = Typography
 
 export default function CallCenterTrainingMaterials() {
-  return 
-  <>
+  return <>
+    <Title level={2}>Call Center Training Materials</Title>
     <DirectoryListing directory='call-center' />
-  </>
+</>
 }
