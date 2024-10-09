@@ -120,7 +120,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       fuelAvailability={props.fuelAvailability}
       closeoutFormLink={props.closeoutFormLink} 
     />
-    <h2>{ props.bigcodechunk ?? {props.bigcodechunk} /> }<h2>
+    <h2>{ props.bigcodechunk ?? {props.bigcodechunk} }<h2>
     {props.additionalInformation}
     { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
 
