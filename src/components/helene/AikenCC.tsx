@@ -63,6 +63,15 @@ export default () => <CommandCenter
       ]} />
     </section>
   </>}
+
+  campingInfo = {
+    <>
+      <div>
+        <p>Portable toilets, showers, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+      </div>
+    </>
+  }
+
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>

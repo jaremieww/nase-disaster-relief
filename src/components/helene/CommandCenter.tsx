@@ -59,14 +59,7 @@ const CommandCenter = (props: CommandCenterProps) => {
     })
   }
 
-  if (props.campimgInfo===null )
-  {
-      campingInfo = {{
-        <p>Portable toilets, showers, and places for tents are available near the {props.commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
-      }}
-  }
-
-  if (props.areaOversight.length > 0) {
+   if (props.areaOversight.length > 0) {
     contacts.push({
       title: 'Area ERC Oversight',
       body: <>
