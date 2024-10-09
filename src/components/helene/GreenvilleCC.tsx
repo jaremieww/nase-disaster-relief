@@ -33,7 +33,7 @@ export default () => <CommandCenter
     'Winder GA',
     'Charlotte NC Central',
     'Greenville SC East',
-    'Greenville SC'
+    'Greenville SC *'
   ]}
   phoneNumber="904-990-5769"
   registrationLink="https://forms.gle/xtALZFXEDrtrJSNC6"
@@ -48,10 +48,10 @@ export default () => <CommandCenter
     phoneNumber: '217-493-8150'
   }}
 
-  bigcodechunk={
+  campingInfo={
     <> 
     <div>
-      <Title level={4}>Camping information</Title>
+      <Title level={4}>Camping Information</Title>
       <p>Portable toilets and places for tents are available at the campsite, 2.5 miles from the command center.  Bring all your own needed supplies for the camping experience.  No one will be permitted inside the church.</p>
 
       <p>No portable showers at the campsite.  Showers are available at the 3 YMCAs and 2 Planet Fitness gyms listed below SATURDAY 5-7pm ONLY!  Please bring your shower supplies with you to your worksites on Saturday so that you can shower between 5 and 7 pm at the facility that is closest to your worksite.</p>
@@ -93,10 +93,9 @@ export default () => <CommandCenter
   
   afterAssignments={<>
     <p>
-      Teams should meet at the campsite location.
-      There are showers, restrooms, water, gloves, and t-shirts available there.
-      The Church building will only be used for picking up supplies.
-      There is no parking at the church building.
+      Teams should meet at the campsite location.  There are restrooms available at the campsite.
+      The Church building will only be used for picking up supplies by team captains.
+      There is no long term team parking at the church building.
     </p>
   </>}
   additionalInformation={<>
@@ -105,7 +104,7 @@ export default () => <CommandCenter
       <p>Camping for the Greenville Command Center is located at:</p>
       <Address address={[
         'Pelham Road Baptist Church',
-        '1108 Pelham Road Suite 201',
+        '1108 Pelham Road',
         'Greenville, SC 29615'
       ]} />
     </section>

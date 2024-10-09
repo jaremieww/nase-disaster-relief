@@ -20,7 +20,7 @@ export type CommandCenterProps = {
   registrationLink: string
   closeoutFormLink?: string
   bigmessage?: string
-  bigcodechunk?: ReactNode
+  campingInfo?: ReactNode
   fuelAvailability: string
 
   director?: {
@@ -57,6 +57,13 @@ const CommandCenter = (props: CommandCenterProps) => {
         <PhoneNumber phoneNumber={props.director.phoneNumber} />
       </>
     })
+  }
+
+  if (props.campimgInfo===null )
+  {
+      campingInfo = {{
+        <p>Portable toilets, showers, and places for tents are available near the {props.commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+      }}
   }
 
   if (props.areaOversight.length > 0) {
@@ -120,7 +127,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       fuelAvailability={props.fuelAvailability}
       closeoutFormLink={props.closeoutFormLink} 
     />
-    { props.bigcodechunk }
+    { props.campingInfo }
 
     {props.additionalInformation}
     { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
@@ -282,9 +289,6 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
     {commandORoperation} Center hours are 7am-10pm.
     </p>
-
-    <Title level={5}>Camping</Title>
-    <p>Portable toilets, showers, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
 
     <Title level={5}>Be Self-Sustaining</Title>
     <p>Bring food, water, and camping supplies. Fuel is {fuelAvailability} in the area. Use portable toilets and avoid going into the building.</p>
