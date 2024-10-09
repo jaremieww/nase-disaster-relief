@@ -22,6 +22,7 @@ import SavannahCC from './components/helene/SavannahCC'
 import AikenCC from './components/helene/AikenCC'
 import LeniorCC from './components/helene/LeniorCC'
 import GreenvilleCC from './components/helene/GreenvilleCC'
+import AugustaCC from './components/helene/AugustaCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import FAQs from './FAQs'
 
@@ -52,6 +53,7 @@ ReactDOM.render(
             <Route path="lakecity" element={<LakeCityCC />} />
             <Route path="savannah" element={<SavannahCC />} />
             <Route path="aiken" element={<AikenCC />} />
+            <Route path="augusta" element={<AugustaCC />} />
             <Route path="lenior" element={<LeniorCC />} />
           </Route>
           <Route index element={<Home />} />
