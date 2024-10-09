@@ -27,22 +27,24 @@ export default () => <CommandCenter
   bigmessage="NOTICE: Please stop by Douglas GA command center located at 200 N Chester Ave Douglas, GA 31533 to pick up shirts and supplies before coming to Waycross!" 
   email="idastorm25@gmail.com"
   assignedStakes={[
-    '*Jacksonville FL South',
     'Kingsland, GA',
-    'Conyers, GA',
     'Newnan, GA',
   ]}
-  phoneNumber="904-902-0207"
+  phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/9tVrQSi3hvyRSYjV6"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Michael Lavoie',
-    phoneNumber: '352-672-0455'
+    name: 'Jaremie Woodruff',
+    phoneNumber: '904-864-0623'
   },
+  {
+    name: 'Daryl Blount',
+    phoneNumber: '678-641-5957'
+  }
   ]}
   director={{
-    name: 'Shawn McVeigh',
-    phoneNumber: '912-617-7946'
+    name: 'Greg Spears',
+    phoneNumber: '334-717-6666'
   }}
   afterAssignments={<>
     <p>

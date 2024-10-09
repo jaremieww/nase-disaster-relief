@@ -27,29 +27,30 @@ export default () => <CommandCenter
   }
   email="idastorm25@gmail.com"
   assignedStakes={[
-    '*Jacksonville FL South',
-    'Atlanta, CA',
-    'Fayetteville, GA',
-    'Powder Springs, GA',
-    'Athens, GA',
-    'Cartersville, GA',
-    'Coal Mountain, GA',
-    'Lilburn, GA',
-    'Marietta, GA',
-    'Roswell, GA',
-    'Winder, GA',
+    'Birmingham AL',
+    'Gadsden AL',
+    'Montgomery AL',
+    'Tuscaloosa AL',
+    'Atlanta GA',
+    'Fayetteville GA',
+    'Powder Springs GA',
+    'Cartersville GA',
   ]}
-  phoneNumber="904-902-0207"
+  phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/DkmuFH3Uiqg4jsjAA"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Michael Lavoie',
-    phoneNumber: '352-672-0455'
+    name: 'Jaremie Woodruff',
+    phoneNumber: '904-864-0623'
   },
+  {
+    name: 'Daryl Blount',
+    phoneNumber: '678-641-5957'
+  }
   ]}
   director={{
-    name: 'Jeff Oldham',
-    phoneNumber: '904-699-8085'
+    name: 'Greg Spears',
+    phoneNumber: '334-717-6666'
   }}
   afterAssignments={<>
     <p>

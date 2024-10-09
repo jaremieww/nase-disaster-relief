@@ -26,13 +26,10 @@ export default () => <CommandCenter
   }
   email="ian.venicecc@gmail.com"
   assignedStakes={[
-    'Birmingham, AL',
-    'Gadsden, AL',
-    'Montgomery, AL',
-    'Tuscaloosa, AL',
-    'Dothan, AL',
-    'Tifton, GA',
-    'Columbus, GA',
+    'Dothan AL',
+    'Tifton GA',
+    'Columbus GA',
+    'Macon GA',
   ]}
   phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/scpLDz86qUrkBs5w8"
