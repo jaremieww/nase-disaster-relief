@@ -12,23 +12,14 @@ export default function CallCenterTrainingMaterials() {
   <>
     <Title level={2}>Call Center Training Materials</Title>
     <Space direction="vertical">
-    <PopoutLink href="https://docs.google.com/document/d/1VH9Ha17pUrznSEfVedwzbHcaAksDtZkd4Gxot2FHO_c/edit?usp=sharing">
-      <FaFile/>
-        "2024 - NASE Phone Volunteer - Training Guide"
-    </PopoutLink>
-    {/* <PopoutLink href="https://docs.google.com/document/d/1bWB7qaHWlzdb-YSvA1x-3S9ehfwKTDCaJDgCqRG6b98/edit">
-      <Space>
-      <Icon component={FaVideo}/>
-        "2024 - NASE Stake Call Center Leadership Guide"
-      </Space>
-    </PopoutLink> */}
-
-    {/* <S3Link path={`${role.pathPrefix}/${file}`}>
-     <Space>
-        <Icon component={getIcon(file)} />
-        {file}
-     </Space>
-    </S3Link> */}
+      <PopoutLink href="https://docs.google.com/document/d/1VH9Ha17pUrznSEfVedwzbHcaAksDtZkd4Gxot2FHO_c/edit?usp=sharing">
+        <FaFile />
+          "2024 - NASE Phone Volunteer - Training Guide"
+      </PopoutLink>
+      <PopoutLink href="https://docs.google.com/document/d/1bWB7qaHWlzdb-YSvA1x-3S9ehfwKTDCaJDgCqRG6b98/edit">
+      <FaFile />
+          "2024 - NASE Stake Call Center Leadership Guide"
+      </PopoutLink>
     </Space>
            
     <DirectoryListing directory='call-center' />
