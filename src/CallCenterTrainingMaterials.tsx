@@ -13,10 +13,8 @@ export default function CallCenterTrainingMaterials() {
     <Title level={2}>Call Center Training Materials</Title>
     <Space direction="vertical">
     <PopoutLink href="https://docs.google.com/document/d/1VH9Ha17pUrznSEfVedwzbHcaAksDtZkd4Gxot2FHO_c/edit?usp=sharing">
-      <Space>
       <FaFile/>
         "2024 - NASE Phone Volunteer - Training Guide"
-      </Space>
     </PopoutLink>
     {/* <PopoutLink href="https://docs.google.com/document/d/1bWB7qaHWlzdb-YSvA1x-3S9ehfwKTDCaJDgCqRG6b98/edit">
       <Space>
