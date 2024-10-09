@@ -67,7 +67,7 @@ export default () => <CommandCenter
   campingInfo = {
     <>
       <div>
-        <p>Portable toilets, showers, and places for tents are available near the {commandORoperation} Center. Bring all your own needed supplies for the camping experience. <em>No workers inside the building, please!</em></p>
+        <p>Portable toilets, showers, and places for tents are at the campsite. Bring all your own needed supplies for the camping experience.</p>
       </div>
     </>
   }
