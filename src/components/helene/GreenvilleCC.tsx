@@ -13,7 +13,7 @@ export default () => <CommandCenter
   ]}
   campingAddress={[
     'Pelham Road Baptist Church',
-    '1108 Pelham Road Suite 201',
+    '1108 Pelham Road',
     'Greenville, SC 29615'
   ]}
   campingAddressNote={
@@ -47,6 +47,47 @@ export default () => <CommandCenter
     name: 'David Ladner',
     phoneNumber: '217-493-8150'
   }}
+
+  bigmessage={
+    <div>
+      <Title level={4}>Camping information</Title>
+      <p>Portable toilets and places for tents are available at the campsite (2.5 miles from the command center).  Bring all your own needed supplies for the camping experience.  No one will be permitted inside the church.</p>
+
+      <p>No portable showers at the campsite.  Showers are available at the 3 YMCAs and 2 Planet Fitness gyms listed below SATURDAY 5-7pm ONLY!  Please bring your shower supplies with you to your worksites on Saturday so that you can shower between 5 and 7 pm at the facility that is closest to your worksite.</p>
+      <Address address={[
+        'Eastside YMCA',
+        '1250 Taylors Road',
+        'Taylors, SC 29687'
+      ]} />
+      
+      <Address address={[
+        'Prisma Health YMCA',
+        '550 Brookwood Point Place',
+        'Simpsonville, SC 29681'
+      ]} />
+
+      <Address address={[
+        'Caine Halter YMCA',
+        '721 Cleveland Street',
+        'Greenville, SC 29601'
+      ]} />
+      
+      <Address address={[
+        'Planet Fitness',
+        '1818 Woodruff Road',
+        'Greenville, SC 29607'
+      ]} />
+      
+      <Address address={[
+        'Planet Fitness',
+        '2100 Wade Hampton Blvd',
+        'Greenville, SC 29615'
+      ]} />
+      
+      <Title level={4}>Campsite Parking</Title>
+      <p>Pelham Road Baptist Church needs full access to their parking lot on Saturday for a funeral.  Any cars that will not be taken to work sites on Saturday need to be parked at Pelham Road Elementary School (100 All Star Way, Greenville - less than a mile from the campsite).</p>
+    </div>
+  }
   afterAssignments={<>
     <p>
       Teams should meet at the campsite location.

@@ -17,12 +17,12 @@ export default function CallCenterTrainingMaterials() {
         "2024 - NASE Phone Volunteer - Training Guide"
       </Space>
     </PopoutLink>
-    <PopoutLink href="https://docs.google.com/document/d/1bWB7qaHWlzdb-YSvA1x-3S9ehfwKTDCaJDgCqRG6b98/edit">
+    {/* <PopoutLink href="https://docs.google.com/document/d/1bWB7qaHWlzdb-YSvA1x-3S9ehfwKTDCaJDgCqRG6b98/edit">
       <Space>
       <Icon component={FaVideo}/>
         "2024 - NASE Stake Call Center Leadership Guide"
       </Space>
-    </PopoutLink>
+    </PopoutLink> */}
     </Space>
            
     <DirectoryListing directory='call-center' />
