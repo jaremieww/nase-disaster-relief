@@ -44,11 +44,11 @@ export default () => {
           <div className="stakesAssigned">Mobile AL, Gainesville FL, Fort Walton Beach FL, Panama City FL</div>
           <a href="helene/stpetersburg"><Space><ApartmentOutlined />St. Petersburg</Space></a>
           <div className="stakesAssigned">Lake Mary FL, Orlando FL West, Brandon FL, St Petersburg FL, Tampa FL</div>
-          <a href="helene/stpetersburg"><Space><AimOutlined />Venice</Space></a> 
+          <a href="helene/venice"><Space><AimOutlined />Venice</Space></a> 
           <div className="stakesAssigned">Palm Bay FL, Ocala FL, Sarasota FL</div>
-          <a href="helene/stpetersburg"><Space><AimOutlined />Ft. Myers</Space></a> 
+          <a href="helene/ftmyers"><Space><AimOutlined />Ft. Myers</Space></a> 
           <div className="stakesAssigned">Boynton Beach FL, Stuart FL, Ft Myers FL, Lakeland FL</div>
-          <a href="helene/stpetersburg"><Space><AimOutlined />Naples</Space></a>
+          <a href="helene/naples"><Space><AimOutlined />Naples</Space></a>
           <div className="stakesAssigned">Coral Springs FL, Miami FL, Miami Lakes FL, Naples FL</div>  
         </Space>
       </section> 

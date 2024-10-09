@@ -23,6 +23,9 @@ import AikenCC from './components/helene/AikenCC'
 import LenoirCC from './components/helene/LenoirCC'
 import GreenvilleCC from './components/helene/GreenvilleCC'
 import AugustaCC from './components/helene/AugustaCC'
+import VeniceCC from './components/helene/VeniceCC'
+import FtMyersCC from './components/helene/FtMyersCC'
+import NaplesCC from './components/helene/NaplesCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import FAQs from './FAQs'
 
@@ -55,6 +58,9 @@ ReactDOM.render(
             <Route path="aiken" element={<AikenCC />} />
             <Route path="augusta" element={<AugustaCC />} />
             <Route path="lenoir" element={<LenoirCC />} />
+            <Route path="venice" element={<VeniceCC />} />
+            <Route path="ftmyers" element={<FtMyersCC />} />
+            <Route path="naples" element={<NaplesCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>
