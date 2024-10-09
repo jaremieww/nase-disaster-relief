@@ -20,7 +20,7 @@ export default () => <CommandCenter
       RV and Heavy Equipment Parking<br />
       <Address address={[
         '??',
-      '??'
+        '??'
       ]} />
     </>
   }
@@ -36,7 +36,7 @@ export default () => <CommandCenter
   closeoutFormLink=""
   areaOversight={[{
     name: '',
-    phoneNumber: '
+    phoneNumber: ''
   },
   ]}
   director={{
@@ -56,8 +56,8 @@ export default () => <CommandCenter
       <Title level={4}>Camping</Title>
       <p>Camping for the Chiefland Commmand Center is located at:</p>
       <Address address={[
-        'do not know',
-        'CHIEFLAND, Florida 32626'
+        '??',
+        '??'
       ]} />
     </section>
   </>}
