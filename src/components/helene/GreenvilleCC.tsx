@@ -48,7 +48,8 @@ export default () => <CommandCenter
     phoneNumber: '217-493-8150'
   }}
 
-  bigmessage={
+  bigcodechunk={
+    <> 
     <div>
       <Title level={4}>Camping information</Title>
       <p>Portable toilets and places for tents are available at the campsite (2.5 miles from the command center).  Bring all your own needed supplies for the camping experience.  No one will be permitted inside the church.</p>
@@ -87,7 +88,9 @@ export default () => <CommandCenter
       <Title level={4}>Campsite Parking</Title>
       <p>Pelham Road Baptist Church needs full access to their parking lot on Saturday for a funeral.  Any cars that will not be taken to work sites on Saturday need to be parked at Pelham Road Elementary School (100 All Star Way, Greenville - less than a mile from the campsite).</p>
     </div>
+    </>
   }
+  bigmessage={"This is the big message."}
   afterAssignments={<>
     <p>
       Teams should meet at the campsite location.

@@ -20,6 +20,7 @@ export type CommandCenterProps = {
   registrationLink: string
   closeoutFormLink?: string
   bigmessage?: string
+  bigcodechunk?: ReactNode
   fuelAvailability: string
 
   director?: {
@@ -119,6 +120,7 @@ const CommandCenter = (props: CommandCenterProps) => {
       fuelAvailability={props.fuelAvailability}
       closeoutFormLink={props.closeoutFormLink} 
     />
+    <h2>{ props.bigcodechunk ?? {props.bigcodechunk} /> }<h2>
     {props.additionalInformation}
     { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
 
