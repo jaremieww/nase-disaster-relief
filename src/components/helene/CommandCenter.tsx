@@ -120,7 +120,8 @@ const CommandCenter = (props: CommandCenterProps) => {
       fuelAvailability={props.fuelAvailability}
       closeoutFormLink={props.closeoutFormLink} 
     />
-    { props.bigcodechunk ?? {props.bigcodechunk} }
+    { props.bigcodechunk }
+
     {props.additionalInformation}
     { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
 
@@ -343,6 +344,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     <p>Keep the roadway clear.</p>
   </section>
 }
+
 
 type SundayServicesProps = {
   commandORoperation: string,
