@@ -35,7 +35,7 @@ export default () => <CommandCenter
     'Greenville SC East',
     'Greenville SC'
   ]}
-  phoneNumber="555-555-5555"
+  phoneNumber="904-990-5769"
   registrationLink="https://forms.gle/xtALZFXEDrtrJSNC6"
   closeoutFormLink=""
   areaOversight={[{
