@@ -10,12 +10,14 @@ const { Title } = Typography
 export default function CallCenterTrainingMaterials() {
   return <>
     <Title level={2}>Call Center Training Materials</Title>
-    <PopoutLink href="https://www.youtube.com/watch?v=WnRuH7YMd4k">
+    <Space direction="vertical">
+    <PopoutLink href="https://docs.google.com/document/d/1VH9Ha17pUrznSEfVedwzbHcaAksDtZkd4Gxot2FHO_c/edit?usp=sharing">
       <Space>
       <Icon component={FaVideo}/>
-        "Work Order Distribution for Command Center Staff"
+        "2024 - NASE Phone Volunteer - Training Guide"
       </Space>
     </PopoutLink>
+    </Space>
            
     <DirectoryListing directory='call-center' />
   </>
