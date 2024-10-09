@@ -59,7 +59,7 @@ export default () => {
             <img
               src={formatS3Url('helene/Helene-Week2.png')}
               alt="Command Centers Map" 
-              style={{ maxWidth: 400 }}
+              style={{ maxWidth: 500 }}
              />
             <cite>Screenshot</cite>
           </Space>

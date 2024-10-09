@@ -12,10 +12,7 @@ export default () => <CommandCenter
     'Evans, GA 30809'
   ]}
   campingAddress={[
-    'For Georgia Stakes',
-    '2000 Camp Helaman Trail',
-    'Evans, Georgia 30809',
-    'www.thecamphelaman.org'
+   
   ]}
   campingAddressNote={
     <>
@@ -37,12 +34,12 @@ export default () => <CommandCenter
   email="naseopcenteraugusta1@gmail.com"
   assignedStakes={[
     'Conyers GA',
-    'Lilburn GA*',
+    'Lilburn GA',
     'Roswell GA', 
     'Aiken SC',
     'Augusta GA',
     'Columbia SC',
-    'Hartsville SC',
+    'Hartsville SC*',
     'West Columbia SC',
   ]}
   phoneNumber="904-902-0207"
