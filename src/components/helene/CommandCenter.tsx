@@ -127,8 +127,6 @@ const CommandCenter = (props: CommandCenterProps) => {
 
     <section>
       <h2>Additional Information</h2>
-
-      
     </section>
   </>
 }
