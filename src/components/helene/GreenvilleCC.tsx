@@ -99,6 +99,14 @@ export default () => <CommandCenter
   }
   
   afterAssignments={<>
+    <Title level={4}>Command Center Hours</Title>
+    <p>
+      The Command Center will be open:
+    </p>
+      <li>Friday, 5:30 pm to 9:30 pm</li>
+      <li>Saturday, 7:00 am to 9:30 pm</li>
+      <li>Sunday, 7:00 am to 4:00 pm</li>
+    
     <p>
       Teams should find a meeting place that is not the Command Center. If camping, they can meet at the campsite location. If not camping, they can meet at their first work order site. 
       There are restrooms available at the campsite.
