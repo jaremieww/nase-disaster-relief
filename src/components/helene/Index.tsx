@@ -15,7 +15,7 @@ const files = [
 
 export default () => {
   return <Space direction="vertical" size="large">
-    <Title level={2}>Hurricane Helene</Title>
+    <Title level={2}>Hurricanes Helene and Milton</Title>
 
     <Title level={3}>Command Centers</Title>
     <div className="row">
