@@ -37,17 +37,17 @@ export default () => <CommandCenter
     'Pensacola, FL',
     '*Tallahassee, FL',
   ]}
-  phoneNumber="904-990-5769"
+  phoneNumber="904.600.3378"
   registrationLink="https://forms.gle/cyZR7hQ9bz8iKHx89"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Brent Barnes',
-    phoneNumber: '865-748-4260'
+    name: 'Keith Nash',
+    phoneNumber: '770.820.8085'
   },
   ]}
   director={{
-    name: 'Ben Smith',
-    phoneNumber: '229-224-9952'
+    name: 'Brian Flynn',
+    phoneNumber: '404-547-6203'
   }}
   afterAssignments={<>
     <p>

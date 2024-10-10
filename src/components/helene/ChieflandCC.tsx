@@ -32,7 +32,7 @@ export default () => <CommandCenter
     'Orlando, FL',
     'Orlando FL West',
   ]}
-  phoneNumber="904-990-5797"
+  phoneNumber="904.600.3378"
   registrationLink="https://forms.gle/bJu7yHRsshnAEAHs5"
   closeoutFormLink=""
   areaOversight={[{
@@ -52,6 +52,7 @@ export default () => <CommandCenter
       There is no parking at the church building.
     </p>
   </>}
+  bigmessage="Supplies will be handed out in Chiefland starting Saturday morning at 7am"
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>

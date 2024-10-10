@@ -36,17 +36,17 @@ export default () => <CommandCenter
     'Lakeland, FL',
     'St Cloud, FL',
   ]}
-  phoneNumber="321-378-2221"
+  phoneNumber="904.600.3378"
   registrationLink="https://forms.gle/8DEorLTyaf34jnCR8"
   closeoutFormLink=""
   areaOversight={[{
-    name: '',
-    phoneNumber: ''
+    name: 'Keith Nash',
+    phoneNumber: '770.820.8085'
   },
   ]}
   director={{
-    name: 'Andrew Miner',
-    phoneNumber: '786-877-2831'
+    name: 'Brian Flynn',
+    phoneNumber: '404-547-6203'
   }}
   afterAssignments={<>
     <p>
