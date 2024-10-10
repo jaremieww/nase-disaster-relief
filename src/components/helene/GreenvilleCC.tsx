@@ -100,7 +100,8 @@ export default () => <CommandCenter
   
   afterAssignments={<>
     <p>
-      Teams should meet at the campsite location.  There are restrooms available at the campsite.
+      Teams should find a meeting place that is not the Command Center. If camping, they can meet at the campsite location. If not camping, they can meet at their first work order site. 
+      There are restrooms available at the campsite.
       The Church building will only be used for picking up supplies by team captains.
       There is no long term team parking at the church building.
     </p>
