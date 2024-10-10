@@ -16,12 +16,7 @@ export default () => <CommandCenter
     '1108 Pelham Road',
     'Greenville, SC 29615'
   ]}
-  campingAddressNote={
-    <>
-      RV and Heavy Equipment Parking<br />
-      <Address address={[
-        'at the same site.'
-      ]} />
+   />
     </>
   }
   email=""
