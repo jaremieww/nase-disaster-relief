@@ -20,8 +20,7 @@ export default () => <CommandCenter
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        'unknown',
-        'Greer, South Carolina 29050'
+        'at the same site.'
       ]} />
     </>
   }
