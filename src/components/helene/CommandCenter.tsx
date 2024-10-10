@@ -329,7 +329,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     <ol>
       <li>Call the {commandORoperation} Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
       <li>If the {commandORoperation} Center prefers you find your own jobs, Check crisiscleanup.org or the Crisis Cleanup app for other nearby jobs that might be unclaimed.</li>
-      <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form or use the intake for on crisiscleanup.org.</li>
+      <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form or use the intake form on crisiscleanup.org.</li>
       <li>Team captains or designees can return to the {commandORoperation} Center to receive more work orders and supplies if needed.</li>
       <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the {commandORoperation} Center! You can report by calling the {commandORoperation} Center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
     </ol>
