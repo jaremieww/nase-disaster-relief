@@ -45,6 +45,13 @@ export default () => <CommandCenter
     <> 
     <div>
       <Title level={4}>Camping Information</Title>
+      <p>Camping for the Greenville Command Center is located at:</p>
+      <Address address={[
+        'Pelham Road Baptist Church',
+        '1108 Pelham Road',
+        'Greenville, SC 29615'
+      ]} />
+      
       <p>Portable toilets and places for tents are available at the campsite, 2.5 miles from the command center.  Bring all your own needed supplies for the camping experience.  No one will be permitted inside the church.</p>
 
       <p>No portable showers at the campsite.  Showers are available at the 3 YMCAs and 3 Planet Fitness gyms listed below SATURDAY 5-7pm ONLY!  Please bring your shower supplies with you to your worksites on Saturday so that you can shower between 5 and 7 pm at the facility that is closest to your worksite.</p>
@@ -100,13 +107,8 @@ export default () => <CommandCenter
   </>}
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
-      <Title level={4}>Camping</Title>
-      <p>Camping for the Greenville Command Center is located at:</p>
-      <Address address={[
-        'Pelham Road Baptist Church',
-        '1108 Pelham Road',
-        'Greenville, SC 29615'
-      ]} />
+      <p>If you need additional information, feel free to contact the Command Center director, David Ladner at 217-493-8150 or davidaladner@gmail.com.</p>
+
     </section>
   </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
