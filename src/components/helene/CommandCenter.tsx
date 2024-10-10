@@ -152,11 +152,11 @@ const Assignments = ({ assignedStakes, commandCenterName, commandORoperation, re
     }
 
     <p>
-      <Text type="success">All teams must check into the {commandORoperation} Center assigned&mdash;<em>No exceptions</em></Text><br />
-      Remember to pick up your branded yellow T-shirts and register (if not done so)
+      <Text type="success">All teams are expected to register online. Teams must also check into the {commandORoperation} Center assigned&mdash;<em>No exceptions</em></Text><br />
+      The team leader may check in at the {commandORoperation} Center or by calling. Remember to pick up the branded yellow T-shirts for your team.
     </p>
 
-    <p>Teams can start showing up Friday evening and get checked in starting at 6pm.</p>
+    <p>Check-ins can begin Friday evening.</p>
 
     <h3>Stakes assigned to {commandCenterName} {commandORoperation} Center</h3>
     <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -240,13 +240,13 @@ type CheckInProps = { registrationLink: string, location: string, commandORopera
 function CheckIn({ registrationLink, location, commandORoperation }: CheckInProps) {
   return <section style={{ marginTop: 40 }}>
     <h3>Check-In</h3>
-    <p>When arriving at the {commandORoperation} Center, team captains check in and:</p>
+    <p>Team captains check in by phone or by arriving at the {commandORoperation} Center. They also:</p>
     <ul>
-      <li>Fill out crew registration form. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
-      <li>Pick up work order and blank work order forms—to be used to help those who may not have a work order listed in Crisis Cleanup. It may be a neighbor of the person you are helping.</li>
+      <li>Fill out a crew registration form online, if they haven't already. {registrationLink && <>If possible, please <PopoutLink href={registrationLink}>pre-register.</PopoutLink></>}</li>
+      <li>Find their work orders electronically delivered, or if paper copies are preferred, they pick those up.</li>
       <li>Receive or report mandatory training at the {commandORoperation} Center in {location}. The training videos can be viewed online (see links above).</li>
-      <li>Meanwhile, your remaining crew members will gather T-shirts and supplies (including water to leave with those you help).</li>
-      <li>Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>.</li>
+      <li>Gather T-shirts and supplies (including water to leave with those you help).</li>
+      <li>Ideally, every crew should have at least one person trained to enter, view, and close work orders in <a href="https://crisiscleanup.org">Crisis Cleanup</a>. Ask your {commandORoperation} Center contact if they want you to do this or if it will be done by {commandORoperation} Center staff.</li>
       <li>
         All crew members accepting work orders where tree work will be done must complete the&nbsp;
         <a href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/chainsaw-safety?lang=eng">mandatory online chainsaw instruction</a> or show a certificate.
@@ -278,16 +278,15 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
 
     <Title level={5}>Work Hours</Title>
     <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
-    {commandORoperation} Center hours are 7am-10pm.
     </p>
 
     <Title level={5}>Be Self-Sustaining</Title>
-    <p>Bring food, water, and camping supplies. Fuel is {fuelAvailability} in the area. Use portable toilets and avoid going into the building.</p>
+    <p>Bring food, water, and camping supplies. Fuel is {fuelAvailability} in the area. Use portable toilets and avoid going into the building if possible.</p>
 
     <Title level={5}>{commandORoperation} Center Supplies</Title>
     <p>
-      There will be bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds at the {commandORoperation} Center.
-      Bring your own if possible. Water boots are recommended due to flooding in some areas.
+      Equipment and supplies at {commandORoperation} Centers vary by location. Typically available supplies are bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds.
+      Bring your own if possible. Water boots are recommended if working in areas that were flooded.
     </p>
 
     <Title level={5}>Age &amp; Health Restrictions</Title>
@@ -301,26 +300,26 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
     </p>
 
     <Title level={5}>Work as a team</Title>
-    <p>Be unified. Before arriving at the {commandORoperation} Center, organize the work teams each team should be around 10-15 members. Each team should have an assigned team captain and an assistant team captain.</p>
+    <p>Be unified. Before arriving, organize the work teams. Each team should be around 10-15 members. Each team should have an assigned team captain and an assistant team captain.</p>
 
     <Title level={5}>Call ahead - Receive Permission - Close each Work Order</Title>
     <ul>
-      <li>Check to see if the homeowner still needs help and is available to receive you</li>
-      <li>Have the homeowner sign the work order if possible.</li>
+      <li>Check to see if the homeowner still needs help and is available to receive you.</li>
       <li>Always receive permission of the homeowner before attempting any work at a property unless the work order states you can work without the owner present.</li>
       <li>
         Be sure to close each job in Crisis Cleanup when it is completed using one of the following methods
 
         <ol>
-          <li>Use the QR code in the corner of each work order to access an online form where you can change the status of the job to "Closed, completed" (or the appropriate status).
+         <li>
+            Call, text, or email the {commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
+          </li>
+          <li>If the {commandORoperation} Center prefers you close out the job, use the QR code in the corner of each work order to access an online form where you can change the status of the job to "Closed, completed" (or the appropriate status).
             <strong>Be sure to enter the number of workers and the number of hours worked.</strong><br />
             <u>OR</u>
           </li>
-          <li>
-            Call, text, or email the {commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
-          </li>
+ 
           {closeoutFormLink &&
-            <li>Complete the <a href={closeoutFormLink}>Team Close-out form</a> and return supplies to the {commandORoperation} Center by noon on Sunday.</li>
+            <li>If the {commandORoperation} Center wants you to complete a <a href={closeoutFormLink}>Team Close-out form</a>, please do. Also return supplies to the {commandORoperation} Center by 1:00 on Sunday.</li>
           }
         </ol>
       </li>
@@ -328,15 +327,15 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
 
     <Title level={5}>If you finish all of your work orders, choose one of the following options</Title>
     <ol>
-      <li>Check crisiscleanup.org or the Crisis Cleanup app for other nearby jobs that might be unclaimed.</li>
-      <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form (or use the intake for on crisiscleanup.org)</li>
       <li>Call the {commandORoperation} Center to receive another job (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
-      <li>Return to the {commandORoperation} Center to receive more work orders and supplies if needed.</li>
+      <li>If the {commandORoperation} Center prefers you find your own jobs, Check crisiscleanup.org or the Crisis Cleanup app for other nearby jobs that might be unclaimed.</li>
+      <li>Look for someone nearby who could use some help. Get their permission and be sure to fill out a paper work-order form or use the intake for on crisiscleanup.org.</li>
+      <li>Team captains or designees can return to the {commandORoperation} Center to receive more work orders and supplies if needed.</li>
       <li><strong>Return and Report.</strong> It is so critical that you report your efforts to the {commandORoperation} Center! You can report by calling the {commandORoperation} Center (<PhoneNumber phoneNumber={commandCenterPhoneNumber} />).</li>
     </ol>
 
     <Title level={5}>Be sure to separate debris types on the side of the road</Title>
-    <p>Keep the roadway clear.</p>
+    <p>Keep the roadway clear. Also keep the sidewalk clear, if possible.</p>
   </section>
 }
 
@@ -350,7 +349,7 @@ function SundayServices( { commandORoperation }: SundayServicesProps ) {
     <Title level={4}>Sunday Services</Title>
 
     <p>
-      A short Sacrament meeting will be held at the {commandORoperation} Center on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held on Sunday morning at 7:30 AM. Members should come in clean work clothes, if possible. Following the meeting, crews should plan to continue working.
     </p>
   </section>
 }
