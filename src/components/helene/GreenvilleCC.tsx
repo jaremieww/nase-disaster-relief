@@ -16,9 +16,8 @@ export default () => <CommandCenter
     '1108 Pelham Road',
     'Greenville, SC 29615'
   ]}
-   />
-    </>
-  }
+
+  
   email=""
   assignedStakes={[
     'Athens GA',
