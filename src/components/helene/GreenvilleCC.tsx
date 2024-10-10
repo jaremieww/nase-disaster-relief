@@ -114,8 +114,10 @@ export default () => <CommandCenter
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
-      There will also be a sacrament meeting at the command center for those who are not camping and would like to attend there.
+      Because teams are spread over a large area, sacrament meetings will be held at various locations at 7:30 am on Sunday morning. 
+      Locations include the Stake Center (Command Center location); Anderson, Greenwood, Seneca, and Simpsonville ward buildings; 
+      and the Laurens Branch building. Each team may choose the location most convenient for them.
+      Team members should come in clean work clothes, if possible. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
    fuelAvailability="severely limited"
