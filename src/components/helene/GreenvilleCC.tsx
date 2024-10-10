@@ -111,7 +111,8 @@ export default () => <CommandCenter
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      There will also be a sacrament meeting at the command center for those who are not camping and would like to attend there.
     </p>
   </section>}
    fuelAvailability="severely limited"
