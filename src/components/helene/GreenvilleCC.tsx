@@ -106,7 +106,7 @@ export default () => <CommandCenter
       <li>Friday, 5:30 pm to 9:30 pm</li>
       <li>Saturday, 7:00 am to 9:30 pm</li>
       <li>Sunday, 7:00 am to 4:00 pm</li>
-    
+    <p> </p>
     <p>
       Teams should find a meeting place that is not the Command Center. If camping, they can meet at the campsite location. If not camping, they can meet at their first work order site. 
       There are restrooms available at the campsite.
@@ -123,9 +123,7 @@ export default () => <CommandCenter
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      Because teams are spread over a large area, sacrament meetings will be held at various locations at 7:30 am on Sunday morning. 
-      Locations include the Stake Center (Command Center location); Anderson, Greenwood, Seneca, and Simpsonville ward buildings; 
-      and the Laurens Branch building. Each team may choose the location most convenient for them.
+      A brief sacrament meeting will be held at the campsite and at the Command Center at 7:30 am on Sunday morning.
       Team members should come in clean work clothes, if possible. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
