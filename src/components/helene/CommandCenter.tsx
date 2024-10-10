@@ -122,11 +122,11 @@ const CommandCenter = (props: CommandCenterProps) => {
     />
     { props.campingInfo }
 
-    {props.additionalInformation}
     { props.sundayServices ?? <SundayServices commandORoperation={props.commandORoperation} /> }
 
     <section>
       <h2>Additional Information</h2>
+          {props.additionalInformation}
     </section>
   </>
 }
