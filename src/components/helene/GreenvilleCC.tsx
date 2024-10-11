@@ -40,7 +40,7 @@ campingAddressNote={
   registrationLink="https://forms.gle/xtALZFXEDrtrJSNC6"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Krista Donahoe',
+    name: 'Krista Donohoe',
     phoneNumber: '850-982-8499'
   },
   ]}
