@@ -16,8 +16,16 @@ export default () => <CommandCenter
     '1108 Pelham Road',
     'Greenville, SC 29615'
   ]}
-
-  
+campingAddressNote={
+    <>
+      Secondary Camping<br />
+      <Address address={[
+        'Devenger Road Presbyterian Church',
+        '1200 Devenger Road',
+        'Greer, SC 29650'
+      ]} />
+    </>
+  }
   email=""
   assignedStakes={[
     'Athens GA',
@@ -51,7 +59,13 @@ export default () => <CommandCenter
         '1108 Pelham Road',
         'Greenville, SC 29615'
       ]} />
-      
+      <p></p>
+      <p></p>Secondary location:</p>
+      <Address address={[
+        'Devenger Road Presbyterian Church',
+        '1200 Devenger Road',
+        'Greer, SC 29650'
+      ]} />
       <p>Portable toilets and places for tents are available at the campsite, 2.5 miles from the command center.  Bring all your own needed supplies for the camping experience.  No one will be permitted inside the church.</p>
 
       <p>No portable showers at the campsite.  Showers are available at the 3 YMCAs and 3 Planet Fitness gyms listed below SATURDAY 5-7pm ONLY!  Please bring your shower supplies with you to your worksites on Saturday so that you can shower between 5 and 7 pm at the facility that is closest to your worksite.</p>
@@ -123,7 +137,7 @@ export default () => <CommandCenter
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A brief sacrament meeting will be held at the campsite and at the Command Center at 7:30 am on Sunday morning.
+      A brief sacrament meeting will be held at the main campsite and at the Command Center at 7:30 am on Sunday morning.
       Team members should come in clean work clothes, if possible. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
