@@ -18,7 +18,7 @@ export default () => <CommandCenter
   ]}
 campingAddressNote={
     <>
-      Secondary Camping<br />
+      <br>Secondary Camping</br>
       <Address address={[
         'Devenger Road Presbyterian Church',
         '1200 Devenger Road',
