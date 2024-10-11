@@ -103,7 +103,7 @@ export default () => <CommandCenter
     <p>
       The Command Center will be open:
     </p>
-      <li>Friday, 5:30 pm to 9:30 pm</li>
+      <li>Friday, 6:00 pm to 9:30 pm</li>
       <li>Saturday, 7:00 am to 9:30 pm</li>
       <li>Sunday, 7:00 am to 4:00 pm</li>
     <p> </p>
