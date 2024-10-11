@@ -59,8 +59,8 @@ campingAddressNote={
         '1108 Pelham Road',
         'Greenville, SC 29615'
       ]} />
-      <p></p>
-      <p></p>Secondary location:</p>
+
+      <p>Secondary location:</p>
       <Address address={[
         'Devenger Road Presbyterian Church',
         '1200 Devenger Road',
