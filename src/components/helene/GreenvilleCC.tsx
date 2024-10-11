@@ -51,7 +51,7 @@ campingAddressNote={
 
   campingInfo={
     <> 
-    <div>
+  
       <Title level={4}>Camping Information</Title>
       <p>Camping for the Greenville Command Center is located at:</p>
       <Address address={[
@@ -108,7 +108,7 @@ campingAddressNote={
       
       <Title level={4}>Campsite Parking</Title>
       <p>Pelham Road Baptist Church needs full access to their parking lot on Saturday for a funeral.  Any cars that will not be taken to work sites on Saturday need to be parked at Pelham Road Elementary School (100 All Star Way, Greenville - less than a mile from the campsite).</p>
-    </div>
+
     </>
   }
   
