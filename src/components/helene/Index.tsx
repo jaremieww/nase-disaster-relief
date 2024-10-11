@@ -10,7 +10,7 @@ const { Title } = Typography
 const files = [
   { title: 'Crisis Cleanup Flier - English', path: 'helene/Helene_social_media_8449651386_en-US.png' },
   { title: 'Folleto de Crisis Cleanup - Español', path: 'helene/Helene_social_media_8449651386_es-MX.png' },
-  { title: 'Vehicle Placard - REQUIRED IN FLORUDA ONLY', path: 'ian/florida-dashboard-placard.pdf' }
+  { title: 'Vehicle Placard - REQUIRED IN FLORIDA ONLY', path: 'ian/florida-dashboard-placard.pdf' }
 ]
 
 export default () => {

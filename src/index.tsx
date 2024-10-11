@@ -62,6 +62,25 @@ ReactDOM.render(
             <Route path="ftmyers" element={<FtMyersCC />} />
             <Route path="naples" element={<NaplesCC />} />
           </Route>
+          <Route path="helene/helene">
+            <Route index element={<HeleneIndex />} />
+            <Route path="greenville" element={<GreenvilleCC />} />
+            <Route path="valdosta" element={<ValdostaCC />} />
+            <Route path="madison" element={<MadisonCC />} />
+            <Route path="chiefland" element={<ChieflandCC />} />
+            <Route path="waycross" element={<WaycrossCC />} />
+            <Route path="asheville" element={<AshevilleCC />} />
+            <Route path="douglas" element={<DouglasCC />} />
+            <Route path="stpetersburg" element={<StPetersburgCC />} />
+            <Route path="lakecity" element={<LakeCityCC />} />
+            <Route path="savannah" element={<SavannahCC />} />
+            <Route path="aiken" element={<AikenCC />} />
+            <Route path="augusta" element={<AugustaCC />} />
+            <Route path="lenoir" element={<LenoirCC />} />
+            <Route path="venice" element={<VeniceCC />} />
+            <Route path="ftmyers" element={<FtMyersCC />} />
+            <Route path="naples" element={<NaplesCC />} />
+          </Route>
           <Route index element={<Home />} />
         </Route>
       </Routes>
