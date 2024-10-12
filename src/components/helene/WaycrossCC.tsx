@@ -31,7 +31,8 @@ export default () => <CommandCenter
   ]}
   phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/9tVrQSi3hvyRSYjV6"
-  closeoutFormLink="Report to Sara Ker at 303-847-6428 or Sara.Ker@hotmail.com"
+  closeoutFormLink=""
+  bigmessage="Report to Sara Ker at 303-847-6428 or Sara.Ker@hotmail.com"
   areaOversight={[{
     name: 'Jaremie Woodruff',
     phoneNumber: '904-864-0623'
