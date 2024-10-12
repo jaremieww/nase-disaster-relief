@@ -26,6 +26,7 @@ import AugustaCC from './components/helene/AugustaCC'
 import VeniceCC from './components/helene/VeniceCC'
 import FtMyersCC from './components/helene/FtMyersCC'
 import NaplesCC from './components/helene/NaplesCC'
+import JohnsonCityCC from './components/helene/JohnsonCityCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import FAQs from './FAQs'
 
@@ -45,6 +46,7 @@ ReactDOM.render(
           <Route path="command-center" element={<CommandCenterTrainingMaterials />} />
           <Route path="helene">
             <Route index element={<HeleneIndex />} />
+            <Route path="johnsoncity" element={<JohnsonCityCC />} />
             <Route path="greenville" element={<GreenvilleCC />} />
             <Route path="valdosta" element={<ValdostaCC />} />
             <Route path="madison" element={<MadisonCC />} />
@@ -64,6 +66,7 @@ ReactDOM.render(
           </Route>
           <Route path="helene/helene">
             <Route index element={<HeleneIndex />} />
+            <Route path="johnsoncity" element={<JohnsonCityCC />} />
             <Route path="greenville" element={<GreenvilleCC />} />
             <Route path="valdosta" element={<ValdostaCC />} />
             <Route path="madison" element={<MadisonCC />} />
