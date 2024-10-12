@@ -137,7 +137,7 @@ campingAddressNote={
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      Here are the addresses of 7:30 am sacrament meetings:
+      Sacrament meeting will be held at 7:30 at all of the following locations. Choose whichever is most convenient for your team.
       <li>Command Center: 1301 Boiling Spring Rd., Greer, 29650</li>
       <li>Anderson: 412 Harden Rd. Anderson 29621</li>
       <li>Greenwood: 1417 Cokesbury Rd., Greenwood 29649</li>
@@ -146,7 +146,7 @@ campingAddressNote={
       <li>Gaffney: 701 West Bouford St., Gaffney 29341</li>
       <li>Inman: 3691 Clark Rd, Boiling Springs 29316</li>
       <li>Spartanburg: 121 Quail Dr., Spartanburg 29302</li>
- 
+     We will not hold sacrament meeting at the campgrounds, as previously planned.
     </p>
   </section>}
    fuelAvailability="severely limited"
