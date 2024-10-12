@@ -12,14 +12,14 @@ export default () => <CommandCenter
     'WAYCROSS, Georgia 31503'
   ]}
   campingAddress={[
-    'do not know',
+    '2095 Central Avenue',
     'WAYCROSS, Georgia 31503'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        'unknown',
+        '2095 Central Avenue',
         'WAYCROSS, Georgia 31503'
       ]} />
     </>
@@ -31,7 +31,7 @@ export default () => <CommandCenter
   ]}
   phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/9tVrQSi3hvyRSYjV6"
-  closeoutFormLink=""
+  closeoutFormLink="Report to Sara Ker at 303-847-6428 or Sara.Ker@hotmail.com"
   areaOversight={[{
     name: 'Jaremie Woodruff',
     phoneNumber: '904-864-0623'
