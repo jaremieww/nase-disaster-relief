@@ -137,7 +137,7 @@ campingAddressNote={
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      Here are the addresses of 7:30 am sacrament meetings:</p>
+      Here are the addresses of 7:30 am sacrament meetings:
       <li>Command Center: 1301 Boiling Spring Rd., Greer, 29650</li>
       <li>Anderson: 412 Harden Rd. Anderson 29621</li>
       <li>Greenwood: 1417 Cokesbury Rd., Greenwood 29649</li>
