@@ -137,8 +137,16 @@ campingAddressNote={
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A brief sacrament meeting will be held at the main campsite and at the Command Center at 7:30 am on Sunday morning.
-      Team members should come in clean work clothes, if possible. Following the meeting, crews should plan to continue working.
+      Here are the addresses of 7:30 am sacrament meetings:</p>
+      <li>Command Center: 1301 Boiling Spring Rd., Greer, 29650</li>
+      <li>Anderson: 412 Harden Rd. Anderson 29621</li>
+      <li>Greenwood: 1417 Cokesbury Rd., Greenwood 29649</li>
+      <li>Seneca/Clemson: 5003 Wells Hwy, Seneca 29678</li>
+      <li>Laurens: 627 East Main St., Laurens 29360</li>
+      <li>Gaffney: 701 West Bouford St., Gaffney 29341</li>
+      <li>Inman: 3691 Clark Rd, Boiling Springs 29316</li>
+      <li>Spartanburg: 121 Quail Dr., Spartanburg 29302</li>
+ 
     </p>
   </section>}
    fuelAvailability="severely limited"
