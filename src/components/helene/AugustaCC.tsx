@@ -42,7 +42,8 @@ export default () => <CommandCenter
     'Hartsville SC*',
     'West Columbia SC',
   ]}
-  phoneNumber="904-902-0207"
+  bigmessage="NOTICE: Command Center Phone Number has changed."
+  phoneNumber="904-990-5855"
   registrationLink="https://forms.gle/iG1MzRMzdNEEJjAD7"
   closeoutFormLink=""
   areaOversight={[{
