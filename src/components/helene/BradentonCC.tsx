@@ -21,19 +21,20 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="NASE.Command3@gmail.com"
+  email="ian.venicecc@gmail.com"
   assignedStakes={[
-    'Leesburg FL',
-    'Ocala FL',
-    'Odessa FL ^',
-    'Tampa FL',
+    'Boynton Beach FL ^',
+    'Stuart FL',
+    'Cocoa FL *',
+    'Palm Bay FL',
+    'St Cloud FL',
   ]}
-  phoneNumber="904-902-8063"
-  registrationLink="https://forms.gle/5bw4a4omF6KcnT4d9"
+  phoneNumber="904-990-5797"
+  registrationLink="https://forms.gle/vq8qhQztrsduu8xu7"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Jaremie Woodruff',
-    phoneNumber: '904-864-0623'
+    name: 'Krista Donohoe',
+    phoneNumber: ''
   },
   ]}
   director={{
