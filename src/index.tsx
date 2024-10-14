@@ -28,6 +28,7 @@ import FtMyersCC from './components/helene/FtMyersCC'
 import NaplesCC from './components/helene/NaplesCC'
 import JohnsonCityCC from './components/helene/JohnsonCityCC'
 import DaytonaBeachCC from './components/helene/DaytonaBeachCC'
+import NewPortRicheyCC from './components/helene/NewPortRicheyCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import FAQs from './FAQs'
 
@@ -65,6 +66,7 @@ ReactDOM.render(
             <Route path="ftmyers" element={<FtMyersCC />} />
             <Route path="naples" element={<NaplesCC />} />
             <Route path="daytonabeach" element={<DaytonaBeachCC />} />
+            <Route path="newportrichey" element={<NewPortRicheyCC />} />
           </Route>
           <Route path="helene/helene">
             <Route index element={<HeleneIndex />} />
@@ -86,6 +88,7 @@ ReactDOM.render(
             <Route path="ftmyers" element={<FtMyersCC />} />
             <Route path="naples" element={<NaplesCC />} />
             <Route path="daytonabeach" element={<DaytonaBeachCC />} />
+            <Route path="newportrichey" element={<NewPortRicheyCC />} />
           </Route>
           <Route index element={<Home />} />
         </Route>
