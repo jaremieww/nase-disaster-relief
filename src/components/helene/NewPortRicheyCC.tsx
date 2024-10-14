@@ -8,14 +8,15 @@ export default () => <CommandCenter
   commandORoperation="Command"
   name="New Port Richey"
   address={[
-    ''
+    '10606 Hilltop Dr', 
+    'New Port Richey, FL 34654'
   ]}
   campingAddress={[
     ''
   ]}
   campingAddressNote={
     <>
-      RV and Heavy Equipment Parking<br />
+      No Campimg this weekend<br />
       <Address address={[
         ''
       ]} />
@@ -42,16 +43,13 @@ export default () => <CommandCenter
   }}
   afterAssignments={<>
     <p>
-      Teams should meet at the campsite location.
-      There are showers, restrooms, water, gloves, and t-shirts available there.
       The Church building will only be used for picking up supplies.
-      There is no parking at the church building.
     </p>
   </>}
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Valdosta Commmand Center is located at:</p>
+      <p>There is no camping at this location this weekend.</p>
       <Address address={[
         ''
       ]} />
