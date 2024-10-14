@@ -163,7 +163,7 @@ const Assignments = ({ assignedStakes, commandCenterName, commandORoperation, re
       {assignedStakes.map(x => <li key={x}>{x}</li>)}
     </ul>
     <p>
-      * Stake Assigned to lead at the {commandORoperation} Center</p>
+      * Stake assigned to lead at the {commandORoperation} Center.  ^ Stake assigned to shadow the lead stake.</p>
       <p>
       All volunteers must be organized into teams with a team captain and assistant team captain before arriving at the {commandORoperation} Center.
       We recommend teams of 10-15. If you have not been assigned a team, please check with your Ward or Branch leadership.

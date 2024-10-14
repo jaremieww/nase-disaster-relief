@@ -26,16 +26,20 @@ export default () => <CommandCenter
   }
   email="NASECommandCenter1@gmail.com"
   assignedStakes={[
-    '*Sugar Hill, GA',
-    'Greenville SC East',
-    'Greenville SC',
-    'Asheville, NC',
+    'Charlotte NC South',
+    'Fort Mill SC ^',
+    'Gastonia NC',
+    'Greensboro NC',
+    'High Point NC',
+    'Lake Norman NC',
+    'Winston-Salem NC',
+    'Asheville NC *',
   ]}
-  phoneNumber="555-555-5555"
-  registrationLink=""
+  phoneNumber=""
+  registrationLink="https://forms.gle/E7LnzqF94DMMk2HM8"
   closeoutFormLink=""
   areaOversight={[{
-    name: '',
+    name: 'Dan Seegmiller',
     phoneNumber: ''
   },
   ]}
