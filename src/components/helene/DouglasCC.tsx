@@ -37,7 +37,7 @@ export default () => <CommandCenter
     'Cartersville GA',
   ]}
   phoneNumber="904-902-8063"
-  registrationLink="https://forms.gle/DkmuFH3Uiqg4jsjAA"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: 'Jaremie Woodruff',

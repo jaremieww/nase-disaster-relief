@@ -30,7 +30,7 @@ export default () => <CommandCenter
     'Newnan, GA',
   ]}
   phoneNumber="904-902-8063"
-  registrationLink="https://forms.gle/9tVrQSi3hvyRSYjV6"
+  registrationLink=""
   closeoutFormLink=""
   bigmessage="Report to Sara Ker at 303-847-6428 or Sara.Ker@hotmail.com"
   areaOversight={[{

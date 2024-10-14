@@ -32,7 +32,7 @@ export default () => <CommandCenter
     'Naples FL',
   ]}
   phoneNumber="904-990-5797"
-  registrationLink="https://forms.gle/bJu7yHRsshnAEAHs5"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: '',

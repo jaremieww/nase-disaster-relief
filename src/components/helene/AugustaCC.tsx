@@ -44,7 +44,7 @@ export default () => <CommandCenter
   ]}
   bigmessage="NOTICE: Command Center Phone Number has changed."
   phoneNumber="904-990-5855"
-  registrationLink="https://forms.gle/iG1MzRMzdNEEJjAD7"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: 'Mike Dohm',

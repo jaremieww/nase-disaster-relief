@@ -31,7 +31,7 @@ export default () => <CommandCenter
     'Tampa, FL',
   ]}
   phoneNumber="813-344-4926"
-  registrationLink="https://docs.google.com/forms/d/e/1FAIpQLSe61anFKL1XT2ktChzjs8fs5js9sHUkWUWtWADyQAxqINUppA/viewform"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: '',

@@ -37,7 +37,7 @@ campingAddressNote={
     'Greenville SC *'
   ]}
   phoneNumber="904-990-5769"
-  registrationLink="https://forms.gle/xtALZFXEDrtrJSNC6"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: 'Krista Donohoe',

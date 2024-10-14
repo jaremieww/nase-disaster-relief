@@ -32,7 +32,7 @@ export default () => <CommandCenter
     'Asheville, NC',
   ]}
   phoneNumber="555-555-5555"
-  registrationLink="https://forms.gle/nGtUcG9dkvgrqMJm9"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: '',

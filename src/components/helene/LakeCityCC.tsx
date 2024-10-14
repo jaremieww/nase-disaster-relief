@@ -37,7 +37,7 @@ export default () => <CommandCenter
     'St Cloud, FL',
   ]}
   phoneNumber="904.600.3378"
-  registrationLink="https://forms.gle/8DEorLTyaf34jnCR8"
+  registrationLink=""
   closeoutFormLink=""
   areaOversight={[{
     name: 'Keith Nash',
