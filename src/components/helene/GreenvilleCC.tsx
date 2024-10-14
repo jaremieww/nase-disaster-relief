@@ -28,20 +28,22 @@ campingAddressNote={
   }
   email=""
   assignedStakes={[
-    'Athens GA',
-    'Coal Mountain GA',
-    'Marietta GA',
-    'Winder GA',
-    'Charlotte NC Central',
-    'Greenville SC East',
-    'Greenville SC *'
+    'Charlotte NC Central ^',
+    'Greenville SC East *',
+    'Durham NC',
+    'Goldsboro NC',
+    'Greenville NC',
+    'Raleigh NC South',
+    'Raleigh NC',
+    'Wake Forest NC',
+    'Greenville SC'
   ]}
   phoneNumber="904-990-5769"
-  registrationLink=""
+  registrationLink="https://forms.gle/NxXjS6sq3zWwb3dK9"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Krista Donohoe',
-    phoneNumber: '850-982-8499'
+    name: 'Craig Bell',
+    phoneNumber: ''
   },
   ]}
   director={{
