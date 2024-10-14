@@ -24,17 +24,19 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="Ian.BrandonStkCC@gmail.com"
+  email="ian.venicecc@gmail.com"
   assignedStakes={[
-    'Palm Bay FL',
-    'Ocala FL',
-    'Sarasota FL',
+    'Coral Springs FL*',
+    'Miami FL',
+    'Miami Lakes FL',
+    'Naples FL',
+    'Sarasota FL ^',
   ]}
-  phoneNumber=""
-  registrationLink=""
+  phoneNumber="904-990-5797"
+  registrationLink="https://forms.gle/5DvjkRJ78bJRZoQ1A"
   closeoutFormLink=""
   areaOversight={[{
-    name: '',
+    name: 'Keith Nash',
     phoneNumber: ''
   },
   ]}

@@ -43,11 +43,11 @@ export default () => {
           <a href="helene/bradenton"><Space><ApartmentOutlined />Bradenton</Space></a>
           <div className="stakesAssigned">Boynton Beach FL, Stuart FL, Cocoa FL, Palm Bay FL, St Cloud FL</div>
           <a href="helene/venice"><Space><AimOutlined />Venice</Space></a> 
-          <div className="stakesAssigned"></div>
-          <a href="helene/ftmyers"><Space><AimOutlined />Ft. Myers</Space></a> 
+          <div className="stakesAssigned">Coral Springs FL, Miami FL, Miami Lakes FL, Naples FL, Sarasota FL</div>
+          {/* <a href="helene/ftmyers"><Space><AimOutlined />Ft. Myers</Space></a> 
           <div className="stakesAssigned"></div>
           <a href="helene/naples"><Space><AimOutlined />Naples</Space></a>
-          <div className="stakesAssigned"></div>  
+          <div className="stakesAssigned"></div>   */}
         </Space>
       </section> 
      </div>
