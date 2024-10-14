@@ -5,8 +5,8 @@ import CommandCenter from "./CommandCenter";
 const { Title } = Typography
 
 export default () => <CommandCenter
-  commandORoperation="Operations"
-  name="St Petersburg"
+  commandORoperation="Command"
+  name="Bradenton"
   address={[
     ''
   ]}
@@ -21,21 +21,19 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="Ian.BrandonStkCC@gmail.com"
+  email="NASE.Command3@gmail.com"
   assignedStakes={[
-    'Orlando FL',
-    'Orlando FL West',
-    'Brandon FL *',
-    'Ft Myers FL',
-    'Lakeland FL',
-    'St Petersburg FL',
+    'Leesburg FL',
+    'Ocala FL',
+    'Odessa FL ^',
+    'Tampa FL',
   ]}
-  phoneNumber="813-344-4926"
-  registrationLink="https://forms.gle/shiTNQJC8sMGUdcJ8"
+  phoneNumber="904-902-8063"
+  registrationLink="https://forms.gle/5bw4a4omF6KcnT4d9"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Brent Barnes',
-    phoneNumber: ''
+    name: 'Jaremie Woodruff',
+    phoneNumber: '904-864-0623'
   },
   ]}
   director={{
@@ -53,17 +51,16 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the St Peterburg Operations Center is located at:</p>
+      <p>Camping for the Valdosta Commmand Center is located at:</p>
       <Address address={[
-        'do not know',
-        'DUNEDIN, Florida 34698'
+        ''
       ]} />
     </section>
   </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at the church building on Sunday morning at 8:00 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
    fuelAvailability="limited"
