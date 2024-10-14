@@ -26,7 +26,7 @@ campingAddressNote={
       ]} />
     </>
   }
-  email=""
+  email="NASE.Command1@gmail.com"
   assignedStakes={[
     'Charlotte NC Central ^',
     'Greenville SC East *',

@@ -33,18 +33,20 @@ export default () => <CommandCenter
   }
   email="naseopcenteraugusta1@gmail.com"
   assignedStakes={[
-    'Conyers GA',
-    'Lilburn GA',
-    'Roswell GA', 
+    'Fayetteville NC',
+    'Fayetteville NC West',
+    'Charleston SC',
+    'Morehead City NC',
+    'Myrtle Beach SC',
+    'Wilmington NC',
     'Aiken SC',
-    'Augusta GA',
-    'Columbia SC',
-    'Hartsville SC*',
-    'West Columbia SC',
+    'Augusta GA ^',
+    'Hartsville SC *',
+    'Chattanooga TN',
   ]}
   bigmessage="NOTICE: Command Center Phone Number has changed."
   phoneNumber="904-990-5855"
-  registrationLink=""
+  registrationLink="https://forms.gle/h5STJrkPgfYYr6en9"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Mike Dohm',

@@ -22,36 +22,27 @@ export default () => {
       <div className="column">     
       <section className="ccenter">
         <Space direction="vertical">
-          <a href="helene/johnsoncity"><Space><AimOutlined />Johnson City</Space></a>
+          {/* <a href="helene/johnsoncity"><Space><AimOutlined />Johnson City</Space></a>
           <div className="stakesAssigned">Johnson City, TN</div>
           <a href="helene/lenoir"><Space><AimOutlined />Lenoir</Space></a>
-          <div className="stakesAssigned">Hickory NC</div>
+          <div className="stakesAssigned">Hickory NC</div> */}
           <a  href="https://sites.google.com/view/ashevillecommandcenter/home"><Space><ApartmentOutlined />Asheville</Space></a>
-          <div className="stakesAssigned">Sugar Hill GA, Charlotte NC South, Fort Mill SC, Gastonia NC, Greensboro NC, High Point NC, Asheville NC</div>
+          <div className="stakesAssigned">Charlotte NC South, Fort Mill SC, Gastonia NC, Greensboro NC, High Point NC, Lake Norman NC, Winston-Salem NC, Asheville NC</div>
           <a href="helene/greenville"><Space><ApartmentOutlined />Greenville</Space></a>
-          <div className="stakesAssigned">Athens GA, Coal Mountain GA, Marietta GA, Winder GA, Charlotte NC Central, Greenville SC East, Greenville SC</div>
+          <div className="stakesAssigned">Charlotte NC Central, Greenville SC East, Durham NC, Goldsboro NC, Greenville NC, Raleigh NC South, Raleigh NC, Wake Forest NC, Greenville SC</div>
           <a href="helene/augusta"><Space><ApartmentOutlined />Augusta</Space></a>
-          <div className="stakesAssigned">Conyers GA, Lilburn GA, Roswell GA, Aiken SC, Augusta GA, Columbia SC, Hartsville SC, West Columbia SC</div>
+          <div className="stakesAssigned">Fayetteville NC, Fayetteville NC West, Charleston SC, Morehead City NC, Myrtle Beach SC, Wilmington NC, Aiken SC, Augusta GA, Hartsville SC, Chattanooga TN</div>
           <a href="helene/douglas"><Space><ApartmentOutlined />Douglas</Space></a>
-          <div className="stakesAssigned">Birmingham AL, Gadsden AL, Montgomery AL, Tuscaloosa AL, Atlanta GA, Fayetteville GA, Powder Springs GA, Cartersville GA</div>
-          <a href="helene/waycross"><Space><ApartmentOutlined />Waycross</Space></a>
-          <div className="stakesAssigned">Kingsland GA, Newnan GA</div>
-          <a href="helene/valdosta"><Space><ApartmentOutlined />Valdosta</Space></a>
-          <div className="stakesAssigned">Dothan AL, Tifton GA, Columbus GA, Macon GA</div>
-          <a href="helene/lakecity"><Space><ApartmentOutlined />Lake City</Space></a>
-          <div className="stakesAssigned">Jacksonville FL East, Jacksonville FL West, Lake City FL, Pensacola FL</div>
-          <a href="helene/madison"><Space><ApartmentOutlined />Madison</Space></a>
-          <div className="stakesAssigned">Tallahassee FL, Gulfport MS, Hattiesburg MS, Slidell LA</div>
-          <a href="helene/chiefland"><Space><ApartmentOutlined />Chiefland</Space></a>
-          <div className="stakesAssigned">Mobile AL, Gainesville FL, Fort Walton Beach FL, Panama City FL</div>
+          <div className="stakesAssigned">Kingsland GA, Fort Walton Beach FL, Panama City FL, Tifton GA, Columbus GA, Macon GA</div>
+
           {/* <a href="helene/stpetersburg"><Space><ApartmentOutlined />St. Petersburg</Space></a>
           <div className="stakesAssigned">Lake Mary FL, Orlando FL West, Brandon FL, St Petersburg FL, Tampa FL</div> */}
           <a href="helene/venice"><Space><AimOutlined />Venice</Space></a> 
-          <div className="stakesAssigned">Palm Bay FL, Ocala FL, Sarasota FL</div>
+          <div className="stakesAssigned"></div>
           <a href="helene/ftmyers"><Space><AimOutlined />Ft. Myers</Space></a> 
-          <div className="stakesAssigned">Boynton Beach FL, Stuart FL, Ft Myers FL, Lakeland FL</div>
+          <div className="stakesAssigned"></div>
           <a href="helene/naples"><Space><AimOutlined />Naples</Space></a>
-          <div className="stakesAssigned">Coral Springs FL, Miami FL, Miami Lakes FL, Naples FL</div>  
+          <div className="stakesAssigned"></div>  
         </Space>
       </section> 
      </div>

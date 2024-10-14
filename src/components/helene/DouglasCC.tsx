@@ -25,32 +25,26 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="ian.venicecc@gmail.com"
+  email="idastorm25@gmail.com"
   assignedStakes={[
-    'Birmingham AL',
-    'Gadsden AL',
-    'Montgomery AL',
-    'Tuscaloosa AL',
-    'Atlanta GA',
-    'Fayetteville GA',
-    'Powder Springs GA',
-    'Cartersville GA',
+    'Kingsland GA',
+    'Fort Walton Beach FL',
+    'Panama City FL',
+    'Tifton GA',
+    'Columbus GA',
+    'Macon GA',
   ]}
   phoneNumber="904-902-8063"
-  registrationLink=""
+  registrationLink="https://forms.gle/yq8UyLaWjB4zBMvA6"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Jaremie Woodruff',
-    phoneNumber: '904-864-0623'
+    name: 'Clay Hudgins',
+    phoneNumber: ''
   },
-  {
-    name: 'Daryl Blount',
-    phoneNumber: '678-641-5957'
-  }
   ]}
   director={{
-    name: 'Greg Spears',
-    phoneNumber: '334-717-6666'
+    name: '',
+    phoneNumber: ''
   }}
   afterAssignments={<>
     <p>
