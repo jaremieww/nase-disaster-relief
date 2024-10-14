@@ -34,6 +34,8 @@ export default () => {
           <div className="stakesAssigned">Fayetteville NC, Fayetteville NC West, Charleston SC, Morehead City NC, Myrtle Beach SC, Wilmington NC, Aiken SC, Augusta GA, Hartsville SC, Chattanooga TN</div>
           <a href="helene/douglas"><Space><ApartmentOutlined />Douglas</Space></a>
           <div className="stakesAssigned">Kingsland GA, Fort Walton Beach FL, Panama City FL, Tifton GA, Columbus GA, Macon GA</div>
+          <a href="helene/daytonabeach"><Space><ApartmentOutlined />Daytona Beach</Space></a>
+          <div className="stakesAssigned">DeLand FL, Lake Mary FL</div>
 
           {/* <a href="helene/stpetersburg"><Space><ApartmentOutlined />St. Petersburg</Space></a>
           <div className="stakesAssigned">Lake Mary FL, Orlando FL West, Brandon FL, St Petersburg FL, Tampa FL</div> */}
