@@ -33,6 +33,7 @@ export default () => <CommandCenter
     'Tifton GA',
     'Columbus GA',
     'Macon GA',
+    'Jacksonville FL South',
   ]}
   phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/yq8UyLaWjB4zBMvA6"
