@@ -24,7 +24,7 @@ export default () => <CommandCenter
   email="NASE.Command3@gmail.com"
   assignedStakes={[
     'DeLand FL ^',
-    'Lake Mary FL',
+    'Jacksonville FL South',
   ]}
   phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/B251y9M9tMW93RHA8"
@@ -51,8 +51,7 @@ export default () => <CommandCenter
       <Title level={4}>Camping</Title>
       <p>Camping for the Valdosta Commmand Center is located at:</p>
       <Address address={[
-        '158-166 Prison-Farm Rd',
-        'Valdosta, GA 31601'
+        ''
       ]} />
     </section>
   </>}
