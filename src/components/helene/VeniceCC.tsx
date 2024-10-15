@@ -8,8 +8,8 @@ export default () => <CommandCenter
   commandORoperation="Operations"
   name="Venice"
   address={[
-    '??',
-    '??'
+    '3000 East Venice Avenue',
+    'VENICE, Florida 34292-2529'
   ]}
   campingAddress={[
     '??',
