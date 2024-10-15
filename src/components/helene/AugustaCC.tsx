@@ -16,13 +16,13 @@ export default () => <CommandCenter
   ]}
   campingAddressNote={
     <>
-      Campground for Georgia Stakes<br />
+      Campground for South Carolina and Tennessee Stakes<br />
       <Address address={[
         '2000 Camp Helaman Trail',
         'Evans, Georgia 30809',
         'www.thecamphelaman.org'
       ]} />
-      Campground for South Carolina Stakes<br />
+      Campground for North Carolina Stakes<br />
       <Address address={[
         'Aiken Stake Center',
         '358 E Pine Log Rd',
@@ -68,14 +68,13 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Campground for Georgia Stakes is located at:</p>
+      <p>Campground for North Carolina and Tennessee Stakes is located at:</p>
       <Address address={[
-        'Campground for Georgia Stakes',
         '2000 Camp Helaman Trail',
         'Evans, Georgia 30809',
         'www.thecamphelaman.org'
       ]} />
-      <p>Campground for South Carolina Stakes is located at:</p>
+      <p>Campground for North Carolina Stakes is located at:</p>
       <Address address={[
         'Aiken Stake Center',
         '358 E Pine Log Rd',

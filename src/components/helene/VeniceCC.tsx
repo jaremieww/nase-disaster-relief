@@ -12,15 +12,15 @@ export default () => <CommandCenter
     'VENICE, Florida 34292-2529'
   ]}
   campingAddress={[
-    '??',
-    '??'
+    '3000 East Venice Avenue',
+    'VENICE, Florida 34292-2529'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        '??',
-        '??'
+        '3000 East Venice Avenue',
+        'VENICE, Florida 34292-2529'
       ]} />
     </>
   }
@@ -55,10 +55,10 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Chiefland Commmand Center is located at:</p>
+      <p>Camping for the Venice Commmand Center is located at:</p>
       <Address address={[
-        '??',
-        '??'
+        '3000 East Venice Avenue',
+        'VENICE, Florida 34292-2529'
       ]} />
     </section>
   </>}
