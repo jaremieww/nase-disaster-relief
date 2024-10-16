@@ -285,7 +285,7 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
 
     <Title level={5}>{commandORoperation} Center Supplies</Title>
     <p>
-      Equipment and supplies at {commandORoperation} Centers vary by location. Typically available supplies are bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fir strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds.
+      Equipment and supplies at {commandORoperation} Centers vary by location. Typically available supplies are bottled water, T-shirts, shovels, rakes, gloves, chainsaws (limited), tarps, fur strips, hammers, cleaning kits, first aid kits, eye protection, hand trucks/wheelbarrows, and sleds.
       Bring your own if possible. Water boots are recommended if working in areas that were flooded.
     </p>
 
