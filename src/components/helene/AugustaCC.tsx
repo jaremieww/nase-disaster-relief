@@ -68,7 +68,7 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Campground for North Carolina and Tennessee Stakes is located at:</p>
+      <p>Campground for South Carolina and Tennessee Stakes is located at:</p>
       <Address address={[
         '2000 Camp Helaman Trail',
         'Evans, Georgia 30809',
