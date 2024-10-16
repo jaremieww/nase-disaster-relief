@@ -12,7 +12,8 @@ export default () => <CommandCenter
     'BRADENTON, Florida 34210-3101'
   ]}
   campingAddress={[
-    'Yet to be determined'
+    '3400 CortezRoad',
+    'BRADENTON, Florida 34210-3101'
   ]}
   campingAddressNote={
     <>
