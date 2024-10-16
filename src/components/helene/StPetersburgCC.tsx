@@ -5,65 +5,57 @@ import CommandCenter from "./CommandCenter";
 const { Title } = Typography
 
 export default () => <CommandCenter
-  commandORoperation="Operations"
+  commandORoperation="Command"
   name="St Petersburg"
   address={[
-    ''
+    '9001 106th Avenue',
+    'LARGO, Florida 33777'
   ]}
   campingAddress={[
-    ''
+    'TBD'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        ''
+        'TBD'
       ]} />
     </>
   }
-  email="Ian.BrandonStkCC@gmail.com"
+  email=""
   assignedStakes={[
     'Orlando FL',
     'Orlando FL West',
-    'Brandon FL *',
     'Ft Myers FL',
     'Lakeland FL',
     'St Petersburg FL',
+    'Tampa FL *'
   ]}
-  phoneNumber="813-344-4926"
+  phoneNumber="904-990-5769"
   registrationLink="https://forms.gle/shiTNQJC8sMGUdcJ8"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Brent Barnes',
-    phoneNumber: ''
+    phoneNumber: '865-748-4260'
   },
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Kasey Hess',
+    phoneNumber: '813-830-3223'
   }}
   afterAssignments={<>
     <p>
       Teams should meet at the campsite location.
-      There are showers, restrooms, water, gloves, and t-shirts available there.
-      The Church building will only be used for picking up supplies.
+      The campsite amenities are yet to be determinted.
+      The Church building will only be used for picking up supplies and some limited parking while using the shower units.
       There is no parking at the church building.
     </p>
   </>}
-  additionalInformation={<>
-    <section style={{ marginTop: 24 }}>
-      <Title level={4}>Camping</Title>
-      <p>Camping for the St Peterburg Operations Center is located at:</p>
-      <Address address={[
-        'do not know',
-        'DUNEDIN, Florida 34698'
-      ]} />
-    </section>
-  </>}
+  
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at the campsite on Sunday morning at 7:30 AM. Members should come in clean work clothes. Following the meeting, crews should plan to continue working.
+      A short Sacrament meeting will be held at TBD on Sunday morning at 7:00 AM. Members should come in clean work clothes. Parking TBD. Following the meeting, crews should plan to continue working.
     </p>
   </section>}
    fuelAvailability="limited"
