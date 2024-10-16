@@ -49,15 +49,7 @@ export default () => <CommandCenter
       There is no parking at the church building.
     </p>
   </>}
-  additionalInformation={<>
-    <section style={{ marginTop: 24 }}>
-      <Title level={4}>Camping</Title>
-      <p>Camping for the Valdosta Commmand Center is located at:</p>
-      <Address address={[
-        ''
-      ]} />
-    </section>
-  </>}
+
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
