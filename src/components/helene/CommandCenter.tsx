@@ -270,14 +270,14 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
 
 
     <Title level={5}>Safety &amp; Skills</Title>
-    <p>If a work team receives a work order or requrest to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
+    <p>If a work team receives a work order or request to provide services that are beyond their skill set, appears to be unsafe, or just doesn't feel right, then please return that work order uncompleted.
       We are an unskilled volunteer workforce providing basic labor and moral support.
       <strong>There is no expectation that we undertake hazardous or specialized work.</strong>&nbsp;
       Ladders are needed for tarp jobs. Remember to <em>hydrate, hydrate, hydrate.</em>
     </p>
 
     <Title level={5}>Work Hours</Title>
-    <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until at least 1pm on Sunday.
+    <p>Arrive either Friday night or Saturday morning. Work all day Saturday, until about noon on Sunday.
     </p>
 
     <Title level={5}>Be Self-Sustaining</Title>
@@ -307,13 +307,13 @@ function ItemsOfConsideration({ commandCenterPhoneNumber, commandCenterEmail, co
       <li>Check to see if the homeowner still needs help and is available to receive you.</li>
       <li>Always receive permission of the homeowner before attempting any work at a property unless the work order states you can work without the owner present.</li>
       <li>
-        Be sure to close each job in Crisis Cleanup when it is completed using one of the following methods
+        Be sure to close your work orders by doing the following:
 
         <ol>
          <li>
-            Call, text, or email the {commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> or <EmailAddress email={commandCenterEmail} />).
+            Call or text the {commandORoperation} Center to report your information (<PhoneNumber phoneNumber={commandCenterPhoneNumber} /> ).
           </li>
-          <li>If the {commandORoperation} Center prefers you close out the job, use the QR code in the corner of each work order to access an online form where you can change the status of the job to "Closed, completed" (or the appropriate status).
+          <li>If the {commandORoperation} Center advises you to close out the job, use the QR code in the corner of each work order to access an online form where you can change the status of the job to "Closed, completed" (or the appropriate status).
             <strong>Be sure to enter the number of workers and the number of hours worked.</strong><br />
             <u>OR</u>
           </li>
