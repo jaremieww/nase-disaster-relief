@@ -26,7 +26,7 @@ export default () => <CommandCenter
     'DeLand FL ^',
     'Jacksonville FL South',
   ]}
-  phoneNumber="904-902-8063"
+  phoneNumber="904-902-0207"
   registrationLink="https://forms.gle/B251y9M9tMW93RHA8"
   closeoutFormLink=""
   areaOversight={[{

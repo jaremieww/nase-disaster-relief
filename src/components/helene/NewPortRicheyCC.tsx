@@ -29,7 +29,7 @@ export default () => <CommandCenter
     'Odessa FL ^',
     'Tampa FL',
   ]}
-  phoneNumber="904-902-8063"
+  phoneNumber="904-902-0207"
   registrationLink="https://forms.gle/5bw4a4omF6KcnT4d9"
   closeoutFormLink=""
   areaOversight={[{
