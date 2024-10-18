@@ -40,12 +40,12 @@ export default () => <CommandCenter
   closeoutFormLink=""
   areaOversight={[{
     name: 'Clay Hudgins',
-    phoneNumber: ''
+    phoneNumber: '904-303-0007'
   },
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Mark Duren',
+    phoneNumber: '386-623-44498'
   }}
   afterAssignments={<>
     <p>
