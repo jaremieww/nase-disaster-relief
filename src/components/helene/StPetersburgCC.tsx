@@ -12,9 +12,8 @@ export default () => <CommandCenter
     'LARGO, Florida 33777'
   ]}
   campingAddress={[
-    'RV Tech Training Center',
-        '12949 66th St N',
-        'Largo, FL 33773'
+    '9001 106th Avenue',
+    'LARGO, Florida 33777'
   ]}
   campingAddressNote={
     <>
@@ -22,7 +21,8 @@ export default () => <CommandCenter
       <Address address={[
         'RV Tech Training Center',
         '12949 66th St N',
-        'Largo, FL 33773'
+        'Largo, FL 33773', 
+        'This is a gravel lot, not ideal for tents'
       ]} />
     </>
   }
@@ -58,12 +58,18 @@ export default () => <CommandCenter
     additionalInformation={<>
       <section style={{ marginTop: 24 }}>
         <Title level={4}>Camping</Title>
-        <p>Camping for the St Peterburg Command Center is located at: </p>
-        <Address address={[
-          'RV Tech Training Center',
-          '12949 66th St N',
-          'Largo, FL 33773'
-        ]} />
+        <p>Camping for the St Peterburg Command Center is located at the curch: </p>
+      <Address address={[
+        '9001 106th Avenue',
+        'LARGO, Florida 33777'
+      ]} />     
+      <p>If we run out of room we will send people to the RV and Heavy Equipment Parking</p>
+      <Address address={[
+        'RV Tech Training Center',
+        '12949 66th St N',
+        'Largo, FL 33773', 
+        'This is a gravel lot, not ideal for tents'
+      ]} />
       </section>
     </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
