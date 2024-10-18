@@ -12,13 +12,17 @@ export default () => <CommandCenter
     'LARGO, Florida 33777'
   ]}
   campingAddress={[
-    'TBD'
+    'RV Tech Training Center',
+        '12949 66th St N',
+        'Largo, FL 33773'
   ]}
   campingAddressNote={
     <>
       RV and Heavy Equipment Parking<br />
       <Address address={[
-        'TBD'
+        'RV Tech Training Center',
+        '12949 66th St N',
+        'Largo, FL 33773'
       ]} />
     </>
   }
@@ -51,11 +55,21 @@ export default () => <CommandCenter
       There is no parking at the church building.
     </p>
   </>}
-  
+    additionalInformation={<>
+      <section style={{ marginTop: 24 }}>
+        <Title level={4}>Camping</Title>
+        <p>Camping for the St Peterburg Command Center is located at: </p>
+        <Address address={[
+          'RV Tech Training Center',
+          '12949 66th St N',
+          'Largo, FL 33773'
+        ]} />
+      </section>
+    </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
     <Title level={4}>Sunday Services</Title>
     <p>
-      A short Sacrament meeting will be held at TBD on Sunday morning at 7:00 AM. Members should come in clean work clothes. Parking TBD. Following the meeting, crews should plan to continue working.
+    A short Sacrament meeting will be held at the Command Center church building (9001 106th Avenue, Largo, FL 33777) on Sunday morning at 7:00 AM. Members should come in clean work clothes. Teams should carpool from the campsite as parking is limited at the church. Please no RVs and heavy equipment trailers. Following the meeting, crews should plan to continue working. 
     </p>
   </section>}
    fuelAvailability="limited"
