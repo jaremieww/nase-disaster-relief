@@ -63,7 +63,7 @@ export default () => <CommandCenter
         '9001 106th Avenue',
         'LARGO, Florida 33777'
       ]} />     
-      <p>If we run out of room we will send people to the RV and Heavy Equipment Parking</p>
+      <p>If we run out of room we will send people to the RV and Heavy Equipment Parking<br/></p>
       <Address address={[
         'RV Tech Training Center',
         '12949 66th St N',
