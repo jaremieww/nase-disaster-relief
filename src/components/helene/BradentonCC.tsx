@@ -26,10 +26,12 @@ export default () => <CommandCenter
   }
   email="ian.venicecc@gmail.com"
   assignedStakes={[
-    'Cocoa FL *',
+    'Cocoa FL',
+    'Leesburg FL',
+    'Orlando FL',
+    'Orlando FL West',
     'Palm Bay FL',
-    'St Cloud FL',
-    'Naples FL'
+    'St Cloud FL'
   ]}
   phoneNumber="904-990-5797"
   registrationLink="https://forms.gle/RuEYzfjcdPPJVkJa9"

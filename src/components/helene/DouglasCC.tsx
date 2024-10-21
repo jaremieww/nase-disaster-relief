@@ -27,13 +27,18 @@ export default () => <CommandCenter
   }
   email="idastorm25@gmail.com"
   assignedStakes={[
-    'Kingsland GA',
-    'Fort Walton Beach FL',
-    'Panama City FL',
+    'Lake City FL',
+    'Pensacola FL',
     'Tifton GA',
-    'Columbus GA',
-    'Macon GA',
-    'Jacksonville FL South',
+    'Atlanta GA',
+    'Conyers GA',
+    'Fayetteville GA',
+    'Newnan GA',
+    'Powder Springs GA',
+    'Athens GA',
+    'Cartersville GA',
+    'Marietta GA',
+    'Winder GA',
   ]}
   phoneNumber="904-902-8063"
   registrationLink="https://forms.gle/9VVxrYKGsHoXp3Lx9"
