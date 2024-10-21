@@ -36,7 +36,7 @@ export default () => <CommandCenter
     'Tampa FL *'
   ]}
   phoneNumber="904-990-5769"
-  registrationLink="https://forms.gle/shiTNQJC8sMGUdcJ8"
+  registrationLink="https://forms.gle/Xu52Qap1XXbw5iaQ6"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Brent Barnes',

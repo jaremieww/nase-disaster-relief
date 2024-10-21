@@ -36,7 +36,7 @@ export default () => <CommandCenter
     'Jacksonville FL South',
   ]}
   phoneNumber="904-902-8063"
-  registrationLink="https://forms.gle/yq8UyLaWjB4zBMvA6"
+  registrationLink="https://forms.gle/9VVxrYKGsHoXp3Lx9"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Clay Hudgins',

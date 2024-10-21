@@ -32,7 +32,7 @@ export default () => <CommandCenter
     'Sarasota FL ^',
   ]}
   phoneNumber="904-990-5797"
-  registrationLink="https://forms.gle/5DvjkRJ78bJRZoQ1A"
+  registrationLink="https://forms.gle/CH8FH1aKjbSczNew9"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Keith Nash',

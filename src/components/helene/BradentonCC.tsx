@@ -32,7 +32,7 @@ export default () => <CommandCenter
     'Naples FL'
   ]}
   phoneNumber="904-990-5797"
-  registrationLink="https://forms.gle/vq8qhQztrsduu8xu7"
+  registrationLink="https://forms.gle/RuEYzfjcdPPJVkJa9"
   closeoutFormLink=""
   areaOversight={[{
     name: 'Krista Donohoe',
