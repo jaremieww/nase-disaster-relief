@@ -31,7 +31,8 @@ export default () => <CommandCenter
     'Orlando FL',
     'Orlando FL West',
     'Palm Bay FL',
-    'St Cloud FL'
+    'St Cloud FL',
+    '(Sarasota FL *)'
   ]}
   phoneNumber="904-990-5797"
   registrationLink="https://forms.gle/RuEYzfjcdPPJVkJa9"

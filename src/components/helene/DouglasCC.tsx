@@ -27,7 +27,7 @@ export default () => <CommandCenter
   }
   email="idastorm25@gmail.com"
   assignedStakes={[
-    'Lake City FL',
+    'Lake City FL *',
     'Pensacola FL',
     'Tifton GA',
     'Atlanta GA',

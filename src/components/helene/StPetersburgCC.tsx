@@ -37,8 +37,8 @@ export default () => <CommandCenter
     'Orlando FL South*',
     'Brandon FL',
     'Lakeland FL',
-    'St Petersburg FL',
-    'Tampa FL'
+    'St Petersburg FL ^',
+    'Tampa FL *'
   ]}
   phoneNumber="904-990-5769"
   registrationLink="https://forms.gle/Xu52Qap1XXbw5iaQ6"

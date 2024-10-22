@@ -31,7 +31,7 @@ export default () => <CommandCenter
     'Miami FL',
     'Stuart FL',
     'Ft Myers FL',
-    'Sarasota FL',
+    'Sarasota FL *',
   ]}
   phoneNumber="904-990-5797"
   registrationLink="https://forms.gle/CH8FH1aKjbSczNew9"
