@@ -1,6 +1,7 @@
 import { Typography } from 'antd'
 import Address from "../Address";
 import CommandCenter from "./CommandCenter";
+import {  formatS3Url } from "../S3"
 
 const { Title } = Typography
 
@@ -69,6 +70,16 @@ export default () => <CommandCenter
         '807 W Bryan Street',
         'Douglas, GA'
       ]} />
+       <img
+              src={formatS3Url('helene/Douglas1.jpg')}
+              alt="Command Centers Map" 
+              style={{ maxWidth: 500 }}
+             />
+          <img
+              src={formatS3Url('helene/Douglas2.jpg')}
+              alt="Command Centers Map" 
+              style={{ maxWidth: 500 }}
+             />     
     </section>
   </>}
   sundayServices={<section style={{ marginTop: '40px' }}>
