@@ -38,13 +38,13 @@ export default () => <CommandCenter
   registrationLink="https://forms.gle/RuEYzfjcdPPJVkJa9"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Kieth Nash',
+    name: 'Keith Nash',
     phoneNumber: '770-820-8085'
   },
   ]}
   director={{
-    name: '',
-    phoneNumber: ''
+    name: 'Mike Meyers',
+    phoneNumber: '813-966-8284'
   }}
   afterAssignments={<>
     <p>
