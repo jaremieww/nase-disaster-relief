@@ -42,8 +42,11 @@ export default () => <CommandCenter
   },
   ]}
   director={{
-    name: 'Stacey Palizzi',
-    phoneNumber: '603-724-3296'
+    {name: 'Stacey Palizzi',
+    phoneNumber: '603-724-3296'},
+    {name: 'Tony Palizzi', 
+      phoneNumber: '603-724-3295'
+    }
   }}
   afterAssignments={<>
     <p>
