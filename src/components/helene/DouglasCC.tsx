@@ -27,13 +27,7 @@ export default () => <CommandCenter
     </>
   }
   bigmessage = {
-    'Topic: Douglas Week 4 Team Captain Meeting',
-'Time: Oct 23, 2024 08:00 PM Eastern Time (US and Canada)',
-'Join Zoom Meeting',
-'https://zoom.us/j/94056543852?pwd=cyoEoZmwBx7x08Jac3kLaJ0EvPfMDZ.1',
-'Meeting ID: 940 5654 3852',
-'Passcode: 559921'
- 
+    'Topic: Douglas Week 4 Team Captain Meeting Time: Oct 23, 2024 08:00 PM Eastern Time (US and Canada) https://zoom.us/j/94056543852?pwd=cyoEoZmwBx7x08Jac3kLaJ0EvPfMDZ.1 Meeting ID: 940 5654 3852 Passcode: 559921' 
   }
   email="idastorm25@gmail.com"
   assignedStakes={[
