@@ -31,6 +31,7 @@ export default () => <CommandCenter
     'Orlando FL',
     'Orlando FL West',
     'Palm Bay FL',
+    'Ft Myers FL',
     'St Cloud FL',
     '(Sarasota FL *)'
   ]}

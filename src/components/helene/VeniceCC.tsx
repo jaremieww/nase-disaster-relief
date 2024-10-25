@@ -30,7 +30,6 @@ export default () => <CommandCenter
     'Coral Springs FL',
     'Miami FL',
     'Stuart FL',
-    'Ft Myers FL',
     'Sarasota FL *',
   ]}
   phoneNumber="904-990-5797"
