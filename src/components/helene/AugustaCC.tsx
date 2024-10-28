@@ -16,46 +16,26 @@ export default () => <CommandCenter
   ]}
   campingAddressNote={
     <>
-      Campground for South Carolina and Tennessee Stakes<br />
-      <Address address={[
-        '2000 Camp Helaman Trail',
-        'Evans, Georgia 30809',
-        'www.thecamphelaman.org'
-      ]} />
-      Campground for North Carolina Stakes<br />
-      <Address address={[
-        'Aiken Stake Center',
-        '358 E Pine Log Rd',
-        'Aiken, SC 29803'
-      ]} />
-
+      
     </>
   }
   email="naseopcenteraugusta1@gmail.com"
   assignedStakes={[
-    'Fayetteville NC',
-    'Fayetteville NC West',
-    'Charleston SC',
-    'Morehead City NC',
-    'Myrtle Beach SC',
-    'Wilmington NC',
-    'Aiken SC',
-    'Augusta GA ^',
-    'Hartsville SC *',
-    'Chattanooga TN',
+     'Augusta GA'
+
   ]}
-  bigmessage="NOTICE: Command Center Phone Number has changed."
+  bigmessage="This will be a special working stake conference."
   phoneNumber="904-990-5855"
-  registrationLink="https://forms.gle/h5STJrkPgfYYr6en9"
+  registrationLink="https://forms.gle/QNkf8yYp7KZEvNhCA"
   closeoutFormLink=""
   areaOversight={[{
-    name: 'Mike Dohm',
-    phoneNumber: '985-718-9753'
+    name: 'Craig Bell',
+    phoneNumber: ''
   },
   ]}
   director={{
-    name: 'Mark Judson (Hartsville Stake)',
-    phoneNumber: '805-701-4801'
+    name: '',
+    phoneNumber: ''
   }}
   afterAssignments={<>
     <p>
