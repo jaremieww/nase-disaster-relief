@@ -38,7 +38,7 @@ export default () => {
           <div className="stakesAssigned">DeLand FL, Jacksonville FL South</div>
           <a href="helene/newportrichey"><Space><ApartmentOutlined />New Port Richey</Space></a>
           <div className="stakesAssigned">Leesburg FL, Ocala FL, Odessa FL, Tampa FL</div> */}
-          <a href="helene/stpetersburg"><Space><ApartmentOutlined />St. Petersburg</Space></a>
+          <Space><ApartmentOutlined />St. Petersburg</Space>
           <div className="stakesAssigned">Note: There is no Command Center in St. Petersburg this weekend.</div>
           {/* <a href="helene/bradenton"><Space><ApartmentOutlined />Bradenton</Space></a>
           <div className="stakesAssigned">Cocoa FL, Leesburg FL, Orlando FL, Orlando FL West, Ft Myers FL, Palm Bay FL, St Cloud FL, (Sarasota FL *)</div>
