@@ -14,11 +14,7 @@ export default () => <CommandCenter
   campingAddress={[
    
   ]}
-  campingAddressNote={
-    <>
-      <br>No Camping this weekend.</br>
-    </>
-  }
+
   email="naseopcenteraugusta1@gmail.com"
   assignedStakes={[
      'Augusta GA'
