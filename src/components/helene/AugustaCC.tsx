@@ -15,12 +15,18 @@ export default () => <CommandCenter
    
   ]}
 
+  
   email="naseopcenteraugusta1@gmail.com"
   assignedStakes={[
-     'Augusta GA'
+     'Myrtle Beach SC',
+     'Aiken SC', 
+     'Augusta GA *',
+     'Columbia SC', 
+     'Hartsville SC ^',
+     'West Columbia SC',
+     'Chattanooga TN'
 
   ]}
-  bigmessage="This will be a special working stake conference."
   phoneNumber="904-990-5855"
   registrationLink="https://forms.gle/QNkf8yYp7KZEvNhCA"
   closeoutFormLink=""
