@@ -16,7 +16,7 @@ export default () => <CommandCenter
   ]}
   campingAddressNote={
     <>
-      
+      <br>No Camping this weekend.</br>
     </>
   }
   email="naseopcenteraugusta1@gmail.com"
