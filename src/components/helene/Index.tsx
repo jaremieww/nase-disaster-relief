@@ -2,7 +2,7 @@ import { List, Space, Typography } from "antd"
 import { S3Link, formatS3Url } from "../S3"
 import './Index.css'
 //import PopoutLink from "../PopoutLink"
-import { AimOutlined, ApartmentOutlined } from '@ant-design/icons'
+import { ApartmentOutlined } from '@ant-design/icons'
 
 
 const { Title } = Typography
