@@ -32,6 +32,7 @@ import NewPortRicheyCC from './components/helene/NewPortRicheyCC'
 import BradentonCC from './components/helene/BradentonCC'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import FAQs from './FAQs'
+import BestPractices from './BestPractices'
 
 
 ReactDOM.render(
@@ -43,6 +44,7 @@ ReactDOM.render(
         }>
           <Route path="training" element={<Training />} />
           <Route path="faqs" element={<FAQs />} />
+          <Route path="bestpractices" element={<BestPractices />} />
           <Route path="crew-leader-checklist" element={<CrewLeaderChecklist />} />
           <Route path="call-center" element={<CallCenterTrainingMaterials />} />
           <Route path="communications" element={<CommunicationsTrainingMaterials />} />
