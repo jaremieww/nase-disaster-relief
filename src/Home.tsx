@@ -43,6 +43,8 @@ export default function Home() {
     <Title level={3}>Leadership Training Materials</Title>
     <Space direction="vertical">
       <Link to="faqs"><Space><QuestionOutlined />Frequently Asked Questions</Space></Link>
+      <Link to="bestpractices"><Space><QuestionOutlined />Best Practices</Space></Link>
+      <Link to="suggestionbox"><Space><QuestionOutlined />Suggestion Box</Space></Link>
       <Link to="command-center"><Space><AlertOutlined />Command Center</Space></Link>
       <Link to="call-center"><Space><PhoneOutlined />Call Center</Space></Link>
       <Link to="communications"><Space>Communications</Space></Link>
