@@ -26,6 +26,9 @@ export default function AntApp() {
           { key: 'training', label: 'Training Materials' },
           { key: 'call-center', label: 'Call Center Training' },
           { key: 'command-center', label: 'Command Center Training' },
+          { key: 'faqs', label: 'FAQs' },
+          { key: 'bestpractices', label: 'Best Practices' },
+          { key: 'suggestionbox', label: 'Suggestion Box' },
         ]}
         selectedKeys={[location.pathname.replace(/^\//, '')]}
         onSelect={item => { navigate(item.key) }} />
