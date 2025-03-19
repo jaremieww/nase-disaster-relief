@@ -11,7 +11,7 @@ const currentEvents: CleanupEvent[] = [
   { name: 'MO/AR Tornados', link: 'matornados' },
 ]
 const previousEvents: CleanupEvent[] = [
-  // { name: 'Hurricanes Helene and Milton', link: 'helene' },
+   { name: 'Hurricanes Helene and Milton', link: 'helene' },
 
 ]
 
