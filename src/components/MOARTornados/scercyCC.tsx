@@ -21,7 +21,7 @@ export default () => <CommandCenter
       ]} />
     </>
   }
-  email="NASE.Command3@gmail.com"
+  email=""
   assignedStakes={[
     'Home Stake Only',
   ]}

@@ -11,7 +11,7 @@ const currentEvents: CleanupEvent[] = [
   { name: 'MO/AR Tornados', link: 'matornados' },
 ]
 const previousEvents: CleanupEvent[] = [
-  { name: 'Hurricanes Helene and Milton', link: 'helene' },
+  // { name: 'Hurricanes Helene and Milton', link: 'helene' },
 
 ]
 
@@ -49,7 +49,7 @@ export default function Home() {
       <Link to="command-center"><Space><AlertOutlined />Command Center</Space></Link>
       <Link to="call-center"><Space><PhoneOutlined />Call Center</Space></Link>
       <Link to="communications"><Space>Communications</Space></Link>
-      <Title level={4}>Version 2.0.1 Updated 10/08/2024 7:16 pm ET</Title>
+      <Title level={4}>Version 2.1.1 Updated 03/19/2025 1:52 am ET</Title>
     </Space>
   </>
 }
