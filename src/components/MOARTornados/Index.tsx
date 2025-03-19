@@ -24,7 +24,7 @@ export default () => {
         <Space direction="vertical">
           <a href="/matornados/rolla"><Space>Rolla, MO</Space></a>
           <div className="stakesAssigned">home stake only</div>
-          <a href="/matornados/scercy"><Space>Scercy, AR</Space></a>
+          <a href="/matornados/scercy"><Space>Scearcy, AR</Space></a>
           <div className="stakesAssigned">home stake only</div>
           
         </Space>

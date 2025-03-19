@@ -6,7 +6,7 @@ const { Title } = Typography
 
 export default () => <CommandCenter
   commandORoperation="Command"
-  name="Scercy AR"
+  name="Scearcy AR"
   address={[
     ''
   ]}
@@ -48,7 +48,7 @@ export default () => <CommandCenter
   additionalInformation={<>
     <section style={{ marginTop: 24 }}>
       <Title level={4}>Camping</Title>
-      <p>Camping for the Valdosta Commmand Center is located at:</p>
+      <p>No Camping this weekend</p>
       <Address address={[
         ''
       ]} />
