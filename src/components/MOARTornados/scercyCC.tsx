@@ -6,7 +6,7 @@ const { Title } = Typography
 
 export default () => <CommandCenter
   commandORoperation="Command"
-  name="Scearcy AR"
+  name="Searcy AR"
   address={[
     ''
   ]}
