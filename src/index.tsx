@@ -30,6 +30,9 @@ import JohnsonCityCC from './components/helene/JohnsonCityCC'
 import DaytonaBeachCC from './components/helene/DaytonaBeachCC'
 import NewPortRicheyCC from './components/helene/NewPortRicheyCC'
 import BradentonCC from './components/helene/BradentonCC'
+import ScercyCC from './components/maTornados/ScercyCC'
+import RollaCC from './components/maTornados/RollaCC'
+import MATornadosIndex from './components/maTornados/Index'
 import CommunicationsTrainingMaterials from './CommunicationsTrainingMaterials';
 import FAQs from './FAQs'
 import BestPractices from './BestPractices'
@@ -73,6 +76,11 @@ ReactDOM.render(
             <Route path="daytonabeach" element={<DaytonaBeachCC />} />
             <Route path="newportrichey" element={<NewPortRicheyCC />} />
             <Route path="bradenton" element={<BradentonCC />} />
+          </Route>
+          <Route path="matornados">
+            <Route index element={<MATornadosIndex />} />
+            <Route path="scercy" element={<ScercyCC />} />
+            <Route path="rolla" element={<RollaCC />} />
           </Route>
           <Route path="helene/helene">
             <Route index element={<HeleneIndex />} />

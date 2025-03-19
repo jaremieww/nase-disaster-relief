@@ -1,0 +1,28 @@
+.column {
+    float: left;
+    width: 40%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .a {
+    text-align: right;
+  }
+  .ccenter {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .stakesAssigned {
+    font-size: 14px;
+    margin-top: -2px;
+  }
