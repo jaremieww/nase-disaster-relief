@@ -22,9 +22,9 @@ export default () => {
       <div className="column">     
       <section className="ccenter">
         <Space direction="vertical">
-          <a href="rolla"><Space>Rolla MO</Space></a>
+          <a href="/rolla"><Space>Rolla, MO</Space></a>
           <div className="stakesAssigned">home stake only</div>
-          <a href="scercy"><Space>Scercy AR</Space></a>
+          <a href="/scercy"><Space>Scercy, AR</Space></a>
           <div className="stakesAssigned">home stake only</div>
           
         </Space>
