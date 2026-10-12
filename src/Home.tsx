@@ -27,7 +27,7 @@ const EventList = ({ events }: { events: CleanupEvent[] }) => {
 
 export default function Home() {
   return <>
-    <Title level={2}>NASE Disaster Relief</Title>
+    <Title level={2}>NASE Disaster Relief has moved to <a href="https://work.usse-disaster-relief.org/" target="_blank">work.usse-disaster-relief.org</a></Title>
 
     <Title level={3}>Cleanup Efforts</Title>
     <Collapse ghost defaultActiveKey="current">
